@@ -1,0 +1,94 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="PDPC: Give £7 for seven." --><!--#set var="content_title" value="PDPC: Give £7 for seven." --><!--#include file="include/header-mainlogos.shtml" -->
+
+<b>The seven for seven fundraiser has ended, if you wish to make a donation 
+   please use the donation links in the side navigation bar! Thank you</b>
+
+  After 14months in testing and ongoing development, freenode is finally 
+  celebrating the long awaited switch over to ircd-seven. To celebrate 
+  the move we are running a one-off, one week (must end February 7th) 
+  fundraiser. Our goal is to make £700 towards our fiscal year target 
+  as part of the £7 for seven fundraiser.
+
+<br /> <br />
+
+  Anyone donating at least £21 in a multiple of £7 will receive a 
+  freenode t-shirt. <b>Please indicate in notes with your donation size 
+  and choice of colour; black or white, S-XXXL. Plain t-shirts with the 
+  freenode logo on the chest.</b> T-shirts will be shipped at the end of 
+  February 2010, and we will contact you via your paypal e-mail address to 
+  to inform you of the estimated delivery date, when the shipment leaves 
+  us. Shipments outside of the UK will be shipped via Royal Mail 
+
+  <a href="http://www.royalmail.com/portal/rm/content1?mediaId=400393&catId=400037">
+  Surface Mail</a>.
+<br /> <br />
+
+  Please use this form to make a single, one-time 7 for seven donation to 
+  the Peer-Directed Projects Center, the not-for-profit 
+  entity which runs <span class="freenode">freenode</span>. Donations are
+  unconditional and irrevocable and will be used to fund PDPC programs and
+  general operating expenses.
+
+  <br /><br />
+
+  Donations are accepted through PayPal, but you will not be required to
+  join PayPal in order to make a one-time donation.  To donate without
+  joining, simply use a debit or credit card which has never been associated
+  with a PayPal account, and click the button labeled <b>"If you have never
+  paid through PayPal, click here."</b>
+
+  <br /><br />
+
+  If you'd like to make an <b>ongoing</b> contribution via PayPal,
+  
+  <a href="pdpc_yearly.shtml">click here</a>
+  
+  instead.  An automatic, once-a-year charge/debit will be set
+  up which you can cancel at any time.  You must belong to PayPal to
+  use this option.
+  
+  <br /><br />
+  
+  To begin the donation process, follow these steps:
+  
+  <ol>
+    <li>
+      Select a 7for7 level from the drop-down box.
+
+     <br /><br />
+    </li>
+    <li>
+      If you're a <span class="freenode">freenode</span> user, and you'd like to
+      wear the
+      
+      <a href="faq.shtml#whycloak">Cloak</a>,
+      
+      we appreciate it!  Just
+
+      <a href="faq.shtml#nicksetup">set up your IRC nick</a>
+  
+      and enter your main nickname in the space provided in the form.  Your
+      acknowledgement cloak will appear on your IRC sessions for a year and 
+      will show up as 'pdpc/supporter/7for7/nick' (7for7 showing at the level 
+      you made your donation, so could be any multiple of 7). 
+
+     <br /><br />
+    </li>
+    <li>
+      If you spent much of your <span class="freenode">freenode</span> time on a
+      single channel, and you'd like to list your donation as coming from
+      that channel, just enter its name in the bottom box.  We'll keep a
+      running tally of the number of users contributing from each
+      channel.
+
+     <br /><br />
+    </li>
+    <li>
+      Hit <b>Submit</b> to begin the process.
+    </li>
+  </ol>
+
+  <p>That's all it takes.  Thanks for the support!</p>
+</div>
+
+<!--#include file="include/trailer.shtml" -->

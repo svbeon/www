@@ -1,0 +1,189 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="PDPC Donations" --><!--#set var="content_title" value="PDPC Donations" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>
+  <b>Peer-Directed Projects Center,</b>
+  
+  was created to run the
+  
+  <span class="freenode">freenode</span>
+  
+  network and to establish a variety of programs relating to peer-directed
+  project communities.  Contributions to PDPC provide resources to help us
+  establish those programs.
+</p>
+
+<p>
+  <a name="supportlevels"></a><a name="donorlevels"></a>
+  
+  Beginning in 2004, we established formal donation levels. When you donate,
+  please provide your realname and your snailmail address for our records. 
+  You can also help the network by wearing a <b>cloak</b> while you're IRC. 
+  Just
+
+  <a href="faq.shtml#nicksetup">do a bit of setup</a>
+
+  and mention your registered IRC nick to us when you donate. We'll add the
+  cloak and, when you identify to services, it will show others the level of
+  support you've provided.  By displaying that cloak, you'll let people know
+  that you consider it important to donate!
+</p>
+
+<p><b>Please Note that donor levels are now appearing in Pound Sterling, NOT 
+US dollars</b></p>
+
+<blockquote>
+  <a name="levels"></a>
+  <table summary="Donation Levels" cellspacing="0" cellpadding="5" border="1">
+    <tr>
+      <td style="text-align: center; vertical-align: top;">
+        <b>Contribution (GBP)</b>
+      </td>
+      <td style="text-align: center; vertical-align: top;">
+        <b>Donor Level</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; vertical-align: top;">
+        £5 per year<br />
+        £10 per year<br />
+
+        <br />
+
+        £10 per year<br />
+        £15 per year<br />
+        £30 per year<br />
+        £60 per year<br />
+        £120 per year<br />
+	£250 per year<br />
+        <br />
+
+        £5 per month<br />
+        £10 per month<br />
+        £15 per month<br />
+        £20 per month<br />
+      </td>
+      <td style="text-align: center; vertical-align: top;">
+        nibble (uncloaked)<br />
+        byte (uncloaked)<br />
+
+        <br />
+
+        student or base<br />
+        active<br />
+        &nbsp;&nbsp;sustaining or professional&nbsp;&nbsp;<br />
+        bronze<br />
+        silver<br />
+	gold<br />
+
+        <br />
+
+        monthlybyte<br />
+        monthlybronze<br />
+        monthlysilver<br />
+        monthlygold<br />
+      </td>
+    </tr>
+  </table>
+</blockquote>
+
+<p>
+  We regret that currently the only way of donating is via 
+  PayPal or Credit Card.
+</p>
+
+<ul>
+  <li>
+    <b>By Credit Card or PayPal.</b>
+    
+    Just click on
+ 
+    <a href="#donate">one of the buttons</a>
+
+    on the left-hand side of the page to send your donation.
+
+    <br /><br />
+  </li>
+</ul>
+<p>
+  The
+
+  <a href="faq.shtml#donationcost">FAQ</a>
+
+  provides information on how much it costs to accept donations from various
+  sources.
+</p>
+
+<p>
+  <br />
+
+  <a name="privacy"></a>
+
+  <b>Privacy Note:</b> Peer-Directed Projects Center is currently in the
+  process of formulating a privacy policy. This notice describes the interim
+  policy on privacy, adopted 31 January 2005, to which PDPC has committed
+  itself with respect to the personal information we collect from and about
+  you as part of the donation process:
+</p>
+
+<blockquote>
+  Peer-Directed Projects Center (PDPC) may provide your email address,
+  telephone number or postal address, as provided to it as part of the
+  donation process, to its volunteers, employees or contractors, solely to
+  allow them to contact you on its behalf or to verify the accuracy of the
+  information you provide.  PDPC will not publish that information or
+  provide it to any other third party without your explicit permission,
+  except as required by law or as appropriate in the course of an
+  investigation of criminal wrongdoing.  PDPC will make a good faith effort
+  to maintain the privacy of your personal information.
+
+  <br /><br />
+
+  As part of the donation process, PDPC may request your IRC nickname and/or
+  a channel name or group in whose name you are donating.  Providing this
+  information is optional.  If you provide such information, in a letter to
+  us which includes a donation or as part of the PayPal donation process:
+  
+  <ol>
+    <li>
+      We may publicly mention your IRC nickname in order to acknowledge the
+      fact of your donation.  If you do not wish us to do so, please mention
+      this explicitly in your letter or in the PayPal <i>Note to Sender</i>.
+      
+      <br /><br />
+    
+    </li>
+    <li>
+      We may publicly mention the name of the channel or group in whose name
+      you are donating.  Again, if you do not wish us to do so, please
+      mention this explicitly in your letter or in the PayPal <i>Note to
+      Sender</i>.
+      
+      <br /><br />
+    
+    </li>
+    <li>
+      We will attempt to add a hostname cloak to your registered IRC
+      nickname and to any IRC nicknames you have linked to it, including a
+
+        <a href="#donorlevels">level name</a>
+        
+      based on the amount of your donation.  We may publicly mention the
+      support level at which you've donated and/or the previous support
+      level(s) from which you've upgraded.
+      
+      <br /><br />
+    
+      Once again, if you do not wish us to do so, please mention this
+      explicitly in your letter or in the PayPal <i>Note to Sender</i>.
+    </li>
+  </ol>
+</blockquote>
+
+<p>
+  For further information, please email support at freenode dot net.
+</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+<!--#include file="include/trailer.shtml" -->

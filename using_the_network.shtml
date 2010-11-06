@@ -1,0 +1,449 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: using the network" --><!--#set var="content_title" value="Using the Network" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p><font face="Arial, Helvetica" color="#000000">To access the <b class=freenode>freenode</b> IRC servers,
+you'll first need an IRC client.  Text clients include
+ircII, bitchx, epic, and sirc.  Graphical clients include xchat for
+Unix and GNU/Linux, and mIRC for Windows.
+Packages for various IRC clients may be included on your operating
+system install CDs and links to web sites for the client software can be
+found
+
+<a href="http://www.irc.org/links.html">here</a>.</font></p>
+
+
+
+
+<p><font face="Arial, Helvetica" color="#000000">Once you have a client, you'll need a server. 
+You can simply use <b>irc.freenode.net</b> to reach our main rotation of
+servers; or, you can find a more geographically-local server
+
+<a href="irc_servers.shtml">here</a>.</font></p>
+
+
+
+
+<p><font face="Arial, Helvetica" color="#000000">After you've obtained your client and the name of
+a server, you may still need a bit of help in getting connected.  Take a
+look at this
+
+<a href="http://www.irchelp.org/irchelp/irctutorial.html">tutorial</a>
+
+or this
+
+<a href="http://www.irchelp.org/irchelp/ircprimer.html">IRC primer</a>
+
+on
+
+<a href="http://www.irchelp.org/">irchelp.org</a>,
+
+which contains a variety of other useful information as well.</font></p>
+
+
+
+
+<p><font face="Arial, Helvetica" color="#000000"><b class=freenode>freenode</b> provides
+nickname and channel registration services.  These should be used to avoid
+disagreements about nickname use and to maintain clear operational control
+of channels.  You must register your nickname to register a channel or to
+be added to its access list.  If you'd like to
+register a channel here, remember that
+we are a special purpose network devoted to peer-directed projects. If
+you're running a software project, please be sure to take a look at our
+
+<a href="policy.shtml#output">licensing policy</a>
+
+before registering your channel.</font></p>
+
+
+
+
+<p><font face="Arial, Helvetica" color="#000000">For general information on nickname or channel
+registration services, use "/msg nickserv help" or "/msg chanserv help". 
+For specific information on registration, use "/msg nickserv help register" or
+"/msg chanserv help register".</font></p>
+
+
+
+
+<p><font face="Arial, Helvetica" color="#000000">We strongly suggest that you avoid configuring
+your channel to "auto-op".  Use the chanserv "op" command to obtain
+channel operator status only when needed.  This will help to keep your
+channel temperature low and reduce conflicts.</font></p>
+
+
+
+
+<p><font face="Arial, Helvetica" color="#000000">Help us contact you in emergencies by adding
+  channel staff to your channel access list via "/msg chanserv flags
+  #channelname [nick] [access]".  The [nick] must either be a registered nick or a valid hostmask,
+  and [access] should be a series of flags, as defined in "/msg chanserv help flags".  Flags of +voAti are
+  customary, and sufficient to allow opping and deopping, as well as some
+  other maintenance tasks.  Staff can be given access by providing [nick] as "*!*@freenode/staff/*".
+</font></p>
+
+<p><font face="Arial, Helvetica" color="#000000">The use of a system called "templates"
+can help to simplify the system of flags.  See "/msg chanserv help template" for more information.</font></p>
+
+
+
+
+
+<p><font face="Arial, Helvetica" color="#000000"><br />The following is a list of ircd-seven user
+modes:<br /><br /></font></p>
+
+
+<table summary="ircd-seven 1.0 User Modes" cellspacing="0" cellpadding="5" border="1">
+<!--  <tr>
+    <td valign="top">+C (block CTCP)</td>
+    <td valign="top">
+      This umode prevents you from receiving personal CTCP messages or sending
+      any CTCP replies. This will stop private CTCP flooding.  You'll still
+      receive CTCP messages sent to a channel you are on, although the network
+      will block your response to them.
+    </td>
+  </tr>-->
+  <tr>
+    <td valign="top">+D (deaf)</td>
+    <td valign="top">
+      This prevents you from receiving channel messages. You will probably
+      not want to set this in most cases.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+g (callerid)</td>
+    <td valign="top">
+      You can set this umode to prevent you from receiving private messages
+      from anyone not on a session-defined whitelist. We would suggest only
+      using this umode if you have problems with volumes of spam via private
+      message. The content of the whitelist can be controlled using the
+      <b><i>/accept</i></b> command. When a user not on the whitelist attempts to
+      contact you, you will receive a notice informing you of the fact
+      and you can then use <b><i>/accept user</i></b> to speak to them. Users can be removed
+      from the whitelist using <b><i>/accept -user</i></b>. Finally, <b><i>/accept *</i></b> will print the whitelist.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+i (invisible)</td>
+    <td valign="top">
+      This prevents you from appearing in global WHO/WHOIS by
+      normal users, and hides which channels you are on. It is strongly
+      recommended that you set this umode.
+    </td>
+  </tr>
+<!--  <tr>
+    <td valign="top">+I (block invite)</td>
+    <td valign="top">
+      This umode prevents anybody from inviting you to a channel.  Running
+      with this option can be used to block invite flooding, but it also
+      limits you to channels for which no invitation is required.
+    </td>
+  </tr> -->
+ <!-- <tr>
+      <td valign="top">+l (see locops)</td>
+      <td valign="top">
+      This umode lets you see the locops announcement system. Important
+      network messages will be sent out via global notices; this is only for
+      server-specific (unlike wallops, see below) non-critical announcements 
+      and comments which may be of interest. freenode staff are unlikely to
+      send locops.
+   </td>
+  </tr> -->
+  <tr>
+    <td valign="top">+Q (no forwarding)</td>
+    <td valign="top">
+      This umode prevents you from being forwarded to another channel because
+      of channel mode +f (see below) or by a ban (see +b below). Instead of
+      being forwarded to another channel, you'll be given a message as to why
+      you could not join.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+R (block unidentified)</td>
+    <td valign="top">
+      This umode prevents users who are not identified to nickserv
+      from sending you private messages. It is suggested that you
+      might want to temporarily set this umode if you suffer problems
+      with unidentified users sending you unwanted messages.
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top">+w (see wallops)</td>
+    <td valign="top">
+      This umode lets you see the wallops announcement system. Important
+      network messages will be sent out via global notices; this is only for
+      non-critical announcements and comments which may be of interest.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+Z (connected via SSL)</td>
+    <td valign="top">
+      You will have this umode if you connect to freenode using SSL.
+    </td>
+  </tr>
+
+</table>
+
+
+
+<p><font face="Arial, Helvetica" color="#000000"><br />The following is a list
+of ircd-seven 1.0 channel modes. <!-- Where a feature is currently described
+as <b>experimental,</b> network staff may need to enable the feature for
+your channel.<br /><br /></font></p> -->
+
+
+<table summary="ircd-seven 1.0 Channel Modes" cellspacing="0" cellpadding="5" border="1">
+  <tr>
+    <td valign="top">+b (channel ban)</td>
+    <td valign="top">
+      Bans are used to prevent users from joining a channel. 
+      
+      Passing '<i>/mode +b</i>' alone will return a list of bans and can be used by any user. Actually
+      setting bans is restricted to channel operators. Users matching bans are unable to join
+      the channel or knocking on it (see below). If the banned user is already in the channel,
+      they will be prevented from speaking and from changing nicks in there, unless +v.
+
+      On freenode, bans can take one of two main forms. The most common form 
+      is <b><i>+b nick!user@host</i></b>. The wildcards * and ? are allowed, matching zero-or-more 
+      and exactly-one characters, respectively. The masks will be trimmed to fit 
+      the maximum allowable length for the relevant element. 
+<br /><br />
+      Bans set on IP addresses will apply even if the affected user joins with 
+      a resolved or spoofed hostname. CIDR is supported in bans, like *!*@10.0.0.0/8. 
+      This is most useful with IPv6. 
+<br />
+<h4> Extbans </h4>
+  The second form (extban) is <b><i>+b $type</i></b> or <b><i>+b $type:data</i></b>. 'type' is a single character 
+      (case insensitive) indicating the type of match, optionally preceded by a tilde (~) 
+      to negate the comparison, while 'data' depends on type. Potential types are a, r and x.
+<table summary="ircd-seven 1.0 extbans" cellspacing="0" cellpadding="2" border="1">
+  <tr> 
+  <td valign="center"> Type <b><i>a</i></b> (account name) </td>
+  <td valign="top"> This type will match on, and ban, all users identified to the account specified in the
+  "data" parameter. This parameter accepts wildcards, and a lack of data is interpreted as
+  an implicit wildcard. <blockquote><b><i>/mode #channel +q $~a</i></b></blockquote> is a 
+  valuable mode for many channels. This extban (using +q (quiet), see below), prevents all
+  users not identified to services from speaking in the channel. Note the "~", which negates
+  the match. Note that this ban is equivalent to CMODE <b><i>+R</i></b> employed in our
+  earlier ircds.</td>
+  </tr>
+  <tr>
+  <td valign="center"> Type <b><i>r</i></b> (realname) </td>
+  <td valign="top"> This type matches on a client's realname, or gecos. It is equivalent
+  to the <b><i>+d</i></b> CMODE in earlier ircds. 
+  <blockquote><b><i>/mode #channel +b $r:Foo*</i></b></blockquote>
+  will ban any user whose gecos begins "Foo". </td></tr>
+  <tr>
+  <td valign="center"> Type <b><i>x</i></b> (full match) </td>
+  <td valign="top"> This final type takes, as a parameter, a string. This string is matched
+  against a client's full nick!username@host#gecos, and if a match is found, the user is
+  banned. </td></tr>
+  
+  </table>
+<h4>Channel forwards in bans</h4>
+      The suffix <b><i>"$#channel"</i></b> can be appended to any of the above bans masks
+      to cause a user to be forwarded to <b>#channel</b>. The ban setter will only
+      be able to set this ban if they are an op in <b>#channel</b>, or if <b>#channel</b> 
+      has mode <b><i>+F</i></b> set. In this case, in all situations where the user would
+      previously have been told they could not join, they will instead join 
+      the channel named in the ban mask and be sent a 470 numeric describing 
+      the forward.
+  </td>
+  <tr>
+    <td valign="top">+C (block CTCPS)</td>
+    <td valign="top">
+      This mode blocks the sending of CTCP commands to whole channels.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+c (color filter)</td>
+    <td valign="top">
+      This mode activates the colour filter for the channel. This filters
+      out bold, underline, reverse video, beeps, mIRC colour codes, and ANSI
+      escapes.  Note that escape sequences will usually leave cruft sent to
+      the channel, just without the escape characters themselves.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+e (ban exemption)</td>
+    <td valign="top">
+       This mode takes one parameter of the form nick!user@host, with the
+       usual wildcards (including extban parameters), which overrides +b 
+       and +q bans for all clients it matches. This can be useful if it 
+       is necessary to ban an entire ISP due to persistent abuse, but 
+       some users from that ISP should still be allowed in. For 
+       example: /mode #channel +be *!*@*.example.com *!*someuser@host3.example.com
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+f (forward on uninvited)</td>
+    <td valign="top">
+      This feature is specified with some channel name
+      #foo.  When specified on a +i channel (invite-only), users who try
+      to join the channel and are not in the invite-only exemption list (+I) are
+      automatically sent to channel #foo.  Clients receive a 470 numeric
+      message which lists the original and the target channels. Clients 
+      will also be forwarded if +j is set and the join throttle is exceeded.
+      <br />
+      An operator can only set mode +f #channel2 if they are an op in #channel2
+      or if #channel2 has mode +F set (see below).
+      <br />
+      An operator can only use ChanServ's MLOCK feature with +f if they
+      have access flag +s in both channels, or if the channel to be
+      forwarded to is +F and they have +s in the original channel.
+ 
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+F (enable forwarding)</td>
+    <td valign="top">
+      This mode can be set by any channel operator to allow operators 
+      in other channels to set bans to forward clients to their channel, 
+      without requiring ops in it (see +b, above).
+    </td>
+  </tr>
+  <tr>
+   <td valign="top">+g (allow anybody to invite)</td>
+   <td valign="top">
+    With this mode set, anybody in the channel is allowed to invite others (using
+    the /invite command) to the channel.  If this mode is not set, /invite is
+    limited to channel operators. With this mode set, any client in the channel can
+    affect who can join around modes such as +i, +j, +l or +r.
+   </td>
+  </tr>
+  <tr>
+    <td valign="top">+i (invite-only)</td>
+    <td valign="top">
+      No client can join this channel unless they are listed in the invite
+      exemption list (+I).
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+I (invite-only exemption)</td>
+    <td valign="top">
+    This mode takes one parameter of the same form as bans. Matching clients do 
+    not need to be invited to join the channel when it is invite-only (+i). Unlike 
+    the INVITE command, this does not override +j, +l and +r. Only channel 
+    operators can see +I changes or request the list.
+    </td>
+  </tr>  
+  <tr>
+   <td valign="top">+j (join throttling)</td>
+   <td valign="top">
+   This mode takes one parameter of the form n:t, where 'n' and 't' are positive integers. 
+   Only 'n' users may join in each period of 't' seconds. Invited users can join 
+   regardless of +j, but are counted as normal.
+
+    It is highly recommended that your channel use this mode to prevent aganist bot attacks (observe the average
+    join rate of your channel and pick a good value for +j).  If you also use +f (see above), you can forward 
+    users who are throttled to another channel (e.g. ##overflow).
+   </td>
+  </tr>
+  <tr>
+    <td valign="top">+k (channel password)</td>
+    <td valign="top">
+      This mode sets up a channel password.  To enter the channel, you must
+      specify the password on your JOIN command.
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+l (join limit)</td>
+    <td valign="top">
+      Specified with a numeric value, this mode limits the number of users
+      who can join your channel.
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+L (large ban/exempt/invex lists)</td>
+    <td valign="top">
+      This mode, which can only be set by freenode staff, allows a channel to have longer
+      than normal ban, exempt, and invex lists.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+m (moderated)</td>
+    <td valign="top">
+       When a channel is set +m, only users with +o or +v on the channel can send to it.
+       This mode does not prevent users without +v or +o from changing nicks.
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+n (prevent external send)</td>
+    <td valign="top">
+      Users outside the channel may not send messages to it.
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+p (paranoid)</td>
+    <td valign="top">
+     When set, the KNOCK command cannot be used on the channel to request an invite, 
+     and users will not be shown the channel in WHOIS replies unless they are on it. 
+     Unlike on some ircds, +p and +s can be set together.
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+P (permanent channel)</td>
+    <td valign="top">
+      This mode may only be set by <b>freenode</b> staff.  Once set, the channel will not be deleted when
+      it becomes empty.  Additionally, the +b, +e, +I and +q lists have higher
+      capacity to make channel forwarding easier.  NOTE: Permanent channels could still 
+      be erased by catastrophic network failures.
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+q (quiet user)</td>
+    <td valign="top">
+      This mode works like +b (ban user), but instead simply quiets the
+      user. We encourage channels to use quiets in place of bans wherever 
+      possible. The list of quiets is seperate from the list of bans and can 
+      be viewed using '/mode #channel +q'.
+    </td>
+  </tr>  
+  <tr>
+    <td valign="top">+Q (block forwarded users)</td>
+    <td valign="top">
+      Users will not be able to be forwarded (see +f above)
+      to a channel with +Q.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+r (block unidentified)</td>
+    <td valign="top">
+      This mode prevents users who are not identified to NickServ from joining
+      the channel. Users will receive a server notice explaining this if they 
+      try to join. '/mode +q $~a' can be used to prevent unregistered users 
+      from speaking in channel while allowing them to join (old +R behaviour).
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+s (secret channel)</td>
+    <td valign="top">
+      This channel will not appear on channel lists or WHO or WHOIS output unless you
+      are on it.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+t (only ops can change topic)</td>
+    <td>
+      When +t is set, only channel operators may modify the topic of the channel.
+      This mode is recommended in larger, more public channels to protect the
+      integrity of the topic.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">+z (reduced moderation)</td>
+    <td valign="top">
+      When +z is set, the effects of +b, +q, and +m are relaxed. For each message, if that message would 
+      normally be blocked by one of these modes, it is instead sent to all the users who are currently set +o
+      (channel operator).  This is intended for use in moderated debates.  
+    </td>
+  </tr>
+</table>
+<br />
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>
+	"-->
+
+
+<!--#include file="include/trailer.shtml" -->

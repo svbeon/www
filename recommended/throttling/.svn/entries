@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6"
+   name=""
+   committed-date="2007-08-28T22:51:52.836153Z"
+   url="file:///home/svn/freenode-www/freenode.net/trunk/freenode.net/recommended/throttling"
+   last-author="root"
+   kind="dir"
+   repos="file:///home/svn/freenode-www"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="tutorial.txt"
+   text-time="2005-07-04T18:46:04.000000Z"
+   committed-date="2007-08-28T22:51:52.836153Z"
+   checksum="33586bf3914975aac5e6e52f5555f4dd"
+   last-author="root"
+   kind="file"/>
+</wc-entries>

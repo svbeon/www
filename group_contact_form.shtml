@@ -1,0 +1,11 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: Group Contact Form" --><!--#set var="content_title" value="Group Contact Form" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>
+This page has moved. Please visit <a href="http://freenode.net/group_registration.shtml">the group registration page</a> if you are not taken there automatically.
+</p>
+<meta http-equiv="refresh" content="1;url=http://freenode.net/group_registration.shtml">
+
+
+<!--#include file="include/pre-addendum.shtml" -->
+
+<!--#include file="include/post-addendum.htm" -->

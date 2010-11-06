@@ -1,0 +1,18 @@
+    <select name="amount">
+      <option value="7.00"> 7for7 (£7.00)</option>
+      <option value="14.00"> 14for7 (£14.00)</option>
+      <option value="21.00" selected="selected"> 21for7 (£21.00)</option>
+      <option value="28.00"> 28for7 (£28.00) </option>
+      <option value="35.00"> 35for7(£35.00) </option>
+      <option value="42.00"> 42for7 (£42.00) </option>
+      <option value="49.00"> 49for7 (£49.00) </option>
+      <option value="56.00"> 56for7 (£56.00) </option>
+      <option value="63.00"> 63for7 (£63.00) </option>
+      <option value="70.00"> 70for7 (£70.00) </option>
+      <option value="77.00"> 77for7 (£77.00) </option>
+
+
+
+
+    </select>
+    <input type="hidden" name="cmd" value="_xclick" />

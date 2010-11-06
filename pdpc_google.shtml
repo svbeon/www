@@ -1,0 +1,96 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="PDPC: Donation via Google Checkout" --><!--#set var="content_title" value="PDPC: Donation via Google Checkout" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/404250282173258" id="BB_BuyButtonForm" method="post" name="BB_BuyButtonForm" target="_top">
+    <table cellpadding="5" cellspacing="0" width="1%">
+        <tr>
+            <td align="right" width="1%">
+                <select name="item_selection_1">
+                    <option value="1">£10.00 - student or base</option>
+                    <option value="2">£15.00 - active</option>
+                    <option value="3">£30.00 - sustaining or professional</option>
+                    <option value="4">£60.00 - bronze</option>
+                    <option value="5">£120.00 - silver</option>
+                    <option value="6">£250.00 - gold</option>
+                </select>
+                <input name="item_option_name_1" type="hidden" value="student or base"/>
+                <input name="item_option_price_1" type="hidden" value="10.0"/>
+                <input name="item_option_description_1" type="hidden" value=""/>
+                <input name="item_option_quantity_1" type="hidden" value="1"/>
+                <input name="item_option_currency_1" type="hidden" value="GBP"/>
+                <input name="item_option_name_2" type="hidden" value="active"/>
+                <input name="item_option_price_2" type="hidden" value="15.0"/>
+                <input name="item_option_description_2" type="hidden" value=""/>
+                <input name="item_option_quantity_2" type="hidden" value="1"/>
+                <input name="item_option_currency_2" type="hidden" value="GBP"/>
+                <input name="item_option_name_3" type="hidden" value="sustaining or professional"/>
+                <input name="item_option_price_3" type="hidden" value="30.0"/>
+                <input name="item_option_description_3" type="hidden" value=""/>
+                <input name="item_option_quantity_3" type="hidden" value="1"/>
+                <input name="item_option_currency_3" type="hidden" value="GBP"/>
+                <input name="item_option_name_4" type="hidden" value="bronze"/>
+                <input name="item_option_price_4" type="hidden" value="60.0"/>
+                <input name="item_option_description_4" type="hidden" value=""/>
+                <input name="item_option_quantity_4" type="hidden" value="1"/>
+                <input name="item_option_currency_4" type="hidden" value="GBP"/>
+                <input name="item_option_name_5" type="hidden" value="silver"/>
+                <input name="item_option_price_5" type="hidden" value="120.0"/>
+                <input name="item_option_description_5" type="hidden" value=""/>
+                <input name="item_option_quantity_5" type="hidden" value="1"/>
+                <input name="item_option_currency_5" type="hidden" value="GBP"/>
+                <input name="item_option_name_6" type="hidden" value="gold"/>
+                <input name="item_option_price_6" type="hidden" value="250.0"/>
+                <input name="item_option_description_6" type="hidden" value=""/>
+                <input name="item_option_quantity_6" type="hidden" value="1"/>
+                <input name="item_option_currency_6" type="hidden" value="GBP"/>
+            </td>
+            <td align="left" width="1%">
+                <input alt="" src="https://checkout.google.com/buttons/buy.gif?merchant_id=404250282173258&amp;w=117&amp;h=48&amp;style=white&amp;variant=text&amp;loc=en_US" type="image"/>
+            </td>
+        </tr>
+    </table>
+</form>
+
+  <p>
+    The above button can be used to make a one-off donation to Peer-Directed 
+    Projects Center (PDPC) via Google Checkout.
+    Donations to PDPC are unconditional and
+    irrevocable and will be used to fund PDPC programs and general operating
+    expenses.
+  </p>
+
+  <p>
+    Donations via Google Checkout are provided as a convenience to PDPC
+    donors.  
+  </p>
+
+  <p>
+    To begin the donation process, follow these steps:
+  </p>
+
+  <ol>
+    <li>
+      Select a support level from the drop-down box.
+    </li>
+    <li>
+      If you're a <span class="freenode">freenode</span> user, and you'd like to
+      wear the
+      
+      <a href="faq.shtml#whycloak">Cloak</a>,
+      
+      we appreciate it!  Just
+
+      <a href="faq.shtml#nicksetup">set up your IRC nick</a>
+  
+      and contact a freenode staffer after making your donation. Staff can be 
+      found in #freenode where all staff members are voiced. You will need to 
+      have the details of your donation at hand.Your
+      acknowledgement cloak will appear on your IRC sessions for a year from
+      your most recent donation.
+    </li>
+  </ol>
+
+  <p>That's all it takes.  On behalf of the board of Peer-Directed Projects
+  Center, thank you for your contribution!</p>
+</div>
+
+<!--#include file="include/trailer.shtml" -->

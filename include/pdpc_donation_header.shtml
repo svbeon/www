@@ -1,0 +1,4 @@
+  <p>&nbsp;</p>
+
+  <form class="contrib" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="business" value="donate@pdpc.us" />

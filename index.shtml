@@ -1,0 +1,152 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="About the Network" --><!--#set var="content_title" value="About the Network" --><!--#include file="include/header-mainlogos-tagcloud.shtml" -->
+
+<p>
+  You've reached <span class="freenode">freenode</span>, a service of
+
+  <a href="pdpc.shtml">Peer-Directed Projects Center (PDPC)</a>.
+
+  freenode provides discussion facilities for the Free and Open Source
+  Software communities, for not-for-profit organizations and for related
+  communities and organizations.  In 1998, the network had about 200 users
+  and less than 20 channels. Ten years down the line the network currently 
+  peaks at just under 60,000 users,
+  <span class="freenode">freenode</span>
+
+  provides facilities to a variety of
+
+  <a href="primary_groups.shtml">groups and organizations</a>.
+</p>
+
+<p>
+  <img src="http://freenode.net/images/310110graph.png" border="0" align="left">
+  <img src="http://freenode.net/images/white.png" width="25" height="700" border="0" align="left">
+
+  <h2>Give £7 for seven</h2>
+
+  We are happy to announce that after a long period of development, we have
+  changed the software which runs our IRC servers. At the end of January 2010, we
+  switched from the legacy <a href="hyperion.shtml">hyperion</a> to <a href="seven.shtml">ircd-seven</a>. 
+  You can read more about the changes on <a href="http://blog.freenode.net">our blog</a>.
+</p>
+<!--<p>
+  To celebrate the switchover we're running a one-off, one-week "special" fundraiser
+  (ending February 7th). Anyone donating at least £21 in a multiple of £7 will receive 
+  a freenode t-shirt. For more information or to make a donation see 
+
+<a href="http://freenode.net/pdpc_seven.shtml">here</a>.
+-->
+</p>
+
+<p>
+
+   The 2009/2010 fundraiser is now underway, progress can be seen on the pie-chart on the 
+   left. Our fundraising goal for 2009/2010 is <b>£7500.00</b>, please 
+   dig deep, be generous and help us reach our target!
+</p>
+<p>
+   Thanks go to donors from the following channels who have chipped in with this years fundraiser so far:
+</p>
+<!--- I'd like the Channel stats/donor stuff hereish I think? ---!>
+<!--#include file="include/channel_donations.html" -->
+
+<p>
+<b>Previous years:</b><br />
+
+   We would like to express our thanks to those individual donors and corporate sponsors 
+   who made the 2008/2009 fundraiser a massive success! In particular,
+   
+   <a href="http://www.canonical.com/">Canonical Ltd</a> (you know, the company behind 
+  
+   <a href="http://www.ubuntu.com">Ubuntu</a>, who generously donated £1700.00!).
+
+</p><p>
+
+   After a 2+ year break in fundraising it was an overwhelming experience to see so many of you 
+   muck in to help us reach our 2008/2009 goal! Your support is invaluable to us and I hope we can continue 
+   providing the FOSS communities with useful services for years to come! </p>
+  
+</p><p>
+  
+   <b>Polite Notice to donors regarding renewals:</b><br/>
+   When you make a one-off donation, your donor cloak will expire after one year. We will attempt to 
+   make contact with you on freenode before disabling it, either by private message or MemoServ.
+   This allows you to renew your donation should you wish to continue supporting the PDPC, or to 
+   request an unaffiliated or project cloak otherwise.
+
+<br /><br />
+
+   Should your donation automatically renew, or you manually renew it prior to the expiration date 
+   you will simply keep your existing cloak, or should you change levels, have it upgraded to 
+   reflect this.
+
+
+</p><p>
+
+   Have you checked out 
+    
+   <a href="http://fossevents.org">fossevents.org</a> yet? It's designed to bring you a up to date list of 
+   
+   events, barcamps, expos, lug meetings.. any event relevant to Free and Open Source Software, across the 
+   globe! Have a look for events near you, or list one if you know of one before us or you're involved in 
+   organising one!
+</p>
+
+
+<p>
+  Peer-Directed Projects Center is a
+
+  not-for-profit organisation, limited by guarantee 
+
+  and incorporated in England and Wales.
+
+  Your
+
+  <a href="#donate">donations</a>
+
+  help keep us running.
+</p>
+
+<p>
+
+  If you're interested in looking around the network, please
+
+  <b><a href="irc_servers.shtml">find a server</a></b>
+
+  and
+
+  <b><a href="using_the_network.shtml">come see us</a>,</b>
+
+  or have a look at our
+
+  <b><a href="policy.shtml">network policies</a></b>
+
+  and project
+
+  <b><a href="http://blog.freenode.net">news</a></b>
+
+  and
+
+  <b><a href="philosophy.shtml">philosophy</a>.</b>
+</p>
+
+<p>
+  <span class="freenode">freenode</span> is run entirely by volunteers 
+  hailing from the wider FOSS communities which we serve. Our combined 
+  network staff and development base is made up of around 40 dedicated 
+  men and women. We can all be found in 
+
+  <a href="irc://irc.freenode.net#freenode">#freenode</a> 
+
+  on the network, staff are all voiced and happy to help, or just have 
+  a chat with you about what we do and why we do it!
+</p>
+
+
+<p>
+  Welcome to <span class="freenode">freenode</span>!
+</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+<!--#include file="include/trailer.shtml" -->

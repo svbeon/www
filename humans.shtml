@@ -1,0 +1,131 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Using freenode" --><!--#set var="content_title" value="Using <span class=\"freenode\">freenode</span>" --><!--#include file="include/header-h123-mainlogos.shtml" -->
+
+<p>
+  Welcome!
+</p>
+
+<p>
+  Right about now, you're using
+  
+  <span class="freenode">freenode</span>
+  
+  for the first time, and someone has told you that you should go to the
+  introduction page to find out what it's all about. Maybe you've used
+  Internet Relay Chat for several years, and you have a whole set of
+  expectations of what IRC is supposed to be like&mdash;if so, you're
+  probably a bit confused! We'll try to help you get it sorted out.
+</p>  
+
+<h2><br />"What's a Free Node?"</h2>
+
+<p>
+  Everyone knows what <span class="freenode">freenode</span> is, and they'll
+  be happy to tell you. It's that open source chat network, it's a place
+  where bloggers and
+  
+  <a href="http://en.wikipedia.org/">Wikipedia</a>
+  
+  people go to talk, it's that place where
+  
+  <a href="http://fedora.redhat.com/">fedora</a>
+  
+  or
+  
+  <a href="http://www.gentoo.org/">gentoo</a>
+  
+  or
+  
+  <a href="http://www.debian.org/">debian</a>
+  
+  people hang out. It's a programmers' network, or maybe it's the home of a
+  lot of free software projects.
+</p>  
+
+<p>
+  But <span class="freenode">freenode</span> is very different from what
+  you'd expect.
+</p>
+
+<h2><br /><span class="freenode">freenode</span> is a <i>Meta-Community</i></h2>
+
+<p>
+  Most IRC networks are destinations, places where people go.
+  
+  <span class="freenode">freenode</span>
+  
+  is a <i>crossroads.</i> Hundreds of groups and projects use the network as
+  a discussion medium. Each group is organized in its own way to achieve its
+  own purposes, and all of the groups meet on
+  
+  <span class="freenode">freenode</span>
+  
+  to interact. On traditional IRC networks, a channel exists apart from the
+  outside world. On
+  
+  <span class="freenode">freenode</span>,
+  
+  a channel is an <i>expression</i> of the outside world.
+</p>
+
+<p>
+  <span class="freenode">freenode</span> is a social networking project that
+  spans communities.
+</p>
+
+<h2><br /><span class="freenode">freenode</span> is a Way to Think About Community</h2>
+
+<p>
+  Traditional IRC networks consist of individual channels without a common
+  purpose or agenda. Service is provided by loose associations of autonomous
+  server owners, who typically confine their activities to setting server
+  affiliation policy, administering servers and controlling large-scale
+  server abuse such as clonebot flooding.
+</p>
+
+<p>
+  <span class="freenode">freenode</span>
+  
+  was created to encourage scalable communities around groups which produce
+  tangible, broadly-licensed creative output. Current groups produce <i>Free
+  and Open Source Software</i>, software standards and web content, as well
+  as reference material on a variety of subjects. In addition to serving
+  such groups, the network provides services to not-for-profit entities and
+  to groups associated with web media and blogging.
+</p>
+  
+<p>
+  We
+  
+  have an agenda: we believe that communities work better (and scale better)
+  when their members try hard to keep their communities friendly and
+  courteous. The environment of
+  
+  <span class="freenode">freenode</span>
+  
+  is designed to help that happen. If you've just arrived, please take a
+  look at
+  
+  <a href="philosophy.shtml">the <span class="freenode">freenode</span> philosophy page</a>,
+  
+  <a href="channel_guidelines.shtml">the channel guidelines</a>,
+  
+  <a href="policy.shtml">the policy page</a> and
+  
+  <a href="faq.shtml">the FAQs</a>.
+  
+  We depend on you to make the network a better place. The links above will
+  help you learn how.
+</p>
+
+<p>  
+  If you've used IRC in the past and find our way of doing things to be
+  non-intuitive or problematic, please take a look
+  
+  <a href="tradirc.shtml">here</a>.
+</p>
+
+<p>
+  Welcome to <span class="freenode">freenode</span>!
+</p>
+
+<!--#include file="include/trailer.shtml" -->

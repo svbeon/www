@@ -1,0 +1,46 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: powered by Yahoo!" --><!--#set var="content_title" value="Yahoo! Merger" --><!--#include file="include/header-mainlogos.shtml" -->
+
+
+<p>
+	We are proud to announce that after long running talks between yahoo executives
+	and the pdpc steering committee, Yahoo has agreed to buy pdpc and the freenode
+	irc network.
+</p>
+
+<p>
+	This purchase will improve the availability of freenode through the
+	use of multiple redundant backup servers in secured yahoo facilities.  In
+	addition, yahoo plans to leverage the experience and know-how we posses to
+	greatly improve yahoo chat and related technologies.
+</p>
+
+<p>
+	Keep an eye on the blog for further updates!
+</p>
+
+<center>
+	<table>
+		<tr>
+			<td>
+				<img src="http://freenode.net/logo2.png" border="0" />
+			</td>
+			<td>
+				+
+			</td>
+			<td>
+				<img src="http://freenode.net/yahoo-node.gif" border="0" />
+			</td>
+			<td>
+				=
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<img src="heart.png" border="0" />
+			</td>
+		</tr>
+	</table>
+</center>
+
+
+<!--#include file="include/trailer.shtml" -->

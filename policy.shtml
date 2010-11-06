@@ -1,0 +1,826 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: Policies" --><!--#set var="content_title" value="Policies" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>
+  The following policies govern the use of the
+
+  <span class="freenode">freenode</span>
+
+  interactive network and describe what we expect from our users.  Thank you
+  for using the network!
+</p>
+
+<ul>
+  <li><a href="#purpose">Purpose</a></li>
+  <li><a href="#channelownership">Channel Ownership</a></li>
+  <li>
+    <a href="#channelnaming">Channel Naming</a>
+    <ul>
+      <li><a href="#primarychannels">Primary Channels</a></li>
+      <li><a href="#topicalchannels">Topical or Reference Channels</a></li>
+      <li><a href="#channelforwarding">Channel Forwarding</a></li>
+    </ul>
+  </li>
+  <li><a href="#ontopic">On-Topic Use</a></li>
+  <li><a href="#offtopic">Off-Topic Use</a></li>
+  <li><a href="#announcements">Announcements</a></li>
+  <li><a href="#advertising">Inappropriate Advertising</a></li>
+  <li><a href="#behaviorandcloaks">Behavior and Cloaks</a></li>
+  <li><a href="#termination">Termination of Use</a></li>
+  <li><a href="#proxies">Open Proxies, IIS and Appeals</a></li>
+  <li><a href="#tor">Tor and Freenode</a></li>
+  <li><a href="#unlawful">Unlawful Activity</a></li>
+</ul>
+
+<!--#set var="title" value="<br /><br /><a name=\"purpose\"></a>Purpose" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  The 
+
+  <span class="freenode">freenode</span>
+
+  network is a service of
+
+  <a href="pdpc.shtml">Peer-Directed Projects Center Ltd</a>,
+
+  the not-for-profit entity which runs it.  From the PDPC charter:
+</p>
+
+<blockquote>
+  <i>
+    The purpose for which the corporation is organized is to help
+    peer-directed project communities flourish. Peer-directed projects
+    combine open, informal participation with broad licensing and wide
+    dissemination of output.
+  </i>
+</blockquote>
+
+<p>
+  <span class="freenode">freenode</span> provides facilities to
+  peer-directed project communities, including those of free and open source
+  software (FOSS). IRC is a self-referential medium, existing mainly to
+  serve IRC users&mdash;but this network was created to serve groups which
+  exist <em>outside of</em> IRC. It's designed to encourage community
+  members to improve their skills in the areas of cooperative effort,
+  interpersonal communication and project coordination, and to create a
+  real-time bridge to the outside world for our target communities.
+</p>
+
+<!--#set var="title" value="<br /><a name=\"channelownership\"></a>Channel Ownership" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  Channels on <span class="freenode">freenode</span> are owned and operated by the
+  groups which register them. No minimum level of activity or moderation is
+  expected or required of channel owners. The network exists to further
+
+  <a href="policy.shtml#ontopic">on-topic</a>
+
+  uses, as explained in this policy, and channels or groups may be removed
+  from the network for activity which is considered to be
+  
+  <a href="policy.shtml#offtopic">off-topic</a>.
+</p>
+
+<p>
+  Groups using <span class="freenode">freenode</span> are strongly encouraged to
+  adopt the
+  
+  <a href="channel_guidelines.shtml">network channel guidelines</a>.
+</p>
+
+<!--#set var="title" value="<br /><a name=\"channelnaming\"></a>Channel Naming" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  Policy organizes the network into two classes of channels,
+  
+  <a href="#primarychannels">primary</a>
+  
+  and
+  
+  <a href="#topicalchannels">topical (reference)</a>
+
+  channels. Primary channels names are reserved based on a formal or
+  informal claim, external to IRC, to a specific project, group or trademark
+  name.  Topical or reference channel names are reserved on a first-come,
+  first-serve basis by groups wishing to discuss a project, group or topic.
+</p>
+
+<p>
+  The goals of the naming policy include:
+</p>
+
+<ol>
+  <li>
+    Ensuring that groups and organizations own and control channels
+    associated with their names,
+  </li>
+  
+  <li>
+    Allowing users to distinguish easily between official and unofficial
+    channels, and
+  </li>
+  
+  <li>
+    Encouraging groups to develop their unique identity and presence outside
+    of
+
+    <span class="freenode">freenode</span>
+
+    and IRC.
+  </li>
+</ol>
+
+<p>
+  The channel naming policy is currently in transition from the informal,
+  single-namespace, first-come, first-served model employed by most IRC
+  networks, to the policy described here.  Groups using the network are
+  encouraged to begin using the new naming model as soon as possible, to
+  avoid last minute problems, including the unavailability of specific
+  topical or reference channels.  Advance notice will be provided at some
+  point and the old naming model will be retired.  No schedule has yet been
+  determined for this transition.
+</p>
+
+<!--#set var="title" value="<br /><a name=\"primarychannels\"></a>Primary Channels" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+
+  Primary channel names, formatted with a single leading hash mark
+  (<b>#</b>), are reserved for participating groups and organizations based
+  on their legal or informal claim to the associated name or name prefix.
+  For example,
+  
+  <a href="pdpc.shtml">Peer-Directed Projects Center</a>,
+  
+  the organization which runs the network, has reserved the name
+  <b>freenode</b> and has been granted control over channel
+  <b>#freenode</b>, as well as any channel beginning with <b>#freenode-</b>.
+</p>
+
+<p>
+  Name claims can be appealed, at which point network staff will look for an
+  appropriate resolution to the conflict.  We may suggest informal solutions
+  to promote compromise by the parties involved; but in the absence of such
+  solutions, we'll give priority to groups in the following categories,
+  listed in order from highest to lowest priority.  Within each category,
+  we'll give priority to the group with the longest documented use of the
+  name.
+</p>
+
+<ol>
+  <li>
+    Non-govermental organizations, standards organizations, government
+    entities, formal news organizations, corporations, businesses and
+    individuals with legally valid claims.
+  </li>
+  <li>
+    Informal FOSS community projects and other projects producing
+    broadly-licensed output.
+  </li>
+  <li>
+    Web media projects, geographically-based interest groups, FOSS support
+    groups and informal education/reference groups.
+  </li>
+</ol>
+
+<p>
+  <a name="socialengineering"></a>
+
+  <a href="pdpc.shtml">Peer-Directed Projects Center</a>
+
+  has limited resources to research trademark. Though uncertainties can
+  exist as to the validity of a claim on a name, we'll try to resolve such
+  claims to the best of our abilities. The use of
+
+  <a href="http://www.catb.org/~esr/jargon/html/S/social-engineering.html">social-engineering</a>-style
+
+  tactics (such as legal filings) to acquire a project name already in use
+  may negatively affect your reputation in the communities we serve.
+</p>
+
+<p>
+  Groups on
+  
+  <span class="freenode">freenode</span>
+
+  which clearly do not have claim on a name, or whose activities are considered
+  to be
+  
+  <a href="#ontopic">off-topic</a>,
+  
+  will not generally be given administrative control over primary channels
+  bearing a given name or name prefix. These limitations may be implemented
+  at the server software level at some point in the future.
+</p>
+
+<!--#set var="title" value="<br /><a name=\"topicalchannels\"></a>Topical or Reference Channels" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  Topical or reference channels names, formatted with two leading hash marks
+  (<b>##</b>), are allocated on a first-come, first-serve basis to
+  unofficial groups wishing to discuss a project, group or general topic
+  area.  For example, the channel <b>##linux</b> has been reserved for an
+  unofficial group which uses it to provide GNU/Linux support to visiting
+  users.
+</p>
+
+<p>
+  These channels should not be used as platforms for flaming and trolling. 
+  By registering such a channel, you indicate that you assert no legal or
+  informal right to the channel name used. Topical or reference channels
+  should not be registered directly or indirectly by their corresponding
+  projects.  <b>You may not register such a channel on
+
+  <span class="freenode">freenode</span>
+
+  without accepting these policies.</b>
+</p>
+
+<!--#set var="title" value="<br /><a name=\"channelforwarding\"></a>Channel Forwarding" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+
+  If a primary channel name owner has never registered its group on
+
+  <span class="freenode">freenode</span>
+
+  or has registered and subsequently left the network, senior network staff
+  may decide to forward the primary channel to the corresponding topical or
+  reference channel or to some other group channel on the network.
+</p>
+
+<p>
+  A forward may be created in a case where staff believes that the
+  destination channel will provide useful unofficial support for the
+  project. We're most likely to create and maintain the forward if the
+  destination channel belongs to a
+
+  <a href="group_registration.shtml">registered group</a>,
+
+  is relatively large and well-developed and conforms to the
+
+  <span class="freenode">freenode</span>
+
+  <a href="channel_guidelines.shtml">channel guidelines</a>.
+</p>
+
+<p>
+  The forward will be removed if the name owner registers and reserves the
+  channel (or, in a case where the name owner has left the network, if the
+  group returns to active participation).  It may also be removed if, in the
+  opinion of senior network staff, the destination channel no longer
+  provides a sufficiently friendly, useful or effective support environment.
+</p>
+
+<!--#set var="title" value="<br /><a name=\"ontopic\"></a>On-Topic Use" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  As a program of a not-for-profit entity,
+  
+  <span class="freenode">freenode</span>
+  
+  was established to provide resources to specific communities for
+  activities which advance the public good. The categories listed below are
+  considered to be "on-topic." We strongly urge your adherence to the
+  
+  <span class="freenode">freenode</span>
+    
+  <a href="channel_guidelines.shtml">channel guidelines</a>.
+  
+  Please be sure to
+    
+  <a href="group_registration.shtml">register your group</a>
+    
+  to indicate its official participation in the network and to use the
+
+  <a href="group_registration.shtml#facilities">facilities</a>
+
+  provided with registration.
+</p>
+
+<ol>
+  <li>
+    <b>
+      Free and Open Source Software (FOSS).
+    </b>
+
+    Project coordination, support, discussion or contact channels associated
+    with software projects which are licensed under terms consistent with
+    the
+    
+    <a href="http://www.debian.org/social_contract#guidelines">Debian Free
+    Software Guidelines</a>,
+    
+    the Free Software Foundation's
+    
+    <a href="http://www.fsf.org/philosophy/free-sw.html">Free Software
+    Definition</a>
+    
+    or the Open Source Initiative's
+    
+    <a href="http://www.opensource.org/docs/definition.php">Open
+    Source Definition</a>
+    
+    (preferably all three) are considered to be on-topic.
+
+    <br /><br />
+  </li>
+  
+  <li>
+    <b>
+      Non-Software-Related Peer-Directed Project.
+    </b>
+
+    Per the PDPC charter, channels which serve projects combining open,
+    informal participation and broadly-licensed, widely-disseminated
+    creative output are considered to be on-topic. If you believe your
+    non-software project may meet the criteria for a non-software
+    peer-directed project, please consult a staffer or email support at
+    freenode dot net.
+    
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Non-Governmental Organization (NGO).
+    </b>
+
+    Coordination, support, discussion or contact channels run by educational
+    institutions, registered not-for-profit entities and other
+    non-governmental organizations (NGOs) and their related consortia are
+    considered to be on-topic.  Be sure to
+    
+    <a href="group_registration.shtml">register your group or organization</a>.
+    
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Governmental Entity.
+    </b>
+    
+    Coordination, support, discussion or contact channels run by local,
+    national or international governmental entities are considered to be
+    on-topic.  Don't forget to
+    
+    <a href="group_registration.shtml">register your group</a>.
+    
+    <br /><br />
+  </li>
+  
+  <li>
+    <b>
+      News Media.
+    </b>
+
+    Formal news organizations with an interest in our target
+    communities are encouraged to create contact channels on <b
+    class="freenode">freenode</b>.
+
+    <br /><br />
+  </li>
+  
+  <li>
+    <b>
+      Web Media.
+    </b>
+
+    Members of blogger communities are welcome to set up channels associated
+    with their sites or communities. Owners of forum or reference sites are
+    welcome.
+
+    <br /><br />
+  </li>
+  
+  <li>
+    <b>
+      Corporate.
+    </b>
+    Contact channels for registered corporate or business entities or
+    consortia with an interest in our target communities are
+    considered to be on-topic.
+
+    <br /><br />
+  </li>
+  
+  <li>
+    <b>
+      Standards.
+    </b>
+
+    Discussion channels associated with official standards committees or
+    with informal standards groups are considered to be on-topic.
+
+    <br /><br />
+  </li>
+  
+  <li>
+    <b>
+      Geographically-Based Interest Group.
+    </b>
+
+    Channels associated with formal or informal geographically-based
+    interest groups are considered to be on-topic.  These include local
+    Linux and FreeBSD user groups (LUGs and FUGs) and community wireless
+    groups.  If your group doesn't fall into one of those categories, but
+    you think it might meet the criteria, please consult a staffer or email
+    support at freenode dot net.
+    
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Non-Geographical Interest Group.
+    </b>
+    
+    Non-geographical interest groups covering a variety of subjects may be
+    on-topic.  Please consult a staffer.  Public discussion channels which
+    adhere to the
+    
+    <span class="freenode">freenode</span>
+    
+    <a href="channel_guidelines.shtml">channel guidelines</a>
+    
+    are most likely to be considered favorably. With occasional exceptions,
+    game player channels are discouraged under this category.
+
+    <br /><br />
+  </li>
+</ol>
+
+<!--#set var="title" value="<a name=\"offtopic\"></a>Off-Topic Use" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+
+  Unlawful activities and their related support activities are considered
+  off-topic, as are
+  
+  <a href="#advertising">inappropriate advertising</a>,
+  
+  heavy media file trading, gaming and proprietary game software modding,
+  warez, hax0r activity, porn and various forms of antisocial behavior,
+  including (but not limited to) political, racial, ethnic, religious or
+  gender-related invective.  Off-topic activity may result in users being
+  barred from the network.
+
+  <br /><br />
+  In accordance with UK law freenode and the PDPC have no tolerance for 
+  any activity which could be construed as:<br />
+  
+  <ul>
+  <li>incitement to racial hatred</li>
+  <li>incitement to religious hatred</li>
+  </ul><br />
+  
+  or any other behaviour meant to deliberately bring upon a person harassment, 
+  alarm or distress. We do NOT tolerate discrimination on the grounds of race,
+  religion, gender, sexual preference or other lifestyle choices and run with 
+  a zero-tolerance policy for libel and defamation. 
+  <br /><br />
+
+  While we believe in the concept of freedom of thought and freedom of expression, 
+  freenode does not operate on the basis of absolute freedom of speech and we 
+  impose limitations eg. on "hate speech".
+  
+  <br /><br />
+  We expect all members of the community to treat other community members with 
+  respect and reserve the right to terminate anyones access to our services 
+  should they be found to be in breach of policy.
+
+  <br /><br />
+
+  <b>NOTE:</b> Development and support for FOSS-licensed peer-to-peer file
+  transfer software is considered on-topic. Unlawful use of such software is
+  considered off-topic.<br />
+
+</p>
+
+<!--#set var="title" value="<br /><a name=\"announcements\"></a>Announcements" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  Information on the
+
+  <span class="freenode">freenode</span>
+  
+  network can be found on our
+  
+  <a href="index.shtml">website</a>.
+  
+  Of particular interest: the
+  
+  <a href="policy.shtml">policy page</a>,
+  
+  the
+  
+  <a href="faq.shtml">FAQ</a>,
+  
+  the
+  
+  <a href="http://blog.freenode.net">news page</a>,
+  
+  the
+  
+  <a href="channel_guidelines.shtml">channel guidelines</a>
+
+  and the network philosophy section.  In addition, policy is to send via
+  global notice those announcements whose contents have an effect on a large
+  portion of the network community.  These include announcements about
+  scheduled and unscheduled downtime on major servers, and notification when
+  the
+  
+  <a href="http://blog.freenode.net">network news page</a>
+  
+  has been updated.
+</p>
+
+<p>
+  In contrast, WALLOPS messages may contain nearly any information provided
+  for, by or about the network, the network staff or the communities we
+  serve.  This may include detailed network status information,
+  announcements of new channels and group contacts, staff birthdays, group
+  events, random news, commentary, banter and/or bad puns.
+</p>
+
+<p>
+  By policy, the answer to complaints about the content of WALLOPS messages
+  is, <i>please turn off WALLOPS on your client.</i>  Information has been
+  provided in the
+  
+  <a href="faq.shtml">FAQ</a>
+
+  describing how to turn network staff informational messages
+  
+  <a href="faq.shtml#networkinfo">on</a>
+  
+  or
+  
+  <a href="faq.shtml#lessinfo">off</a>.
+  
+  Thanks in advance for your understanding.
+</p>
+
+<!--#set var="title" value="<a name=\"advertising\"><br /></a>Inappropriate Advertising" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  Unsolicited commercial advertisements via channel messages or private
+  messages are considered inappropriate on
+
+  <span class="freenode">freenode</span>.
+  
+  This should not be construed as limiting in any way the discussion of
+  commercial offerings in corporate contact channels or elsewhere on the
+  network.  But please, show courtesy, honesty, tact and discretion.
+</p>
+
+<p>
+  Announcements may be made from time to time by
+
+  <span class="freenode">freenode</span>
+
+  staff about fundraising activities or formal programs of not-for-profit
+  entities. We'll try to keep such announcements within the bounds of our
+
+  <a href="#announcements">announcements</a>
+
+  policy.  As such, these announcements, including those pertaining to
+  Peer-Directed Projects Center itself, are considered to be appropriate and
+  on-topic.
+</p>
+
+<p>
+  Using
+
+  <span class="freenode">freenode</span>
+  
+  channels as advertisements for another chat network, or for your project
+  channel on another network, are considered inappropriate.  Please refer
+  people to your official channel via your project web page.  Channels on
+  the network are meant to be actively used; those which appear to be set up
+  primarily to advertise other networks, or channels on other networks, may
+  be removed by staff.
+</p>
+
+<!--#set var="title" value="<br /><a name=\"behaviorandcloaks\"></a>Behavior and Cloaks" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+
+  When you're wearing a group or project cloak, any antisocial behavior on
+  your part reflects on the group which provided you your cloak.  Most
+  groups will withdraw a cloak rather than have its owner reflect badly on
+  them.  PDPC is no exception. If we receive complaints about your behavior
+  and you're wearing a PDPC cloak, we may remove your cloak. This includes
+  "pdpc/supporter" cloaks. If we remove your cloak, we may replace it with
+  an "unaffiliated" cloak; but antisocial behavior may result in the loss of
+  those cloaks as well.  We'll try to contact you in order to let you know
+  when and why your cloak was removed.
+
+</p>
+
+<!--#set var="title" value="<br /><a name=\"termination\"></a>Termination of Use" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  We welcome users and developers in our target communities.  The network
+  hosts both official and unofficial support channels for a variety of
+  projects.  If you want to open a coordination or support channel for
+  your project, we'd be happy to have you on the network. Our
+
+  <a href="#channelownership">channel ownership policy</a>
+
+  is designed to make it easy for you to move your channel to
+
+  <span class="freenode">freenode</span>
+</p>
+
+<p>
+  We also recognize that we are not the only interactive facility for
+  community projects. If you announce that your group or channel has moved
+  from
+
+  <span class="freenode">freenode</span>
+
+  to a new network, we'll render the channel or channels inactive and leave
+  pointers to your new location for one week.  If you've announced you're
+  moving, we'll leave your channels untouched for that week. After the week
+  is complete, we'll render "primary channels" (starting with <b>#</b>)
+  inactive (possibly forwarding them to another channel) and free topical or
+  reference channels (starting with <b>##</b>) for the use of another group. 
+  At that point, you should use your project web site to point people to the
+  new location, so that everybody gets the message.
+</p>
+
+<!--#set var="title" value="<br /><a name=\"proxies\"></a>Open Proxies, IIS and Appeals" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  Like many interactive networks, we've had our share of problems with
+  denial-of-service attacks.  As a result, we've had to develop a variety
+  of measures to reduce the impact of such attacks.
+  
+  <span class="freenode">freenode</span>
+  
+  may block access to users whose IRC clients run on hosts with open
+  proxies, IIS servers or other categories of software determined to
+  present special risk to our server environment.  We reserve the right to
+  use automation to attempt to detect such software on your host, as you
+  connect to our servers, while you remain connected to the network and on
+  occasion during post-connection analysis.  Your use of the network
+  signifies your acceptance.
+</p>  
+
+<p>
+  If you do not accept the above policy, any use of freenode from your
+  facilities is unauthorized and should cease immediately, after which we'll
+  be happy to discuss the matter further.
+</p>
+
+<p>
+  If you've been affected by a connect limit or a server ban, please feel
+  free to appeal via email to: support at freenode dot net. Sometimes users
+  are affected by problems not of their own making. We'll try to remove
+  the ban or provide an exception if possible.
+</p>
+
+<!--#set var="title" value="<br /><a name=\"tor\"></a>Tor and Freenode" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  The
+  
+  <a href="http://www.eff.org/">Electronic Frontier Foundation</a>'s
+  
+  <a href="http://tor.eff.org/">Tor</a>
+  
+  project is a special case in
+  
+  <span class="freenode">freenode</span>'s
+  
+  treatment of proxy servers.  Tor provides anonymous access to internet
+  services, including IRC, and protects its users' privacy from various
+  forms of traffic analysis. Currently under 100 users connect to the
+  network via Tor, but that number continues to grow. The
+  
+  <span class="freenode">freenode</span>
+  
+  network welcomes Tor users.
+  
+</p>
+
+<p>
+  Anonymous access to internet services is frequently abused. To provide
+  reliable access while reducing the impact of any abuse on the rest of our
+  users, we label user sessions conducted through various gateways,
+  including Tor, with cloak hostnames beginning with <i>gateway</i> and
+  ending in a token <i>x-N...</i> (where <i>N...</i> is a set of random
+  hexadecimal digits which are different each time the user reconnects, and
+  thus useless in denying any specific user access for very long).
+</p>
+
+<p>
+  Channel owners are free to deny access to their channels by various
+  gateway users.  But
+  
+  <span class="freenode">freenode</span>
+  
+  and
+  
+  <a href="pdpc.shtml">PDPC</a>
+  
+  urge you not limit access to gateways too broadly or completely. Please
+  don't ban <i>*@gateway/*</i> . Please use a "quiet" command instead of a
+  "ban" if at all possible. For example, please don't ban Tor users, as in
+  the following command:
+</p>
+
+<blockquote>
+  <b>
+    /mode #foo +b *@gateway/tor/*
+  </b>
+</blockquote>
+
+<p>
+  Instead, please consider using a "quiet" command:
+</p>
+
+<blockquote>
+  <b>
+    /mode #foo +q *@gateway/tor/*
+  </b>
+</blockquote>
+
+<p>
+  and make such denials-of-access temporary, not permanent, whenever
+  possible.  Network staff can turn off new gateway connects on a temporary
+  basis and kill out abusive users. We're happy to do so; simply contact a
+  staffer whenever your channel experiences abuse.
+</p>
+
+<p>
+  Please remember that some users have very little choice about using
+  gateways, and be considerate in your control of access.
+</p>
+
+<p> 
+  The staff of
+  
+  <span class="freenode">freenode</span>
+
+  works to weed out various forms of abuse (such as user harassment,
+  denial-of-service attacks and channel flooding) on a daily basis. 
+  Achieving this goal involves the use of a number of automated and
+  semi-automated tools.  We're often in a hurry to resolve a problem. 
+  Because of this, and because Tor creates special needs, access to the
+  network by Tor users will occasionally be blocked. We apologize in advance
+  for any problems of this sort and we ask for your patience and
+  understanding. We support Tor and will do everything we can to resolve any
+  access issues in a timely fashion.
+</p>  
+
+<!--#set var="title" value="<br /><a name=\"unlawful\"></a>Unlawful Activity" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+  <span class="freenode">freenode</span>
+  
+  is a service of
+  
+  <a href="pdpc.shtml">Peer-Directed Projects Center</a>,
+  
+  a company registered by guarantee in England and Wales.
+  As a legal entity, PDPC cannot condone or support behavior which is
+  clearly unlawful.  While PDPC does not have the resources to closely
+  monitor the thousands of channels on the network, its staff and volunteers
+  are required by policy to pass on credible information, provided by you as
+  a network participant, about unlawful activities. This is true whether you
+  are talking about your own activities or those of someone else.  Please be
+  aware that we have this responsibility.
+</p>
+
+<p>
+  Information about unlawful activity outside of
+  
+  <span class="freenode">freenode</span>
+  
+  is best provided directly to appropriate law enforcement agencies.
+    
+  <br /><br />
+</p>  
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+
+<!--#include file="include/trailer.shtml" -->

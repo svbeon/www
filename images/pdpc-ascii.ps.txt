@@ -1,0 +1,142 @@
+%%
+%%
+%% To generate the output, we're using:
+%%
+%% gs -dNOPAUSE -sDEVICE=png16m -r50 -g50x50 -sOutputFile=pdpc-ascii.png pdpc.ps
+%%
+%% Then this command, which uses aalib:
+%%
+%% asciiview -driver stdout pdpc-ascii.png
+%%
+%% ========================================================================
+%%
+%% Copyright (c) 2005, Dossy Shiobara
+%% All rights reserved.
+%%
+%% The following terms apply to all files associated with the software
+%% unless explicitly disclaimed in individual files.
+%% 
+%% The authors hereby grant permission to use, copy, modify, distribute,
+%% and license this software and its documentation for any purpose, provided
+%% that existing copyright notices are retained in all copies and that this
+%% notice is included verbatim in any distributions. No written agreement,
+%% license, or royalty fee is required for any of the authorized uses.
+%% Modifications to this software may be copyrighted by their authors
+%% and need not follow the licensing terms described here, provided that
+%% the new terms are clearly indicated on the first page of each file where
+%% they apply.
+%% 
+%% IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY
+%% FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+%% ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY
+%% DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE
+%% POSSIBILITY OF SUCH DAMAGE.
+%% 
+%% THE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES,
+%% INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.  THIS SOFTWARE
+%% IS PROVIDED ON AN "AS IS" BASIS, AND THE AUTHORS AND DISTRIBUTORS HAVE
+%% NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
+%% MODIFICATIONS.
+%% 
+%% GOVERNMENT USE: If you are acquiring this software on behalf of the
+%% U.S. government, the Government shall have only "Restricted Rights"
+%% in the software and related documentation as defined in the Federal
+%% Acquisition Regulations (FARs) in Clause 52.227.19 (c) (2).  If you
+%% are acquiring the software on behalf of the Department of Defense, the
+%% software shall be classified as "Commercial Computer Software" and the
+%% Government shall have only "Restricted Rights" as defined in Clause
+%% 252.227-7013 (c) (1) of DFARs.  Notwithstanding the foregoing, the
+%% authors grant the U.S. Government and others acting in its behalf
+%% permission to use and distribute the software in accordance with the
+%% terms specified in this license.
+%% 
+
+
+
+/width { 300 px } def
+/height { 300 px } def
+/border { 20 px } def
+
+/remaining_wedge {  0.0001 percent } def
+/pdpc_wedge      { 78.9432 percent } def
+/unicef_wedge    { 17.8195 percent } def
+/fees_wedge      {  3.2371 percent } def
+
+/bg_color { 0 0 0 } def                 % black background
+/pdpc_color { 0.4 0.4 0.4 } def         % gray
+/unicef_color { 0.6 0.6 0.6 } def       % lighter gray
+/fees_color { 0.8 0.8 0.8 } def         % lighter gray still
+/remaining_color { 0.05 0.05 0.05 } def % dark gray
+
+/line_width { 2 px setlinewidth } def
+/line_color { 0.5 setgray } def
+
+%%
+%% You probably don't need to edit anything below this point.
+%%
+
+/px {72 mul 300 div} def        % convert pixels to points (300 dpi)
+/center { width 2 div } def
+/radius { width border sub 2 div } def
+
+/curdeg { 90.0 } def
+/percent { 1 dict begin
+    /p exch def
+    curdeg 360 100 p div div sub
+    curdeg
+    curdeg 360 100 p div div sub
+end /curdeg exch def } def
+
+% fill background
+bg_color setrgbcolor
+newpath
+0 0 moveto
+width 0 rlineto
+0 height rlineto
+-1 width mul 0 rlineto
+closepath
+fill
+
+% grey pie circumference
+line_width line_color
+newpath
+center center radius 0 360 arc
+stroke
+
+% proc to draw wedges
+/wedge { 5 dict begin
+    /d2 exch def /d1 exch def
+    /b exch def /g exch def /r exch def
+    line_width
+    r g b setrgbcolor
+    newpath
+    center center radius d1 d2 arc 
+    center center lineto
+    closepath
+    fill
+    line_color
+    newpath
+    center center radius d1 d2 arc 
+    center center lineto
+    center center radius d2 d1 arc 
+    center center lineto
+    stroke
+end } def
+
+% draw wedges
+pdpc_color pdpc_wedge wedge
+unicef_color unicef_wedge wedge
+fees_color fees_wedge wedge
+remaining_color remaining_wedge wedge
+
+% all done
+showpage
+quit
+
+%%
+%% http://www.cs.indiana.edu/docproject/programming/postscript/postscript.html
+%% http://www.physics.emory.edu/~weeks/graphics/colorps.html
+%% http://www.cs.usfca.edu/~parrt/course/652/labs/postscript.html
+%% http://www.math.ubc.ca/~cass/courses/ps.html
+%%

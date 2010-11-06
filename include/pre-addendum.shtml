@@ -1,0 +1,17 @@
+                            <p align="right">
+                            Copyright &copy; 2002-2010 by Peer-Directed Projects Center.<br />Network date and time: <!--#echo encoding="none" var="DATE_GMT" -->.
+                            <br />Comments to email address: web at freenode dot net.</p>
+			    <p align="right"><!--#echo encoding="none" var="SPONSOR_LINKS" --></p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td height="100%" width="10" rowspan="5">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>

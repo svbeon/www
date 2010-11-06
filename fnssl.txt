@@ -1,0 +1,15 @@
+Since the switch to ircd-seven, freenode now provides SSL client access on all
+servers. If your client is not configured to verify SSL certificates, then you
+can simply connect, with SSL enabled, on port 7000 or 7070.
+
+If you wish to verify the server certificates on connection, some additional
+work may be required. First, ensure that your system has an up-to-date set of
+root CA certificates. On most linux distributions this will be in a package
+named something like ca-certificates. Many systems install these by default, but
+some (such as FreeBSD) do not. For most clients this should be sufficient.
+
+Those of you using irssi will find that it has some oddities in SSL certificate
+verification, and will not find the root certificates on its own. To work around
+this, use <</connect -ssl_verify -ssl_capath /etc/ssl/certs chat.freenode.net
+7000>>. Once you tell irssi where to find the root certificates, it should be
+able to verify the certificate correctly.

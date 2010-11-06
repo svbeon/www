@@ -1,0 +1,42 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Peer-Directed Projects Center: Press Information" --><!--#set var="content_title" value="Peer-Directed Projects Center: Press Information" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<blockquote>
+  This page provides press information for
+  <a href="http://freenode.net/pdpc.shtml">Peer-Directed Projects Center (PDPC)</a>,
+  the organisation which runs <span class="freenode">freenode</span>.
+</blockquote>
+
+<font face="Arial, Helvetica" size="+1" color="#525668">Press Contact Information</font>
+
+<blockquote>
+  <b>
+    Peer-Directed Projects Center<br /> <br />
+    board at pdpc dot org dot uk<br />
+  </b>
+</blockquote>
+
+<font face="Arial, Helvetica" size="+1" color="#525668"><span class="freenode">freenode</span> in the Press</font>
+<blockquote>
+  <p>
+    <b>May 22, 2007</b>
+    <a href="http://www.linux.com/article.pl?sid=07/05/16/2037231">Linux.com: freenode and OFTC IRC networks buddy up</a>
+  </p>
+  <p>
+    <b>May 27, 2007</b>
+    <a href="http://www.linux.com/article.pl?sid=07/05/24/157218">Linux.com: GPE project and Handhelds.org in acrimonious trademark dispute</a>
+  </p>
+</blockquote>
+<font face="Arial, Helvetica" size="+1" color="#525668">Press Releases</font>
+
+<blockquote>
+  The following links to press releases for PDPC are listed in reverse chronological order:
+
+  <br /><br />
+
+  <b>August 26, 2002</b>
+  <a href="http://www.gnu.org/press/2002-08-26-freenode.html">GNU Project Will Use freenode as Its Official IRC Network</a>
+</blockquote>
+
+<!--#set var=SPONSOR_LINKS value="<small>
+	</small>"-->
+<!--#include file="include/trailer.shtml" -->

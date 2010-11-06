@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6"
+   name=""
+   committed-date="2007-08-28T22:51:52.836153Z"
+   url="file:///home/svn/freenode-www/freenode.net/trunk/freenode.net/recommended/xchat/kludges"
+   last-author="root"
+   kind="dir"
+   repos="file:///home/svn/freenode-www"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="identify_and_join.py.txt"
+   text-time="2004-04-02T22:07:25.000000Z"
+   committed-date="2007-08-28T22:51:52.836153Z"
+   checksum="48c706e21056c8241ffb364a4ea96dc4"
+   last-author="root"
+   kind="file"/>
+<entry
+   committed-rev="6"
+   name="identify_and_join.tcl.txt"
+   text-time="2004-03-22T22:17:59.000000Z"
+   committed-date="2007-08-28T22:51:52.836153Z"
+   checksum="e5a0f1d1c735c721b276843797814dcd"
+   last-author="root"
+   kind="file"/>
+</wc-entries>

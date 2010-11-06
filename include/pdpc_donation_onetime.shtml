@@ -1,0 +1,11 @@
+    <select name="amount">
+      <option value="5.00"> Nibble (£5, uncloaked) </option>
+      <option value="10.00"> Byte (£10, also uncloaked) </option>
+      <option value="10.00"> Base/Student (£10) </option>
+      <option value="15.00" selected="selected"> Active (£15.00) </option>
+      <option value="30.00"> Sustaining/Professional (£30.00) </option>
+      <option value="60.00"> Bronze (£60) </option>
+      <option value="120.00"> Silver (£120) </option>
+      <option value="250.00"> Gold (£250) </option>
+    </select>
+    <input type="hidden" name="cmd" value="_xclick" />

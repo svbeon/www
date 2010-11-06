@@ -1,0 +1,3 @@
+<!--#include file="header-end-info.shtml" -->
+                          <!--#set var="title" value="$content_title" -->
+                          <!--#include file="title-h123.shtml" --><!--#exec cmd="/var/www/freenode.net/log" -->

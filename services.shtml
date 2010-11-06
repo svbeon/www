@@ -1,0 +1,12 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: services" --><!--#set var="content_title" value="services" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>In May 2008, <span class="freenode">freenode</span> switched from the outdated <a href="http://dev.freenode.net/theia/">theia</a> services
+to the <a href="http://www.atheme.org">atheme</a> services package with some <a href="http://dev.freenode.net/atheme+fn">custom</a> modules. </p>
+
+<p>atheme includes Chanserv, Nickserv, Memoserv and Alis (Advanced LIst Service). For more information about any of these,
+you can <b>/msg &lt;service&gt; help</b> while on <span class="freenode">freenode</span>.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+<!--#include file="include/trailer.shtml" -->

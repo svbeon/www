@@ -1,0 +1,50 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: ircd-seven" --><!--#set var="content_title" value="ircd-seven" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>
+<span class="freenode">freenode</span>'s next generation ircd project, 
+ircd-seven, is a branch of the 
+
+<a href="http://hg.atheme.org/charybdis">charybdis</a>
+
+ircd intended to replace the legacy 
+
+<a href="http://freenode.net/hyperion.shtml">hyperion</a>
+
+code base currently in production. ircd-seven is currently in the 
+late stages of development and testing.
+
+</p>
+
+<p>
+The source code, as well as a wiki and bug tracker are available in 
+
+<a href="http://dev.freenode.net/ircd-seven">trac</a>. 
+
+If you're interested in helping with, or just following, the 
+development of ircd-seven, join us in #freenode-seven or on the 
+ircd-seven test network.
+</p>
+
+<!--#set var="title" value="The ircd-seven testnet" -->
+<!--#include file="include/title.shtml" -->
+
+<p>
+There is a public test network for ircd-seven running on 
+
+<a href="irc://testnet.freenode.net:9002">testnet.freenode.net</a> 
+
+port 9002, or 9003 for SSL connections. This is independent of the main 
+<span class="freenode">freenode</span> network, so your normal channels 
+may not exist -- if you want to test the new server software, come and 
+join us in #freenode there.
+
+</p>
+
+<p>
+  Thanks in advance for any help you can provide!
+</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+<!--#include file="include/trailer.shtml" -->

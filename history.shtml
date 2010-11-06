@@ -1,0 +1,33 @@
+
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="History and Growth" --><!--#set var="content_title" value="History and Growth" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>
+
+  The chart below plots the increase in size of
+  
+  <span class="freenode">freenode</span>
+  
+  over time.  The network began as <i>#linuxneo,</i> a tiny GNU/Linux
+  support channel, created by Rob Levin in 1994 on EFNet IRC.  That channel
+  soon changed its name to <i>#LinPeople.</i> By 1995, after moving to
+  Undernet and then DALnet, #LinPeople became a small network,
+  <i>irc.linpeople.org.</i> In early 1998, it became <i>Open Projects
+  Net,</i> with about 200 users and fewer than 20 channels.
+</p>
+
+<p>
+  In 2002, Open Projects Net became <span class="freenode">freenode</span>,
+  a service of Peer-Directed Projects Center, a
+  tax-exempt corporation. Today <span class="freenode">freenode</span> peaks
+  at just under 60,000 users and contains over 10,000 channels.
+</p>
+
+<p style="text-align: center;">
+  <a href="http://irc.netsplit.de/networks/details.php?net=freenode&amp;submenu=days"><img src="http://irc.netsplit.de/tmp/networks/history_freenode_uc.png" alt="freenode network growth" /></a>
+</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+
+<!--#include file="include/trailer.shtml" -->

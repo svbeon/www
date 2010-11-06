@@ -1,0 +1,340 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="About freenode: IRC Servers" --><!--#set var="content_title" value="IRC Servers" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p><font face="Arial, Helvetica" color="#000000">Our main server rotation is
+<b>chat.freenode.net.</b> IPv6 users can specify
+<b>ipv6.chat.freenode.net</b>.  Pointers to
+
+<span class="freenode">freenode</span>
+
+currently include <b>irc.ghostscript.com, irc.gnu.org, irc.handhelds.org,
+irc.linux.org, irc.kde.org and irc.redhat.com.</b> Please see our
+
+<a href="acknowledgements.shtml">acknowledgements</a>
+
+page for the generous groups and organizations who have helped
+us to provide this service.</font></p>
+
+<p>
+  <b class="green">
+    If you're running
+
+    <a href="http://tor.eff.org/">Tor</a>,
+
+    access is available via our
+  
+    <a href="#tor">hidden service.</a>
+  </b>
+</p>
+
+<p>
+  <b>NOTE:</b>
+
+  The network needs servers.  We are in particular need of servers on the
+  <b>Pacific Rim</b> and in the <b>Americas</b>.  If you think you might be
+  able to help our community in this way, please take a look at the
+
+  <a href="hosting_ircd.shtml">server hosting page</a>
+
+  and email us at <b>hosting at freenode dot net</b>.  Thanks!
+</p>
+
+
+<p>
+The following table lists freenode client servers, server names indicated in <i>italics</i> are currently <b>NOT</b>
+ linked to the production network. Apologies for any inconvenience this may cause. Servers with "Yes" in the IPv6 
+ column listen for IPv6 connections and can be connected to via the same hostname as for IPv4. chat.freenode.net has AAAA records for those servers with IPv6 capability, so simply telling your client to connect to chat.freenode.net by IPv6 should work. Please note that due to the low number of IPv6 servers currently in service, we do not provide regional IPv6 rotations.</p>
+
+<p> 
+All freenode servers listen on ports 6665, 6666, 6667, 7000(SSL Only), 7070 (SSL Only), 8000, 8001 and 8002. Please be aware that the below list is at no time authoritative, 
+and as such our advice is to connect using <i>chat.freenode.net</i>.
+</p>
+<table summary="IRC Servers" cellspacing="0" cellpadding="5" border="1">
+  <tr>
+    <td valign="top">
+      <font face="Arial, Helvetica" color="#000000">
+        <b>
+          Asia/Pacific Rim<br /><br />
+        </b>
+        &nbsp;&nbsp;<i> none</i><br />
+      </font>
+    </td>
+
+    <td valign="top">
+      <font face="Arial, Helvetica" color="#000000">
+        <b>
+          chat.ap.freenode.net<br /><br />
+        </b>
+        &nbsp;&nbsp;<i>none</i><br />
+      </font>
+    </td>
+
+
+    <td valign="top">
+      &nbsp;
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top">
+      <font face="Arial, Helvetica" color="#000000">
+        <b>
+          Europe<br /><br />
+        </b>
+        &nbsp;&nbsp; Frankfurt, DE<br />
+        &nbsp;&nbsp; Helsinki, FI<br />
+        &nbsp;&nbsp; Milano, IT<br />
+        &nbsp;&nbsp; Oslo, NO<br />
+        &nbsp;&nbsp; Umeå, SE<br />
+        &nbsp;&nbsp; Moscow, RU<br />
+        &nbsp;&nbsp; Manchester, UK<br />
+	&nbsp;&nbsp; Vilnius, LT<br />
+	&nbsp;&nbsp; Evry, FR<br />     
+	&nbsp;&nbsp; Stockholm, SE<br />   
+	&nbsp;&nbsp; London, UK<br />
+	&nbsp;&nbsp; Paris, FR<br />
+	&nbsp;&nbsp; Luxembourg, LU<br />
+	&nbsp;&nbsp; Rennes, FR<br />
+
+</font>
+    </td>
+
+    <td valign="top">
+      <font face="Arial, Helvetica" color="#000000">
+        <b>
+          chat.eu.freenode.net<br /><br />
+        </b>
+        &nbsp;&nbsp; kornbluth.freenode.net<br />
+        &nbsp;&nbsp; <i>orwell.freenode.net</i><br />
+        &nbsp;&nbsp; calvino.freenode.net<br />        
+        &nbsp;&nbsp; <i>gibson.freenode.net</i><br />
+        &nbsp;&nbsp; leguin.freenode.net<br />        
+        &nbsp;&nbsp; <i>lem.freenode.net</i><br />
+        &nbsp;&nbsp; wolfe.freenode.net<br />
+	&nbsp;&nbsp; sendak.freenode.net<br /> 
+	&nbsp;&nbsp; jordan.freenode.net<br />
+	&nbsp;&nbsp; lindbohm.freenode.net<br />
+        &nbsp;&nbsp; holmes.freenode.net<br />
+	&nbsp;&nbsp; barjavel.freenode.net<br />    
+	&nbsp;&nbsp; bartol.freenode.net<br />
+	&nbsp;&nbsp; pratchett.freenode.net<br />
+ </font>
+    </td>
+
+    <td valign="top">
+      <font face="Arial, Helvetica" color="#000000">
+        <b>
+          IPv6<br /><br />
+        </b>
+        <br />
+        <br />
+        &nbsp;&nbsp; Yes<br />
+        &nbsp;&nbsp; <br />
+        &nbsp;&nbsp; <br />
+        <br />
+        &nbsp;&nbsp; Yes<br />
+	<br />
+	<br />
+	&nbsp;&nbsp; Yes<br />
+	<br />
+        <br />
+        &nbsp;&nbsp; Yes<br />
+        <br />
+      </font>  
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top">
+      <font face="Arial, Helvetica" color="#000000">
+        <b>
+          United States<br /><br />
+        </b>
+        &nbsp;&nbsp; Corvallis, OR<br /><br />
+        &nbsp;&nbsp; Madison, WI<br />
+        &nbsp;&nbsp; Irvine, CA<br />
+	&nbsp;&nbsp; Los Angeles, CA<br />
+        &nbsp;&nbsp; Newark, NJ<br />
+	&nbsp;&nbsp; Fremont, CA<br />
+	&nbsp;&nbsp; Washington, DC<br />
+	&nbsp;&nbsp; San Diego, CA<br />
+        &nbsp;&nbsp; Chesterbrook, PA<br />
+	&nbsp;&nbsp; Pittsburgh, PA<br /> 
+     </font>
+    </td>
+
+    <td valign="top">
+      <font face="Arial, Helvetica" color="#000000">
+        <b>
+          chat.us.freenode.net<br /><br />
+        </b>
+        &nbsp;&nbsp; niven.freenode.net<br />
+        &nbsp;&nbsp; zelazny.freenode.net<br />
+        &nbsp;&nbsp; brown.freenode.net<br />
+        &nbsp;&nbsp; anthony.freenode.net<br />
+	&nbsp;&nbsp; kubrick.freenode.net<br />
+        &nbsp;&nbsp; verne.freenode.net<br />
+      	&nbsp;&nbsp; clarke.freenode.net<br />
+	&nbsp;&nbsp; card.freenode.net<br />
+	&nbsp;&nbsp; simmons.freenode.net<br />
+        <!--&nbsp;&nbsp; farmer.freenode.net<br /> -->
+        &nbsp;&nbsp; hubbard.freenode.net<br />
+	</font>
+    </td>
+
+    <td valign="top">
+      <font face="Arial, Helvetica" color="#000000">
+        <b>
+          IPv6<br /><br />
+        </b>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        &nbsp;&nbsp; Yes<br />
+      </font>
+    </td>
+  </tr>
+</table>
+
+<font face="Arial, Helvetica" size="+1" color="#525668"><br /><br /><a name="ssl"></a>Accessing freenode Via SSL</font>
+<p>
+Since the switch to ircd-seven, freenode now provides SSL client access on all
+servers. If your client is not configured to verify SSL certificates, then you
+can simply connect, with SSL enabled, on port 7000 or 7070.
+</p><p>
+If you wish to verify the server certificates on connection, some additional
+work may be required. First, ensure that your system has an up-to-date set of
+root CA certificates. On most linux distributions this will be in a package
+named something like ca-certificates. Many systems install these by default, but
+some (such as FreeBSD, on which the package you wish to install is ca_root_nss, 
+and the cafile to use would be /usr/local/share/certs/ca-root-nss.crt) do not. 
+For most clients this should be sufficient.
+</p><p>
+Those of you using irssi will find that it has some oddities in SSL certificate
+verification, and will not find the root certificates on its own. To work around
+this, use 
+
+<blockquote>/connect -ssl_verify -ssl_capath /etc/ssl/certs chat.freenode.net 7000</blockquote>
+
+or on FreeBSD
+
+<blockquote>/connect -ssl_cafile /usr/local/share/certs/ca-root-nss.crt chat.freenode.net 7000
+</blockquote>
+ Once you tell irssi where to find the root certificates, it should be
+able to verify the certificate correctly.
+</p>
+
+<font face="Arial, Helvetica" size="+1" color="#525668"><br /><br /><a name="tor"></a>Accessing freenode Via Tor</font>
+
+<p>
+  The current Tor hidden service address for freenode is
+
+  <a href="irc://p4fsi4ockecnea7l.onion/">p4fsi4ockecnea7l.onion</a>.
+
+  This service can be used by any user with a registered NickServ account.
+  No further setup steps are necessary beyond that, besides configuring
+  your client. Information on how to register a nick can be found on
+  <a href="faq.shtml#nicksetup">our FAQ page</a>. The Tor hidden service
+  uses SASL for authentication, which may require the use of additional 
+  scripts in your client to provide support. A collection of scripts and
+  instructions for use can be found <a href="sasl">here</a>.
+
+
+
+<!-- old address: mejokbp2brhw4omd.onion
+
+  For users of Tor with gpg keys that don't mind being identified by 
+  them, we offer another hidden service of
+  <a href="irc://5t7o4shdbhotfuzp.onion/">5t7o4shdbhotfuzp.onion</a>
+  The latter hidden service is authenticated with a nick and password 
+  combination and subsequently will not get blocked during periods of 
+  general tor abuse.  Mailing tor at freenode dot net with your nick 
+  and a password hash <i><b><font color="blue">signed</font></b></i> 
+  together.  The required hash can be generated with either
+  
+  <blockquote>on irc: <i>/quote makepass &lt;password&gt;</i></blockquote> 
+  
+  or 
+
+  <blockquote>at a shell prompt: <i>mkpasswd -H md5</i></blockquote> 
+
+  This will get the process started.  Also, if you'd rather your hash be encrypted,
+  you may encrypt to 0x035D6B1D.  The canonical way to do this would be to execute
+  something like:
+</p>
+
+  <blockquote><i>
+  echo '&lt;nick&gt;  &lt;passwordhash&gt;' | gpg --> <!-- gnupg -sea -r <a href="staffkey.gpg">035D6B1D</a>
+  </i></blockquote>
+
+<p> 
+  We have to have a copy of your public key in order to verify the signature,
+  so make sure to include a copy if it's not available on the keyserver network.
+</p> -->
+<p>
+  Latencies are improving all the time and can be quite reasonable.  You can
+  always find a pointer to our Tor hidden service in <i>freenode.net</i>
+  DNS, in an unresolved CNAME record, <i>irc.tor.freenode.net</i>, which can
+  be retrieved, for example, via the
+  *nix shell command:
+</p>
+
+<blockquote><i>
+  dig&nbsp;&nbsp;+short&nbsp;&nbsp;irc.tor.freenode.net&nbsp;&nbsp;cname
+</i></blockquote>
+
+<p>
+  If your IRC client can handle socks5 with remote dns, you can just connect
+  to the .onion address directly. Otherwise, use Tor's "mapaddress" feature
+  to fake it. (We do not recommend that you use <i>Privoxy</i> with irssi. 
+  It's unnecessary. Just use the 'mapaddress' approach and torify irssi to
+  start it up.)</i> Add a line to your
+
+  <a href="http://wiki.noreply.org/noreply/TheOnionRouter/TorFAQ#torrc">torrc</a>,
+
+  as in this example:
+</p>
+
+<blockquote><i>
+  mapaddress&nbsp;&nbsp;10.40.40.40&nbsp;&nbsp;p4fsi4ockecnea7l.onion
+</i></blockquote>
+
+<p>
+  Be sure to HUP (reload) Tor if you change your torrc. After you've made
+  the change, just connect your torified IRC client to the IP you specified
+  in your <i>mapaddress</i> statement for the
+  
+  <span class="freenode">freenode</span>
+  
+  service. Tor will do the conversion for you internally and you'll connect
+  to <span class="freenode">freenode</span>.  In addition to providing
+  location privacy, the Tor hidden service gives you end-to-end encryption,
+  providing benefits similar to those of <i>ircs / irc-ssl.</i>
+</p>
+
+<p>
+  That's all it takes. We appreciate your accessing
+  
+  <span class="freenode">freenode</span>
+  
+  via the Tor hidden service. If you'd like to help us maintain quality
+  access, please consider providing "middleman" bandwidth to the Tor
+  network. Just
+
+  <a href="http://tor.eff.org/docs/tor-doc-server">set your host up as a Tor server</a>
+
+  and specify how much bandwidth you want to provide. You don't have to be
+  an exit node&mdash;you can set your exit policy to "reject *:*" and still
+  help us make up for the bandwith we use for
+  
+  <span class="freenode">freenode</span>'s
+  
+  hidden service.
+</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+
+<!--#include file="include/trailer.shtml" -->

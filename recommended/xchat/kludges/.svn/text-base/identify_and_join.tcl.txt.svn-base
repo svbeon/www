@@ -1,0 +1,48 @@
+#################################################################################################################
+#                                                                                                               #
+# This script is intended for xchat users that are needing to wait for nickserv to set you host name before     #
+# joining channels                                                                                              #
+#                                                                                                               #
+# author antihc3 on freenode or themyers@neomyers.com                                                           #
+# How to:                                                                                                       #
+#     Edit this script for your needs                                                                           #
+#     Open xchat in the Editmode with the server selected                                                       #
+#     IN the Connect Command line Enter.    LOAD /full/path/to/script                                           #
+#     Example : LOAD /home/user/.xchat/xchat_wait.tcl                                                           #
+#     Example2 : LOAD C:\xchat_wait.tcl                                                                         #
+#     Remove any channel names you have in Join Channles and add them to this script                            #
+#                                                                                                               #
+#################################################################################################################
+#
+#  Set your channels you want to auto join here with a space between the name and no #
+#  Example:
+#      set Join_channels {freenode xchat tcl}
+#
+
+set Join_channels {freenode xchat}
+#
+#  Set your password
+#
+set password "password"
+#################################################################################################################
+#                                                                                                               #
+#  DO NOT EDIT BELOW UNLESS YOU KNOW TCL                                                                        #
+#                                                                                                               #
+#################################################################################################################
+
+command "MSG NICKSERV IDENTIFY $password"
+
+on   SNOTICE check {
+	if {[string match -nocase "NickServ set your hostname to*" $_rest] } {
+		command join_chan
+		complete
+	}
+}
+
+alias join_chan {
+	global Join_channels
+	foreach a $Join_channels {
+		command "Join #$a"
+	}
+	complete
+}

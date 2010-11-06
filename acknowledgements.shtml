@@ -1,0 +1,54 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: acknowledgments" --><!--#set var="content_title" value="Acknowledgments" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>
+<font face="Arial, Helvetica"  color="#000000">
+Over the last ten years a lot of incredible people, projects and corporations have provided both time and resources to the PDPC and freenode, not only in getting the network up and running but also to ensure that it continously 
+grows and improve. We'd like to express thanks to those who have 
+
+<a href="pdpc.shtml">contributed</a>
+
+to the PDPC. We'd also like to thank the support volunteers that help oil the wheels during the day-to-day operations of the network. </p>
+
+<p>
+<font face="Arial, Helvetica"  color="#000000">
+And while they may not always be visible to our userbase, we would like to send massive thanks to the groups and organizations whos logos appear below. While they've not given us direct financial support, they've provided 
+significant resources, be it by pointing their domains to us, providing regional servers or otherwise assisted us.. We really appreciate your help, without which we'd be nowhere near where we are today. Thank you, your continued 
+support is invaluable to us! 
+</font></p>
+
+<p><font face="Arial, Helvetica"  color="#000000">If you don't see your logo on
+this page, and you should, please email us at <b>web at
+freenode dot net</b> and we'll be happy to add you
+to the page. Thank you for using <span class="freenode">freenode</span>!</font></p>
+
+
+    <div align="center">
+      <a href="http://osuosl.org/"><img class="wide" src="images/ack_osl.png" align="middle" width="136" height="56" border="1" alt="Oregon State University Open Source Lab" title="Oregon State University Open Source Lab" /></a>
+      <a href="http://www.gentoo.org/"><img class="wide" src="images/ack_gentoo.png" align="middle" width="62" height="56" border="1" alt="Gentoo" title="Gentoo" /></a>
+      <a href="http://www.gnu.org/"><img class="wide" src="images/ack_gnu_org.png" align="middle" width="60" height="56" border="1" alt="The GNU Project" title="The GNU Project" /></a>
+      <a href="http://www.acc.umu.se/"><img class="wide" src="images/ack_acc_umea.png" align="middle" width="46" height="56" border="1" alt="Umeå University ACC" title="Umeå University ACC" /></a>
+      <a href="http://www.ubuntu.com/"><img class="narrow" src="images/ack_ubuntu.png" align="middle" width="206" height="56" border="1" alt="Ubuntu" title="Ubuntu" /></a>
+      <a href="http://www.kde.org/"><img class="narrow" src="images/ack_kde.png" align="middle" width="179" height="56" border="1" alt="The K Desktop Environment" title="The K Desktop Environment" /></a>
+      <a href="http://www.freebsd.org/"><img class="narrow" src="images/ack_freebsd_org.png" align="middle" width="52" height="56" border="1" alt="FreeBSD" title="FreeBSD" /></a>
+      <a href="http://www.linux.org/"><img class="narrow" src="images/ack_linux_org.png" align="middle" width="50" height="56" border="1" alt="Linux Online" title="Linux Online" /></a>
+      <a href="http://www.redhat.com/"><img class="narrow" src="images/ack_redhat.png" align="middle" width="57" height="56" border="1" alt="Red Hat Software" title="Red Hat Software" /></a>
+      <a href="http://www.ghostscript.com/"><img class="narrow" src="images/ack_ghost.png" align="middle" width="57" height="56" border="1" alt="ghostscript.com" title="ghostscript.com" /></a>
+      <a href="http://www.bytemark.co.uk/"><img class="narrow" src="images/ack_byte.png" align="middle" width="440" height="56" border="1" alt="bytemark.co.uk" title="bytemark.co.uk" /></a>
+      <a href="http://www.vel.net/"><img class="narrow" src="images/ack_vel.png" align="middle" width="56" height="56" border="1" alt="vel.net" title="Velocity Networks" /></a>
+      <a href="http://www.at-net.at/"><img class="narrow" src="images/ack_atnet.png" align="middle" width="123" height="56" border="1" alt="ATnet" title="ATnet" /></a>
+      <a href="http://www.getonit.com/"><img class="narrow" src="images/ack_getonit.png" align="middle" width="122" height="56" border="1" alt="GetOnIt" title="GetOnIt" /></a>
+      <a href="http://www.hispalinux.es/"><img class="narrow" src="images/ack_hispalinux.png" align="middle" width="157" height="56" border="1" alt="HispaLiNUX" title="HispaLiNUX" /></a>
+      <a href="http://www.progsoc.uts.edu.au/"><img class="narrow" src="images/ack_progsoc.png" align="middle" width="46" height="56" border="1" alt="The Programmers' Society" title="The Programmers' Society" /></a>
+      <a href="http://www.choopa.com/"><img class="narrow" src="images/ack_choopa.png" align="middle" width="171" height="56" border="1" alt="Choopa" title="Choopa" /></a>
+      <a href="http://www.ndchost.com/"><img class="narrow" src="images/ack_ndc.png" align="middle" width="155" height="56" border="1" alt="NDC" title="NDC" /></a>
+      <a href="http://www.probe-networks.de/"><img class="narrow" src="images/ack_probe.png" align="middle" width="260" height="56" border="1" alt="Probe Networks" title="Probe Networks" /></a>
+      <a href="http://www.team-cymru.org/"><img class="narrow" src="images/ack_cymru.png" align="middle" width="200" height="56" border="1" alt="Team Cymru" title="Team Cymru" /></a>
+
+    </div>
+
+
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+<!--#include file="include/trailer.shtml" -->

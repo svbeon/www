@@ -1,0 +1,10 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: Utility Bots and Pseudo Servers" --><!--#set var="content_title" value="Utility Bots and Pseudo Servers" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>
+<b>eir</b>, freenode utility bot. <a href="http://freenode.net/eir.shtml">documentation</a> | <a href="http://dev.freenode.net/eir">source code</a>.
+</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+<!--#include file="include/trailer.shtml" -->

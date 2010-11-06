@@ -1,0 +1,13 @@
+    <select name="a3">
+      <option value="10.00"> Base/Student (£10/year) </option>
+      <option value="15.00" selected="selected"> Active (£15/year) </option>
+      <option value="30.00"> Sustaining/Professional (£30/year) </option>
+      <option value="60.00"> Bronze (£60/year) </option>
+      <option value="120.00"> Silver (£120/year) </option>
+      <option value="250.00"> Gold (£250/year) </option>
+    </select>
+    <input type="hidden" name="cmd" value="_xclick-subscriptions" />
+    <input type="hidden" name="p3" value="1" />
+    <input type="hidden" name="t3" value="Y" />
+    <input type="hidden" name="src" value="1" />
+    <input type="hidden" name="sra" value="1" />

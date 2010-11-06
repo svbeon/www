@@ -1,0 +1,92 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Topical and Reference Groups" --><!--#set var="content_title" value="Topical and Reference Groups" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p> 
+  These groups provide references services and manage moderated discussion
+  on specific topic areas. They assert no legal or informal rights to the
+  unofficial
+ 
+
+  <a href="policy.shtml#topicalchannels">topical or reference channels</a>
+
+  they've reserved on the network. Groups in this category may provide
+  cloaks, or virtual hostnames, to their affiliated users, in one of the
+  following reserved top level domains:
+</p>
+
+<blockquote><i>
+  about<br />
+  reference<br />
+  topic<br />
+</i></blockquote>
+
+<p>
+  Peer-Directed Projects Center attempts to verify information submitted on
+  group contact forms For information on the privacy of group contact
+  information, please see our interim
+  
+  <a href="group_privacy.shtml">group privacy policy</a>.
+  
+  See
+
+  <a href="group_registration.shtml">Group Registration</a>
+
+  for information on establishing an official relationship with <b
+  class="freenode">freenode</b> by submitting contact information for your
+  group or organization.
+</p>
+
+<p>
+  The following groups maintain unofficial topical or reference channels on
+  
+  <span class="freenode">freenode</span>:
+</p>
+
+<table summary="Topical and Reference Groups">
+  <tr>
+    <td valign="top"><a href="irc://irc.freenode.net/##freebsd">about/freebsd</a></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td valign="top">
+      About FreeBSD <b>(##freebsd)</b>.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="irc://irc.freenode.net/##linux">about/linux</a></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td valign="top">
+      <b>##linux</b>, support for GNU/Linux.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="irc://irc.freenode.net/##networking">about/networking</a></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td valign="top">
+      Networking support and discussion <b>(##networking)</b>.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="irc://irc.freenode.net/##php">about/php</a></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td valign="top">
+      <a href="http://www.hashphp.org">PHP User Group on freenode</a> <b>(##php)</b>.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="irc://irc.freenode.net/##security">about/security</a></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td valign="top">
+      Security-related discussion <b>(##security)</b>.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="irc://irc.freenode.net/##unixlove">about/unixlove</a></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td valign="top">
+      A discussion group for people who love Unix-like systems.
+    </td>
+  </tr>
+</table>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>" -->
+
+<!--#include file="include/trailer.shtml" -->

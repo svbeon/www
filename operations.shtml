@@ -1,0 +1,56 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode operations" --><!--#set var="content_title" value="Operations" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>
+  <span class="freenode">freenode</span>
+
+  operations places special emphasis on the unique
+
+  <a href="philosophy.shtml">network philosophy</a>.
+
+  As such, volunteers should not expect to receive O-lines or other special
+  privilege or authority.  Staff are responsible for discussing and
+  implementing policy, for integrating server changes into the production
+  environment, for discussing and resolving routing and hubbing issues and
+  for working to resolve the problems caused by denial of service attacks.
+</p>
+
+
+
+
+<p>
+  The
+
+  <a href="catalysts.shtml">catalyst</a>
+
+  role is of paramount importance to the operation of the network, and
+  volunteers are expected to familiarize themselves with the role and
+  practice these skills as effectively as possible in their interactions
+  with other users.
+</p>
+
+<p>
+  Though it's not a
+
+  <a href="faq.shtml#gettinghelp">support</a>
+
+  channel, you're most likely to find freenode volunteers on the staff social
+  channel, <b>#defocus</b>. If you want to become acquainted with volunteers
+  who staff the network and with the culture and approaches they employ, this
+  channel is a starting point. We also have a official network help channel; <b>#freenode</b>
+</p>
+
+<p>
+  Remember that none of us is perfect, but that our goal is improvement,
+  and we can always use your input in that process.
+</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>Thanks to our supporters,
+	<a href=\"http://www.fliegen.com\" rel=\"nofollow\">Fluege buchen</a>.
+	</small>" -->
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+        </small>"-->
+
+
+
+<!--#include file="include/trailer.shtml" -->

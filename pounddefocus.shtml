@@ -1,0 +1,183 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="#defocus: channel guidelines" --><!--#set var="content_title" value="Channel Guidelines for #defocus" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<div class="normal">
+  <p>
+    Welcome to #defocus, the freenode social channel. This page has been set up to 
+    give an outline of the channel guidelines. If you are looking for the FAQ, you may
+    be able to find your answer <a href="faq.shtml">here.</a></p>
+
+  <p>
+    The freenode staff team does everything it does with the best interests of the community at heart. We think that making rules sucks, but unfortunately with a community of this size it's necessary to have some ground rules firmly in place for us to keep doing what we're doing. We want these rules to be 100% transparent and consistently enforced/followed. Please look them over and send us your feedback to <b>support at freenode dot net</b>. We always enjoy hearing from you!
+  </p>
+
+  <p>
+    We realise that no set of rules is sufficient to handle all possible scenarios. 
+    If we did not cover a specific circumstance, please respect our decisions. 
+    However, you are encouraged to bring any and all concerns up with <b>support at freenode dot net</b>; 
+    we will look at each individual case and, if necessary, clarify the issue and/or change our channel
+    guidelines accordingly.
+  </p>
+
+  <ul>
+    <li>
+      <b>
+        <a name="contents"></a><a href="#contents">Contents</a>.
+      </b>
+      <br /><br />
+      <ul>
+        <li><a href="#on-topic">Stay on-topic.</a></li>
+        <li><a href="#disputes">Handle disputes quietly.</a></li>
+        <li><a href="#civil">Be civil and positive.</a></li>
+	<li><a href="#considerate">Be considerate.</a></li>
+        <li><a href="#assume">Assume good faith.</a></li>
+        <li><a href="#family-friendly">Keep the channel family-friendly.</a></li>
+        <li><a href="#catalyze">Catalyze.</a></li>
+        <li><a href="#pastebin">Use pastebin.</a></li>
+	<li><a href="#concise">Be clear and concise and use English whenever possible.</a></li>
+	<li><a href="#bots">Do not bring bots into the channel or abuse any channel bots.</a></li>
+	<li><a href="#spirit">Observe the spirit of the guidelines.</a></li>
+	<li><a href="#respect">Respect decisions.</a></li>
+      </ul>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="on-topic"></a><a href="#on-topic">Stay on-topic</a>.
+      </b>
+      <br /><br />
+	<p>
+While #defocus has no specific topic per-se, there are a few items that are explicitly considered "off-topic": politics, sex, religion and porn.  If you feel the need to discuss any of these topics, please take it to query or to a more appropriate channel. Alternatively, if you require network support, feel free to join #freenode. Whilst we want you to enjoy your time in #defocus, please avoid babbling nonsensically, as it isn't overly conductive to constructive social interaction regardless of whether other people join in or not.
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="disputes"></a><a href="#disputes">Handle disputes quietly</a>.
+      </b>
+      <br /><br />
+	<p>
+	If you have a dispute with someone on the channel we ask you to handle it privately, disputes shouldn't be handled or discussed on the channel.  If you are unable to resolve it privately, ask a chanop or staffer to mediate for you. Any mediation will be done off-channel
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="civil"></a><a href="#civil">Be civil and positive</a>.
+      </b>
+      <br /><br />
+	<p>
+	Be civil and respect other people's opinions, whether you agree or not. Please do not be rude, judgmental or belittling. Respond to incivility with greater civility and respect. Please do not accuse others or request kicks or bans in public, engage in personal attacks, intentionally offend or provoke others.  Do not discuss or taunt users who have been removed, kicked, banned, quieted or devoiced. Be positive. 
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="considerate"></a><a href="#considerate">Be considerate</a>.
+      </b>
+      <br /><br />
+	<p>
+	Be Considerate.  Please do not intentionally annoy or harass users, whether by spamming, trolling, flamebaiting, astroturfing, soapboxing or typing in all caps. Do not run "now playing" scripts.  By performing excessive /nick, /join or /parts, you flood all users in the channel with many meaningless lines so please try to avoid it. If an individual user appears to be having connection problems they may be temporarily banned to prevent flooding. IRC presents users with away status notifications; it is unnecessary to publicly announce changes in away status (including sending text to the channel, changing your current nick to nick|away, etc.).
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="assume"></a><a href="#assume">Assume good faith</a>.
+      </b>
+      <br /><br />
+	<p>
+	IRC lacks the normal facial expressions and body language used in everyday conversation. Without these it can be easy to misunderstand the intentions of someone and lead to uncomfortable situations. Try to assume good faith and avoid reacting negatively. If you have difficulty supressing your reactions,  please use /ignore until you are calm again, or even indefinitely.
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="family-friendly"></a><a href="#family-friendly">Keep the channel family-friendly</a>.
+      </b>
+      <br /><br />
+	<p>
+	 Keep the Channel Family-Safe/-Friendly. Please consider that we try to keep #defocus a 'family-safe' channel. Keep this in mind in your on-channel discussions and when selecting your quit/part messages.  Please do not link to anything which could cause offense or be not safe-for-work or use foul, vulgar or profane language (or acronyms or substitutes which imply foul, vulgar or profane language).  Please also avoid graphically-violent, racially-charged and sexually-explicit comments. If you are uncertain whether a word is considered foul language, please be safe and do not use it. If you are uncertain, then it is highly likely that it would offend another.  There is a distinct difference between how you can act in your own, private channel where everybody knows everyone else and a large, public channel with changing regulars and guests who have lots of different backgrounds.
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="catalyze"></a><a href="#catalyze">Catalyze</a>.
+      </b>
+      <br /><br />
+	<p>
+	Polish your <a href="catalysts.shtml">catalyst skills</a>. The catalyst role is key to keeping channel interactions friendly and efficient. If you see people not adhering to the rules, take them to query and catalyze. Anyone can catalyze - you do not need power, privilege or social standing to do it.  
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="pastebin"></a><a href="#pastebin">Use pastebin</a>.
+      </b>
+      <br /><br />
+	<p>
+	Please use pastebin for pastes longer than 3 lines.  There are pastebins available on the web, including <a href="http://pastebin.com">http://pastebin.com</a> and <a href="http://pastebin.ca">http://pastebin.ca</a>.  Use whichever one suits you.
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="concise"></a><a href="#concise">Be clear and concise and use English whenever possible</a>.
+      </b>
+      <br /><br />
+	<p>
+	Be clear, concise and try to use English. We prefer the vast majority of conversation to be in English. Most of us speak English so it is generally helpful to keep a common language. That said, if someone asks a question in another language and you can speak that language, do not hesitate to assist the person on the channel or in query.  Please speak as plainly as possible. Please do not excessively use hard-to-understand acronyms, "txtspk" or "l33tsp33k".  Remember that, although most conversations occur in English, many are not speaking their native language.
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="bots"></a><a href="#bots">Do not bring bots into the channel or abuse any channel bots</a>.
+      </b>
+      <br /><br />
+	<p>
+	Please do not abuse the channel's bot or bring bots into the channel. The support channel will probably have a bot to help with the more common questions and we do not see the need for any further bots.  If you would like to bring your bot into the channel, you may make your request in an email to <b>support at freenode dot net</b> - be sure to include your rationale.  Please do not abuse any bots that are in the channel.
+	</p>
+      <br />
+    </li>
+
+    <li>
+      <b>
+        <a name="spirit"></a><a href="#spirit">Observe the spirit of the guidelines</a>.
+      </b>
+      <br /><br />
+	<p>
+	Please observe the spirit of the guidelines. While these guidelines attempt to provide a clear guide for the successful and pleasurable use of the channel, they are an outline only.  Please don't use any of the ideas listed here to obfuscate or obstruct the intent or to harass other users.  The channel is dependent on your willingness for it to succeed.  Please avoid the practice of testing every boundary, every guideline, every word to see where you might get away with something.  Please do not loudly protest the policies of freenode and the actions of its staff team in a way that invites drama and negativity and disrupts the regular flow of information in the channel. If you want to talk policy, do it via email.
+	</p>
+      <br />
+    </li>
+
+<li>
+      <b>
+        <a name="respect"></a><a href="#respect">Respect decisions</a>.
+      </b>
+      <br /><br />
+	<p>
+	Respect decisions.  Staff and channel ops work hard to be fair and balanced, but may not always resolve issues exactly the way <b>you</b> would. We are always willing to talk with you about any issues you have, but we ask that if you disagree with our actions, to please bring your criticism to us in query. This helps keeping the channel on-topic and calm. If you feel your issue is not handled correctly, we would ask you to escalate your concern by sending email to support at freenode dot net and to accept the decision for the time being. 	
+	</p>
+      <br />
+    </li>
+
+
+  </ul>
+</div>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>" -->
+
+<!--#include file="include/trailer.shtml" -->

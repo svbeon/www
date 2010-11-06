@@ -1,0 +1,31 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: ircd-seven" --><!--#set var="content_title" value="ircd-seven" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>
+<span class="freenode">freenode</span>'s next generation ircd project, 
+ircd-seven, is a branch of the 
+
+<a href="http://hg.atheme.org/charybdis">charybdis</a>
+
+ircd, with changes specific to freenode's needs. It has been designed to replace
+the legacy
+
+<a href="http://freenode.net/hyperion.shtml">hyperion</a>.
+
+The network was migrated to ircd-seven at the end of January, 2010.
+
+</p>
+
+<p>
+The source code, as well as a wiki and bug tracker are available in 
+
+<a href="http://dev.freenode.net/ircd-seven">trac</a>. 
+
+If you're interested in learning more about ircd-seven,
+consult the trac and join us in #freenode-seven.
+</p>
+
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+
+<!--#include file="include/trailer.shtml" -->

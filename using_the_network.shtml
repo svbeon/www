@@ -2,8 +2,9 @@
 
 <p><font face="Arial, Helvetica" color="#000000">To access the <b class=freenode>freenode</b> IRC servers,
 you'll first need an IRC client.  Text clients include
-ircII, bitchx, epic, and sirc.  Graphical clients include xchat for
-Unix and GNU/Linux, and mIRC for Windows.
+irssi, WeeChat, and ERC.  Graphical clients include XChat, Smuxi, and Quassel 
+for Unix and GNU/Linux, and mIRC for Windows. There is also the 
+<a href="http://webchat.freenode.net/">freenode webchat</a>.
 Packages for various IRC clients may be included on your operating
 system install CDs and links to web sites for the client software can be
 found
@@ -45,10 +46,10 @@ which contains a variety of other useful information as well.</font></p>
 nickname and channel registration services.  These should be used to avoid
 disagreements about nickname use and to maintain clear operational control
 of channels.  You must register your nickname to register a channel or to
-be added to its access list.  If you'd like to
-register a channel here, remember that
-we are a special purpose network devoted to peer-directed projects. If
-you're running a software project, please be sure to take a look at our
+be added to its access list.  If you'd like to register a channel here, 
+remember that we are a special purpose network devoted to peer-directed 
+projects. If you're running a software project, please be sure to take a 
+look at our
 
 <a href="policy.shtml#output">licensing policy</a>
 
@@ -89,7 +90,7 @@ can help to simplify the system of flags.  See "/msg chanserv help template" for
 
 
 <p><font face="Arial, Helvetica" color="#000000"><br />The following is a list of ircd-seven user
-modes:<br /><br /></font></p>
+modes, some additional information about them is available by sending '/help umode' to the server:<br /><br /></font></p>
 
 
 <table summary="ircd-seven 1.0 User Modes" cellspacing="0" cellpadding="5" border="1">
@@ -127,7 +128,7 @@ modes:<br /><br /></font></p>
     <td valign="top">
       This prevents you from appearing in global WHO/WHOIS by
       normal users, and hides which channels you are on. It is strongly
-      recommended that you set this umode.
+      recommended that you set this umode, and it is now enabled by default.
     </td>
   </tr>
 <!--  <tr>
@@ -187,7 +188,7 @@ modes:<br /><br /></font></p>
 
 
 <p><font face="Arial, Helvetica" color="#000000"><br />The following is a list
-of ircd-seven 1.0 channel modes. <!-- Where a feature is currently described
+of ircd-seven 1.0 channel modes, some additional information about them is available by sending '/help cmode' to the server: <!-- Where a feature is currently described
 as <b>experimental,</b> network staff may need to enable the feature for
 your channel.<br /><br /></font></p> -->
 
@@ -224,7 +225,7 @@ your channel.<br /><br /></font></p> -->
   an implicit wildcard. <blockquote><b><i>/mode #channel +q $~a</i></b></blockquote> is a 
   valuable mode for many channels. This extban (using +q (quiet), see below), prevents all
   users not identified to services from speaking in the channel. Note the "~", which negates
-  the match. Note that this ban is equivalent to CMODE <b><i>+R</i></b> employed in our
+  the match. This ban is equivalent to CMODE <b><i>+R</i></b> employed in our
   earlier ircds.</td>
   </tr>
   <tr>
@@ -244,7 +245,7 @@ your channel.<br /><br /></font></p> -->
       The suffix <b><i>"$#channel"</i></b> can be appended to any of the above bans masks
       to cause a user to be forwarded to <b>#channel</b>. The ban setter will only
       be able to set this ban if they are an op in <b>#channel</b>, or if <b>#channel</b> 
-      has mode <b><i>+F</i></b> set. In this case, in all situations where the user would
+      has CMODE <b><i>+F</i></b> set. In this case, in all situations where the user would
       previously have been told they could not join, they will instead join 
       the channel named in the ban mask and be sent a 470 numeric describing 
       the forward.
@@ -315,7 +316,7 @@ your channel.<br /><br /></font></p> -->
     <td valign="top">+i (invite-only)</td>
     <td valign="top">
       No client can join this channel unless they are listed in the invite
-      exemption list (+I).
+      exemption list (+I) or are invited by someone through the /invite command.
     </td>
   </tr>  
   <tr>
@@ -324,7 +325,7 @@ your channel.<br /><br /></font></p> -->
     This mode takes one parameter of the same form as bans. Matching clients do 
     not need to be invited to join the channel when it is invite-only (+i). Unlike 
     the INVITE command, this does not override +j, +l and +r. Only channel 
-    operators can see +I changes or request the list.
+    operators can see +I changes or request the list (/mode +I).
     </td>
   </tr>  
   <tr>
@@ -343,7 +344,10 @@ your channel.<br /><br /></font></p> -->
     <td valign="top">+k (channel password)</td>
     <td valign="top">
       This mode sets up a channel password.  To enter the channel, you must
-      specify the password on your JOIN command.
+      specify the password on your JOIN command. Keep in mind, modes locked 
+      with ChanServ's MLOCK command can be seen by anyone recreating the 
+      channel (this includes keys).
+
     </td>
   </tr>  
   <tr>
@@ -386,7 +390,7 @@ your channel.<br /><br /></font></p> -->
     <td valign="top">
       This mode may only be set by <b>freenode</b> staff.  Once set, the channel will not be deleted when
       it becomes empty.  Additionally, the +b, +e, +I and +q lists have higher
-      capacity to make channel forwarding easier.  NOTE: Permanent channels could still 
+      capacity to make channel forwarding easier.  NOTE: Permanent channels can still 
       be erased by catastrophic network failures.
     </td>
   </tr>  

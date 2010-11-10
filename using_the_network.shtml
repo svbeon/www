@@ -115,7 +115,7 @@ modes, some additional information about them is available by sending '/help umo
     <td valign="top">
       You can set this umode to prevent you from receiving private messages
       from anyone not on a session-defined whitelist. We would suggest only
-      using this umode if you have problems with volumes of spam via private
+      using this user mode if you have problems with volumes of spam via private
       message. The content of the whitelist can be controlled using the
       <b><i>/accept</i></b> command. When a user not on the whitelist attempts to
       contact you, you will receive a notice informing you of the fact
@@ -128,7 +128,7 @@ modes, some additional information about them is available by sending '/help umo
     <td valign="top">
       This prevents you from appearing in global WHO/WHOIS by
       normal users, and hides which channels you are on. It is strongly
-      recommended that you set this umode, and it is now enabled by default.
+      recommended that you set this user mode, and it is now enabled by default.
     </td>
   </tr>
 <!--  <tr>
@@ -152,7 +152,7 @@ modes, some additional information about them is available by sending '/help umo
   <tr>
     <td valign="top">+Q (no forwarding)</td>
     <td valign="top">
-      This umode prevents you from being forwarded to another channel because
+      This user mode prevents you from being forwarded to another channel because
       of channel mode +f (see below) or by a ban (see +b below). Instead of
       being forwarded to another channel, you'll be given a message as to why
       you could not join.
@@ -161,9 +161,9 @@ modes, some additional information about them is available by sending '/help umo
   <tr>
     <td valign="top">+R (block unidentified)</td>
     <td valign="top">
-      This umode prevents users who are not identified to nickserv
+      This user mode prevents users who are not identified to nickserv
       from sending you private messages. It is suggested that you
-      might want to temporarily set this umode if you suffer problems
+      might want to temporarily set this user mode if you suffer problems
       with unidentified users sending you unwanted messages.
     </td>
   </tr>
@@ -171,7 +171,7 @@ modes, some additional information about them is available by sending '/help umo
   <tr>
     <td valign="top">+w (see wallops)</td>
     <td valign="top">
-      This umode lets you see the wallops announcement system. Important
+      This user mode lets you see the wallops announcement system. Important
       network messages will be sent out via global notices; this is only for
       non-critical announcements and comments which may be of interest.
     </td>
@@ -179,7 +179,7 @@ modes, some additional information about them is available by sending '/help umo
   <tr>
     <td valign="top">+Z (connected via SSL)</td>
     <td valign="top">
-      You will have this umode if you connect to freenode using SSL.
+      You will have this user mode if you connect to freenode using SSL.
     </td>
   </tr>
 
@@ -225,13 +225,13 @@ your channel.<br /><br /></font></p> -->
   an implicit wildcard. <blockquote><b><i>/mode #channel +q $~a</i></b></blockquote> is a 
   valuable mode for many channels. This extban (using +q (quiet), see below), prevents all
   users not identified to services from speaking in the channel. Note the "~", which negates
-  the match. This ban is equivalent to CMODE <b><i>+R</i></b> employed in our
+  the match. This ban is equivalent to channel mode <b><i>+R</i></b> employed in our
   earlier ircds.</td>
   </tr>
   <tr>
   <td valign="center"> Type <b><i>r</i></b> (realname) </td>
   <td valign="top"> This type matches on a client's realname, or gecos. It is equivalent
-  to the <b><i>+d</i></b> CMODE in earlier ircds. 
+  to the <b><i>+d</i></b> channel mode in earlier ircds. 
   <blockquote><b><i>/mode #channel +b $r:Foo*</i></b></blockquote>
   will ban any user whose gecos begins "Foo". </td></tr>
   <tr>
@@ -245,7 +245,7 @@ your channel.<br /><br /></font></p> -->
       The suffix <b><i>"$#channel"</i></b> can be appended to any of the above bans masks
       to cause a user to be forwarded to <b>#channel</b>. The ban setter will only
       be able to set this ban if they are an op in <b>#channel</b>, or if <b>#channel</b> 
-      has CMODE <b><i>+F</i></b> set. In this case, in all situations where the user would
+      has channel mode <b><i>+F</i></b> set. In this case, in all situations where the user would
       previously have been told they could not join, they will instead join 
       the channel named in the ban mask and be sent a 470 numeric describing 
       the forward.

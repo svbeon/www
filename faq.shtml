@@ -94,6 +94,10 @@
         <li><a href="#blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</a></li>
         <li><a href="#nocloakxchat">Why does my cloak not work with xchat?</a></li>
         <li><a href="#sslaccess">Does <span class="freenode">freenode</span> provide SSL-based client access?</a></li>
+        <li><a href="#join">Why can't I join a certain channel?</a></li>
+        <li><a href="#unban">How do I get unbanned/unquieted in a channel?</a></li>
+        <li><a href="#talk">Why can't I talk in a certain channel?</a></li>
+        <li><a href="#sendpass">What do I do if I forget my password?</a></li>
       </ul>
       <br />
     </li>
@@ -316,7 +320,7 @@
       join, you might be forwarded to a different channel.  If a channel
       is set to mode <b>+q $~a</b>, you won't be able to speak while on that
       channel unless you are registered and identified.  Both of these
-      modes are used to reduce channel harassment by DoS kiddies.
+      modes are used to reduce channel harassment and abuse.
 
       <br /><br />
 
@@ -343,7 +347,7 @@
 
           <a href="#gettinghelp">ask a staffer</a>
           
-          and we'll be happy to drop it for you.
+          and in most cases, we will be happy to drop it for you.
 
           <br /><br />
 
@@ -356,18 +360,20 @@
 
         <li>
           Register your IRC nick:
-          <blockquote>
-            <b>/msg nickserv register &lt;your-password&gt; &lt;your-email&gt;</b>
-          </blockquote>
+          <blockquote><i>
+            /msg nickserv register &lt;password&gt; &lt;email&gt;
+          </i></blockquote>
+
+          Do NOT include the &lt; or &gt; around your password or email.
         </li>
 
         <li>
           To keep your email address private, rather than displaying it
-          publicly, mark it as hidden:
+          publicly, mark it as hidden (which is done by default for new accounts):
 
-          <blockquote>
-            <b>/msg nickserv set hidemail on</b>
-          </blockquote>
+          <blockquote><i>
+            /msg nickserv set hidemail on
+          </i></blockquote>
         </li>
 
         <li>
@@ -376,15 +382,21 @@
           For example, if your primary
           nick is foo:
 
-          <blockquote>
-            <b>/nick foo_</b>
-          </blockquote>
+          <blockquote><i>
+            /nick foo_
+          </i></blockquote>
 
-          and then
+          then identify to your primary account
 
-          <blockquote>
-            <b>/msg nickserv group</b>
-          </blockquote>
+          <blockquote><i>
+            /msg nickserv identify foo &lt;password&gt;
+          </i></blockquote>
+
+          and finally, group the new nick to your account
+
+          <blockquote><i>
+            /msg nickserv group
+          </i></blockquote>
 
         </li>
 
@@ -434,7 +446,12 @@
       the one you've got registered use ':nick password'.  
       You'll be identified to nickserv automaticaly when you
       connect. In some cases, it's more convenient to configure your client
-      to send the command <b><i>/msg nickserv identify &lt;your-password&gt;</i></b>
+      to send the command 
+
+      <blockquote><i>
+        /msg nickserv identify &lt;password&gt;
+      </i></blockquote>
+
       to achieve the same effect.
 
       <br /><br />
@@ -487,7 +504,9 @@
       time limits do not apply to staff-reserved nicks, which are allocated
       and dropped as needed.  If the nick you want to register is
       someone's alternate nickname and it's the only alternate nickname
-      they have, we may be reluctant to drop it, even if it's expired.
+      they have, we may be reluctant to drop it, even if it's expired. We also 
+      occassionally give nicks that have been registered a very long time a 
+      little extra time before we drop them.
 
       <br /><br />
       Nicknames that are not confirmed by a valid email address will be
@@ -523,6 +542,16 @@
       
       for your IRC nickname.
 
+      You can see the last time someone identified to nickserv for a nick with:
+
+      <blockquote><i>
+        /msg nickserv info &lt;nick&gt;
+      </i></blockquote>
+
+      Do not include the &lt; and &gt; around the nick.
+
+      The 'Last seen' field tells you the last time someone used the nick while identified.
+
       <br /><br />
     </li>
     
@@ -535,7 +564,7 @@
       <a href="#userexpirations">expired</a>
       
       are not dropped automatically on a regular basis.  We do drop them
-      when we notice them and, if you ask a staffer, we'll be happy to
+      when we notice them, and if you ask a staffer, we'll usually be happy to
       manually drop the one you want so that you can re-register it.
 
       <br /><br />
@@ -558,6 +587,26 @@
       When a nick has been dropped and picked up by some other user, we
       can't take it back from them.  That would be unfair to the user who
       picked it up.
+
+      In other cases, someone could simply be using the nick while unidentified. 
+      You can force them to change their nick with:
+
+      <blockquote><i>
+        /msg nickserv release &lt;nick&gt; &lt;password&gt;
+      </i></blockquote>
+
+      Do not include the &lt; and &gt; around the nick and password.
+
+      You may need to run the above command a second time if you get a message 
+      saying the nick is temporarily unavailable.
+
+      You can also set enforce on your nick to have NickServ force users to 
+      identify to the account within 30 seconds in order to continue to use it:
+
+      <blockquote><i>
+        /msg nickserv set enforce on
+      </i></blockquote>
+
       <br /><br />
     </li>
   </ul>
@@ -680,8 +729,8 @@
       site for a current list. To find channels about a specific topic you can also use our "alis" service: 
       
       <blockquote><i>
-              /msg alis help list
-                    </i></blockquote>
+        /msg alis help list
+      </i></blockquote>
 
       <br />
     </li>
@@ -846,12 +895,22 @@
       the network, its philosophy, the software it uses, etc.  In addition,
       staff send WALLOPS messages with time-sensitive status information (as
       well as a variety of general comments and announcements). To receive
-      these messages, on most clients, you can use <b>"/umode +w"</b> or
-      <b>"/mode</b> yournick <b>+w"</b>.  For best results, place the
-      command in your client's startup script. <b>(Please be careful; some
-      clients, including ERB and XChat, don't have a /UMODE command, and
-      will pass on UMODE to the server, often causing a false positive on a
-      spambot test.)</b>
+      these messages, on most clients, you can use 
+
+      <blockquote><i>
+        /umode +w"
+      </i></blockquote>
+
+      or
+
+      <blockquote><i>
+        /mode yournick +w
+      </i></blockquote>
+
+      For best results, place the command in your client's startup script. 
+      <b>(Please be careful; some clients, including ERB and XChat, don't have 
+      a /UMODE command, and will pass on UMODE to the server, often causing a 
+      false positive on a spambot test.)</b>
       
       <br /><br />
 
@@ -1122,16 +1181,12 @@
       sent to you by unregistered users.  Depending on which client you're running,
       one of these commands will set that user mode:
 
-      <br /><br />
-      
-      <ul>
-        <li><b>/umode +R</b></li>
-        <li><b>/mode YOURNICK +R</b></li>
-        <li><b>/quote mode YOURNICK +R</b></li>
-        <li><b>/raw mode YOURNICK +R</b></li>
-      </ul>
-      
-      <br />
+      <blockquote><i>
+        /umode +R
+        /mode YOURNICK +R
+        /quote mode YOURNICK +R
+        /raw mode YOURNICK +R
+      </i></blockquote>
       
       <b>(Please be careful; some clients, including ERB and XChat, don't
       have a /UMODE command, and will pass on UMODE to the server, often
@@ -1141,11 +1196,9 @@
       
       If you run a support channel, please consider using something like:
       
-      <br /><br />
-      
-      <b>/mode #yourchannel +rf #yourchannel-unregistered</b>
-
-      <br /><br />
+      <blockquote><i>
+        /mode #yourchannel +rf #yourchannel-unregistered
+      </i></blockquote>
       
       This will forward unregistered users to a separate channel on join.
       You can let those users know about
@@ -1218,6 +1271,112 @@
       SSL connections can be made on ports 7000 and 7070. You can obtain the CA cert
       required from <a href="http://crt.gandi.net/GandiStandardSSLCA.crt">here</a>.
     
+      <br /><br />
+    </li>
+
+    <li>
+      <b>
+        <a name="join"></a>Why can't I join a certain channel?
+      </b>
+
+      There are a few things that might be preventing you from joining a 
+      channel. The first thing you should check is whether you are identified 
+      to NickServ. You can identify to NickServ with 
+
+      <blockquote><i>
+        /msg nickserv identify <nick> <password>
+      </i></blockquote>
+
+      Certain channels have channel mode +r set, which prevents unidentified 
+      users from joining. You can check what channel modes are enabled on a 
+      channel with 
+
+      <blockquote><i>
+        /mode #channel
+      </i></blockquote>
+
+      The next thing you should check is whether or not you are banned from the 
+      channel. You can view the ban list with 
+
+      <blockquote><i>
+        /mode #channel +b
+      </i></blockquote>
+
+      Remember, you may be unintentionally affected by a large ban that was 
+      set, so pay particular attention to bans that include wildcards (* and ?). 
+      Also, keep in mind that if you are cloaked, a ban set against your IP 
+      address will still prevent you from joining. Finally, do not forget about 
+      extbans. A ban against $~a will work just like channel mode +r, and might 
+      not be initially obvious. An explanation about bans (including extbans) is 
+      available <a href="using_the_network.shtml">here</a>. If you do find a ban 
+      set against you and you feel it is a mistake, you should contact the 
+      channel operators to discuss having it removed.
+
+      If neither of these methods work, you will want to check what other channel 
+      modes are enabled for the channel. modes such as +i, +k, and several others 
+      might be preventing you from joining.
+
+      If you are still unable to figure out why you can't join a certain channel, 
+      feel free to ask in #freenode.
+      
+      <br /><br />
+    </li>
+
+    <li>
+      <b>
+        <a name="unban"></a>How do I get unbanned/unquieted in a channel?
+      </b>
+
+      <span class="freenode">freenode</span> tries to allow channels to run and 
+      manage themselves. As a result, channel operators are generally free to 
+      ban/quiet users for any reason they see fit. If you wish to discuss your 
+      ban/quiet, you will need to contact the channel operators. A list of 
+      operators can be found with 
+
+      <blockquote><i>
+        /msg chanserv access #channel list
+      </i></blockquote>
+
+      Operators will have the +o flag. One of these operators will have to 
+      unban/unquiet you, <span class="freenode">freenode</span> staff will not 
+      intervene in most cases.
+
+      <br /><br />
+    </li>
+
+    <li>
+      <b>
+        <a name="talk">Why can't I talk in a certain channel?
+      </b>
+
+      There are two common reasons for being unable to talk in a channel. The 
+      first is that you might be quieted. You can view the quiet list for a 
+      channel with 
+
+      <blockquote><i>
+        /mode #channel +q
+      </i></blockquote>
+
+      If you find a quiet set against you and you feel it is a mistake, you 
+      should contact the channel operators to discuss having it removed.
+      
+      The second common reason for being unable to talk in a channel is that it 
+      has channel mode +m enabled. This mode prevents anyone who is not voiced 
+      from talking (if channel mode +z is also enabled, you will be able to talk, 
+      but only operators will see your messages).
+
+      <br /><br />
+    </li>
+
+    <li>
+      <b>
+        <a name="sendpass">What do I do if I forget my password?
+      </b>
+
+      If you forget your password, but still have access to the email account 
+      that is associated with the IRC account, staff can send a password reset 
+      email. Simply ask in #freenode or PM a staff member to have the email sent.
+
       <br /><br />
     </li>
   </ul>

@@ -907,10 +907,7 @@
         /mode yournick +w
       </i></blockquote>
 
-      For best results, place the command in your client's startup script. 
-      <b>(Please be careful; some clients, including ERB and XChat, don't have 
-      a /UMODE command, and will pass on UMODE to the server, often causing a 
-      false positive on a spambot test.)</b>
+      For best results, place the command in your client's startup script.
       
       <br /><br />
 

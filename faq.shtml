@@ -429,7 +429,7 @@
           identify to your services account on connect, regardless of 
           the nickname you are connecting with. eg.
 
-          <blockquote><b>/connect irc.freenode.net 6667 :mquin uwhY8wgzWw22-zXs.M39p</b></blockquote>
+          <blockquote><i>/connect irc.freenode.net 6667 :mquin uwhY8wgzWw22-zXs.M39p</i></blockquote>
         </li>
       </ol>
       <br />
@@ -898,7 +898,7 @@
       these messages, on most clients, you can use 
 
       <blockquote><i>
-        /umode +w"
+        /umode +w
       </i></blockquote>
 
       or
@@ -940,15 +940,15 @@
       can turn them off by turning off user mode "w".  On most clients this
       can be accomplished via:
 
-      <blockquote><b><i>
+      <blockquote><i>
         /umode -w
-      </i></b></blockquote>
+      </i></blockquote>
 
       or
 
-      <blockquote><b><i>
+      <blockquote><i>
         /mode yournick -w
-      </i></b></blockquote>
+      </i></blockquote>
       
       For best results, place the command in your client's startup
       script.<b>(Please be careful; some clients, including ERB and XChat,
@@ -964,9 +964,9 @@
       members, notices from all staffers or all notices. <b>It's not
       recommended.</b> But on most clients, it works something like this:
       
-      <blockquote><b><i>
+      <blockquote><i>
         /ignore *!*@freenode/staff/* notice
-      </i></b></blockquote>
+      </i></blockquote>
     </li>
     
     <li>
@@ -1179,10 +1179,10 @@
       one of these commands will set that user mode:
 
       <blockquote><i>
-        /umode +R
-        /mode YOURNICK +R
-        /quote mode YOURNICK +R
-        /raw mode YOURNICK +R
+        /umode +R <br />
+        /mode YOURNICK +R <br />
+        /quote mode YOURNICK +R <br />
+        /raw mode YOURNICK +R <br />
       </i></blockquote>
       
       <b>(Please be careful; some clients, including ERB and XChat, don't
@@ -1509,7 +1509,7 @@
       designate the IRC nicknames of participants who are eligible to
       have your project cloaks, as well as the specifics of the cloaks. 
       <br /><br />
-      Until <b>GMS</b> complements <b>services</b>, this process will
+      Until <a href="gms.shtml"><b>GMS</b></a> complements <b>services</b>, this process will
       remain a mostly-manual one, so please don't hesitate to ping a staffer
       if you don't receive a response within a couple of weeks or so.
       <br /><br />

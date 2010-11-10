@@ -1343,7 +1343,7 @@
 
     <li>
       <b>
-        <a name="talk">Why can't I talk in a certain channel?
+        <a name="talk"></a>Why can't I talk in a certain channel?
       </b>
 
       There are two common reasons for being unable to talk in a channel. The 
@@ -1367,7 +1367,7 @@
 
     <li>
       <b>
-        <a name="sendpass">What do I do if I forget my password?
+        <a name="sendpass"></a>What do I do if I forget my password?
       </b>
 
       If you forget your password, but still have access to the email account 

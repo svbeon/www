@@ -92,7 +92,7 @@
         <li><a href="#freenode-info">Why do I get these <b class="freenode">[freenode-info]</b> messages sometimes when I join a channel, or during a netsplit?</a></li>
         <li><a href="#spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block  them?</a></li>
         <li><a href="#blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</a></li>
-        <li><a href="#nocloakxchat">Why does my cloak not work with xchat?</a></li>
+        <li><a href="#nocloakonjoin">Why is my cloak not applied initially when I auto-join channels?</a></li>
         <li><a href="#sslaccess">Does <span class="freenode">freenode</span> provide SSL-based client access?</a></li>
         <li><a href="#join">Why can't I join a certain channel?</a></li>
         <li><a href="#unban">How do I get unbanned/unquieted in a channel?</a></li>
@@ -401,33 +401,20 @@
         </li>
 
         <li>
-          If you're running an older version of <b>xchat</b> and you've
-          requested a cloak, you may need to
-
-          <a href="#nocloakxchat">follow these instructions</a>
-
-          so that your client will properly identify to <b>Nickserv</b>
-          before joining any channels. Recent versions of xchat appear to
-          handle things just fine.
-
-          <br /><br />
-        </li>
-
-        <li>
           Configure your client to identify itself to nickserv automatically
           whenever it connects to freenode so that it's less likely you'll
           connect to the network without being identified to nickserv.  The
           easiest approach is to specify your nickserv password as a server
-          password.
+          password:
 
           <br /><br />
-        </li>
 
-        <li>
           If your client supports server password, please set this up as 
-	  <code>:accountname &lt;password&gt;</code>. This will allow you to 
-          identify to your services account on connect, regardless of 
-          the nickname you are connecting with. eg.
+          <code>:&lt;accountname&gt; &lt;password&gt;</code>. (Make sure to
+          include the colon, and not the literal &lt; and &gt;.) This will
+          allow you to identify to your services account on connect,
+          regardless of the nickname you are using when you connect. For
+          example:
 
           <blockquote><i>/connect irc.freenode.net 6667 :mquin uwhY8wgzWw22-zXs.M39p</i></blockquote>
         </li>
@@ -951,10 +938,7 @@
       </i></blockquote>
       
       For best results, place the command in your client's startup
-      script.<b>(Please be careful; some clients, including ERB and XChat,
-      don't have a /UMODE command, and will pass on UMODE to the server,
-      often causing a false positive on a spambot test.)</b>
-                        
+      script.
 
       <br /><br />
 
@@ -1168,7 +1152,7 @@
       <b class="freenode">freenode</b>
       
       has to deal with infestations of spam bots. These bots often join
-      large channels to get lists of people to spam via private message. 
+      large channels to get lists of people to spam via private message.
       We're working on long-term solutions to the problem. In the meantime,
       your best bet is to
       
@@ -1185,10 +1169,6 @@
         /raw mode YOURNICK +R <br />
       </i></blockquote>
       
-      <b>(Please be careful; some clients, including ERB and XChat, don't
-      have a /UMODE command, and will pass on UMODE to the server, often
-      causing a false positive on a spambot test.)</b>
-
       <br /><br />
       
       If you run a support channel, please consider using something like:
@@ -1205,7 +1185,7 @@
       but try to provide them support on the 'unregistered' channel, as
       well---it's a way to help keep spammers from taking away support
       options from our unregistered users! Note that you will have to
-      be +o in #yourchannel-unregistered, or that channel must be 
+      be +o in #yourchannel-unregistered, or that channel must be
       <b>+F</b> to set the forward.
 
       <br /><br />
@@ -1230,32 +1210,41 @@
     
     <li>
       <b>
-        <a name="nocloakxchat"></a>Why does my cloak not work with xchat?
+        <a name="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?</a>
       </b>
-      Older versions of <b>xchat</b> have this problem when connecting to
-      
-      <span class="freenode">freenode</span>: when you automatically execute a
-      command at connect time, it does not wait to join channels until the
-      command is through executing.  If you have this problem and you
-      configure your client to identify to nickserv, then wait a couple of
-      seconds before completing, all that will happen is that you'll sail
-      right onto your autojoined channels without a cloak.
-      
+      Your account name and password must be sent to NickServ and verified,
+      then NickServ must tell the servers about your cloak. This process
+      may take a little time, depending on how heavily services is loaded
+      and the amount of lag between your server and services.
       <br /><br />
-
-      You can use one of these user-provided connect scripts (in
-
-      <a href="/recommended/xchat/kludges/identify_and_join.tcl.txt">TCL</a>
-
-      or
-
-      <a href="/recommended/xchat/kludges/identify_and_join.py.txt">python</a>)
-
-      to identify to nickserv and join your channels (rename the script,
-      stripping the '.txt' off the end)&mdash;but we recommend that you
-      simply update to a more recent version of xchat.  If you do one of the
-      scripts, <b>make sure you use the python version if your copy of xchat
-      is compiled without TCL support.</b>
+      Some clients send your identification to NickServ and, without
+      waiting, start to join channels. This may lead to showing your
+      uncloaked host when you join the channel, followed shortly by a
+      quit and re-join as your cloak is applied.
+      <br /><br />
+      To prevent this, you may need to do one of the following (roughly
+      in order of preference):
+      <ul>
+      <li>Authenticate using SASL.<br />
+        SASL is a method of identifying
+        during your connection, before anything else happens. This is
+        the best way to ensure you are cloaked immediately. A
+        collection of scripts for common clients and instructions
+        for setting up SASL can be found <a href="/sasl">here</a>.</li>
+      <li>Wait to join channels until after the server notifies you
+        that it has set your hidden host.<br />
+        This notification is done with a 396 numeric that looks like this:
+        <blockquote><i>396 YourNick unaffiliated/youraccount :is now your hidden host (set by services.)</i></blockquote>
+        A <a href="recommended/xchat/kludges/cloak-before-join.pl.txt">script
+        to do this for X-Chat</a> was kindly contributed by one of our users.
+        You won't receive this numeric if your account or connection (for
+        gateways) is not cloaked.</li>
+      <li>Add a fixed amount of wait time before joining channels.<br />
+        This can be done on X-Chat with <i>/set irc_join_delay</i>,
+        or on irssi by adding <i>wait &lt;time&gt;</i> to the
+        autosendcmd for the network.</li>
+      <li>Don't auto-join channels; do it manually.</li>
+      </ul>
       <br /><br />
     </li>
     
@@ -1450,16 +1439,10 @@
 
       <br /><br />
 
-      <a href="#nicksetup">Regardless of which type of cloak you decide to
-      get, the setup is the same</a>.
-       
-      <br /> <br />
-
-      <a href="#nicksetup">Just read this link, which explains the
-      procedure</a>.
-
-      <a href="#nicksetup">Be sure to check off all the steps and make sure
-      they're done</a>.  Then:
+      Regardless of which type of cloak you decide to get, the setup
+      is the same. Just read <a href="#nicksetup">this link</a>,
+      which explains the procedure. Be sure to check off all the
+      steps and make sure they're done. Then:
 
       <br /><br />
 

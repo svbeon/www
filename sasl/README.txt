@@ -5,6 +5,14 @@ This is a collection of scripts and add-ins for various clients to implement
 charybdis and ircd-seven's SASL mechanism for identifying to nickserv during
 connection.
 
+These clients support SASL natively:
+------------------------------------
+Conspire [http://confluence.atheme.org/display/CON/Home]
+KVIrc (versions 4+) [http://www.kvirc.net/]
+Quassel (versions 0.6.1+) [http://www.quassel-irc.org]
+Weechat [http://www.weechat.org/]
+
+
 Irssi
 -----
 
@@ -28,10 +36,9 @@ would any server.
 
 Enjoy the added security :D
 
---
-
 sasl-mirc.cpp is the source file used to build SASL.dll. The version on this
 page was created with Visual Studio 2008 on Windows 7.
+
 
 X-Chat
 ------
@@ -39,6 +46,7 @@ X-Chat
 Copy cap_sasl.py to your .xchat/ directory, so that it auto-loads. Once loaded,
 use the /SASL command to add or remove SASL settings per network -- its help
 text describes the syntax.
+
 
 X-Chat (alternative method)
 ---------------------------
@@ -51,9 +59,3 @@ to use to login (in the section titled "EDIT ME"). Load it, and connect.
 
 This script in its current form is very primitive; updates to allow proper
 configuration of login credentials per network would be welcome.
-
-
-Conspire
---------
-
-Conspire supports SASL natively.

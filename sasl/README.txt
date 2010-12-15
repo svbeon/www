@@ -39,9 +39,10 @@ Enjoy the added security :D
 sasl-mirc.cpp is the source file used to build SASL.dll. The version on this
 page was created with Visual Studio 2008 on Windows 7.
 
-NB: We've had some reports of problems running this on 64-bit Windows systems.
-If you have any experience with it, positive or negative, or are in a position
-to help track down any problems, please contact spb on IRC.
+NB: Several people have reported that this script doesn't work for them.
+However, several people have also reported that it does, so it's still here. If
+anyone is able to track down the problem and fix it, patches would be gratefully
+received.
 
 
 X-Chat

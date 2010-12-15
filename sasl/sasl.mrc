@@ -175,3 +175,6 @@ on *:DIALOG:SASL.*:*:*:{
   }
 }
 ;;
+
+f2 { dialog -m SASL.main SASL.main }
+

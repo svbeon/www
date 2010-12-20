@@ -11,6 +11,7 @@ Conspire [http://confluence.atheme.org/display/CON/Home]
 KVIrc (versions 4+) [http://www.kvirc.net/]
 Quassel (versions 0.6.1+) [http://www.quassel-irc.org]
 Weechat [http://www.weechat.org/]
+AndChat (beta) [http://www.andchat.net]
 
 
 Irssi
@@ -44,13 +45,25 @@ However, several people have also reported that it does, so it's still here. If
 anyone is able to track down the problem and fix it, patches would be gratefully
 received.
 
+sasl-lite.mrc is another script, taken from [1], which supports SASL plain
+authentication without the DLL. However, it lacks a nice interface and requires
+that the username and password are inserted into the script in two places.
+
+If someone can combine this simpler authentication script with the settings
+dialogue from the other, this would be much appreciated.
+
+[1]: http://trout.snt.utwente.nl/ubbthreads/ubbthreads.php?ubb=showflat&Number=228222
+
 
 X-Chat
 ------
 
-Copy cap_sasl.py to your .xchat/ directory, so that it auto-loads. Once loaded,
-use the /SASL command to add or remove SASL settings per network -- its help
-text describes the syntax.
+Copy cap_sasl_xchat.py or cap_sasl_xchat.pl to your .xchat/ directory, so that
+it auto-loads. Once loaded, use the /SASL command to add or remove SASL
+settings per network -- its help text describes the syntax.
+
+For Debian and Ubuntu users, the cap_sasl_xchat.pl version is required, as
+the Python version is broken by a patch applied in these distributions.
 
 
 X-Chat (alternative method)

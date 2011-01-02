@@ -18,33 +18,13 @@
 </p>
 
 <p>
-  <img src="http://freenode.net/images/310110graph.png" border="0" align="left">
-  <img src="http://freenode.net/images/white.png" width="25" height="700" border="0" align="left">
 
-  <h2>Give £7 for seven</h2>
-
-  We are happy to announce that after a long period of development, we have
-  changed the software which runs our IRC servers. At the end of January 2010, we
-  switched from the legacy <a href="hyperion.shtml">hyperion</a> to <a href="seven.shtml">ircd-seven</a>. 
-  You can read more about the changes on <a href="http://blog.freenode.net">our blog</a>.
-</p>
-<!--<p>
-  To celebrate the switchover we're running a one-off, one-week "special" fundraiser
-  (ending February 7th). Anyone donating at least £21 in a multiple of £7 will receive 
-  a freenode t-shirt. For more information or to make a donation see 
-
-<a href="http://freenode.net/pdpc_seven.shtml">here</a>.
--->
-</p>
-
-<p>
-
-   The 2009/2010 fundraiser is now underway, progress can be seen on the pie-chart on the 
-   left. Our fundraising goal for 2009/2010 is <b>£7500.00</b>, please 
-   dig deep, be generous and help us reach our target!
+   The PDPC 2009/2010 fundraiser has recently concluded and we look forward to updating you on its eventual progress soon.
+   Our traget was <b>£7500.00</b> and we'd like to thank all those who contributed. Our 2011 fundraiser will start early 
+   in the year, but if you wish to <a href="http://freenode.net/pdpc_donations.shtml">donate now</a> don't let that stop you! 
 </p>
 <p>
-   Thanks go to donors from the following channels who have chipped in with this years fundraiser so far:
+   Thanks go to donors from the following channels who have chipped in with part of the 2010 fundraiser so far:
 </p>
 <!--- I'd like the Channel stats/donor stuff hereish I think? ---!>
 <!--#include file="include/channel_donations.html" -->

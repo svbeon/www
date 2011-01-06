@@ -67,8 +67,6 @@
       <br /><br />
       <ul>
         <li><a href="#webchat">Can I access the network via webchat?</a></li>
-        <li><a href="#privmsg">Why can't I send private messages to other users?</a></li>
-        <li><a href="#fromunreg">How can I receive private messages from unregistered users?</a></li>
         <li><a href="#userequals">What is this '~' in some hostnames?</a></li>
         <li><a href="#howtoconnect">How do I connect to <span class="freenode">freenode</span>?  How do I use the network?</a></li>
         <li><a href="#channellist">How can I get a list of <span class="freenode">freenode</span> public channels?</a></li>

@@ -20,13 +20,28 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 </p>
 
 <p>This will show you information about one ban if
-  <em>btinfo [index]</em> is used. </p>
+  <em>btinfo [index]</em> is used. For example, the following command will show 
+  information about a ban with an index of 1058.
+
+  <blockquote><i>/MSG eir btinfo 1058</i></blockquote>
+
+</p>
 
 <p>If <em>btinfo [nick]</em> is used, then it will show all the
-  active bans set by the nick, and how many bans the nick has set in total.</p>
+  active bans set by the nick, and how many bans the nick has set in total. For 
+  example, the following command will show all active bans set by nhandler.
+
+  <blockquote><i>/MSG eir btinfo nhandler</i></blockquote>
+
+</p>
 
 <p>If <em>btinfo [#channel]</em> is used, the it will return a list of all the recorded bans
-  set in a channel (warning, this may be a long list). </p>
+  set in a channel (warning, this may be a long list). For example, the following 
+  command will show a list of all of the recorded bans set in #freenode.
+
+  <blockquote><i>/MSG eir btinfo #freenode</i></blockquote>
+
+</p>
 
 <p>
 <!--#set var="title" value="btcheck <em>[#channel] [nick|fullMask]</em>" -->
@@ -34,7 +49,13 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 </p>
 
 <p>This will return a list of active bans on the #channel that match the user
-  either by nick or full mask (nick will use the bot's internal list)</p>
+  either by nick or full mask (nick will use the bot's internal list). For 
+  example, the following command will show a list of all active bans set in 
+  #freenode that match nhandler.
+
+  <blockquote><i>/MSG eir btcheck #freenode nhandler!~nhandler@freenode/staff/ubuntu.member.nhandler</i></blockquote>
+
+</p>
 
 <p>
 <!--#set var="title" value="btpending <em>[#channel|nick]</em>" -->
@@ -43,7 +64,12 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 
 
 <p>This command will list all of the bans that are both active and uncommented
-  for the #channel or set by the nick.</p>
+  for the #channel or set by the specified nick. For example, the following 
+  command will show all active and uncommented bans for #freenode.
+
+  <blockquote><i>/MSG eir btpending #freenode</i></blockquote>
+
+</p>
 <p>
 <!--#set var="title" value="btexpired <em>[#channel]</em>" -->
 <!--#include file="include/title.shtml" -->
@@ -51,7 +77,12 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 
 
 <p>This command will list all of the bans in #channel that are active and
- expired.</p>
+ expired. For example, the following command will show all active and expired 
+ bans in #freenode.
+
+ <blockquote><i>/MSG eir btexpired #freenode</i></blockquote>
+
+</p>
 
 
 <p>
@@ -59,7 +90,13 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 <!--#include file="include/title.shtml" -->
 </p>
 
-<p>Sets the ban expiry time and/or the reason for the ban by index. </p>
+<p>Sets the ban expiry time and/or the reason for the ban by index. For example, 
+ the following command will set a ban with an index of 2634 to expire in 1 week
+ with a reason of 'Trolling'.
+
+ <blockquote><i>/MSG eir btset 2634 ~7d Trolling</i></blockquote>
+
+</p>
 
 <p>
 <!--#set var="title" value="Reasons" -->

@@ -7,7 +7,8 @@
   for multi-homed connections with significant bandwith available -- client servers 
 should expect to sustain around 1Mbps of traffic, with much higher peaks. Total usage for 
 client servers is usually around 320 gigabytes per month, while hidden hubs are generally 
-much lower overall.</font></p>
+much lower overall. Therefore, we are unable to consider offers of hosting from home cable/DSL
+connections.</font></p>
 
 <p><font face="Arial, Helvetica" color="#000000">We appreciate your interest in helping 
 the network grow and your willingness to contribute to that process. <span class="freenode">
@@ -17,8 +18,8 @@ via an automated script at a central location, and new servers are either staged
 or recompiled on the server account, depending on architecture and other factors.</font></p>
 
 <p><font face="Arial, Helvetica" color="#000000">We will happily acknowledge your contribution 
-publicly, however we don't, as a general rule provide O-lines or operator privileges to our 
-server hosts. However, facilities hosts may apply seperately for <span class="freenode">freenode</span> 
+publicly, however we don't, as a general rule, provide O-lines or operator privileges to our 
+server hosts. However, facilities hosts may apply separately for <span class="freenode">freenode</span> 
 <a href="http://www.freenode.net/volunteering.shtml">staff duty</a> and their applications will recieve 
 the same consideration as those of other users. When a staff application is accepted, no minimum 
 level of privilege is guaranteed or offered. Information on network operations can be found 
@@ -156,7 +157,7 @@ day to day running of the network, we ask that:</font></p>
 <li> Sponsors ensure that we have up-to-date contact information, on and offline</li>
 <li> Sponsors stay subscribed to the freenode-sponsors mailing list (low traffic, announcements only)</li>
 <li> Sponsors endeavour to, where possible, give us ample advance warning about network, hardware or software upgrades and maintenance which may affect the network.</li>
-<li> Sponsors communicate unexpected downtime/maintenance ASAP.</li>
+<li> Sponsors communicate reasons for unexpected downtime/maintenance ASAP.</li>
 </ul>
 
 <p>
@@ -180,8 +181,9 @@ email address hosting at freenode net:
 <li><b>Geographical location of the server</b> -- City, principality and country. Include any "local colour" (nearby landmarks and sites) that seem pertinent.</li>
 <li><b>Hosting Entity</b> -- Who should we credit for the server? Provide names of organisations (or individuals), URL and logo (for our acknowledgements page) as appropriate.</li>
 <li><b>Contact Information</b> -- Please include names and email addresses of contacts, as well as telephone numbers, snail mail addresses and contact hours (including time zones).</li>
-<li><b>Hardware, Software, Bandwith and Hosting</b> -- Please describe the system you're offering for hosting. Please go into as much detail as possible, providing us with details of routing and noc availability.</li>
+<li><b>Hardware, Software, Bandwith and Hosting</b> -- Please describe the system you're offering for hosting. Please <u>go into as much detail as possible</u>, providing us with details of routing and noc availability.</li>
 <li><b>IP address</b> -- this will allow us to perform latency and route checking.</li>
+<li><b>You and freenode</b> -- please explain what makes you/your company want to provide hosting for freenode, and what, if anything, you wish to get back from sponsorship.</li>
 <li><b>Server Name Preference</b> -- The server naming motif is "science fiction and fantasy authors". Vanity names may be provided, but canonical server names and standardised geographical names will be used exclusively by <span class="freenode">freenode</span>. If you have preferred authors, let us know and we will try to honour your preference.</li>
 </ul>
 

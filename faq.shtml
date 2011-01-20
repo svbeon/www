@@ -96,6 +96,7 @@
         <li><a href="#unban">How do I get unbanned/unquieted in a channel?</a></li>
         <li><a href="#talk">Why can't I talk in a certain channel?</a></li>
         <li><a href="#sendpass">What do I do if I forget my password?</a></li>
+        <li><a href="#monitor">Is there a way to get notified when a user comes online?</a></li>
       </ul>
       <br />
     </li>
@@ -1363,6 +1364,20 @@
 
       <br /><br />
     </li>
+
+    <li>
+      <b>
+        <a name="monitor"></a>Is there a way to get notified when a user comes online?
+      </b>
+
+      The server supports a special command called 'MONITOR', which is a server 
+      side notify list. This command is a more efficient version of most 'NOTIFY' 
+      commands or friend list that your client might support. A to script to add 
+      support for the 'MONITOR' command is available for <a href="monitor/monitor.pl">irssi</a>.
+
+      <br /><br />
+    </li>
+
   </ul>
 
   <br />

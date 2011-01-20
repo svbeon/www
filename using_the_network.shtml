@@ -97,8 +97,8 @@ for user modes, and "/mode #channel +i" for channels.</font></p>
 Consult "/msg ChanServ HELP SET MLOCK" for more details.</font></p>
 
 
-<p><font face="Arial, Helvetica" color="#000000"><br />The following is a list of ircd-seven user
-modes, some additional information about them is available by sending '/help umode' to the server:<br /><br /></font></p>
+<p><font face="Arial, Helvetica" color="#000000">The following is a list of ircd-seven user
+modes, some additional information about them is available by sending '/help umode' to the server:<br /></font></p>
 
 
 <table summary="ircd-seven 1.0 User Modes" cellspacing="0" cellpadding="5" border="1">

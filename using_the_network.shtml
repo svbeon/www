@@ -86,7 +86,12 @@ channel temperature low and reduce conflicts.</font></p>
 can help to simplify the system of flags.  See "/msg chanserv help template" for more information.</font></p>
 
 
+<p><font face="Arial, Helvetica" color="#000000">The user and channel modes listed below are to be treated differently
+to the flags described above. The modes below are set using the "/mode" command: either "/mode <nickname> +w" or "/umode +w"
+for user modes, and "/mode #channel +i" for channels.</font></p>
 
+<p><font face="Arial, Helvetica" color="#000000">Channel modes can also be set with the help of ChanServ's MLOCK feature.
+Consult "/msg ChanServ HELP SET MLOCK" for more details.</font></p>
 
 
 <p><font face="Arial, Helvetica" color="#000000"><br />The following is a list of ircd-seven user
@@ -188,9 +193,7 @@ modes, some additional information about them is available by sending '/help umo
 
 
 <p><font face="Arial, Helvetica" color="#000000"><br />The following is a list
-of ircd-seven 1.0 channel modes, some additional information about them is available by sending '/help cmode' to the server: <!-- Where a feature is currently described
-as <b>experimental,</b> network staff may need to enable the feature for
-your channel.<br /><br /></font></p> -->
+of ircd-seven 1.0 channel modes, some additional information about them is available by sending '/help cmode' to the server.</font></p>
 
 
 <table summary="ircd-seven 1.0 Channel Modes" cellspacing="0" cellpadding="5" border="1">

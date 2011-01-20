@@ -41,7 +41,7 @@ which contains a variety of other useful information as well.</font></p>
 
 
 
-
+<h3><font face="Arial, Helvetica" color="#000000">Channel and nick registration</font></h3>
 <p><font face="Arial, Helvetica" color="#000000"><b class=freenode>freenode</b> provides
 nickname and channel registration services.  These should be used to avoid
 disagreements about nickname use and to maintain clear operational control
@@ -65,6 +65,7 @@ For specific information on registration, use "/msg nickserv help register" or
 
 
 
+<h3><font face="Arial, Helvetica" color="#000000">Channel access configuration</font></h3>
 
 <p><font face="Arial, Helvetica" color="#000000">We strongly suggest that you avoid configuring
 your channel to "auto-op".  Use the chanserv "op" command to obtain
@@ -85,6 +86,8 @@ channel temperature low and reduce conflicts.</font></p>
 <p><font face="Arial, Helvetica" color="#000000">The use of a system called "templates"
 can help to simplify the system of flags.  See "/msg chanserv help template" for more information.</font></p>
 
+
+<h3><font face="Arial, Helvetica" color="#000000">Channel and user modes</font></h3>
 
 <p><font face="Arial, Helvetica" color="#000000">The user and channel modes listed below are to be treated differently
 to the flags described above. The modes below are set using the "/mode" command: either "/mode <nickname> +w" or "/umode +w"

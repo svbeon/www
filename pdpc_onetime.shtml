@@ -7,6 +7,7 @@
 <!--#include file="include/pdpc_donation_onetime.shtml" -->
 <!--#include file="include/pdpc_donation_trailer.shtml" -->
 
+  <img src="images/pdpc-heart.png" align="center" />
   This form can be used in order to make a single, one-time donation to
   Peer-Directed Projects Center, the not-for-profit
   entity which runs <span class="freenode">freenode</span>. Donations are

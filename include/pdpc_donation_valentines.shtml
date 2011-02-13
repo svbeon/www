@@ -1,13 +1,13 @@
     <select name="amount">
-      <option value="5.00">1 valentine (£5.00)</option>
-      <option value="10.00">2 valentines (£10.00)</option>
-      <option value="15.00" selected="selected">3 valentines (£15.00)</option>
-      <option value="30.00">6 valentines (£30.00) </option>
-      <option value="60.00">12 valentines (£60.00) </option>
-      <option value="120.00">24 valentines (£120.00) </option>
-      <option value="250.00">50 valentines (£250.00) </option>
-      <option value="500.00">100 valentines (£500.00) </option>
-      <option value="1000.00">200 valentines (£1000.00) </option>
+      <option value="5.00">1 hug (£5.00)</option>
+      <option value="10.00">2 hugs (£10.00)</option>
+      <option value="15.00" selected="selected">3 hugs (£15.00)</option>
+      <option value="30.00">6 hugs (£30.00) </option>
+      <option value="60.00">12 hugs (£60.00) </option>
+      <option value="120.00">24 hugs (£120.00) </option>
+      <option value="250.00">50 hugs (£250.00) </option>
+      <option value="500.00">100 hugs (£500.00) </option>
+      <option value="1000.00">200 hugs (£1000.00) </option>
 
 
 

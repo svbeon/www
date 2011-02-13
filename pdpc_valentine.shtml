@@ -1,33 +1,36 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="PDPC: Give £7 for seven." --><!--#set var="content_title" value="PDPC: Give £7 for seven." --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Love PDPC!" --><!--#set var="content_title" value="Love PDPC!" --><!--#include file="include/header-mainlogos.shtml" -->
 
-<b>The seven for seven fundraiser has ended, if you wish to make a donation 
-   please use the donation links in the side navigation bar! Thank you</b>
+<div class="contrib">
 
-  After 14months in testing and ongoing development, freenode is finally 
-  celebrating the long awaited switch over to ircd-seven. To celebrate 
-  the move we are running a one-off, one week (must end February 7th) 
-  fundraiser. Our goal is to make £700 towards our fiscal year target 
-  as part of the £7 for seven fundraiser.
+<!--#include file="include/pdpc_donation_header.shtml" -->
+<!--#include file="include/pdpc_donation_pdpc_only.shtml" -->
+<!--#include file="include/pdpc_donation_common.shtml" -->
+<!--#include file="include/pdpc_donation_valentines.shtml" -->
+<!--#include file="include/pdpc_donation_trailer.shtml" -->
 
-<br /> <br />
+<img src="images/pdpc-heart.png" height="200px" align="right"/>
 
-  Anyone donating at least £21 in a multiple of £7 will receive a 
-  freenode t-shirt. <b>Please indicate in notes with your donation size 
-  and choice of colour; black or white, S-XXXL. Plain t-shirts with the 
-  freenode logo on the chest.</b> T-shirts will be shipped at the end of 
-  February 2010, and we will contact you via your paypal e-mail address to 
-  to inform you of the estimated delivery date, when the shipment leaves 
-  us. Shipments outside of the UK will be shipped via Royal Mail 
+<p>We here at freenode and PDPC love Free and Open Source Software (FOSS), and we know that at least 70,000 of you do too.</p>
 
-  <a href="http://www.royalmail.com/portal/rm/content1?mediaId=400393&catId=400037">
-  Surface Mail</a>.
-<br /> <br />
+<p>What better time than the middle of February to show your love and appreciation?</p>
 
-  Please use this form to make a single, one-time 7 for seven donation to 
-  the Peer-Directed Projects Center, the not-for-profit 
-  entity which runs <span class="freenode">freenode</span>. Donations are
-  unconditional and irrevocable and will be used to fund PDPC programs and
-  general operating expenses.
+<p>The aim of this fundraiser is to generate £5000, which will help to cover general operating expenses and enable us to apply for recognition as a Charity. This will help us to show our appreciation to donors and sponsors (on freenode) who may be able to claim tax benefits from their governments as a result. It also means that we can ensure that more of future donations go towards PDPC's projects, and not to the taxman!</p>
+
+<p>While the aim of the fundraiser is, of course, to generate income for PDPC, we want to give you the opportunity to express your appreciation for the projects and developers you love. For the next two weeks only, we are running the following offers:</p>
+
+<h3>Valentine cloaks</h3>
+
+<p>Would you love to send your favourite developer a valentine? Donate £10 or more and we'll offer the target of your affections a "pdpc/valentine/message/account" cloak for the duration of the valentine period. The best bit? You get to choose "message"! Of course, you will still, subject to the same staff discretion as usual, be welcome to a PDPC supporter cloak for yourself. Donate here.</p>
+
+<p>Please keep the message clean and pleasant, and be aware that we will not set cloaks that we deem to be offensive or that the recipient does not want. If you wish for us to tell the recipient that you bought their cloak, let us know. All of this, with your account name too, should be conveyed in the PayPal donation message. We will process outstanding requests at least daily, and these valentine cloaks will remain for 24 hours from when they were set.</p>
+
+<h2>Cloud Nine</h2>
+
+<p>As usual, when you donate to PDPC, we will give you the opportunity to link your donation to a channel - this might be a channel you frequent, or that for a project you love. For the next few weeks (and possibly beyond, but without the love theme!), we are going to use this data to compile a Love Cloud (yes, you guessed it - "Cloud Nine") where at a glance you will be able to see the relative contributions in each project's name. We are measuring donations in hugs: £5 = 1 hug (£10 = 2, £500 = 100), and the hearts will be scaled appropriately.</p>
+
+<p>We're all about sharing the love here at freenode, so if you are naming a channel with your donation we would love it if you would tell us why. What makes this project so great? We might wallop some of the best messages (so set yourself /umode +w to see it), and we will blog the collected kudos at the end of the valentine period. If you do not want your account name to be attached to feedback that you send, please mention this to us. All of this should be placed into the PayPal donation comment. Donate here.</p>
+
+<p>Please use this form to make a single, one-time valentines donation to the Peer-Directed Projects Center, the not-for-profit entity which runs freenode. Donations are unconditional and irrevocable and will be used to fund PDPC programs and general operating expenses.</p>
 
   <br /><br />
 
@@ -53,7 +56,7 @@
   
   <ol>
     <li>
-      Select a 7for7 level from the drop-down box.
+      Select a number of roses from the drop-down box.
 
      <br /><br />
     </li>
@@ -69,17 +72,19 @@
   
       and enter your main nickname in the space provided in the form.  Your
       acknowledgement cloak will appear on your IRC sessions for a year and 
-      will show up as 'pdpc/supporter/7for7/nick' (7for7 showing at the level 
-      you made your donation, so could be any multiple of 7). 
+      will show up as 'pdpc/supporter/level/nick'. We are using the
+      same donation levels as usual for this fundraiser - <a href="pdpc_onetime.shtml">
+      from byte up to gold.</a>
 
      <br /><br />
     </li>
     <li>
       If you spent much of your <span class="freenode">freenode</span> time on a
       single channel, and you'd like to list your donation as coming from
-      that channel, just enter its name in the bottom box.  We'll keep a
-      running tally of the number of users contributing from each
-      channel.
+      that channel, just enter its name in the bottom box.  We'll use this
+      information for "Cloud Nine", as described above. Remember to tel us
+      know why this project is so great so we can share with the rest of the
+      network!
 
      <br /><br />
     </li>
@@ -88,10 +93,9 @@
     </li>
   </ol>
 
-<!--#include file="include/pdpc_donations_seven.shtml" -->
-
-
   <p>That's all it takes.  Thanks for the support!</p>
+
+
 </div>
 
 <!--#include file="include/trailer.shtml" -->

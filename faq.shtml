@@ -97,6 +97,7 @@
         <li><a href="#talk">Why can't I talk in a certain channel?</a></li>
         <li><a href="#sendpass">What do I do if I forget my password?</a></li>
         <li><a href="#monitor">Is there a way to get notified when a user comes online?</a></li>
+	<li><a href="#memoserv">How do I contact an offline user?</a></li>
       </ul>
       <br />
     </li>
@@ -1377,6 +1378,27 @@
 
       <br /><br />
     </li>
+
+    <li>
+      <b>
+        <a name="memoserv"></a>How do I contact an offline user?
+      </b>
+
+      <span class="freenode">freenode</span> runs several <a href="services.shtml">services</a>, 
+      one of which is MemoServ. You can send a message to a user via MemoServ with:
+
+      <blockquote><i>/MSG MemoServ SEND nhandler Please contact me when you get 
+      this message.</i></blockquote>
+
+      In this example, nhandler will be notified when he comes online about the 
+      message. If he has notifications enabled, he will also be notified via 
+      email. You can enable email notifications with:
+
+      <blockquote><i>/MSG NickServ SET EMAILMEMOS ON</i></blockquote>
+
+      You can prevent yourself from receiving messages via MemoServ with:
+
+      <blockquote><i>/MSG NickServ SET NOMEMO ON</i></blockquote>
 
   </ul>
 

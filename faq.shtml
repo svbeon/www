@@ -1373,8 +1373,8 @@
 
       The server supports a special command called 'MONITOR', which is a server 
       side notify list. This command is a more efficient version of most 'NOTIFY' 
-      commands or friend list that your client might support. A to script to add 
-      support for the 'MONITOR' command is available for <a href="monitor/monitor.pl">irssi</a>.
+      commands or friend list that your client might support. Consult your client's
+      documentation for help.
 
       <br /><br />
     </li>

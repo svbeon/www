@@ -1374,7 +1374,8 @@
       The server supports a special command called 'MONITOR', which is a server 
       side notify list. This command is a more efficient version of most 'NOTIFY' 
       commands or friend list that your client might support. Consult your client's
-      documentation for help.
+      documentation for help. A script for irssi is available from the irssi 
+      <a href="http://scripts.irssi.org">scripts repository</a>.
 
       <br /><br />
     </li>

@@ -11,7 +11,7 @@ Conspire [http://confluence.atheme.org/display/CON/Home]
 KVIrc (versions 4+) [http://www.kvirc.net/]
 Quassel (versions 0.6.1+) [http://www.quassel-irc.org]
 Weechat [http://www.weechat.org/]
-AndChat (beta) [http://www.andchat.net]
+AndChat (versions 1.3.4+) [http://www.andchat.net]
 
 
 Irssi

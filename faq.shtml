@@ -368,6 +368,15 @@
         </li>
 
         <li>
+          The email address that you select will not be given out by staff, and 
+          is mainly used to allow us to help you recover the account in the event 
+          that you forget your password. For this reason, you are required to use 
+          a real, non-disposable, email address. Upon registering, you will receive 
+          an email with a verification command that you will need to run to complete 
+          the registration process. Failure to verify the account will cause it to be 
+          automatically dropped after about 24 hours.
+
+        <li>
           To keep your email address private, rather than displaying it
           publicly, mark it as hidden (which is done by default for new accounts):
 

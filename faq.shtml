@@ -375,7 +375,7 @@
           an email with a verification command that you will need to run to complete 
           the registration process. Failure to verify the account will cause it to be 
           automatically dropped after about 24 hours.
-
+	</li>
         <li>
           To keep your email address private, rather than displaying it
           publicly, mark it as hidden (which is done by default for new accounts):

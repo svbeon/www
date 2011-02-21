@@ -4,7 +4,7 @@
 
   <span class="freenode">freenode</span> urgently needs solid, 
   well-connected hidden hub and public leaf servers. We look 
-  for multi-homed connections with significant bandwith available -- client servers 
+  for multi-homed connections with significant bandwidth available -- client servers 
 should expect to sustain around 1Mbps of traffic, with much higher peaks. Total usage for 
 client servers is usually around 320 gigabytes per month, while hidden hubs are generally 
 much lower overall. Therefore, we are unable to consider offers of hosting from home cable/DSL
@@ -18,9 +18,9 @@ via an automated script at a central location, and new servers are either staged
 or recompiled on the server account, depending on architecture and other factors.</font></p>
 
 <p><font face="Arial, Helvetica" color="#000000">We will happily acknowledge your contribution 
-publicly, however we don't, as a general rule, provide O-lines or operator privileges to our 
+publicly; however, we don't, as a general rule, provide O-lines or operator privileges to our 
 server hosts. However, facilities hosts may apply separately for <span class="freenode">freenode</span> 
-<a href="http://www.freenode.net/volunteering.shtml">staff duty</a> and their applications will recieve 
+<a href="http://www.freenode.net/volunteering.shtml">staff duty</a> and their applications will receive 
 the same consideration as those of other users. When a staff application is accepted, no minimum 
 level of privilege is guaranteed or offered. Information on network operations can be found 
 <a href="http://freenode.net/operations.shtml">here.</a> Hosting candidates are reminded that the 

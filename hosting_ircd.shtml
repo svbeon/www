@@ -111,9 +111,12 @@ The system will need to have the following software installed.<br /><br />
 <tr>
 <td>libssl-dev libraries</td>
 <td></td>
-<tr>
+</tr><tr>
 <td>vi or equivalent editor</td>
 <td>vim 7.x is preferred</td>
+</tr>
+<td>wget</td>
+<td></td>
 </tr>
 </table>
 

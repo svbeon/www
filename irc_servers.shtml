@@ -45,7 +45,7 @@ The following table lists freenode client servers, server names indicated in <i>
  column listen for IPv6 connections and can be connected to via the same hostname as for IPv4. chat.freenode.net has AAAA records for those servers with IPv6 capability, so simply telling your client to connect to chat.freenode.net by IPv6 should work. Please note that due to the low number of IPv6 servers currently in service, we do not provide regional IPv6 rotations.</p>
 
 <p> 
-All freenode servers listen on ports 6665, 6666, 6667, 7000(SSL Only), 7070 (SSL Only), 8000, 8001 and 8002. Please be aware that the below list is at no time authoritative, 
+All freenode servers listen on ports 6665, 6666, 6667, 6697 (SSL only), 7000 (SSL only), 7070 (SSL only), 8000, 8001 and 8002. Please be aware that the below list is at no time authoritative, 
 and as such our advice is to connect using <i>chat.freenode.net</i>.
 </p>
 <table summary="IRC Servers" cellspacing="0" cellpadding="5" border="1">
@@ -202,7 +202,7 @@ and as such our advice is to connect using <i>chat.freenode.net</i>.
 <p>
 Since the switch to ircd-seven, freenode now provides SSL client access on all
 servers. If your client is not configured to verify SSL certificates, then you
-can simply connect, with SSL enabled, on port 7000 or 7070.
+can simply connect, with SSL enabled, on port 6697, 7000 or 7070.
 </p><p>
 If you wish to verify the server certificates on connection, some additional
 work may be required. First, ensure that your system has an up-to-date set of
@@ -216,11 +216,11 @@ Those of you using irssi will find that it has some oddities in SSL certificate
 verification, and will not find the root certificates on its own. To work around
 this, use 
 
-<blockquote>/connect -ssl_verify -ssl_capath /etc/ssl/certs chat.freenode.net 7000</blockquote>
+<blockquote>/connect -ssl_verify -ssl_capath /etc/ssl/certs chat.freenode.net 6697</blockquote>
 
 or on FreeBSD
 
-<blockquote>/connect -ssl_cafile /usr/local/share/certs/ca-root-nss.crt chat.freenode.net 7000
+<blockquote>/connect -ssl_cafile /usr/local/share/certs/ca-root-nss.crt chat.freenode.net 6697
 </blockquote>
  Once you tell irssi where to find the root certificates, it should be
 able to verify the certificate correctly.

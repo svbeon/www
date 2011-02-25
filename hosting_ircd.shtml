@@ -17,8 +17,8 @@ maintained remotely from central sites using ssh and scp. New configuration file
 via an automated script at a central location, and new servers are either staged as binary files 
 or recompiled on the server account, depending on architecture and other factors.</font></p>
 
-<p><font face="Arial, Helvetica" color="#000000">We will happily acknowledge your contribution 
-publicly; however, we don't, as a general rule, provide O-lines or operator privileges to our 
+<p><font face="Arial, Helvetica" color="#000000">While we will happily acknowledge your contribution 
+publicly, we don't, as a general rule, provide O-lines or operator privileges to our 
 server hosts. However, facilities hosts may apply separately for <span class="freenode">freenode</span> 
 <a href="http://www.freenode.net/volunteering.shtml">staff duty</a> and their applications will receive 
 the same consideration as those of other users. When a staff application is accepted, no minimum 

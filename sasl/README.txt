@@ -8,10 +8,10 @@ connection.
 These clients support SASL natively:
 ------------------------------------
 Conspire [http://confluence.atheme.org/display/CON/Home]
-KVIrc (versions 4+) [http://www.kvirc.net/]
-Quassel (versions 0.6.1+) [http://www.quassel-irc.org]
+KVIrc (4+) [http://www.kvirc.net/]
+Quassel (0.6.1+) [http://www.quassel-irc.org]
 Weechat [http://www.weechat.org/]
-AndChat (versions 1.3.4+) [http://www.andchat.net]
+AndChat (1.3.4+) [http://www.andchat.net]
 
 
 Irssi
@@ -22,16 +22,23 @@ Load cap_sasl.pl, and /sasl set <network> <username> <password> <mechanism>
 Supported mechanisms are PLAIN and DH-BLOWFISH. Required perl modules are
 Crypt::OpenSSL::Bignum, Crypt::DH and Crypt::Blowfish.
 
+mIRC (new combined script)
+--------------------------
 
-mIRC
-----
+Load the sasl.mrc script into mIRC, and press F2 to configure SASL.
 
-The mIRC script was written by Kyle Travaglini, and taken by me from
+This script is a combination of sasl-old.mrc and sasl-lite.mrc below. Thanks to
+lowbox on freenode for providing it.
+
+mIRC (original script with DLL)
+-------------------------------
+
+The sasl-old mIRC script was written by Kyle Travaglini, and taken by me from
 http://forum.swiftirc.net/viewtopic.php?f=34&t=23101. His readme is below:
 
 Hello!
 
-Put SASL.dll and SASL.mrc into your $mircdir, load SASL.mrc into your remotes,
+Put SASL.dll and sasl-old.mrc into your $mircdir, load sasl-old.mrc into your remotes,
 press "f2", configure a network using the GUI interface, and connect as you
 would any server.
 

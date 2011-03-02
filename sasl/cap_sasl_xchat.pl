@@ -2,6 +2,12 @@
 # ported to X-Chat 2 by Lian Wan Situ
 #
 # license: GNU General Public License
+# Latest version at http://lwsitu.com/xchat/cap_sasl_xchat.pl
+
+### Configuration #######
+# How long to wait between authentication messages
+my $AUTHENTICATION_TIMEOUT = 5;
+### End Configuration ###
 
 use strict;
 use warnings;
@@ -11,7 +17,7 @@ use MIME::Base64;
 
 register(
 	"CAP SASL",
-	"1.0102",
+	"1.0106",
 	"Implements PLAIN SASL authentication mechanism for use with charybdis ircds, and enables CAP MULTI-PREFIX IDENTIFY-MSG",
 	\&cmd_sasl_save,
 );
@@ -25,7 +31,7 @@ hook_server( 'CAP', \&event_cap);
 hook_server( 'AUTHENTICATE', \&event_authenticate);
 hook_server( '900', sub {
 	cap_out( substr( $_[1][5], 1, ) );
-	unhook( $timeouts{ context_info->{id} } );
+	timeout_remove();
 	return EAT_XCHAT;
 });
 hook_server( '903', \&event_saslend);
@@ -34,7 +40,14 @@ hook_server( '905', \&event_saslend);
 hook_server( '906', \&event_saslend);
 hook_server( '907', \&event_saslend);
 
-hook_command( 'sasl', \&cmd_sasl );
+hook_command( 'SASL', \&cmd_sasl, { help_text => cmd_sasl_help_text() } );
+
+my $AUTH_TIMEOUT;
+if( $AUTHENTICATION_TIMEOUT ) {
+	$AUTH_TIMEOUT = $AUTHENTICATION_TIMEOUT * 1_000;
+} else {
+	$AUTH_TIMEOUT = 5_000;
+}
 
 my %sasl_auth = ();
 my %mech = ();
@@ -53,7 +66,8 @@ sub cap_end{
 }
 
 sub connected {
-	return context_info->{flags} & 1;
+	my $flags = context_info->{flags};
+	return  $flags & 1 || $flags & 2;
 }
 
 sub get_config_file {
@@ -103,7 +117,15 @@ sub event_cap {
 		}
 		$processing_cap{ $id } = 1;
 		$tosend .= ' multi-prefix' if $caps =~ /\bmulti-prefix\b/xi;
-		$tosend .= ' sasl' if $caps =~ /\bsasl\b/xi && defined($sasl_auth{network_name()});
+
+		if( $caps =~ /\bsasl\b/xi ) {
+			if( defined($sasl_auth{network_name()}) ) {
+				$tosend .= ' sasl';
+			} else {
+				cap_out( "\cC05SASL is supported but there is no authentication information set for this network(\cC02".network_name()."\cC05)." );
+			}
+		}
+
 		$tosend .= ' identify-msg' if $caps =~ /\bidentify-msg\b/;
 		$tosend =~ s/^ //;
 		cap_out( "CLICAP: supported by server: $caps" );
@@ -124,14 +146,14 @@ sub event_cap {
 				$_[0][0], get_info( "nick" ) );
 		}
 
-		if( $caps =~ / sasl /i ) {
+		if( $caps =~ /\bsasl\b/i ) {
 			$sasl_auth{network_name()}{buffer} = '';
 			if($mech{$sasl_auth{network_name()}{mech}}) {
 				send_raw( "AUTHENTICATE "
 					. $sasl_auth{network_name()}{mech}
 				);
-				$timeouts{ context_info->{id} }
-					= hook_timer(5000, sub { timeout(); return REMOVE } );
+
+				timeout_start();
 			} else {
 				cap_out( 'SASL: attempted to start unknown mechanism "%s"',
 					$sasl_auth{network_name()}{mech}
@@ -156,10 +178,11 @@ sub event_authenticate {
 	my $args = $_[1][1] || "";
 
 	my $sasl = $sasl_auth{network_name()};
-	return unless $sasl && $mech{$sasl->{mech}};
+	return EAT_XCHAT unless $sasl && $mech{$sasl->{mech}};
 
 	$sasl->{buffer} .= $args;
-	return if length($args) == 400;
+	timeout_reset();
+	return EAT_XCHAT if length($args) == 400;
 
 	my $data = $sasl->{buffer} eq '+' ? '' : decode_base64($sasl->{buffer});
 	my $out = $mech{$sasl->{mech}}($sasl, $data);
@@ -191,7 +214,24 @@ sub event_saslend {
 	return EAT_XCHAT;
 }
 
+sub timeout_start {
+	$timeouts{ context_info->{id} }
+		= hook_timer( $AUTH_TIMEOUT, sub { timeout(); return REMOVE; } );
+}
+
+sub timeout_remove {
+	unhook( $timeouts{ context_info->{id} } );
+}
+
+sub timeout_reset {
+	timeout_remove();
+	timeout_start();
+}
+
 sub timeout {
+	my $id = get_info "id";
+	delete $processing_cap{ $id };
+
 	if( connected() ) {
 		cap_out( "SASL: authentication timed out" );
 		cap_end();
@@ -202,7 +242,9 @@ my %sasl_actions = (
 	load => \&cmd_sasl_load,
 	save => \&cmd_sasl_save,
 	set => \&cmd_sasl_set,
+	delete => \&cmd_sasl_delete,
 	show => \&cmd_sasl_show,
+	help => \&cmd_sasl_help,
 	mechanisms => \&cmd_sasl_mechanisms,
 );
 
@@ -212,10 +254,29 @@ sub cmd_sasl {
 	if( $action and my $action_code = $sasl_actions{ $action } ) {
 		$action_code->( @_ );
 	} else {
-		$sasl_actions{ show }->( @_ );
+		$sasl_actions{ help }->( @_ );
 	}
 
 	return EAT_XCHAT;
+}
+
+sub cmd_sasl_help_text {
+	return <<"HELP_TEXT";
+SASL [action] [action paramters]
+    actions:
+    load        reload SASL information from disk
+    save        save the current SASL information to disk
+    set         set the SASL information for a particular network
+        set <net> <user> <passord or keyfile> <mechanism>
+    delete      delete the SASL information for a particular network
+        delete <net>
+
+    show        display which networks have SASL information set
+    mechanisms  display supported mechanisms
+
+    help        show help message
+HELP_TEXT
+
 }
 
 sub cmd_sasl_set {
@@ -242,6 +303,13 @@ sub cmd_sasl_set {
 	} else {
 		prnt( "SASL: usage: /sasl set <net> <user> <password or keyfile> <mechanism>" );
 	}
+}
+
+sub cmd_sasl_delete {
+	my $net = $_[0][2];
+	prnt "Net: $net";
+
+	delete $sasl_auth{$net};
 }
 
 sub cmd_sasl_show {
@@ -291,6 +359,10 @@ sub cmd_sasl_load {
 
 sub cmd_sasl_mechanisms {
 	prnt( "SASL: mechanisms supported: " . join(" ", keys %mech) );
+}
+
+sub cmd_sasl_help {
+	prnt( cmd_sasl_help_text() );
 }
 
 $mech{PLAIN} = sub {

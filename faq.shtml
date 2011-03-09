@@ -1219,7 +1219,7 @@
     
     <li>
       <b>
-        <a name="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?</a>
+        <a name="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?
       </b>
       Your account name and password must be sent to NickServ and verified,
       then NickServ must tell the servers about your cloak. This process
@@ -1279,7 +1279,7 @@
       to NickServ. You can identify to NickServ with 
 
       <blockquote><i>
-        /msg nickserv identify <nick> <password>
+        /MSG NickServ IDENTIFY YourNick YourPassword
       </i></blockquote>
 
       Certain channels have channel mode +r set, which prevents unidentified 
@@ -1409,6 +1409,7 @@
       You can prevent yourself from receiving messages via MemoServ with:
 
       <blockquote><i>/MSG NickServ SET NOMEMO ON</i></blockquote>
+    </li>
 
   </ul>
 

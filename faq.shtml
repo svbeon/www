@@ -95,6 +95,7 @@
         <li><a href="#join">Why can't I join a certain channel?</a></li>
         <li><a href="#unban">How do I get unbanned/unquieted in a channel?</a></li>
         <li><a href="#talk">Why can't I talk in a certain channel?</a></li>
+        <li><a href="#changepass">How do I change my password?</a></li>
         <li><a href="#sendpass">What do I do if I forget my password?</a></li>
         <li><a href="#monitor">Is there a way to get notified when a user comes online?</a></li>
 	<li><a href="#memoserv">How do I contact an offline user?</a></li>
@@ -1359,6 +1360,25 @@
       has channel mode +m enabled. This mode prevents anyone who is not voiced 
       from talking (if channel mode +z is also enabled, you will be able to talk, 
       but only operators will see your messages).
+
+      <br /><br />
+    </li>
+
+    <li>
+      <b>
+        <a name="changepass"></a>How do I change my password?
+      </b>
+
+      If you are identified to your account, you can change your password yourself. 
+      To change the password, enter the following command:
+
+      <blockquote><i>
+        /MSG NickServ SET PASSWORD mynewpassword
+      </i></blockquote>
+
+      Make sure that you are using SET PASSWORD instead of SETPASS. If you have 
+      forgotten your old password and are unable to identify, see <a href="#sendpass">
+      below</a> for information on how to have staff send you a password reset email.
 
       <br /><br />
     </li>

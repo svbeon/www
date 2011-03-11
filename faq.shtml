@@ -55,7 +55,7 @@
         <li><a href="#userexpirations">When do IRC nicknames expire?</a></li>
         <li><a href="#inuse">How do you know the last time an IRC nickname was used?</a></li>
         <li><a href="#unusednick">How can I take over a registered nick that hasn't been used in a long time?</a></li>
-        <li><a href="#nickisgone">I registered my nick and now someone else has it.  Did someone steal it?  How do I get it back?</a></li>
+        <li><a href="#nickisgone">I registered my nick and now someone else has it. Did someone steal it? How do I get it back?</a></li>
       </ul>
       <br />
     </li>
@@ -343,8 +343,8 @@
       
       <ol>
         <li>
-          Select a permanent, master nickname.  If the nickname you want is
-          registered but has not been used for at least 60 days, just
+          Select a permanent, master nickname. If the nickname you want is
+          registered but has <a href="#userexpirations">expired</a>, just
 
           <a href="#gettinghelp">ask a staffer</a>
           
@@ -495,15 +495,14 @@
         <a name="userexpirations"></a>When do IRC nicknames expire?
       </b>
 
-      We consider IRC nicks expired after 60 days without use. Accounts which
-      are at least two weeks old and which were last used less than two
-      hours after their creation are also considered to be expired. These
-      time limits do not apply to staff-reserved nicks, which are allocated
-      and dropped as needed.  If the nick you want to register is
-      someone's alternate nickname and it's the only alternate nickname
-      they have, we may be reluctant to drop it, even if it's expired. We also 
-      occassionally give nicks that have been registered a very long time a 
-      little extra time before we drop them.
+      We consider IRC nicks expired after they have not been used for 10 weeks 
+      plus one additional week per full year of registration. Accounts which are 
+      at least two weeks old and which were last used less than two hours after 
+      their creation are also considered to be expired. These time limits do not 
+      apply to staff-reserved nicks, which are allocated and dropped as needed. 
+      If the nick you want to register is someone's alternate nickname and it's 
+      the only alternate nickname they have, we may be reluctant to drop it, 
+      even if it's expired.
 
       <br /><br />
       Nicknames that are not confirmed by a valid email address will be
@@ -569,30 +568,24 @@
     
     <li>
       <b>
-        <a name="nickisgone"></a>I registered my nick and now someone else has it.  Did someone steal it?  How do I get it back?
+        <a name="nickisgone"></a>I registered my nick and now someone else has it. Did someone steal it? How do I get it back?
       </b>
       To keep your registered nick, you must
 
       <a href="#inuse">continue to use it</a>.
 
-      If you don't sign onto the network for at least 60 days, or you
-      don't identify to nickserv for at least 60 days, the nick is
-      considered <b>expired</b>, and someone can
-
-      <a href="#unusednick">ask to have it dropped</a>.
-
-      When a nick has been dropped and picked up by some other user, we
-      can't take it back from them.  That would be unfair to the user who
-      picked it up.
+      If you do not identify to your nick, it may eventually become 
+      <a href="#userexpirations">expired</a>. Once it becomes expired, someone 
+      can <a href="#unusednick">ask to have it dropped</a>. When a nick has been 
+      dropped and picked up by another user, we are not able to take it back 
+      from them. That would be unfair to the user who picked it up.
 
       In other cases, someone could simply be using the nick while unidentified. 
       You can force them to change their nick with:
 
       <blockquote><i>
-        /msg nickserv release &lt;nick&gt; &lt;password&gt;
+      /MSG NickServ RELEASE yournick yourpassword
       </i></blockquote>
-
-      Do not include the &lt; and &gt; around the nick and password.
 
       You may need to run the above command a second time if you get a message 
       saying the nick is temporarily unavailable.
@@ -601,7 +594,7 @@
       identify to the account within 30 seconds in order to continue to use it:
 
       <blockquote><i>
-        /msg nickserv set enforce on
+      /MSG NickServ SET ENFORCE ON
       </i></blockquote>
 
       <br /><br />
@@ -815,27 +808,22 @@
       </b>
 
       We consider <a href ="http://freenode.net/policy.shtml#channelnaming">non-primary</a>
-      IRC channels (those which start with "##") to be expired when their primary and
-      alternate channel contact nicknames are expired. We occasionally drop
-      expired channels and nicks in a large run, designed to clean out the
-      databases.  We also drop nicks which are considered to be expired on
-      an individual basis, either on request or when we notice them.  If a
-      channel contact's nick and the alternate contact's nick are dropped,
-      the associated channel may be dropped along with them.
+      IRC channels (those which start with "##") to be expired after they have 
+      not been used for 10 weeks plus one additional week per full year registered. 
+      Staff will determine this by verifying that the founder has not been 
+      present in the channel for that duration of time. We might also idle in the 
+      channel to confirm that it really is not being used.
 
-      <br /><br />
-
-      Subject to resource availability, staff may occasionally monitor
-      channels whose contact nickname registrations are not expired, in the
-      interest of determining whether the channels are actually active. If a
-      channel has no activity or has no conversation for a period of 60
-      days, it may be considered to be expired.
+      For active channels where the founder might simply have disappeared, staff 
+      may decide to have the regular users of the channel vote on who the channel 
+      should be transfered to.
 
       <br /><br />
 
       Primary channels, namely those which start with a single "#", can <b>only</b>
-      be dropped if a valid <a href="http://freenode.net/group_registration.shtml">Group Registration</a>
-      is completed. Primary channels are not dropped due to founder nick drops.
+      be dropped if a valid <a href="group_registration.shtml">Group Registration</a>
+      is completed. Primary channels are not dropped due to founder nick drops 
+      or after a long period of time without use.
 
       <br /><br />
     </li>

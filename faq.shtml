@@ -95,6 +95,7 @@
         <li><a href="#join">Why can't I join a certain channel?</a></li>
         <li><a href="#unban">How do I get unbanned/unquieted in a channel?</a></li>
         <li><a href="#talk">Why can't I talk in a certain channel?</a></li>
+        <li><a href="#changepass">How do I change my password?</a></li>
         <li><a href="#sendpass">What do I do if I forget my password?</a></li>
         <li><a href="#monitor">Is there a way to get notified when a user comes online?</a></li>
 	<li><a href="#memoserv">How do I contact an offline user?</a></li>
@@ -1219,7 +1220,7 @@
     
     <li>
       <b>
-        <a name="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?</a>
+        <a name="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?
       </b>
       Your account name and password must be sent to NickServ and verified,
       then NickServ must tell the servers about your cloak. This process
@@ -1279,7 +1280,7 @@
       to NickServ. You can identify to NickServ with 
 
       <blockquote><i>
-        /msg nickserv identify <nick> <password>
+        /MSG NickServ IDENTIFY YourNick YourPassword
       </i></blockquote>
 
       Certain channels have channel mode +r set, which prevents unidentified 
@@ -1365,6 +1366,25 @@
 
     <li>
       <b>
+        <a name="changepass"></a>How do I change my password?
+      </b>
+
+      If you are identified to your account, you can change your password yourself. 
+      To change the password, enter the following command:
+
+      <blockquote><i>
+        /MSG NickServ SET PASSWORD mynewpassword
+      </i></blockquote>
+
+      Make sure that you are using SET PASSWORD instead of SETPASS. If you have 
+      forgotten your old password and are unable to identify, see <a href="#sendpass">
+      below</a> for information on how to have staff send you a password reset email.
+
+      <br /><br />
+    </li>
+
+    <li>
+      <b>
         <a name="sendpass"></a>What do I do if I forget my password?
       </b>
 
@@ -1409,6 +1429,7 @@
       You can prevent yourself from receiving messages via MemoServ with:
 
       <blockquote><i>/MSG NickServ SET NOMEMO ON</i></blockquote>
+    </li>
 
   </ul>
 

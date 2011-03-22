@@ -12,6 +12,19 @@ mSASL Version 1.0 Beta [sans DLL] designed by Kyle Travaglini
 
 * only plain is supported for AuthType [blank defaults to plain]
 * auth timeout support added [blank defaults to 30 seconds]
+
+* break up authenticate lines over 400 characters
+* fixed edit network dialog error
+- noticed I set the hash tables to binary, removed binary flag [you might lose your settings]
+* added checks for required network configuration information
+* in network configuration [if left empty]:
+*   Domain defaults to 0
+*   Real Name defaults to $fullname, if not empty, then *
+*   Timeout defaults to 30 seconds [as above]
+*   AuthType defaults to PLAIN [as above]
+*   Network must be filled in
+*   Username must be filled in
+*   NS Password must be filled in
 */
 
 alias f2 { dialog -m SASL.main SASL.main }
@@ -22,6 +35,15 @@ menu menubar,status {
 }
 alias mSASL.ver { return 1.0 }
 alias mSASL.version { return mSASL $+(v,$mSASL.ver) Beta [sans DLL] }
+alias mSASL {
+  var %cid = $1, %network = $2
+  if (%network isin $SASL(%network).nlist) {
+    if ($prop == timer) { return $+(.timer,mSASL.TimeOut.,%cid,.,%network) }
+    elseif ($prop == timeout) {
+      if ($SASL(%network).status == Authenticating) { scid %cid .quote CAP END }
+    }
+  }
+}
 
 alias shname { return SASL }
 alias shfile { return $+(",$scriptdir,SASL.hsh,") }
@@ -46,29 +68,19 @@ alias SASL {
 }
 alias sd { hadd -m $shname $+($1,:,$2) $3- }
 
-alias -l mSASL {
-  var %cid = $1, %network = $2
-  if (%network isin $SASL(%network).nlist) {
-    if ($prop == timer) { return $+(.timer,mSASL.TimeOut.,%cid,.,%network) }
-    elseif ($prop == timeout) {
-      if ($SASL(%network).status == Authenticating) { scid %cid .quote CAP END }
-    }
-  }
-}
-
 on *:START:{
   if (!$hget($shname)) { hmake $shname 50 }
-  if ($exists($shfile)) { hload -b $shname $shfile }
+  if ($exists($shfile)) { hload $shname $shfile }
 }
 on *:EXIT:{
-  if (($hget($shname)) && ($hget($shname,0).item > 0)) { hsave -b $shname $shfile }
+  if (($hget($shname)) && ($hget($shname,0).item > 0)) { hsave $shname $shfile }
 }
 
 on ^*:LOGON:*:{
   if ($network isin $SASL($network).nlist) {
     .quote CAP LS
     .quote NICK $nick
-    .quote USER $SASL($network).user $SASL($network).domain 1 : $+ $SASL($network).realname
+    .quote USER $SASL($network).user $SASL($network).domain $server : $+ $SASL($network).realname
     sd $network STATUS Connecting
     haltdef
   }
@@ -96,7 +108,13 @@ raw CAP:*ACK*:{
 raw AUTHENTICATE:+:{
   if ($network isin $SASL($network).nlist) {
     if ($lower($SASL($network).authtype) == plain) {
-      .quote AUTHENTICATE $SASL($SASL($network).user, $SASL($network).passwd).plain
+      var %p = $SASL($SASL($network).user, $SASL($network).passwd).plain, %e
+      while ($len(%p) >= 400) {
+        var %e = $left(%p,400), %p = $mid(%p,401,0)
+        .quote AUTHENTICATE %e
+      }
+      if ($len(%p)) { .quote AUTHENTICATE %p }
+      else { .quote AUTHENTICATE + }
     }
     else { .quote CAP END }
     haltdef
@@ -189,7 +207,7 @@ on *:DIALOG:SASL.*:*:*:{
           hadd -m $shname EDIT True
           dialog -m SASL.edit SASL.edit
         }
-        else { dialog -m SASL.deletewarn SASL.deletewarn }
+        else { dialog -m SASL.editwarn SASL.editwarn }
       }
       elseif ($did == 7) {
         if ($did($dname,4).sel) {
@@ -202,9 +220,9 @@ on *:DIALOG:SASL.*:*:*:{
         else { dialog -m SASL.deletewarn SASL.deletewarn }
       }
       elseif ($did == 9) { usasl } 
-      elseif ($did == 10) { hsave -b $shname $shfile }
+      elseif ($did == 10) { hsave $shname $shfile }
       elseif ($did == 11) {
-        hload -b $shname $shfile
+        hload $shname $shfile
         did -r $dname 4
         var %net_iter = 1
         while (%net_iter <= $numtok($SASL().nlist,44)) {
@@ -229,7 +247,19 @@ on *:DIALOG:SASL.*:*:*:{
     }
     if ($devent == sclick) {
       if ($did == 16) {
-        var %network = $did($dname,3)
+        var %network = $did($dname,3), %user = $did($dname,5), %passwd = $did($dname,7)
+        if ((!%network) || (%network == network name needed)) {
+          if (!%network) { did -a $dname 3 network name needed }
+          halt
+        }
+        if ((!%user) || (%user == username name needed)) {
+          if (!%user) { did -a $dname 5 username name needed }
+          halt
+        }
+        if ((!%passwd) || (%passwd == password name needed)) {
+          if (!%passwd) { did -a $dname 7 password name needed }
+          halt
+        }
         if ($hget($shname,EDIT) == True) { hadd -m $shname NLIST $remtok($SASL().nlist,%network,1,44) }
         else {
           if ($findtok($SASL().nlist,%network,1,44)) {

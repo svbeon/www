@@ -1549,14 +1549,14 @@
       <b>
         <a name="projectcloak"></a>How do we set up cloaking to identify participants in our FOSS project?
       </b>
-      
-      First
+     
+	It is necessary to
 
       <a href="group_registration.shtml">register your group</a>
 
       to provide <span class="freenode">freenode</span> staff with an official
       liason to your project.  We'll contact you to work out an
-      appropriate cloaking suffix to identify your participants.  Your
+      appropriate cloaking prefix to identify your participants.  Your
       group contact will be responsible for contacting us, as needed, to
       designate the IRC nicknames of participants who are eligible to
       have your project cloaks, as well as the specifics of the cloaks. 
@@ -1653,7 +1653,9 @@
       </b>
       
       The following checklist will help you set up your registration and
-      group contacts.
+      group contacts. Please note that you should not file a group registration
+	form as a matter of course - only do so if there is a channel naming dispute
+	or you have otherwise been instructed by staff.
       
       <br /><br />
       
@@ -1892,7 +1894,11 @@
       </b>
 
       We're several months behind in our processing of the forms. We're
-      catching up as quickly as we can.
+      catching up as quickly as we can. Currently, only "priority" forms
+	are being processed. For these purposes, priority forms are those 
+	for groups which do not currently have access to their channel, and
+	require a processed form for access to be transferred. If your
+      group fits into this category, read <a href="http://blog.freenode.net/2010/06/group-registration-form-verifications/">this blogpost</a>.
       
       <br /><br />
     </li>

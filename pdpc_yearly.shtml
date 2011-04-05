@@ -7,10 +7,6 @@
 <!--#include file="include/pdpc_donation_yearly.shtml" -->
 <!--#include file="include/pdpc_donation_trailer.shtml" -->
 
-  <a href="pdpc_valentine.shtml"><img src="images/pdpc-heart.png" height="200px" align="right"/></a>
-
-<b><a href="pdpc_valentine.shtml">Click here</a> to donate as part of our 2011 "Valentine" fundraiser!</b>
-
   <p>
     This form can be used in order to set up a yearly, automatic donation to
     Peer-Directed Projects Center (PDPC) via a PayPal subscription.

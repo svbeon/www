@@ -6,6 +6,13 @@ mSASL Version 1.0 Beta [sans DLL] designed by Kyle Travaglini
 
 
 [sans DLL changes]
+Tested with versions 6.12, 6.35 and 7.19
+Should work with v6.0+ (the version multi-server support was added)
+scid/$cid is used for the sasl auth timedout timer to send CAP END to the proper server
+if it was not used v5.8+ would work
+
+how to guide w/ pictures if you need help: http://bit.ly/mirc-sasl-howto
+
 - $dll call removed and replaced with scripted version [$SASL(username,password).plain]
 - $decode call removed and replaced with plain text [mIRC disables $decode by default]
 * a few other edits to fix bugs and add a bit more function
@@ -25,48 +32,53 @@ mSASL Version 1.0 Beta [sans DLL] designed by Kyle Travaglini
 *   Network must be filled in
 *   Username must be filled in
 *   NS Password must be filled in
+
+* added check for nickname in use error, resend as $me_$rand(a, z)
+* fixed some dialog display errors
+* change from /quote to /raw
 */
 
-alias f2 { dialog -m SASL.main SASL.main }
-menu menubar,status {
-  -
-  $mSASL.version: f2
-  -
-}
 alias mSASL.ver { return 1.0 }
-alias mSASL.version { return mSASL $+(v,$mSASL.ver) Beta [sans DLL] }
+alias mSASL.version { return mSASL $+(v, $mSASL.ver) Beta [sans DLL] }
 alias mSASL {
   var %cid = $1, %network = $2
   if (%network isin $SASL(%network).nlist) {
-    if ($prop == timer) { return $+(.timer,mSASL.TimeOut.,%cid,.,%network) }
+    if ($prop == timer) { return $+(.timer, mSASL.TimeOut., %cid, ., %network) }
     elseif ($prop == timeout) {
-      if ($SASL(%network).status == Authenticating) { scid %cid .quote CAP END }
+      if ($SASL(%network).status == Authenticating) { scid %cid .raw CAP END }
     }
   }
+}
+alias mSASL.show { dialog -m SASL.main SASL.main }
+alias f2 { mSASL.show }
+menu menubar,status {
+  -
+  $mSASL.version: mSASL.show
+  -
 }
 
 alias shname { return SASL }
-alias shfile { return $+(",$scriptdir,SASL.hsh,") }
+alias shfile { return $+(", $scriptdir, SASL.hsh, ") }
 alias SASL {
   if ($isid) {
-    if ($prop == nlist) { return $hget($shname,NLIST) }
-    if ($prop == timeout) { return $hget($shname,$+($1,:TIMEOUT)) }
-    if ($prop == user) { return $hget($shname,$+($1,:USER)) }
-    if ($prop == passwd) { return $hget($shname,$+($1,:PASSWD)) }
-    if ($prop == domain) { return $hget($shname,$+($1,:DOMAIN)) }
-    if ($prop == realname) { return $hget($shname,$+($1,:REALNAME)) }
-    if ($prop == status) { return $hget($shname,$+($1,:STATUS)) }
-    if ($prop == authtype) { return $hget($shname,$+($1,:AUTHTYPE)) }
+    if ($prop == nlist) { return $hget($shname, NLIST) }
+    if ($prop == timeout) { return $hget($shname, $+($1, :TIMEOUT)) }
+    if ($prop == user) { return $hget($shname, $+($1, :USER)) }
+    if ($prop == passwd) { return $hget($shname, $+($1, :PASSWD)) }
+    if ($prop == domain) { return $hget($shname, $+($1, :DOMAIN)) }
+    if ($prop == realname) { return $hget($shname, $+($1, :REALNAME)) }
+    if ($prop == status) { return $hget($shname, $+($1, :STATUS)) }
+    if ($prop == authtype) { return $hget($shname, $+($1, :AUTHTYPE)) }
     if ($prop == plain) {
       bset -t &auth 1 $1
-      bset -t &auth $calc( $bvar(&auth,0) + 2 ) $1
-      bset -t &auth $calc( $bvar(&auth,0) + 2 ) $2
-      var %len = $encode(&auth,mb)
-      return $bvar(&auth,1,%len).text
+      bset -t &auth $calc( $bvar(&auth, 0) + 2 ) $1
+      bset -t &auth $calc( $bvar(&auth, 0) + 2 ) $2
+      var %len = $encode(&auth, mb)
+      return $bvar(&auth, 1, %len).text
     }
   }
 }
-alias sd { hadd -m $shname $+($1,:,$2) $3- }
+alias sd { hadd -m $shname $+($1, :, $2) $3- }
 
 on *:START:{
   if (!$hget($shname)) { hmake $shname 50 }
@@ -78,9 +90,9 @@ on *:EXIT:{
 
 on ^*:LOGON:*:{
   if ($network isin $SASL($network).nlist) {
-    .quote CAP LS
-    .quote NICK $nick
-    .quote USER $SASL($network).user $SASL($network).domain $server : $+ $SASL($network).realname
+    .raw CAP LS
+    .raw NICK $me
+    .raw USER $SASL($network).user $SASL($network).domain $server : $+ $SASL($network).realname
     sd $network STATUS Connecting
     haltdef
   }
@@ -94,14 +106,14 @@ on *:DISCONNECT:{
 
 raw CAP:*LS*:{
   if ($network isin $SASL($network).nlist) {
-    .quote CAP REQ :multi-prefix sasl
-    var %t = $mSASL($cid,$network).timer
-    %t 1 $SASL($network).timeout noop $mSASL($cid,$network).timeout
+    .raw CAP REQ :multi-prefix sasl
+    var %t = $mSASL($cid, $network).timer
+    %t 1 $SASL($network).timeout noop $mSASL($cid, $network).timeout
   }
 }
 raw CAP:*ACK*:{
   if ($network isin $SASL($network).nlist) {
-    .quote AUTHENTICATE $SASL($network).authtype
+    .raw AUTHENTICATE $SASL($network).authtype
     sd $network STATUS Authenticating
   }
 }
@@ -110,25 +122,34 @@ raw AUTHENTICATE:+:{
     if ($lower($SASL($network).authtype) == plain) {
       var %p = $SASL($SASL($network).user, $SASL($network).passwd).plain, %e
       while ($len(%p) >= 400) {
-        var %e = $left(%p,400), %p = $mid(%p,401,0)
-        .quote AUTHENTICATE %e
+        var %e = $left(%p, 400), %p = $mid(%p, 401, 0)
+        .raw AUTHENTICATE %e
       }
-      if ($len(%p)) { .quote AUTHENTICATE %p }
-      else { .quote AUTHENTICATE + }
+      if ($len(%p)) { .raw AUTHENTICATE %p }
+      else { .raw AUTHENTICATE + }
     }
-    else { .quote CAP END }
+    else { .raw CAP END }
     haltdef
   }
 }
 raw *:*:{
   if ($network isin $SASL($network).nlist) {
     if ($numeric isnum 903) {
-      .quote CAP END
+      .raw CAP END
       sd $network STATUS Authenticated
-      var %t = $mSASL($cid,$network).timer
+      var %t = $mSASL($cid, $network).timer
       %t off
     }
-    elseif ($numeric isnum 904-907) { .quote CAP END }
+    elseif ($numeric isnum 904-907) { .raw CAP END }
+    elseif ($numeric isnum 433) {
+      if ($istokcs(Connecting Authenticating Authenticated, $SASL($network).status, 32)) {
+        var %nick_temp = $me $+ _ $+ $rand(a, z)
+        echo -setc Info * SASL: Nickname is already in use. Falling back to %nick_temp
+        .raw NICK %nick_temp
+        .raw USER $SASL($network).user $SASL($network).domain $server : $+ $SASL($network).realname
+        haltdef
+      }
+    }
   }
 }
 
@@ -192,29 +213,32 @@ on *:DIALOG:SASL.*:*:*:{
     if ($devent == init) {
       did -r $dname 3
       did -a $dname 3 Created by Kyle Travaglini
-      var %net_iter = 1
-      while (%net_iter <= $numtok($SASL().nlist,44)) {
-        did -a $dname 4 $gettok($SASL().nlist,%net_iter,44)
-        inc %net_iter 1      
-      }
+      didtok $dname 4 44 $SASL($network).nlist
       ;// disable 'Update SASL' button
       did -b $dname 9
     }
     if ($devent == sclick) {
-      if ($did == 5) { dialog -m SASL.edit SASL.edit }
+      if ($did == 5) {
+        if ($hget($shname, EDIT) == True) {
+          hdel $shname EDIT
+          hdel $shname EDITn
+        }
+        dialog -m SASL.edit SASL.edit
+      }
       elseif ($did == 6) {
-        if ($did($dname,4).seltext) {
+        if ($did($dname, 4).seltext) {
           hadd -m $shname EDIT True
+          hadd -m $shname EDITn $did($dname, 4).seltext
           dialog -m SASL.edit SASL.edit
         }
         else { dialog -m SASL.editwarn SASL.editwarn }
       }
       elseif ($did == 7) {
-        if ($did($dname,4).sel) {
-          if ($?!="Are you certain you wish to delete $did($dname,4).seltext $+ ?") {
-            hdel -w $shname $+($did($dname,4).seltext,:*)
-            hadd -m $shname NLIST $remtok($SASL().nlist,$did($dname,4).seltext,1,44)
-            did -d $dname 4 $did($dname,4).sel
+        if ($did($dname, 4).sel) {
+          if ($?!="Are you certain you wish to delete $did($dname, 4).seltext $+ ?") {
+            hdel -w $shname $+($did($dname, 4).seltext, :*)
+            hadd -m $shname NLIST $remtok($SASL($network).nlist, $did($dname, 4).seltext, 1, 44)
+            did -d $dname 4 $did($dname, 4).sel
           }
         }
         else { dialog -m SASL.deletewarn SASL.deletewarn }
@@ -224,18 +248,14 @@ on *:DIALOG:SASL.*:*:*:{
       elseif ($did == 11) {
         hload $shname $shfile
         did -r $dname 4
-        var %net_iter = 1
-        while (%net_iter <= $numtok($SASL().nlist,44)) {
-          did -a $dname 4 $gettok($SASL().nlist,%net_iter,44)
-          inc %net_iter 1      
-        }
+        didtok $dname 4 44 $SASL($network).nlist
       }
     }
   }
   elseif ($dname == SASL.edit) {
     if ($devent == init) {
-      if ($hget($shname,EDIT) == True) {
-        var %network = $did(SASL.main,4).seltext
+      if ($hget($shname, EDIT) == True) {
+        var %network = $did(SASL.main, 4).seltext
         did -a $dname 3 %network
         did -a $dname 5 $SASL(%network).user
         did -a $dname 7 $SASL(%network).passwd
@@ -247,7 +267,7 @@ on *:DIALOG:SASL.*:*:*:{
     }
     if ($devent == sclick) {
       if ($did == 16) {
-        var %network = $did($dname,3), %user = $did($dname,5), %passwd = $did($dname,7)
+        var %network = $did($dname, 3), %user = $did($dname, 5), %passwd = $did($dname, 7)
         if ((!%network) || (%network == network name needed)) {
           if (!%network) { did -a $dname 3 network name needed }
           halt
@@ -260,29 +280,33 @@ on *:DIALOG:SASL.*:*:*:{
           if (!%passwd) { did -a $dname 7 password name needed }
           halt
         }
-        if ($hget($shname,EDIT) == True) { hadd -m $shname NLIST $remtok($SASL().nlist,%network,1,44) }
+        if ($hget($shname, EDIT) == True) { hadd -m $shname NLIST $remtok($SASL($network).nlist, %network, 1, 44) }
         else {
-          if ($findtok($SASL().nlist,%network,1,44)) {
+          if ($findtok($SASL($network).nlist, %network, 1, 44)) {
             if ($?!=" $+ %network already exists; overwrite?") {
-              hadd -m $shname NLIST $remtok($SASL().nlist,%network,1,44)
+              hadd -m $shname NLIST $remtok($SASL($network).nlist, %network, 1, 44)
             }
             else { halt }
           }
         }
-        hdel $shname EDIT
-        hadd -m $shname NLIST $+($SASL().nlist,$chr(44),%network)
-        sd %network USER $did($dname,5)
-        sd %network PASSWD $did($dname,7)
-        sd %network DOMAIN $iif($did($dname,9),$v1,0)
-        sd %network REALNAME $iif($did($dname,11),$v1,$iif($fullname,$v1,*))
-        sd %network TIMEOUT $iif($did($dname,13),$v1,30)
-        sd %network AUTHTYPE $iif($did($dname,15),$upper($v1),PLAIN)
-        var %net_iter = 1
-        did -r SASL.main 4
-        while (%net_iter <= $numtok($SASL().nlist,44)) {
-          did -a SASL.main 4 $gettok($SASL().nlist,%net_iter,44)
-          inc %net_iter 1      
+        if ($hget($shname, EDIT) == True) && ($hget($shname, EDITn) != %network) {
+          if ($?!="rename $hget($shname, EDITn) to %network $+ ?") {
+            hdel -w $shname $+($hget($shname, EDITn), :*)
+            hadd -m $shname NLIST $remtok($SASL($network).nlist, $hget($shname, EDITn), 1, 44)
+          }
+          else { halt }
         }
+        hdel $shname EDIT
+        hdel $shname EDITn
+        hadd -m $shname NLIST $+($SASL($network).nlist, $chr(44), %network)
+        sd %network USER $did($dname, 5)
+        sd %network PASSWD $did($dname, 7)
+        sd %network DOMAIN $iif($did($dname, 9), $v1, 0)
+        sd %network REALNAME $iif($did($dname, 11), $v1, $iif($fullname, $v1, *))
+        sd %network TIMEOUT $iif($did($dname, 13), $v1, 30)
+        sd %network AUTHTYPE $iif($did($dname, 15), $upper($v1), PLAIN)
+        did -r SASL.main 4
+        didtok SASL.main 4 44 $SASL($network).nlist
       }
     }
   }

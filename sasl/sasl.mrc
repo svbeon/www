@@ -7,9 +7,7 @@ mSASL Version 1.0 Beta [sans DLL] designed by Kyle Travaglini
 
 [sans DLL changes]
 Tested with versions 6.12, 6.35 and 7.19
-Should work with v6.0+ (the version multi-server support was added)
-scid/$cid is used for the sasl auth timedout timer to send CAP END to the proper server
-if it was not used v5.8+ would work
+Should work with v6.03+ (when $input changed to letter flags)
 
 how to guide w/ pictures if you need help: http://bit.ly/mirc-sasl-howto
 
@@ -36,6 +34,10 @@ how to guide w/ pictures if you need help: http://bit.ly/mirc-sasl-howto
 * added check for nickname in use error, resend as $me_$rand(a, z)
 * fixed some dialog display errors
 * change from /quote to /raw
+
+* added check for server list file
+*   fixes error when trying to load server list when you have not saved one
+* changed manager button text to clarify what they do
 */
 
 alias mSASL.ver { return 1.0 }
@@ -160,11 +162,11 @@ dialog SASL.main {
   box "Server List" 1, 5 3 140 113
   text "Created by Kyle Travaglini" 3, 40 135 65 12
   list 4, 10 13 80 104, vsbar, edit
-  button "Add" 5, 96 13 43 12
-  button "Edit" 6, 96 30 43 12
-  button "Delete" 7, 96 47 43 12
-  button "Save" 10, 96 64 43 12
-  button "Load" 11, 96 81 43 12
+  button "Add Entry" 5, 96 13 43 12
+  button "Edit Entry" 6, 96 30 43 12
+  button "Delete Entry" 7, 96 47 43 12
+  button "Save List" 10, 96 64 43 12
+  button "Load List" 11, 96 81 43 12
   button "OK" 8, 27 120 43 12, ok
   button "Update SASL" 9, 77 120 43 12
 }
@@ -244,11 +246,19 @@ on *:DIALOG:SASL.*:*:*:{
         else { dialog -m SASL.deletewarn SASL.deletewarn }
       }
       elseif ($did == 9) { usasl } 
-      elseif ($did == 10) { hsave $shname $shfile }
+      elseif ($did == 10) {
+        if (($hget($shname)) && ($hget($shname,0).item > 0)) { hsave $shname $shfile }
+      }
       elseif ($did == 11) {
-        hload $shname $shfile
-        did -r $dname 4
-        didtok $dname 4 44 $SASL($network).nlist
+        if ($exists($shfile)) {
+          if (!$hget($shname)) { hmake $shname 50 }
+          hload $shname $shfile
+          did -r $dname 4
+          didtok $dname 4 44 $SASL($network).nlist
+        }
+        else {
+          .echo -q $input(No file to load, ohu)
+        }
       }
     }
   }

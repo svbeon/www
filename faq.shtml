@@ -98,7 +98,8 @@
         <li><a href="#changepass">How do I change my password?</a></li>
         <li><a href="#sendpass">What do I do if I forget my password?</a></li>
         <li><a href="#monitor">Is there a way to get notified when a user comes online?</a></li>
-	<li><a href="#memoserv">How do I contact an offline user?</a></li>
+        <li><a href="#memoserv">How do I contact an offline user?</a></li>
+        <li><a href="#channelts">What does it mean when I see &quot;*** Notice -- TS for #channel changed from 1300123123 to 1255123123&quot;?</a></li>
       </ul>
       <br />
     </li>
@@ -1417,6 +1418,23 @@
       You can prevent yourself from receiving messages via MemoServ with:
 
       <blockquote><i>/MSG NickServ SET NOMEMO ON</i></blockquote>
+    </li>
+
+    <li>
+      <b>
+        <a name="channelts">What does it mean when I see &quot;*** Notice -- TS for #channel changed from 1300123123 to 1255123123&quot;?</a>
+      </b>
+
+      You may see a server notice like this when you join an empty, registered
+      channel. The TS is the server adjusting the channel's timestamp, which is
+      saved for every channel and used when recovering from netsplits. If a
+      channel is created independently on two servers that are split, the older
+      channel wins, and when the servers reunite, the newer channel's mode
+      changes and timestamp will be undone and replaced by the older, triggering
+      the notice you see.
+      <br /><br />
+      In short, it's a technical detail that you can safely ignore.
+      <br /><br />
     </li>
 
   </ul>

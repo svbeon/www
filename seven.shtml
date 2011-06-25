@@ -4,7 +4,7 @@
 <span class="freenode">freenode</span>'s next generation ircd project, 
 ircd-seven, is a branch of the 
 
-<a href="http://hg.atheme.org/charybdis">charybdis</a>
+<a href="http://www.atheme.org/project/charybdis">charybdis</a>
 
 ircd, with changes specific to freenode's needs. It has been designed to replace
 the legacy

@@ -244,7 +244,11 @@
 <!--#include file="include/title.shtml" -->
 
 <p>
+  Our current policy is not to create new forwards between # and ## channels of the same name.
+  Some channels may be forwarded to a holding channel that explains the namespace policy.
+</p> 
 
+<p>  
   If a primary channel name owner has never registered its group on
 
   <span class="freenode">freenode</span>
@@ -271,10 +275,9 @@
 
 <p>
   The forward will be removed if the name owner registers and reserves the
-  channel (or, in a case where the name owner has left the network, if the
-  group returns to active participation).  It may also be removed if, in the
-  opinion of senior network staff, the destination channel no longer
-  provides a sufficiently friendly, useful or effective support environment.
+  # channel (or, in a case where the name owner has left the network, if the
+  group returns to active participation).  Channel forwards should be considered
+  to be temporary and subject to removal.
 </p>
 
 <!--#set var="title" value="<br /><a name=\"ontopic\"></a>On-Topic Use" -->

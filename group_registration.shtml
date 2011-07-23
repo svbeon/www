@@ -1,0 +1,315 @@
+<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Group Registration" --><!--#set var="content_title" value="Group Registration" --><!--#include file="include/header-mainlogos.shtml" -->
+
+<p>If you are considering registering as a group on freenode, or you have already filed a GCF and are waiting for this to be processed, please be aware that we are currently experiencing a time-delay in processing forms. 
+This is an unfortunate side-effect of the combination of the following:
+<ul>
+<li> The network has more than doubled in size in the past couple of years, while the number of committed volunteer staff stay much the same as before.</li>
+<li> The PDPC (freenode's parent organisation) no longer has any paid employees and is entirely volunteer-run, a big change from 2006 when there was a dedicated full-time paid employee.</li>
+<li> Under a volunteer-only system the current process is too costly in time and money, and we are committed to develop a replacement. This is the  <a href="http://dev.freenode.net/GMS">Group Management System</a>, which 
+is being worked on when time and availability of volunteers allow (freenode is desperately seeking coders, for this and other projects).</li>
+<li> Due to sensitive nature of the information contained within the Group Contact registration forms currently, only a limited number of people are able to process these, for legal reasons -- to protect both you and us.</li>
+</ul>
+</p>
+
+<p>
+For the reasons outlined above, the current system is rather inadequate and we hope we will get a replacement in place soon which will enable you to have your group registered much faster than what is currently possible. Due to the current
+backlog, priority is given to groups requiring approval in order to re-gain access/control of their group namespace. We would also ask that "about groups" (ie. double hash/## namespace) do not submit group registration forms. </p> 
+
+<p>
+We apologise for the inconvenience and delay and ask that you have patience with us while we attempt to adjust to the exceptional growth and popularity the network has experienced as of late and the transition to being entirely 
+volunteer-run.
+</p>
+<hr>
+<p>
+  This page describes group registration and the use of the
+
+  <span class="freenode">freenode</span>
+
+  group contact. Group registration allows your project or organization to
+  maintain unambiguous "real world" contact with the
+  
+  <span class="freenode">freenode</span>
+  
+  network staff. Groups can be associated
+  
+  <a href="primary_groups.shtml">primary</a>
+
+  or
+
+  <a href="about_groups.shtml">"about"</a>
+
+  channels. In either case, group registration represents an official
+  relationship with
+  
+  <span class="freenode">freenode</span>
+  
+  and
+  
+  <a href="pdpc.shtml">PDPC</a>.
+</p>
+
+<p>
+  Once you've gone over the material below,
+
+  <a href="group_registration_form.php">this form</a>
+
+  will allow you to set up your registration by submitting one or more group
+  contacts.  Group registration, contact list maintenance and requests for
+  assistance are currently handled directly by network staff, but at some
+  point these procedures will be replaced by a web-based system, which we
+  hope will make the process much smoother, and allow more timely updates to
+  your group configuration.
+
+  <br /><br />
+</p>
+
+<p>
+  <a name="relationship"></a>Group registration:
+</p>
+
+<ol>
+  <li>
+    <b>
+      Represents an official relationship between
+    
+      <span class="freenode">freenode</span>
+      
+      and your project or organization.
+    </b>
+    
+    By registering your group, you're indicating that you are maintaining an
+    official presence on the network. If your group is a legal entity, we want
+    to make sure that management has approved your registration.
+
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Requires no special type or level of participation.
+    </b>
+    
+    You may maintain as little or as much control over your channels as
+    desired. You may cloak your members, employees or participants, or not,
+    as you decide. You may apply to sponsor a server if that's something you
+    wish to do.
+    
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Is accomplished by submitting one or more
+      
+      <a href="#groupcontacts">group contact</a>
+      
+      form(s).
+    </b>
+    
+    Group contacts represent your project or organization to
+    
+    <span class="freenode">freenode</span>
+    
+    staff. Forms may be submitted by the group contact or on behalf of that
+    person ("proxy submittal") with his or her permission. They are verified
+    by phone. The process takes about fifteen minutes.
+    
+    <br /><br />
+    
+    If the group contact has limited availability, he or she can provide
+    scheduling information for the phone call in the 'Contact Notes' field
+    of the form. There is currently an extensive backlog in form submittal;
+    if we're unable to contact you at the scheduled time, we'll email you to
+    ask for another time to schedule the call.
+
+    <br /><br />
+  </li>
+</ol>
+
+<p>
+  <a name="types"></a>Two types of group contacts exist for freenode:
+</p>
+
+<ol>
+  <li>
+    <b>
+      The Primary contact.
+    </b>
+    
+    This contact registers to establish that your group intends to create a
+    relationship with <span class="freenode">freenode</span> and PDPC. The 
+    primary contact should have the authority to make the determination 
+    that your group intends to register, with the specifics depending on the type of group:
+    
+    <br /><br />
+    
+    <ul>
+      <li>
+        <b>
+          Legal entities.
+        </b>
+        
+        A primary contact should belong to upper management or the
+        organization's board. This authority can be delegated further in the
+        case of larger organizations, but it's not recommended; in cases
+        where such delegation occurs, contact with the organization is often
+        lost and the group registration must subsequently be removed.
+        
+        <br /><br />
+      </li>
+      
+      <li>
+        <b>
+          Informal, project-oriented groups.
+        </b>
+        
+        Informal groups vary considerably in their internal organization. If
+        the group is run by a single project leader or developer, that
+        person should submit a group registration form. If the group is run
+        by two equal participants, each should submit a group registration 
+        form to make it clear that both wish to have the group registered.
+        If it's run by a larger core group or by voting across the project,
+        the voting group should make a collective decision to register and
+        should appoint one of their number as primary contact.
+        
+        <br /><br />
+      </li>
+    </ul>
+  </li>
+  
+  <li>
+    <b>
+      The secondary contact.
+    </b>
+    
+    Secondary (or approved) contacts are appointed by the primary contact. 
+    A secondary contact may be assigned limited access and/or
+    privileges. They need no special level of authority; delegate whatever
+    level of authority seems appropriate.  We won't expect them to make
+    policy decisions, just to find out the answers to any questions that are
+    raised.
+    
+    <br /><br />
+  </li>
+</ol>
+
+<p>
+  <a name="facilities"></a>Group registration provides:
+</p>
+
+<ol>
+  <li>
+    <b>
+      Additional channel management capabilities.
+    </b>
+    
+    Network
+
+    <a href="policy.shtml#channelownership">policy</a>
+
+    states that projects and organizations are entitled to own channels
+    bearing their names. Your group contact can request changes in channel
+    ownership in accordance with this policy and can directly request
+    changes to access lists and configuration for any channels you own.
+    
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Group hostname cloaks.
+    </b>
+    
+    <a href="faq.shtml#projectcloak">Cloaks</a>
+
+    allow your project or organization to grant official recognition to
+    project participants. Your group contact maintains this cloak list.
+
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Server maintenance.
+    </b>
+    
+    If you're sponsoring a
+    
+    <span class="freenode">freenode</span>
+    
+    server, your group contact acts as technical liason.
+
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Problem solving.
+    </b>
+    
+    When there's a problem with one of your channels or with a server you
+    sponsor, a complaint by a user or a question about policy, we'll pass
+    it on to your group contact.
+
+    <br /><br />
+  </li>
+</ol>
+
+<p>
+  <a name="groupcontacts"></a>Your group contacts:
+</p>
+
+<ol>
+  <li>
+    <b>
+      Are designated by your project or organization.
+    </b>
+    
+    For example, a group contact might be your IT manager or someone
+    involved with your project infrastructure.
+    
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Can be one person or several.
+    </b>
+    
+    You decide who acts as group contact.  Each contact can be designated to
+    handle issues pertaining to your entire group, or to a limited set of
+    projects or users.  You can designate primary and backup contacts if you
+    wish.
+
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Acts as your "goto".
+    </b>
+    
+    When you need someone to talk to us about a network issue, your group
+    contact is the person.  They're your formal point of contact with our
+    network staff.
+
+    <br /><br />
+  </li>
+
+  <li>
+    <b>
+      Acts as our "goto".
+    </b>
+    
+    We'll ask your group contact whenever we have any question about your
+    project or organizational policies as they pertain to participation in
+    the network.
+    
+    <br /><br />
+  </li>
+</ol>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+        </small>" -->
+
+<!--#include file="include/trailer.shtml" -->

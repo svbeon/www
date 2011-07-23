@@ -47,16 +47,14 @@
               <img
                 class="logo"
                 src="images/freenode_canonical.png"
-                width="456"
+                width="303"
                 height="65"
                 border="0"
                 alt="[Canonical Ltd, diamond sponsor of the PDPC]"
                 title="Canonical Ltd, diamond sponsor of the PDPC"
               />
             </a>
-
-
-          </td>
+</td>
           <td align="right">
             <form action="http://www.google.com/cse" id="cse-search-box">
               <span align="right">

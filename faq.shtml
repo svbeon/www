@@ -388,7 +388,7 @@
         </li>
 
         <li>
-          It's useful, but not required, to have an alternate nick grouped to your account.  
+          It's useful, but not required, to have an alternate nick grouped to your account.
 
           For example, if your primary
           nick is foo:
@@ -410,6 +410,13 @@
           </i></blockquote>
 
         </li>
+		
+		<li>
+		  We prefer you to use just one account, and group nicks to it as described above, rather than 
+		  registering for multiple accounts.  Grouping nicks in this way gives you the benfit of having all your
+		  nicks covered by the same cloak, should you choose to <a href="#cloaks">wear a cloak</a>. The exception to 
+		  this is where you might want to run a bot.  You should register a separate account for your bot.
+		</li>
 
         <li>
           Configure your client to identify itself to nickserv automatically
@@ -1548,7 +1555,8 @@
       <br />
       Keep in mind, a cloak is applied to a NickServ account. This means that 
       all grouped nicks will also be cloaked while you are identified. It also 
-      means that dropping your account will result in you losing your cloak.
+      means that dropping your account will result in you losing your cloak. We generally
+	  only offer one cloaked account per user (plus one cloaked bot.)
     </li>
     
     <li>

@@ -1556,7 +1556,7 @@
       Keep in mind, a cloak is applied to a NickServ account. This means that 
       all grouped nicks will also be cloaked while you are identified. It also 
       means that dropping your account will result in you losing your cloak. We generally
-	  only offer one cloaked account per user (plus one cloaked bot.)
+      only offer one cloaked account per user (excluding (a) legitimate bot account(s)).
     </li>
     
     <li>

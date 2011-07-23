@@ -312,7 +312,7 @@
       If you don't register, someone else may end up registering the nick
       you want.  If you register and use the same nick, people will begin to
       know you by reputation. If they're running IRC software which supports
-      <b>CAPAB IDENTIFY-MSG</b>, they'll be able to tell when someone is
+      <b>CAP identify-msg</b>, they'll be able to tell when someone is
       spoofing your identity.
 
       <br /><br />
@@ -474,15 +474,19 @@
       <b>
         <a name="spoofing"></a>How can I tell when someone might be spoofing a user's identity?
       </b>
-      If your client supports <b>CAPAB IDENTIFY-MSG</b>, you can configure
+      If your client supports <b>CAP identify-msg</b>, you can configure
       it to let you know when someone speaking on channel or via /msg is
       not identified to services.
 
-      A script to take advantage of <b>CAPAB IDENTIFY-MSG</b> is currently
+      A script to take advantage of <b>CAP identify-msg</b> is currently
       available for
 
       <a href="http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl">irssi</a>.
-      
+
+      It was originally written for the <b>CAPAB</b> command in dancer
+      (hyperion), but has been modified to support the more versatile
+      <b>CAP</b> command in charybdis (ircd-seven).
+
       If you want other people using this
       feature to know that you're you, have your client
 
@@ -1493,12 +1497,13 @@
         <a name="cloaks"></a>Can I get a hostname cloak?
       </b>
 
-      Yes.  You can get a generic "unaffiliated" user cloak to hide your
-      hostname from DoS attacks or you can get a project cloak to show your
-      participation in a community project. Please be aware that cloaks do
-      not provide an absolute guarantee that your hostname will hidden. An
-      alternative approach is to use <a href="irc_servers.shtml#tor">Tor-SASL</a>
-      to connect to freenode.
+      Yes. You can get a generic "unaffiliated" user cloak to hide
+      your hostname or you can get a project cloak to show your
+      participation in a community project. Please be aware that
+      cloaks do not provide an absolute guarantee that your hostname
+      is hidden. An alternative approach is to
+      use <a href="irc_servers.shtml#tor">Tor-SASL</a> to connect to
+      freenode.
 
       <br /><br />
 

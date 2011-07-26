@@ -12,7 +12,7 @@ KVIrc (4+) [http://www.kvirc.net/]
 Quassel (0.6.1+) [http://www.quassel-irc.org]
 Weechat [http://www.weechat.org/]
 AndChat (1.3.4+) [http://www.andchat.net]
-
+AndroidIRC (2.0+) [http://www.androirc.com]
 
 Irssi
 -----

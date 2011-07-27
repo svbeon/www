@@ -25,7 +25,8 @@ Crypt::OpenSSL::Bignum, Crypt::DH and Crypt::Blowfish.
 mIRC (new combined script)
 --------------------------
 
-Load the sasl.mrc script into mIRC, and press F2 to configure SASL.
+Load the sasl.mrc script into mIRC, then go to the commands menu and click,
+"mSASL 1.0 beta" to configure SASL.
 
 This script is a combination of sasl-old.mrc and sasl-lite.mrc below. Thanks to
 lowbox on freenode for providing it.
@@ -59,7 +60,7 @@ that the username and password are inserted into the script in two places.
 If someone can combine this simpler authentication script with the settings
 dialogue from the other, this would be much appreciated.
 
-[1]: http://trout.snt.utwente.nl/ubbthreads/ubbthreads.php?ubb=showflat&Number=228222
+[1]: http://forums.mIRC.com/ubbthreads.php?ubb=showflat&Number=228222
 
 
 X-Chat

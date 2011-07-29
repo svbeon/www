@@ -405,7 +405,7 @@ of ircd-seven 1.0 channel modes, some additional information about them is avail
     <td valign="top">
       This mode works like +b (ban user), but instead simply quiets the
       user. We encourage channels to use quiets in place of bans wherever 
-      possible. The list of quiets is seperate from the list of bans and can 
+      possible. The list of quiets is separate from the list of bans and can 
       be viewed using '/mode #channel +q'.
     </td>
   </tr>  

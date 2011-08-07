@@ -660,23 +660,21 @@
         <a name="userequals"></a> What is this '~' in some hostnames?
       </b>
 
-      The '~', or lack thereof, is in fact in your username field. Usernames on 
-      IRC will typically display a tilde ('~') at the beginning of the username 
-      if it does not match what is returned by the identd or authd service.
-      
-      Using the '~' convention, it is important to try to avoid unnecessarily-broad bans. As the
-      
+      The '~', or lack thereof, is in fact in the username field. Usernames
+      will typically display a tilde ('~') at the beginning of the username 
+      if it is provided by the IRC client, instead of the identd or authd
+      service. Usually ident or auth daemons are run by shell services,
+      gateways, or other situations where multiple users may share the same
+      host.
+      <br /><br />
+      Try to avoid unnecessarily-broad bans. As the
       <a href="catalysts.shtml">catalysts</a>
+      page implies, we don't support unnecessary use of bans. When banning,
+      target the ban as narrowly as possible. With the tilde construction,
+      banning someone with the user name <i>foo</i> without regard to whether
+      they match ident is frequently done in this way:
       
-      page implies, we don't support unnecessary use of bans. When they're
-      used, though, they should be targeted as narrowly as possible. With
-      the tilde construction, banning someone with the user name <i>foo</i>
-      without regard to whether they match ident is frequently done in this
-      way:
-      
-      <blockquote><i>
-        /mode #channel +b nickmask!*foo@hostmask
-      </i></blockquote>
+      <blockquote><i>/mode #channel +b nickmask!*foo@hostmask</i></blockquote>
       
       which bans both <i>foo</i> and <i>~foo</i>. Unfortunately, it also bans
       usernames such as:
@@ -688,18 +686,11 @@
         anythingfoo
       </i></blockquote>
       
-      Instead, it is possible to ban just 'foo' by using the following sort of
-      construction:
-      
-      <blockquote><i>
-        /mode #channel +b nickmask!?foo@hostmask
-      </i></blockquote>
-      
-      (Note that the '?' character in wildcards matches exactly one
-      character; it does not match zero-or-one-characters as it does in
-      regular expressions.)
-
-      <br /><br />
+      Instead, ban just 'foo' by using the following:
+      <blockquote><i>/mode #channel +b nickmask!~foo@hostmask</i></blockquote>
+      If identd or authd is in use, use:
+      <blockquote><i>/mode #channel +b nickmask!foo@hostmask</i></blockquote>
+      <br />
     </li>
 
     <li>

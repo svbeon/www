@@ -129,7 +129,7 @@
         <li><a href="#gcfunctions">What functions can group contacts perform?</a></li>
         <li><a href="#gcsetup">How do we set up group contacts?</a></li>
         <li><a href="#gcverify">How do you verify group contacts?</a></li>
-        <li><a href="#gcdifference">What is the difference between an <i>primary</i> and an <i>alternate</i> group contact?</a></li>
+        <li><a href="#gcdifference">What is the difference between a <i>primary</i> and an <i>alternate</i> group contact?</a></li>
         <li><a href="#cloakformat">How are group cloaks formatted?</a></li>
         <li><a href="#cloakchoice">To whom may we offer a group cloak?</a></li>
         <li><a href="#gcrequest">How do we request group or project cloaks?</a></li>
@@ -260,7 +260,7 @@
 
       <a href="http://www.atheme.net/">Atheme IRC services</a> and <a href="http://svn.freenode.net/atheme+fn/">freenode modules</a>.
 
-      Both are offered under terms of the the ISC License.
+      Both are offered under terms of the ISC License.
       <br /><br />
     </li>
     
@@ -289,7 +289,7 @@
       <b>
         <a name="fst"></a>What is fST or <span class="freenode">freenode</span> Standard Time?
       </b>
-      It's our official timezone.  Well, sort of. We're not entirely
+      It's our official time zone.  Well, sort of. We're not entirely
       serious. :) <span class="freenode">freenode</span> <b>Standard Time</b> is
       UTC.
       <br /><br />
@@ -413,7 +413,7 @@
 		
 		<li>
 		  We prefer you to use just one account, and group nicks to it as described above, rather than 
-		  registering for multiple accounts.  Grouping nicks in this way gives you the benfit of having all your
+		  registering for multiple accounts.  Grouping nicks in this way gives you the benefit of having all your
 		  nicks covered by the same cloak, should you choose to <a href="#cloaks">wear a cloak</a>. The exception to 
 		  this is where you might want to run a bot.  You should register a separate account for your bot.
 		</li>
@@ -429,7 +429,7 @@
 
           If your client supports server password, please set this up as 
           <code>:&lt;accountname&gt; &lt;password&gt;</code>. (Make sure to
-          include the colon, and not the literal &lt; and &gt;.) This will
+          include the colon and not the literal &lt; and &gt;.) This will
           allow you to identify to your services account on connect,
           regardless of the nickname you are using when you connect. For
           example:
@@ -449,12 +449,12 @@
       Just plug your nickserv password into your client as a server
       password, to make this work when connecting from a different nick than 
       the one you've got registered use ':nick password'.  
-      You'll be identified to nickserv automaticaly when you
+      You'll be identified to nickserv automatically when you
       connect. In some cases, it's more convenient to configure your client
       to send the command 
 
       <blockquote><i>
-        /msg nickserv identify &lt;password&gt;
+        /msg nickserv identify &lt;account&gt; &lt;password&gt;
       </i></blockquote>
 
       to achieve the same effect.
@@ -631,7 +631,7 @@
       <span class="freenode">freenode</span>
       
       webchat running at <a href="http://webchat.freenode.net">webchat.freenode.net</a>, 
-      you are welcome to use this. We run <a href="http://qwebirc.org/">Qwebirc</a>, a 
+      you are welcome to use this. We run <a href="http://qwebirc.org/">Qwebirc</a>, an
       open source web IRC client originally designed by and for the 
       <a href="http://www.quakenet.org/">QuakeNet IRC network</a>. 
 
@@ -669,7 +669,7 @@
       <a href="catalysts.shtml">catalysts</a>
       
       page implies, we don't support unnecessary use of bans. When they're
-      used, though, they should be targetted as narrowly as possible. With
+      used, though, they should be targeted as narrowly as possible. With
       the tilde construction, banning someone with the user name <i>foo</i>
       without regard to whether they match ident is frequently done in this
       way:
@@ -826,9 +826,9 @@
       present in the channel for that duration of time. We might also idle in the 
       channel to confirm that it really is not being used.
 
-      For active channels where the founder might simply have disappeared, staff 
-      may decide to have the regular users of the channel vote on who the channel 
-      should be transfered to.
+      For active channels where the founder might have simply disappeared, staff 
+      may decide to have the regular users of the channel vote who the new channel 
+      founder should be.
 
       <br /><br />
 
@@ -1168,7 +1168,7 @@
       
       <a href="#nicksetup">register your IRC nickname and do the standard setup</a>,
       
-      then set your user mode to <b>+R</b> to filter out any private messages
+      and then set your user mode to <b>+R</b> to filter out any private messages
       sent to you by unregistered users.  Depending on which client you're running,
       one of these commands will set that user mode:
 
@@ -1223,7 +1223,7 @@
         <a name="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?
       </b>
       Your account name and password must be sent to NickServ and verified,
-      then NickServ must tell the servers about your cloak. This process
+      and then NickServ must tell the servers about your cloak. This process
       may take a little time, depending on how heavily services is loaded
       and the amount of lag between your server and services.
       <br /><br />
@@ -1534,13 +1534,22 @@
         <li>
           If you'd like a generic "unaffiliated" user cloak, just ask a
           network staffer to turn it on for you.
-
+          <br /><br />
+          The cloak will be unaffiliated/<i>youraccount</i>, where
+          <i>youraccount</i> is your account name, lower-cased. If your
+          account name contains characters other than 0-9, A-Z, a-z, or
+          hyphen, your cloak will be appended with a /x-1234567, to
+          make it unique. (The 1234567 numbers are pseudo-randomly chosen.)
           <br /><br />
         </li>
 
         <li>
           If you'd like a project cloak, contact your project leader to set
           it up.
+          <br /><br />
+          The format of project cloaks is determined by each project. More
+          information is in the FAQ on <a href="#cloakformat">group cloak
+          formats</a>.
           <br /><br />
         </li>
 
@@ -1553,15 +1562,16 @@
           
           <a href="/pdpc.shtml#donate">buttons</a>
 
-          on the navbar at the lefthand side of the page. We'll mark your
+          on the navbar at the left hand side of the page. We'll mark your
           cloak to indicate your level of support!
+          <br /><br />
         </li>
       </ul>
-      <br />
       Keep in mind, a cloak is applied to a NickServ account. This means that 
       all grouped nicks will also be cloaked while you are identified. It also 
       means that dropping your account will result in you losing your cloak. We generally
       only offer one cloaked account per user (excluding (a) legitimate bot account(s)).
+      <br /><br />
     </li>
     
     <li>
@@ -1574,7 +1584,7 @@
       <a href="group_registration.shtml">register your group</a>
 
       to provide <span class="freenode">freenode</span> staff with an official
-      liason to your project.  We'll contact you to work out an
+      liaison to your project.  We'll contact you to work out an
       appropriate cloaking suffix to identify your participants.  Your
       group contact will be responsible for contacting us, as needed, to
       designate the IRC nicknames of participants who are eligible to
@@ -1749,15 +1759,15 @@
     
     <li>
       <b>
-        <a name="gcdifference"></a> What is the difference between an
+        <a name="gcdifference"></a> What is the difference between a
         <i>primary</i> and an <i>alternate</i> group contact?
       </b>
       
-      An <i>primary</i> contact has the authority to represent your group,
+      A <i>primary</i> contact has the authority to represent your group,
       project or organisation and to verify that your group has approved its
       registration with <span class="freenode">freenode</span>.  For a legal
-      entity, an primary contact can be an upper-level manager or a member
-      of your board. For an informal group, an primary contact should be
+      entity, a primary contact can be an upper-level manager or a member
+      of your board. For an informal group, a primary contact should be
       your project lead or a member of the core committee that makes
       decisions for your group.
       
@@ -1785,7 +1795,7 @@
           <b>Group or project name.</b>
           
           We'll provide you with a group name and with optional project
-          names..  For each cloak you request, you should select a name from
+          names.  For each cloak you request, you should select a name from
           the set we've reserved for you.
           
           <br /><br />
@@ -2067,7 +2077,7 @@
         <a name="whymoney"></a>Why do you need money?
       </b>
       Peer-Directed Projects Center, the parent organisation of <b
-      class="freenode">freenode</b>, is an not for profit organisation 
+      class="freenode">freenode</b>, is a not for profit organisation 
       incorporated in England and Wales.
 
       We talk about some of our other projects

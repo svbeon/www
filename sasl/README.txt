@@ -13,6 +13,7 @@ Quassel (0.6.1+) [http://www.quassel-irc.org]
 Weechat [http://www.weechat.org/]
 AndChat (1.3.4+) [http://www.andchat.net]
 AndroidIRC (2.0+) [http://www.androirc.com]
+Chatzilla [http://chatzilla.hacksrus.com]
 
 Irssi
 -----
@@ -85,3 +86,18 @@ to use to login (in the section titled "EDIT ME"). Load it, and connect.
 
 This script in its current form is very primitive; updates to allow proper
 configuration of login credentials per network would be welcome.
+
+
+Chatzilla
+---------------------------
+
+Script: cz_sasl.js
+Install: http://chatzilla.hacksrus.com/faq/#install-script
+
+/plugin-pref cz_sasl
+/plugin-pref cz_sasl sasl.username YOUR_USERNAME
+/plugin-pref cz_sasl sasl.password YOUR_PASSWORD
+(optional) /plugin-pref cz_sasl sasl.proceed_on_fail true|false
+
+If you have questions, bugs, suggestions,
+or the script simply does not work, please ask at #chatzilla

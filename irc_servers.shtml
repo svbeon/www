@@ -200,17 +200,22 @@ and as such our advice is to connect using <i>chat.freenode.net</i>.
 
 <font face="Arial, Helvetica" size="+1" color="#525668"><br /><br /><a name="ssl"></a>Accessing freenode Via SSL</font>
 <p>
-Since the switch to ircd-seven, freenode now provides SSL client access on all
+<span class="freenode">freenode</span> now provides SSL client access on all
 servers. If your client is not configured to verify SSL certificates, then you
-can simply connect, with SSL enabled, on port 6697, 7000 or 7070.
+can simply connect, with SSL enabled, on port 6697, 7000 or 7070. Users
+connecting over SSL will be given user mode +Z, and "is using a secure
+connection" will appear in WHOIS (a 671 numeric). Webchat users will not
+appear with +Z or the 671 numeric, even if they connect to webchat via SSL.
 </p><p>
 If you wish to verify the server certificates on connection, some additional
 work may be required. First, ensure that your system has an up-to-date set of
 root CA certificates. On most linux distributions this will be in a package
 named something like ca-certificates. Many systems install these by default, but
-some (such as FreeBSD, on which the package you wish to install is ca_root_nss, 
-and the cafile to use would be /usr/local/share/certs/ca-root-nss.crt) do not. 
-For most clients this should be sufficient.
+some do not (such as FreeBSD, on which the package you wish to install is
+ca_root_nss, and the cafile to use would be
+/usr/local/share/certs/ca-root-nss.crt). For most clients this should be
+sufficient. If not, you can download the required CA cert from
+<a href="http://crt.gandi.net/GandiStandardSSLCA.crt">here</a>.
 </p><p>
 Those of you using irssi will find that it has some oddities in SSL certificate
 verification, and will not find the root certificates on its own. To work around
@@ -222,7 +227,7 @@ or on FreeBSD
 
 <blockquote>/connect -ssl_cafile /usr/local/share/certs/ca-root-nss.crt chat.freenode.net 6697
 </blockquote>
- Once you tell irssi where to find the root certificates, it should be
+Once you tell irssi where to find the root certificates, it should be
 able to verify the certificate correctly.
 </p>
 

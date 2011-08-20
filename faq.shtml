@@ -1255,9 +1255,8 @@
       </b>
       <span class="freenode">freenode</span> supports SSL, for client and server 
       connections. Users connecting via SSL will get user mode +Z to denote this. 
-      SSL connections can be made on ports 7000 and 7070. You can obtain the CA cert
-      required from <a href="http://crt.gandi.net/GandiStandardSSLCA.crt">here</a>.
-    
+      More information about connecting via SSL is on the
+      <a href="irc_servers.shtml#ssl">IRC servers</a> page.
       <br /><br />
     </li>
 

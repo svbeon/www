@@ -2,7 +2,7 @@
 
 <p>
 
-  <span class="freenode">freenode</span>'s legacy ircd, <a href="http://svn.freenode.net/hyperion/trunk/">hyperion</a>, is 
+  <span class="freenode">freenode</span>'s legacy ircd, hyperion, is
   a continuation of the earlier dancer-ircd, itself a fork of hybrid 6.
   Hyperion has been replaced by <a href="http://freenode.net/seven.shtml">ircd-seven</a> on
   our production servers and is no longer maintained.

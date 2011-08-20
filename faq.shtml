@@ -1531,6 +1531,9 @@
           account name contains characters other than 0-9, A-Z, a-z, or
           hyphen, your cloak will be appended with a /x-1234567, to
           make it unique. (The 1234567 numbers are pseudo-randomly chosen.)
+          If your account name does not contain any alphanumeric
+          characters, we will ask you to pick another account name before
+          receiving a cloak.
           <br /><br />
         </li>
 

@@ -1823,15 +1823,16 @@
           <br /><br />
           
           With your user's permission, we'll prefix a period-separated label
-          to this token to indicate if your user is either a
+          to this token to indicate if your user is a donor to PDPC.
+
+	  <br /><br />
+
+	  Dual cloaks, where a period-separated label to the token bearing 
+	  the name of some other project is inserted into the cloak, are
+          strongly discouraged and are only applied, as for all cloaks, at staff discretion
+          and with the consent of group contacts involved and the user.
           
-          <a href="pdpc.shtml">donor to PDPC</a>
-          
-          or a
-          
-          <span class="freenode">freenode</span>
-          
-          staffer.
+ 
           
           <br /><br />
         </li>

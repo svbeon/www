@@ -43,15 +43,15 @@
             </a>
           </td>
           <td width="1">
-            <a class="noborder" href="http://www.canonical.com/">
+            <a class="noborder" href="https://www.privateinternetaccess.com/" title="VPN Service">
               <img
                 class="logo"
-                src="images/freenode_canonical.png"
+                src="images/ack_privateinternetaccess-freenode.png"
                 width="303"
                 height="65"
                 border="0"
-                alt="[Canonical Ltd, diamond sponsor of the PDPC]"
-                title="Canonical Ltd, diamond sponsor of the PDPC"
+                alt="VPN Service"
+                title="Private Internet Access, Diamond Sponsor of PDPC"
               />
             </a>
 </td>

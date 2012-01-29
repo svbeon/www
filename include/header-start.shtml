@@ -42,20 +42,18 @@
             </a>
           </td>
           <td width="1">
-            <a class="noborder" href="http://www.canonical.com/">
+            <a class="noborder" href="https://www.privateinternetaccess.com/" title="VPN Service">
               <img
                 class="logo"
-                src="images/freenode_canonical.png"
-                width="277"
-                height="64"
+                src="images/ack_privateinternetaccess-freenode.png"
+                width="404"
+                height="65"
                 border="0"
-                alt="[Canonical Ltd, diamond sponsor of the PDPC]"
-                title="Canonical Ltd, diamond sponsor of the PDPC"
+                alt="VPN Service"
+                title="Private Internet Access, Diamond Sponsor of PDPC"
               />
             </a>
-
-
-          </td>
+</td>
           <td align="right">
             <form action="http://www.google.com/cse" id="cse-search-box">
               <span align="right">

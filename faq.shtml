@@ -51,7 +51,8 @@
         <li><a href="#registering">Why should I register my nick?</a></li>
         <li><a href="#nicksetup">What is the recommended way to set up my IRC nickname?</a></li>
         <li><a href="#identify">What's the easiest way to identify to nickserv when I connect to <span class="freenode">freenode</span>?</a></li>
-        <li><a href="#spoofing">How can I tell when someone might be spoofing a user's identity?</a></li>
+        <li><a href="#plusr">Why do I see &quot;Cannot join channel (+r) - you need to be identified with services&quot;?</a></li>
+		 <li><a href="#spoofing">How can I tell when someone might be spoofing a user's identity?</a></li>
         <li><a href="#userexpirations">When do IRC nicknames expire?</a></li>
         <li><a href="#inuse">How do you know the last time an IRC nickname was used?</a></li>
         <li><a href="#unusednick">How can I take over a registered nick that hasn't been used in a long time?</a></li>
@@ -469,6 +470,14 @@
 
       <br /><br />
     </li>
+	
+	<li>
+      <b>
+        <a name="plusr"></a>Why am I seeing &quot;Cannot join channel (+r) - you need to be identified with services&quot;?
+      </b>
+	This means that you need to <a href="#nicksetup">register</a> (and verify) your nickname.  If you have already registered, you probably need to <a href="#identify">identify.</a>
+	</li>
+	 <br /><br /> 
     
     <li>
       <b>

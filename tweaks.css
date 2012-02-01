@@ -607,7 +607,7 @@ td.navbar
   padding: 1em;
 }
 
-// Server list CSS
+/* Server list CSS */
 table.serverlist
 {
         border: 2px ridge;

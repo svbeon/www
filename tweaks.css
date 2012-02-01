@@ -606,3 +606,29 @@ td.navbar
   font-size: 9pt;
   padding: 1em;
 }
+
+// Server list CSS
+table.serverlist
+{
+        border: 2px ridge;
+        border-spacing: 0;
+        border-collapse: collapse;
+}
+
+tr.sl_header
+{
+        color: #525668;
+        font-weight: bold;
+        border-top: 2px ridge;
+}
+
+table.serverlist td
+{
+        border-right: 2px ridge;
+        padding: 5px;
+}
+
+tr.sl_inactive
+{
+        text-decoration: line-through;
+}

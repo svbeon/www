@@ -61,7 +61,7 @@
     <br /><br />
   </li>
   <li>
-    <b>Planning and organising <a href="http://www.fosscon.org">FOSSCON</a>.</b>
+    <b>Planning and organising <a href="http://fosscon.org">FOSSCON</a>.</b>
     <br /><br />
     FOSSCON (Free and Open Source Software Conference) is a community-focused 
 live event designed to build and strengthen relationships between 
@@ -148,5 +148,5 @@ fostering cross-project collaboration and dialogue for innovation.<br /><br />
   .</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
-	</small>"
+	</small>" -->
 <!--#include file="include/trailer.shtml" -->

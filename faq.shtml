@@ -476,8 +476,8 @@
         <a name="plusr"></a>Why am I seeing &quot;Cannot join channel (+r) - you need to be identified with services&quot;?
       </b>
 	This means that you need to <a href="#nicksetup">register</a> (and verify) your nickname.  If you have already registered, you probably need to <a href="#identify">identify.</a>
-	</li>
 	 <br /><br /> 
+	</li>
     
     <li>
       <b>
@@ -712,7 +712,7 @@
 
       and guides to ircd-seven, the code tree under development, can be found
 
-      <a href="http://http://git.freenode.net/ircd-seven/">here</a>.
+      <a href="http://git.freenode.net/ircd-seven/">here</a>.
 
       A list of servers can be found
 
@@ -846,7 +846,7 @@
       </b>
       Channel policy is set by channel owners. Network staff set the basic
 
-      <a href="http://freenode.net/policy.shtml#general">ground rules</a>
+      <a href="http://freenode.net/policy.shtml">ground rules</a>
 
       for the use of the servers and we try to influence channel policies
       in a positive direction by urging channel owners to adopt the
@@ -1139,7 +1139,7 @@
       occasionally while rejoining from a netsplit.  If you find them
       extremely annoying, we provide a set of
 
-      <a href="/unrecommended/freenode-info/scripts">scripts</a>
+      <a href="/unrecommended/freenode-info/scripts/">scripts</a>
 
       to allow you to turn them off, but
       <b>
@@ -1240,7 +1240,7 @@
         during your connection, before anything else happens. This is
         the best way to ensure you are cloaked immediately. A
         collection of scripts for common clients and instructions
-        for setting up SASL can be found <a href="/sasl">here</a>.</li>
+        for setting up SASL can be found <a href="/sasl/">here</a>.</li>
       <li>Wait to join channels until after the server notifies you
         that it has set your hidden host.<br />
         This notification is done with a 396 numeric that looks like this:
@@ -2123,7 +2123,7 @@
     
     <li>
       <b>
-        <a name="whycloak"></a> Why should I wear a <a href="#cloaks">Cloak</a> to acknowledge my <a href="#donation">donation</a>?
+        <a name="whycloak"></a> Why should I wear a <a href="#cloaks">Cloak</a> to acknowledge my donation?
       </b>
       
       When you wear the Cloak, your donation becomes more visible, which

@@ -6,7 +6,8 @@
   the organisation which runs <span class="freenode">freenode</span>.
 </blockquote>
 
-<font face="Arial, Helvetica" size="+1" color="#525668">Press Contact Information</font>
+<!--#include file="include/title.shtml" -->
+<!--#set var="title" value="Press Contact Information" -->
 
 <blockquote>
   <b>
@@ -15,7 +16,9 @@
   </b>
 </blockquote>
 
-<font face="Arial, Helvetica" size="+1" color="#525668"><span class="freenode">freenode</span> in the Press</font>
+<!--#include file="include/title.shtml" -->
+<!--#set var="title" value="freenode in the Press" -->
+
 <blockquote>
   <p>
     <b>May 22, 2007</b>
@@ -26,7 +29,9 @@
     <a href="http://www.linux.com/article.pl?sid=07/05/24/157218">Linux.com: GPE project and Handhelds.org in acrimonious trademark dispute</a>
   </p>
 </blockquote>
-<font face="Arial, Helvetica" size="+1" color="#525668">Press Releases</font>
+
+<!--#include file="include/title.shtml" -->
+<!--#set var="title" value="Press Releases" -->
 
 <blockquote>
   The following links to press releases for PDPC are listed in reverse chronological order:

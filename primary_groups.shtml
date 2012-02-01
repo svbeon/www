@@ -422,7 +422,7 @@
  <tr>
     <td valign="top"><a href="irc://irc.freenode.net/firefox">firefox</a></td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign=top">
+    <td valign="top">
      <a rel="nofollow" href="http://www.mozilla.com/en-US/firefox/">Firefox</a>, the award winning next-generation web-browser from <a rel="nofollow" href="http://www.mozilla.com">Mozilla</a>. 
     </td>
   </tr>
@@ -880,7 +880,7 @@
     <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td valign="top">
       <a rel="nofollow" href="http://www.penguicon.org/">Penguicon</a>
-      is a combined Open Source Conference & Science Fiction Convention that 
+      is a combined Open Source Conference &amp; Science Fiction Convention that 
       takes place each Spring in South-East Michigan.
     </td>
   </tr>
@@ -979,7 +979,7 @@
       <a rel="nofollow" href="http://qtsoftware.com/">Qt</a>
       is a cross-platform application and UI framework. Using Qt, you can write applications once and deploy them across 
       many desktop and embedded operating systems without rewriting the source code. The Qt community is a loose community 
-      of developers, translators and any kind of helpful people who develop the product or other tools & frameworks around it.
+      of developers, translators and any kind of helpful people who develop the product or other tools &amp; frameworks around it.
     </td>
   </tr>
 
@@ -998,7 +998,6 @@
      firmware for mp3/digital audio players.
     </td>
   </tr>
-  <tr>
   <tr>
     <td valign="top"><a href="irc://irc.freenode.net/rojo">rojo</a></td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>

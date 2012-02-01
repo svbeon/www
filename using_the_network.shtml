@@ -1,6 +1,6 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: using the network" --><!--#set var="content_title" value="Using the Network" --><!--#include file="include/header-mainlogos.shtml" -->
 
-<p><font face="Arial, Helvetica" color="#000000">To access the <b class=freenode>freenode</b> IRC servers,
+<p>To access the <b class="freenode">freenode</b> IRC servers,
 you'll first need an IRC client.  Text clients include
 irssi, WeeChat, and ERC.  Graphical clients include XChat, Smuxi, and Quassel 
 for Unix and GNU/Linux, and mIRC for Windows. There is also the 
@@ -9,21 +9,21 @@ Packages for various IRC clients may be included on your operating
 system install CDs and links to web sites for the client software can be
 found
 
-<a href="http://www.irc.org/links.html">here</a>.</font></p>
+<a href="http://www.irc.org/links.html">here</a>.</p>
 
 
 
 
-<p><font face="Arial, Helvetica" color="#000000">Once you have a client, you'll need a server. 
+<p>Once you have a client, you'll need a server. 
 You can simply use <b>irc.freenode.net</b> to reach our main rotation of
 servers; or, you can find a more geographically-local server
 
-<a href="irc_servers.shtml">here</a>.</font></p>
+<a href="irc_servers.shtml">here</a>.</p>
 
 
 
 
-<p><font face="Arial, Helvetica" color="#000000">After you've obtained your client and the name of
+<p>After you've obtained your client and the name of
 a server, you may still need a bit of help in getting connected.  Take a
 look at this
 
@@ -37,12 +37,12 @@ on
 
 <a href="http://www.irchelp.org/">irchelp.org</a>,
 
-which contains a variety of other useful information as well.</font></p>
+which contains a variety of other useful information as well.</p>
 
 <!--#set var="title" value="<a name=\"reg\"></a>Channel and nick registration" -->
 <!--#include file="include/title.shtml" -->
 
-<p><font face="Arial, Helvetica" color="#000000"><b class=freenode>freenode</b> provides
+<p><b class="freenode">freenode</b> provides
 nickname and channel registration services.  These should be used to avoid
 disagreements about nickname use and to maintain clear operational control
 of channels.  You must register your nickname to register a channel or to
@@ -52,53 +52,53 @@ projects. Please remember to take a look at our
 
 <a href="policy.shtml#ontopic">on-topic policy</a>
 
-before registering your channel.</font></p>
+before registering your channel.</p>
 
 
 
 
-<p><font face="Arial, Helvetica" color="#000000">For general information on nickname or channel
+<p>For general information on nickname or channel
 registration services, use "/msg nickserv help" or "/msg chanserv help". 
 For specific information on registration, use "/msg nickserv help register" or
-"/msg chanserv help register".</font></p>
+"/msg chanserv help register".</p>
 
 <!--#set var="title" value="<a name=\"flags\"></a>Channel access management (flags)" -->
 <!--#include file="include/title.shtml" -->
 
 
-<p><font face="Arial, Helvetica" color="#000000">We strongly suggest that you avoid configuring
+<p>We strongly suggest that you avoid configuring
 your channel to "auto-op".  Use the chanserv "op" command to obtain
 channel operator status only when needed.  This will help to keep your
-channel temperature low and reduce conflicts.</font></p>
+channel temperature low and reduce conflicts.</p>
 
 
 
 
-<p><font face="Arial, Helvetica" color="#000000">Help us support your channel in emergencies by adding
+<p>Help us support your channel in emergencies by adding
   channel staff to your channel access list via "/msg chanserv flags
   #channelname [nick] [access]".  The [nick] must either be a registered nick or a valid hostmask,
   and [access] should be a series of flags, as defined in "/msg chanserv help flags".  Flags of +voAti are
   customary, and sufficient to allow opping and deopping, as well as some
   other maintenance tasks.  Staff can be given access by providing [nick] as "*!*@freenode/staff/*".
-</font></p>
+</p>
 
-<p><font face="Arial, Helvetica" color="#000000">The use of a system called "templates"
-can help to simplify the system of flags.  See "/msg chanserv help template" for more information.</font></p>
+<p>The use of a system called "templates"
+can help to simplify the system of flags.  See "/msg chanserv help template" for more information.</p>
 
 <!--#set var="title" value="<a name=\"modes\"></a>User and channel modes" -->
 <!--#include file="include/title.shtml" -->
 
 
-<p><font face="Arial, Helvetica" color="#000000">The user and channel modes listed below are to be treated differently
-to the flags described above. The modes below are set using the "/mode" command: either "/mode <nickname> +w" or "/umode +w"
-for user modes, and "/mode #channel +i" for channels.</font></p>
+<p>The user and channel modes listed below are to be treated differently
+to the flags described above. The modes below are set using the "/mode" command: either "/mode &lt;nickname&gt; +w" or "/umode +w"
+for user modes, and "/mode #channel +i" for channels.</p>
 
-<p><font face="Arial, Helvetica" color="#000000">Channel modes can also be set with the help of ChanServ's MLOCK feature.
-Consult "/msg ChanServ HELP SET MLOCK" for more details.</font></p>
+<p>Channel modes can also be set with the help of ChanServ's MLOCK feature.
+Consult "/msg ChanServ HELP SET MLOCK" for more details.</p>
 
 
-<p><font face="Arial, Helvetica" color="#000000">The following is a list of ircd-seven user
-modes, some additional information about them is available by sending '/help umode' to the server:<br /></font></p>
+<p>The following is a list of ircd-seven user
+modes, some additional information about them is available by sending '/help umode' to the server:<br /></p>
 
 
 <table summary="ircd-seven 1.0 User Modes" cellspacing="0" cellpadding="5" border="1">
@@ -195,8 +195,8 @@ modes, some additional information about them is available by sending '/help umo
 
 
 
-<p><font face="Arial, Helvetica" color="#000000"><br />The following is a list
-of ircd-seven 1.0 channel modes, some additional information about them is available by sending '/help cmode' to the server.</font></p>
+<p><br />The following is a list
+of ircd-seven 1.0 channel modes, some additional information about them is available by sending '/help cmode' to the server.</p>
 
 
 <table summary="ircd-seven 1.0 Channel Modes" cellspacing="0" cellpadding="5" border="1">
@@ -225,7 +225,7 @@ of ircd-seven 1.0 channel modes, some additional information about them is avail
       to negate the comparison, while 'data' depends on type. Potential types are a, r and x.
 <table summary="ircd-seven 1.0 extbans" cellspacing="0" cellpadding="2" border="1">
   <tr> 
-  <td valign="center"> Type <b><i>a</i></b> (account name) </td>
+  <td valign="middle"> Type <b><i>a</i></b> (account name) </td>
   <td valign="top"> This type will match on, and ban, all users identified to the account specified in the
   "data" parameter. This parameter accepts wildcards, and a lack of data is interpreted as
   an implicit wildcard. <blockquote><b><i>/mode #channel +q $~a</i></b></blockquote> is a 
@@ -235,13 +235,13 @@ of ircd-seven 1.0 channel modes, some additional information about them is avail
   earlier ircds.</td>
   </tr>
   <tr>
-  <td valign="center"> Type <b><i>r</i></b> (realname) </td>
+  <td valign="middle"> Type <b><i>r</i></b> (realname) </td>
   <td valign="top"> This type matches on a client's realname, or gecos. It is equivalent
   to the <b><i>+d</i></b> channel mode in earlier ircds. 
   <blockquote><b><i>/mode #channel +b $r:Foo*</i></b></blockquote>
   will ban any user whose gecos begins "Foo". </td></tr>
   <tr>
-  <td valign="center"> Type <b><i>x</i></b> (full match) </td>
+  <td valign="middle"> Type <b><i>x</i></b> (full match) </td>
   <td valign="top"> This final type takes, as a parameter, a string. This string is matched
   against a client's full nick!username@host#gecos, and if a match is found, the user is
   banned. </td></tr>
@@ -256,6 +256,7 @@ of ircd-seven 1.0 channel modes, some additional information about them is avail
       the channel named in the ban mask and be sent a 470 numeric describing 
       the forward.
   </td>
+  </tr>
   <tr>
     <td valign="top">+C (block CTCPS)</td>
     <td valign="top">

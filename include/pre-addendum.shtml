@@ -1,5 +1,5 @@
                             <p align="right">
-                            Copyright &copy; 2002-2011 by Peer-Directed Projects Center.<br />Network date and time: <!--#echo encoding="none" var="DATE_GMT" -->.
+                            Copyright &copy; 2002-2012 by Peer-Directed Projects Center.<br />Network date and time: <!--#echo encoding="none" var="DATE_GMT" -->.
                             <br />Comments to email address: support at freenode dot net.</p>
 			    <p align="right"><!--#echo encoding="none" var="SPONSOR_LINKS" --></p>
                           </td>

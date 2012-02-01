@@ -1,17 +1,17 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode philosophy: freenode and irc" --><!--#set var="content_title" value="<span class=\"freenode\">freenode</span> and IRC" --><!--#include file="include/header-mainlogos.shtml" -->
 
-<p><font face="Arial, Helvetica"  color="#000000">The goals of <span class="freenode">freenode</span> differ from those of most
+<p>The goals of <span class="freenode">freenode</span> differ from those of most
 general chat IRC networks.  For that reason, the design of our servers
-differs, and will differ more as time goes on.</font></p>
+differs, and will differ more as time goes on.</p>
 
-<p><font face="Arial, Helvetica"  color="#000000">We will attempt to
+<p>We will attempt to
 maintain general compatibility with clients conforming
 to RFC1459 and others, but any given feature may or may not work precisely
 as described in the RFC.  For documentation on the differences, see
 
-<a href="using_the_network.shtml">Using the Network</a>.</font></p>
+<a href="using_the_network.shtml">Using the Network</a>.</p>
 
-<p><font face="Arial, Helvetica"  color="#000000">The network runs
+<p>The network runs
 
 <a href="http://dev.freenode.net/ircd-seven/">ircd-seven</a>,
 
@@ -19,22 +19,22 @@ which is based on Charybdis 3.0 with some of hyperion's extra functionality. fre
 <a href="http://www.atheme.net/">Atheme IRC services</a> with <a href="http://svn.freenode.net/atheme+fn/trunk/">freenode specific</a> modules.</p>
 
 
-<p><font face="Arial, Helvetica"  color="#000000">Throughout the course
+<p>Throughout the course
 of the development of both ircd-seven and earlier ircds, some capabilities
 have been added and others removed, causing stark differences from other
 ircds you may see. These changes are necessitated by the unique nature 
 of freenode and the challenges the network brings with it. Since we are committed to
 providing robust service to the free software community, but not to
 maintaining an unmodified IRC environment, the changes make sense from our
-perspective.</font></p>
+perspective.</p>
 
 
 
 
-<p><font face="Arial, Helvetica"  color="#000000">Generally, we will continue to make necessary
+<p>Generally, we will continue to make necessary
 changes to improve the robustness and reliability of the service.  IRC
 is extremely vulnerable to attack, but we'll do our best to maintain a
-reliable environment with your support and understanding.</font></p>
+reliable environment with your support and understanding.</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
         </small>"-->

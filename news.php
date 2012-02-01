@@ -1,6 +1,5 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode news" -->
 <!--#set var="content_title" value="" --><!--#include file="include/header-mainlogos.shtml" -->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <?php
 	$sXML = file_get_contents("http://blog.freenode.net/feed/");
@@ -26,7 +25,7 @@
 		//$wfw     = $oBlogPost->children($ns['wfw']);
 		$sCreator      = $oBlogPost->children($ns['dc']);
 
-		echo '<a href="' . $oBlogPost->link . '"><h3>' . $oBlogPost->title . '</h3></a>';
+		echo '<h3><a href="' . $oBlogPost->link . '">' . $oBlogPost->title . '</a></h3>';
 		echo $oBlogPost->pubDate . " by " . $sCreator;
 		echo '<div>';
 			echo $sContent;

@@ -1,1 +1,1 @@
-<p><font face="Arial, Helvetica" size="-2" color="#000000"><!--#echo encoding="none" var="item" --></font></p>
+<p style="font-size: smaller;"><!--#echo encoding="none" var="item" --></p>

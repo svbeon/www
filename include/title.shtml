@@ -1,1 +1,1 @@
-<font face="Arial, Helvetica" size="+1" color="#525668"><!--#echo encoding="none" var="title" --></font>
+<span style="font-size: larger; color: #525668;"><!--#echo encoding="none" var="title" --></span>

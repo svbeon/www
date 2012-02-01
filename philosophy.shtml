@@ -1,17 +1,17 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode philosophy" --><!--#set var="content_title" value="Philosophy" --><!--#include file="include/header-mainlogos.shtml" -->
 
-<p><font face="Arial, Helvetica"  color="#000000">The <span class="freenode">freenode</span>
+<p>The <span class="freenode">freenode</span>
 philosophy has several components.  The network exists
 to provide interactive services to <b>peer-directed project
 communities.</b> From the charter of PDPC, our
 parent organization: <i>Peer-directed projects combine open,
 informal participation with broad licensing and wide dissemination
-of output.</i></font></p>
+of output.</i></p>
 
 
 
 
-<p><font face="Arial, Helvetica"  color="#000000">Our basic principles are:</font></p>
+<p>Our basic principles are:</p>
 
 
 <ul>
@@ -20,67 +20,67 @@ of output.</i></font></p>
 
 
 
-<li><font face="Arial, Helvetica"  color="#000000"> <b>Community members benefit from better access to
+<li> <b>Community members benefit from better access to
 each other.</b> Putting a number of projects in close proximity
 in an interactive environment creates linkages between developers and
 projects, and helps community members take better advantage of each other's
 work.
-<br /><br /></font></li>
+<br /><br /></li>
 
 
 
 
 
 
-<li><font face="Arial, Helvetica"  color="#000000"> <b>Communication and coordination skills are
+<li> <b>Communication and coordination skills are
 important to community projects.</b> Peer-directed projects work because the
 paradigm works. Developers and community members are not unusually gifted
 at project coordination and communication.  But improving those skills can
 make projects work better.
-<br /><br /></font></li>
+<br /><br /></li>
 
 
 
 
 
 
-<li><font face="Arial, Helvetica"  color="#000000"> <b>Friendly interaction is more efficient than
+<li> <b>Friendly interaction is more efficient than
 flaming.</b> Calm, relaxed discourse without angry contention
 provides for better exchange of information.  Flaming produces situations in
 which the listener must contend with the state of his or her emotions at
 least as much as with the comprehension of a speaker's comments.
-<br /><br /></font></li>
+<br /><br /></li>
 
 
 
 
 
 
-<li><font face="Arial, Helvetica"  color="#000000"> <b>Project developers are self-driven.</b> No one guarantees your work will be used, but
+<li> <b>Project developers are self-driven.</b> No one guarantees your work will be used, but
 only you decide whether a project is worth doing.  There is no
 single right approach to any design, implementation or support
 problem, and friendly competition is a fundamentally good thing.
-<br /><br /></font></li>
+<br /><br /></li>
 
 
 
 
 
 
-<li><font face="Arial, Helvetica"  color="#000000"> <b>Peer-directed project communities need to
+<li> <b>Peer-directed project communities need to
 grow.</b> Many valuable peer-directed
 projects chronically lack skilled, motivated developers with time to
 devote to them.  The potential
 base for peer-directed project communities includes anyone with the skills
 and interest to participate.  These communities must continue to grow.
-<br /><br /></font></li>
+<br /><br /></li>
 
 
 
 
 
 
-<li><font face="Arial, Helvetica"  color="#000000"> <a name="licensing"></a><b>Licensing must be free.</b> For peer-directed projects to
+<li> <a name="licensing"></a><b>Licensing must be free.</b> For peer-directed projects to
 succeed, their creative output must be widely available and usable without
 significant restriction.  For software projects, the
 
@@ -88,7 +88,7 @@ significant restriction.  For software projects, the
 
 the Free Software Foundation's
 
-<a href="http://www.fsf.org/philosophy/free-sw.html">Free Software Definition</a>
+<a href="http://www.gnu.org/philosophy/free-sw.html">Free Software Definition</a>
 
 and the Open Source Initiative's
 
@@ -97,11 +97,11 @@ and the Open Source Initiative's
 provide guidelines to help ensure that project creative output remains free.
 For artistic projects and for the printed word, licenses provided by
 
-<a href="http://creativecommons.org/about/licenses/">Creative Commons</a>
+<a href="http://creativecommons.org/licenses/">Creative Commons</a>
 
 and efforts such as the
 
-<a href="http://www.fsf.org/licensing/licenses/fdl.html">GNU Free Documentation License</a>
+<a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a>
 
 and the
 
@@ -114,7 +114,7 @@ help keep creative output free.
 Licensing which preserves freedom is essential to the health and success of
 peer-directed projects.
 
-<br /><br /></font></li>
+<br /><br /></li>
 
 
 </ul>

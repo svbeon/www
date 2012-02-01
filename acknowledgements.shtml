@@ -1,7 +1,6 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: acknowledgments" --><!--#set var="content_title" value="Acknowledgments" --><!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
-<font face="Arial, Helvetica"  color="#000000">
 Over the last ten years a lot of incredible people, projects and corporations have provided both time and resources to the PDPC and freenode, not only in getting the network up and running but also to ensure that it continously 
 grows and improve. We'd like to express thanks to those who have 
 
@@ -10,13 +9,12 @@ grows and improve. We'd like to express thanks to those who have
 to the PDPC. We'd also like to thank the support volunteers that help oil the wheels during the day-to-day operations of the network. </p>
 
 <p>
-<font face="Arial, Helvetica"  color="#000000">
 And while they may not always be visible to our userbase, we would like to send massive thanks to the groups and organizations whos logos appear below. While they've not given us direct financial support, they've provided 
 significant resources, be it by pointing their domains to us, providing regional servers or otherwise assisted us.. We really appreciate your help, without which we'd be nowhere near where we are today. Thank you, your continued 
 support is invaluable to us! 
-</font></p>
+</p>
 
-<p><font face="Arial, Helvetica"  color="#000000">If you don't see your logo on
+<p>If you don't see your logo on
 this page, and you should, please email us at <b>support at
 freenode dot net</b> and we'll be happy to add you
 to the page. Thank you for using <span class="freenode">freenode</span>!</font></p>

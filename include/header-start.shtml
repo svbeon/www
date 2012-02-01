@@ -29,7 +29,7 @@
             </a>
           </td>
           <td width="1">
-            <a class="noborder" href="http://www.osuosl.org/">
+            <a class="noborder" href="http://osuosl.org/">
               <img
                 class="logo"
                 src="images/freenode_osuosl.png"
@@ -56,7 +56,7 @@
 </td>
           <td align="right">
             <form action="http://www.google.com/cse" id="cse-search-box">
-              <span align="right">
+              <span style="text-align: right">
                 <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
                 <input type="hidden" name="ie" value="ISO-8859-1" />
                 <input type="text" name="q" size="31" />

@@ -1,7 +1,7 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="Group Registration" --><!--#set var="content_title" value="Group Registration" --><!--#include file="include/header-mainlogos.shtml" -->
 
 <p>If you are considering registering as a group on freenode, or you have already filed a GCF and are waiting for this to be processed, please be aware that we are currently experiencing a time-delay in processing forms. 
-This is an unfortunate side-effect of the combination of the following:
+This is an unfortunate side-effect of the combination of the following:</p>
 <ul>
 <li> The network has more than doubled in size in the past couple of years, while the number of committed volunteer staff stay much the same as before.</li>
 <li> The PDPC (freenode's parent organisation) no longer has any paid employees and is entirely volunteer-run, a big change from 2006 when there was a dedicated full-time paid employee.</li>
@@ -9,7 +9,6 @@ This is an unfortunate side-effect of the combination of the following:
 is being worked on when time and availability of volunteers allow (freenode is desperately seeking coders, for this and other projects).</li>
 <li> Due to sensitive nature of the information contained within the Group Contact registration forms currently, only a limited number of people are able to process these, for legal reasons -- to protect both you and us.</li>
 </ul>
-</p>
 
 <p>
 For the reasons outlined above, the current system is rather inadequate and we hope we will get a replacement in place soon which will enable you to have your group registered much faster than what is currently possible. Due to the current
@@ -19,7 +18,7 @@ backlog, priority is given to groups requiring approval in order to re-gain acce
 We apologise for the inconvenience and delay and ask that you have patience with us while we attempt to adjust to the exceptional growth and popularity the network has experienced as of late and the transition to being entirely 
 volunteer-run.
 </p>
-<hr>
+<hr />
 <p>
   This page describes group registration and the use of the
 

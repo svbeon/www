@@ -1,6 +1,6 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="Hosting a Server" --><!--#set var="content_title" value="Hosting a Server" --><!--#include file="include/header-mainlogos.shtml" -->
 
-<p><font face="Arial, Helvetica" color="#000000">
+<p>
 
   <span class="freenode">freenode</span> urgently needs solid, 
   well-connected hidden hub and public leaf servers. We look 
@@ -8,16 +8,16 @@
 should expect to sustain around 1Mbps of traffic, with much higher peaks. Total usage for 
 client servers is usually around 320 gigabytes per month, while hidden hubs are generally 
 much lower overall. Therefore, we are unable to consider offers of hosting from home cable/DSL
-connections.</font></p>
+connections.</p>
 
-<p><font face="Arial, Helvetica" color="#000000">We appreciate your interest in helping 
+<p>We appreciate your interest in helping 
 the network grow and your willingness to contribute to that process. <span class="freenode">
 freenode</span> is not a conventional IRC network. Servers are hosted, not linked. They are 
 maintained remotely from central sites using ssh and scp. New configuration files are generated 
 via an automated script at a central location, and new servers are either staged as binary files 
-or recompiled on the server account, depending on architecture and other factors.</font></p>
+or recompiled on the server account, depending on architecture and other factors.</p>
 
-<p><font face="Arial, Helvetica" color="#000000">While we will happily acknowledge your contribution 
+<p>While we will happily acknowledge your contribution 
 publicly, we don't, as a general rule, provide O-lines or operator privileges to our 
 server hosts. However, facilities hosts may apply separately for <span class="freenode">freenode</span> 
 <a href="http://www.freenode.net/volunteering.shtml">staff duty</a> and their applications will receive 
@@ -26,10 +26,10 @@ level of privilege is guaranteed or offered. Information on network operations c
 <a href="http://freenode.net/operations.shtml">here.</a> Hosting candidates are reminded that the 
 utility of any given server depends on ping latencies and other factors which may be beyond our control.
 Servers may need to be delinked or rehubbed at any time and we cannot always provide notice before 
-a server is delinked.</font></p>
+a server is delinked.</p>
 
-<p><font face="Arial, Helvetica" color="#000000">Regardless, hosting a <span class="freenode">freenode</span> 
-server helps the network and the community and we are grateful that you're considering it.</font></p>
+<p>Regardless, hosting a <span class="freenode">freenode</span> 
+server helps the network and the community and we are grateful that you're considering it.</p>
 
 <p>
 <!--#set var="title" value="System Specifications" -->
@@ -37,9 +37,9 @@ server helps the network and the community and we are grateful that you're consi
 </p>
 
 
-<font face="Arial, Helvetica" color="#000000">
+
 The following table lists minimum system requirements, and, where applicable desired specifications.<br />
-</font><br />
+<br />
 
 <table bgcolor="#e6e6e6" cellspacing="0" cellpadding="0" border="1">
 <tr>
@@ -66,10 +66,10 @@ The following table lists minimum system requirements, and, where applicable des
 </p>
 
 
-<font face="Arial, Helvetica" color="#000000">
+
 
 The system will need to have the following software installed.<br /><br />
-</font>
+
 <table bgcolor="#e6e6e6" cellspacing="0" cellpadding="0" border="1">
 
 <tr>
@@ -114,7 +114,7 @@ The system will need to have the following software installed.<br /><br />
 </tr><tr>
 <td>vi or equivalent editor</td>
 <td>vim 7.x is preferred</td>
-</tr>
+</tr><tr>
 <td>wget</td>
 <td></td>
 </tr>
@@ -126,9 +126,9 @@ The system will need to have the following software installed.<br /><br />
 </p>
 
 
-<p><font face="Arial, Helvetica" color="#000000">
+<p>
 Where possible we look for dedicated machines with root access, however, we will consider different set-ups too. 
-We will require:</font></p>
+We will require:</p>
 <ul>
 <li><b>User Account Access</b> -- While we greatly prefer dedicated machines with
 root access, we will consider other setups. In either case, we will
@@ -151,11 +151,11 @@ least 24,000 for the freenode user account, and 25,000 system-wide.</li>
 </p>
 
 
-<p><font face="Arial, Helvetica" color="#000000">
+<p>
 
 While the servers are configured and maintained by the <span class="freenode">freenode</span> 
 infrastructure team and we don't require active involvement from facilities sponsors for the 
-day to day running of the network, we ask that:</font></p>
+day to day running of the network, we ask that:</p>
 <ul>
 <li> Sponsors ensure that we have up-to-date contact information, on and offline</li>
 <li> Sponsors stay subscribed to the freenode-sponsors mailing list (low traffic, announcements only)</li>
@@ -168,7 +168,7 @@ day to day running of the network, we ask that:</font></p>
 <!--#include file="include/title.shtml" -->
 </p>
 
-<p><font face="Arial, Helvetica" color="#000000">
+<p>
 
 Before applying to host a server, you may find it helpful to 
 speak with network staff. Feel free to message 
@@ -177,7 +177,7 @@ speak with network staff. Feel free to message
 Regardless, the formal application process begins when you 
 submit an email containing the following information to 
 email address hosting at freenode net:
-</font></p>
+</p>
 
 
 <ul>
@@ -190,7 +190,7 @@ email address hosting at freenode net:
 <li><b>Server Name Preference</b> -- The server naming motif is "science fiction and fantasy authors". Vanity names may be provided, but canonical server names and standardised geographical names will be used exclusively by <span class="freenode">freenode</span>. If you have preferred authors, let us know and we will try to honour your preference.</li>
 </ul>
 
-<p><font face="Arial, Helvetica" color="#000000">
+<p>
 <span class="freenode">freenode</span>'s sponsor liaisons try to 
 respond to all server application requests within two weeks. Please 
 allow this time before chasing your application. <br />
@@ -198,7 +198,7 @@ allow this time before chasing your application. <br />
 All applications will be given the same considerations and we regret 
 that we may not always be able to accept a server offer for whatever 
 reason. 
-</font></p>
+</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
 

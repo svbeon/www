@@ -16,17 +16,17 @@ in with
 allowing Group Contacts to easier manage their <span class="freenode">freenode</span> 
 namespace. <br /><br />
 
-Some of the features which will be added to the GMS dashboard:<br />
+Some of the features which will be added to the GMS dashboard:</p>
+
 <ul>
 	<li> Channel/ACL Management </li>
 	<li> Namespace Cloaking</li>
 	<li> Channel/Namespace Logging -- <i>Public, Private or Project-wide access</i></li>
-	<li> Ability to add RSS feeds and similar to project's GMS dashboard -- <i> Pull blogs, commit stats, bugtracker etc,.</i>
+	<li> Ability to add RSS feeds and similar to project's GMS dashboard -- <i> Pull blogs, commit stats, bugtracker etc,.</i></li>
 
-</ul><br />
-This list is far from exhaustive, and we would be delighted to hear your ideas 
-and suggestions. <br />
-</p> 
+</ul>
+<p>This list is far from exhaustive, and we would be delighted to hear your ideas 
+and suggestions.</p> 
 
 <p>
 <!--#set var="title" value="Getting Involved" -->

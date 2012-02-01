@@ -1,18 +1,18 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="How to Help" --><!--#set var="content_title" value="How to Help" --><!--#include file="include/header-mainlogos.shtml" -->
 
-<p><font face="Arial, Helvetica"  color="#000000"><span class="freenode">freenode</span> exists
+<p><span class="freenode">freenode</span> exists
 to provide an interactive environment for coordination and support
 of peer-directed projects, including those of free software and 
 open source. Our network is currently implemented using Internet Relay
 Chat (IRC). Our aim is to help improve the communicative and collaborative
 skills of our participants and to
 maintain a friendly, efficient environment for project
-coordination and technical support.</font></p>
+coordination and technical support.</p>
 
 
 
 
-<p><font face="Arial, Helvetica"  color="#000000">You can help in several ways.  You might consider
+<p>You can help in several ways.  You might consider
 
 <a href="pdpc.shtml">donating</a>
 
@@ -27,13 +27,13 @@ You could consider getting involved with
 
 as a volunteer.  Or you might work on our
 
-<a href="gms.shtml">our current development focus</a>.</font></p>
+<a href="gms.shtml">our current development focus</a>.</p>
 
 
 
 
-<p><font face="Arial, Helvetica"  color="#000000">Regardless, we value having you here,
+<p>Regardless, we value having you here,
 as a contributor or as a participant.  Thank you for using
-<span class="freenode">freenode</span>!</font></p>
+<span class="freenode">freenode</span>!</p>
 
 <!--#include file="include/trailer.shtml" -->

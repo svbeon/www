@@ -1,28 +1,28 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="dircbot" --><!--#set var="content_title" value="dircbot" --><!--#include file="include/header-mainlogos.shtml" -->
 
-<p><font size="2">This site contains the helpfile for the semi-official utility bot, 
+<p>This site contains the helpfile for the semi-official utility bot, 
 dircbot, originally written and maintained by previous freenode staffer, PhilKC. 
 The bot was originally designed to enable staff to better manage and comment on 
 channel bans, ensuring that all ops were able to quickly look up details pertaining 
 any channel ban on a user.</font</p>
 
-<p><font size="2">The bot has since also shown to become a useful tool for several projects 
+<p>The bot has since also shown to become a useful tool for several projects 
 using the freenode network. Unfortunately, dircbot is not only written in a "non-standard" language, D, 
 but also closed source. The freenode development team is looking at replacing it's functionality 
 with an alternative which will be easier to maintain, scales better to project/group needs, written in 
 a language which doesn't rely quite as much on any one person to maintain and which, in line with our 
-ethos and ideals will be released under a OSS licence. </font></p>
+ethos and ideals will be released under a OSS licence. </p>
 
-<p><font size="2">If you are currently using dircbot for your project and have suggestions for added 
+<p>If you are currently using dircbot for your project and have suggestions for added 
 functionality or other improvements you would like to see in its replacement, or, you are curious 
 about how it can be useful to your project, or you're interested in helping out with freenode 
 development efforts (IRCDs, services modules, GMS (group management system), utility bots or pseudo servers) 
 please do get in touch! You can drop us a line to code AT freenode DOT net, or come have a chat with 
-us over in #freenode-dev. Thank you!</font></p>
+us over in #freenode-dev. Thank you!</p>
 
-<p><font size="2">Below you can find the original dircbot helpfile as prepared by PhilKC. Alternatively, you can download/view the .txt <a href="dircbot.txt">here.</a></font></p>
+<p>Below you can find the original dircbot helpfile as prepared by PhilKC. Alternatively, you can download/view the .txt <a href="dircbot.txt">here.</a></p>
 
-<p><pre><font size="2"><code>
+<p><pre><code>
 Please read the ENTIRE document before using the bot, there are a number of 'gotchas'.
 <br /><br />
 [] denotes an optional command.<br />
@@ -212,7 +212,7 @@ Format variables:
         The host of the user who joined.
     $match
         The mask that matched.
- </code></font></pre>
+ </code></pre>
 </p>
 
 <!--#include file="include/trailer.shtml" -->

@@ -1,13 +1,13 @@
     <select name="amount">
-      <option value="5.00">1 hug (£5.00)</option>
-      <option value="10.00">2 hugs (£10.00)</option>
-      <option value="15.00" selected="selected">3 hugs (£15.00)</option>
-      <option value="30.00">6 hugs (£30.00) </option>
-      <option value="60.00">12 hugs (£60.00) </option>
-      <option value="120.00">24 hugs (£120.00) </option>
-      <option value="250.00">50 hugs (£250.00) </option>
-      <option value="500.00">100 hugs (£500.00) </option>
-      <option value="1000.00">200 hugs (£1000.00) </option>
+      <option value="5.00">1 hug (&pound;5.00)</option>
+      <option value="10.00">2 hugs (&pound;10.00)</option>
+      <option value="15.00" selected="selected">3 hugs (&pound;15.00)</option>
+      <option value="30.00">6 hugs (&pound;30.00) </option>
+      <option value="60.00">12 hugs (&pound;60.00) </option>
+      <option value="120.00">24 hugs (&pound;120.00) </option>
+      <option value="250.00">50 hugs (&pound;250.00) </option>
+      <option value="500.00">100 hugs (&pound;500.00) </option>
+      <option value="1000.00">200 hugs (&pound;1000.00) </option>
 
 
 

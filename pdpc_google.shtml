@@ -5,12 +5,12 @@
         <tr>
             <td align="right" width="1%">
                 <select name="item_selection_1">
-                    <option value="1">£10.00 - student or base</option>
-                    <option value="2">£15.00 - active</option>
-                    <option value="3">£30.00 - sustaining or professional</option>
-                    <option value="4">£60.00 - bronze</option>
-                    <option value="5">£120.00 - silver</option>
-                    <option value="6">£250.00 - gold</option>
+                    <option value="1">&pound;10.00 - student or base</option>
+                    <option value="2">&pound;15.00 - active</option>
+                    <option value="3">&pound;30.00 - sustaining or professional</option>
+                    <option value="4">&pound;60.00 - bronze</option>
+                    <option value="5">&pound;120.00 - silver</option>
+                    <option value="6">&pound;250.00 - gold</option>
                 </select>
                 <input name="item_option_name_1" type="hidden" value="student or base"/>
                 <input name="item_option_price_1" type="hidden" value="10.0"/>

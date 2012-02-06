@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -38,7 +38,7 @@
 <form action="http://www.google.com/cse" id="cse-search-box">
   <div align="right">
     <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
-    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="hidden" name="ie" value="UTF-8" />
     <input type="text" name="q" size="31" />
     <input type="submit" name="sa" value="Search" />
   </div>

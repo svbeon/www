@@ -615,7 +615,7 @@ table.serverlist
         border-collapse: collapse;
 }
 
-tr.sl_header
+tr.sl_header td
 {
         color: #525668;
         font-weight: bold;
@@ -628,7 +628,7 @@ table.serverlist td
         padding: 5px;
 }
 
-tr.sl_inactive
+tr.sl_inactive td
 {
         text-decoration: line-through;
 }

@@ -429,13 +429,13 @@
           <br /><br />
 
           If your client supports server password, please set this up as 
-          <code>:&lt;accountname&gt; &lt;password&gt;</code>. (Make sure to
+          <code>&lt;accountname&gt;:&lt;password&gt;</code>. (Make sure to
           include the colon and not the literal &lt; and &gt;.) This will
           allow you to identify to your services account on connect,
           regardless of the nickname you are using when you connect. For
           example:
 
-          <blockquote><i>/connect irc.freenode.net 6667 :mquin uwhY8wgzWw22-zXs.M39p</i></blockquote>
+          <blockquote><i>/connect irc.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</i></blockquote>
         </li>
       </ol>
       <br />

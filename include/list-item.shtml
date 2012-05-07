@@ -1,2 +1,0 @@
-<li><b><!--#echo encoding="none" var="slug" --></b> <!--#echo encoding="none" var="item" -->
-<br /><br /></li>

@@ -1,75 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+<!DOCTYPE html>
 <!--#set var="SPONSOR_LINKS" value=" " -->
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-<!--#echo encoding="none" var="more_meta" -->    <meta name="generator" content="HTML Tidy, see www.w3.org" />
-    <title>
-    <!--#echo encoding="none" var="page_title" -->
-    </title>
-    <link rel="stylesheet" href="tweaks.css" type="text/css" />
-  </head>
-  <body bgcolor="#b4b4c0" text="#000000" link="black" alink="black" vlink="black">
-    <div class="header">
-      <table width="100%">
-        <tr>
-          <td width="1">
-            <a class="noborder" href="http://freenode.net/">
-              <img
-                class="logo"
-                src="logo2.png"
-                width="340"
-                height="68"
-                border="0"
-                alt="[freenode]"
-                title="freenode, a service of Peer-Directed Projects Center"
-              />
-            </a>
-          </td>
-          <td width="1">
-            <a class="noborder" href="http://osuosl.org/">
-              <img
-                class="logo"
-                src="images/freenode_osuosl.png"
-                width="165"
-                height="65"
-                border="0"
-                alt="[Internet services by Oregon State University's Open Source Lab]"
-                title="Internet services by Oregon State University's Open Source Lab"
-              />
-            </a>
-          </td>
-          <td width="1">
-            <a class="noborder" href="https://www.privateinternetaccess.com/" title="VPN Service">
-              <img
-                class="logo"
-                src="images/ack_privateinternetaccess-freenode.png"
-                width="404"
-                height="65"
-                border="0"
-                alt="VPN Service"
-                title="Private Internet Access, Diamond Sponsor of PDPC"
-              />
-            </a>
-</td>
-          <td align="right">
-            <form action="http://www.google.com/cse" id="cse-search-box">
-              <span style="text-align: right">
-                <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
-                <input type="hidden" name="ie" value="UTF-8" />
-                <input type="text" name="q" size="31" />
-                <input type="submit" name="sa" value="Search" />
-              </span>
-            </form>
-
-<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
-
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div class="bar"></div>
-    <br />
-
+<html lang="en">
+<head>
+	<meta charset=utf-8>
+	<!--#echo encoding="none" var="more_meta" -->
+	<title><!--#echo encoding="none" var="page_title" --></title>
+	<link rel="stylesheet" href="/style.css" type="text/css" />
+	</head>
+<body>
+<div class="header2">
+	<div class="header" style="height: 68px">
+		<a href="/">
+			<img class="logo" style="position: absolute; top: 0px; left: 0px;" src="/images/logo2.png" width="340" height="68" alt="[freenode]" title="freenode, a service of Peer-Directed Projects Center" />
+		</a>
+		<a href="http://osuosl.org/">
+			<img class="logo" style="position: absolute; top: 1px; left: 345px;" src="images/freenode_osuosl.png" width="165" height="65" alt="[Internet services by Oregon State University's Open Source Lab]" title="Internet services by Oregon State University's Open Source Lab" />
+		</a>
+		<a href="https://www.privateinternetaccess.com/" title="VPN Service">
+			<img class="logo" style="position: absolute; top: 1px; left: 515px;" src="images/ack_privateinternetaccess-freenode.png" width="404" height="65" alt="VPN Service" title="Private Internet Access, Diamond Sponsor of PDPC" />
+		</a>
+	</div>
+		<form action="http://www.google.com/cse" id="cse-search-box">
+			<p style="margin: 1px; padding: 1px; text-align: right;">
+				<input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
+				<input type="hidden" name="ie" value="ISO-8859-1" />
+				<input type="text" name="q" size="31" />
+				<input type="submit" name="sa" value="Search" />
+			</p>
+		</form>
+</div>

@@ -1,97 +1,61 @@
-    <table summary="Ancient Framing Table" cellspacing="0" cellpadding="0" border="0" width="100%">
-      <tr>
-        <td valign="top" colspan="2" width="100%">
-        <table summary="Ancient Framing Table" cellspacing="0" cellpadding="0" border="0" width="100%">
-            <tr>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td height="100%" width="10" rowspan="5">&nbsp;</td>
-              <td valign="top">
-                <table summary="Ancient Framing Table" cellspacing="1" cellpadding="1" border="0" bgcolor="#000000" width="100%">
-                  <tr>
-                    <td valign="top">
-                      <table summary="Ancient Framing Table" cellspacing="0" cellpadding="5" border="0" bgcolor="#ffffff" width="100%">
-                        <tr>
-                          <td class="navbar" valign="top" width="100">
-                            <br />
-                            <a name="donate"></a><a name="contribute"></a>
-                            <form class="navcontrib" action="http://freenode.net/donations/" method="get">
-                              <b class="green">
-                                Help keep <span class="green freenode">freenode</span> running.
-                                
-                                <br />
-                                
-                                Donate to the <a href="pdpc_donations.shtml">PDPC</a>!
-                              </b>
-                              <br />
-                              <input class="centered" type="submit" name="type" value="One time" /><br />
-                              <input class="centered" type="submit" name="type" value="Monthly" />
-                              <input class="centered" type="submit" name="type" value="Yearly" />
-                            </form>
-                            <br />
-			    <a class="boxbold" href="news.php">News</a><br />
-                            <a class="boxbold" href="pdpc.shtml">About PDPC</a><br />
-                            <a class="boxbold" href="press.shtml">Press Information</a><br />
-                            <a class="boxbold" href="index.shtml">About&nbsp;the&nbsp;network</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="faq.shtml">FAQ</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="irc_servers.shtml">IRC&nbsp;Servers</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="group_registration.shtml">Group Registration</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="primary_groups.shtml">Primary&nbsp;Groups</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="topical_groups.shtml">Topical/Reference</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="group_privacy.shtml">Privacy&nbsp;Policy</a><br />
-	 	            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="using_the_network.shtml">Using&nbsp;the&nbsp;Network</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="policy.shtml">Policies</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="history.shtml">History and Growth</a><br />
-                            <a class="boxbold" href="development.shtml">Development</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="hyperion.shtml">Hyperion</a><br />
-                           &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="gms.shtml">Group&nbsp;Management&nbsp;System</a><br />
-                           &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="seven.shtml">ircd-seven</a><br />
-                           &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="services.shtml">Services</a><br />
-                           &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="utilities.shtml">Utility&nbsp;Bots/Pseudo&nbsp;Servers</a><br />
-                            <a class="boxbold" href="philosophy.shtml">Philosophy</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="freenode_and_irc.shtml">freenode&nbsp;and&nbsp;IRC</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="catalysts.shtml">Catalysts</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="channel_guidelines.shtml">Channel&nbsp;Guidelines</a><br />
-                            <a class="boxbold" href="how_to_help.shtml">How&nbsp;to&nbsp;Help</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="pdpc_donations.shtml">Donations to PDPC</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="hosting_ircd.shtml">Hosting&nbsp;a&nbsp;Server</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="operations.shtml">Operations</a><br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="hyperion.shtml">Hyperion IRCD</a><br />
-			    &nbsp;&nbsp;&nbsp;&nbsp;<a class="boxbold" href="volunteering.shtml">Volunteering</a><br />
-                            <a class="boxbold" href="podcast.shtml">Podcast</a><br />
-                            <a class="boxbold" href="acknowledgements.shtml">Acknowledgements</a><br />
-                            <br />
+<div class="bodyframe">
+	<div class="menubar">
+		<div id="donate" class="navcontrib" style="margin: 0;">
+				<p>Help keep freenode running.
+				<br />
+				Donate to the <a href="/pdpc_donations.shtml">PDPC</a>!</p>
 
-
-
-
-
-
-<br /><br />
-
-
-                            <div class="centered">
-                              <a rel="license" href="http://creativecommons.org/licenses/by-nd/2.0/">
-                                <img
-                                  alt="Creative Commons License"
-                                  border="0"
-                                  src="http://creativecommons.org/images/public/somerights20.gif" 
-                                />
-                              </a>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-              <td height="100%" width="10" rowspan="5">&nbsp;</td>
-              <td valign="top" width="100%">
-                <table summary="Ancient Framing Table" cellspacing="1" cellpadding="1" border="0" bgcolor="#000000" width="100%">
-                  <tr>
-                    <td valign="top">
-                      <table summary="Ancient Framing Table" cellspacing="0" cellpadding="5" border="0" bgcolor="#ffffff" width="100%">
-                        <tr>
-                          <td class="content" valign="top" width="100%">
+			<p><a href="/pdpc_onetime.shtml" class="donatebutton">One time</a>
+			<a href="/pdpc_monthly.shtml" class="donatebutton">Monthly</a> 
+			<a href="/pdpc_yearly.shtml" class="donatebutton">Yearly</a></p>
+		</div>
+	<ul>
+		<li><a href="/news.php">News</a></li>
+		<li><a href="/pdpc.shtml">About PDPC</a></li>
+		<li><a href="/press.shtml">Press Information</a></li>
+		<li><a href="/index.shtml">About the network</a>
+		<ul>
+			<li><a href="/faq.shtml">FAQ</a></li>
+			<li><a href="/irc_servers.shtml">IRC Servers</a></li>
+			<li><a href="/group_registration.shtml">Group Registration</a>
+			<ul>
+				<li><a href="/primary_groups.shtml">Primary Groups</a></li>
+				<li><a href="/topical_groups.shtml">Topical/Reference</a></li>
+				<li><a href="/group_privacy.shtml">Privacy Policy</a></li>
+			</ul></li>
+			<li><a href="/using_the_network.shtml">Using the Network</a></li>
+			<li><a href="/policy.shtml">Policies</a></li>
+			<li><a href="/history.shtml">History and Growth</a></li>
+		</ul></li>
+		<li><a href="/development.shtml">Development</a>
+		<ul>
+			<li><a href="/hyperion.shtml">Hyperion</a></li>
+			<li><a href="/gms.shtml">Group Management System</a></li>
+			<li><a href="/seven.shtml">ircd-seven</a></li>
+			<li><a href="/services.shtml">Services</a></li>
+			<li><a href="/utilities.shtml">Utility Bots/Pseudo Servers</a></li>
+		</ul></li>
+		<li><a href="/philosophy.shtml">Philosophy</a>
+		<ul>
+			<li><a href="/freenode_and_irc.shtml">freenode and IRC</a></li>
+			<li><a href="/catalysts.shtml">Catalysts</a></li>
+			<li><a href="/channel_guidelines.shtml">Channel Guidelines</a></li>
+		</ul></li>
+		<li><a href="/how_to_help.shtml">How to Help</a>
+		<ul>
+			<li><a href="/pdpc_donations.shtml">Donations to PDPC</a></li>
+			<li><a href="/hosting_ircd.shtml">Hosting a Server</a></li>
+			<li><a href="/operations.shtml">Operations</a></li>
+			<li><a href="/hyperion.shtml">Hyperion IRCD</a></li>
+			<li><a href="/volunteering.shtml">Volunteering</a></li>
+		</ul></li>
+		<li><a href="/podcast.shtml">Podcast</a></li>
+		<li><a href="/acknowledgements.shtml">Acknowledgements</a></li>
+	</ul>
+	<p class="centered">
+		<a rel="license" href="http://creativecommons.org/licenses/by-nd/2.0/">
+			<img alt="Creative Commons License" style="border: 0" src="http://creativecommons.org/images/public/somerights20.gif" />
+		</a>
+	</p>
+</div>
+<div class="content">

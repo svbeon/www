@@ -5,12 +5,12 @@
 	<meta charset=utf-8>
 	<!--#echo encoding="none" var="more_meta" -->
 	<title><!--#echo encoding="none" var="page_title" --></title>
-	<link rel="stylesheet" href="/style.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
 	</head>
 <body>
 <div class="header2">
 	<div class="header" style="height: 68px">
-		<a href="/">
+		<a href="index.shtml">
 			<img class="logo" style="position: absolute; top: 0px; left: 0px;" src="logo2.png" width="340" height="68" alt="[freenode]" title="freenode, a service of Peer-Directed Projects Center" />
 		</a>
 		<a href="http://osuosl.org/">

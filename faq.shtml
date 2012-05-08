@@ -1139,7 +1139,7 @@
       occasionally while rejoining from a netsplit.  If you find them
       extremely annoying, we provide a set of
 
-      <a href="/unrecommended/freenode-info/scripts/">scripts</a>
+      <a href="unrecommended/freenode-info/scripts/">scripts</a>
 
       to allow you to turn them off, but
       <b>
@@ -1240,7 +1240,7 @@
         during your connection, before anything else happens. This is
         the best way to ensure you are cloaked immediately. A
         collection of scripts for common clients and instructions
-        for setting up SASL can be found <a href="/sasl/">here</a>.</li>
+        for setting up SASL can be found <a href="sasl/">here</a>.</li>
       <li>Wait to join channels until after the server notifies you
         that it has set your hidden host.<br />
         This notification is done with a 396 numeric that looks like this:
@@ -1565,7 +1565,7 @@
 
           just use one of the
           
-          <a href="/pdpc.shtml#donate">buttons</a>
+          <a href="pdpc.shtml#donate">buttons</a>
 
           on the navbar at the left hand side of the page. We'll mark your
           cloak to indicate your level of support!
@@ -2096,7 +2096,7 @@
 
       we'll find it difficult to maintain and expand the growing
 
-      <a href="/">freenode</a>
+      <a href="index.shtml	">freenode</a>
 
       network or take on the other community service projects in planning.
       <br /><br />

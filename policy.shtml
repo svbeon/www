@@ -31,7 +31,7 @@
   <li><a href="#unlawful">Unlawful Activity</a></li>
 </ul>
 
-<!--#set var="title" value="<br /><br /><a name=\"purpose\"></a>Purpose" -->
+<!--#set var="title" value="<br /><br /><a id=\"purpose\"></a>Purpose" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -66,7 +66,7 @@
   real-time bridge to the outside world for our target communities.
 </p>
 
-<!--#set var="title" value="<br /><a name=\"channelownership\"></a>Channel Ownership" -->
+<!--#set var="title" value="<br /><a id=\"channelownership\"></a>Channel Ownership" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -89,7 +89,7 @@
   <a href="channel_guidelines.shtml">network channel guidelines</a>.
 </p>
 
-<!--#set var="title" value="<br /><a name=\"channelnaming\"></a>Channel Naming" -->
+<!--#set var="title" value="<br /><a id=\"channelnaming\"></a>Channel Naming" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -143,7 +143,7 @@
   determined for this transition.
 </p>
 
-<!--#set var="title" value="<br /><a name=\"primarychannels\"></a>Primary Channels" -->
+<!--#set var="title" value="<br /><a id=\"primarychannels\"></a>Primary Channels" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -187,7 +187,7 @@
 </ol>
 
 <p>
-  <a name="socialengineering"></a>
+  <a id="socialengineering"></a>
 
   <a href="pdpc.shtml">Peer-Directed Projects Center</a>
 
@@ -216,7 +216,7 @@
   at the server software level at some point in the future.
 </p>
 
-<!--#set var="title" value="<br /><a name=\"topicalchannels\"></a>Topical or Reference Channels" -->
+<!--#set var="title" value="<br /><a id=\"topicalchannels\"></a>Topical or Reference Channels" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -240,7 +240,7 @@
   without accepting these policies.</b>
 </p>
 
-<!--#set var="title" value="<br /><a name=\"channelforwarding\"></a>Channel Forwarding" -->
+<!--#set var="title" value="<br /><a id=\"channelforwarding\"></a>Channel Forwarding" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -280,7 +280,7 @@
   to be temporary and subject to removal.
 </p>
 
-<!--#set var="title" value="<br /><a name=\"ontopic\"></a>On-Topic Use" -->
+<!--#set var="title" value="<br /><a id=\"ontopic\"></a>On-Topic Use" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -460,7 +460,7 @@
   </li>
 </ol>
 
-<!--#set var="title" value="<a name=\"offtopic\"></a>Off-Topic Use" -->
+<!--#set var="title" value="<a id=\"offtopic\"></a>Off-Topic Use" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -508,7 +508,7 @@
 
 </p>
 
-<!--#set var="title" value="<br /><a name=\"announcements\"></a>Announcements" -->
+<!--#set var="title" value="<br /><a id=\"announcements\"></a>Announcements" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -573,7 +573,7 @@
   Thanks in advance for your understanding.
 </p>
 
-<!--#set var="title" value="<a name=\"advertising\"><br /></a>Inappropriate Advertising" -->
+<!--#set var="title" value="<a id=\"advertising\"><br /></a>Inappropriate Advertising" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -615,7 +615,7 @@
   be removed by staff.
 </p>
 
-<!--#set var="title" value="<br /><a name=\"behaviorandcloaks\"></a>Behavior and Cloaks" -->
+<!--#set var="title" value="<br /><a id=\"behaviorandcloaks\"></a>Behavior and Cloaks" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -632,7 +632,7 @@
 
 </p>
 
-<!--#set var="title" value="<br /><a name=\"termination\"></a>Termination of Use" -->
+<!--#set var="title" value="<br /><a id=\"termination\"></a>Termination of Use" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -665,7 +665,7 @@
   new location, so that everybody gets the message.
 </p>
 
-<!--#set var="title" value="<br /><a name=\"proxies\"></a>Open Proxies, IIS and Appeals" -->
+<!--#set var="title" value="<br /><a id=\"proxies\"></a>Open Proxies, IIS and Appeals" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -697,7 +697,7 @@
   the ban or provide an exception if possible.
 </p>
 
-<!--#set var="title" value="<br /><a name=\"tor\"></a>Tor and Freenode" -->
+<!--#set var="title" value="<br /><a id=\"tor\"></a>Tor and Freenode" -->
 <!--#include file="include/title.shtml" -->
 
 <p>
@@ -792,7 +792,7 @@
   access issues in a timely fashion.
 </p>  
 
-<!--#set var="title" value="<br /><a name=\"unlawful\"></a>Unlawful Activity" -->
+<!--#set var="title" value="<br /><a id=\"unlawful\"></a>Unlawful Activity" -->
 <!--#include file="include/title.shtml" -->
 
 <p>

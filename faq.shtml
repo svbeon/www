@@ -11,7 +11,7 @@
   <ul>
     <li>
       <b>
-        <a name="contents"></a><a href="#contents">Contents</a>.
+        <a id="contents"></a><a href="#contents">Contents</a>.
       </b>
       <br /><br />
       <ul>
@@ -28,7 +28,7 @@
 
     <li>
       <b>
-        <a name="contents-general"></a><a href="#general">General Questions</a>.
+        <a id="contents-general"></a><a href="#general">General Questions</a>.
       </b>
       <br /><br />
       <ul>
@@ -44,7 +44,7 @@
 
     <li>
       <b>
-        <a name="contents-userregistration"></a><a href="#userregistration">User Registration</a>.
+        <a id="contents-userregistration"></a><a href="#userregistration">User Registration</a>.
       </b>
       <br /><br />
       <ul>
@@ -63,7 +63,7 @@
 
     <li>
       <b>
-        <a name="contents-usingfreenode"></a><a href="#usingfreenode">Using the Network</a>.
+        <a id="contents-usingfreenode"></a><a href="#usingfreenode">Using the Network</a>.
       </b>
       <br /><br />
       <ul>
@@ -107,7 +107,7 @@
 
     <li>
       <b>
-        <a name="contents-gettinghelp"></a><a href="#gettinghelp">Getting Help</a>.
+        <a id="contents-gettinghelp"></a><a href="#gettinghelp">Getting Help</a>.
       </b>
       <br /><br />
       <ul>
@@ -121,7 +121,7 @@
 
     <li>
       <b>
-        <a name="contents-groups"></a><a href="#groups">Groups and Group Contacts</a>.
+        <a id="contents-groups"></a><a href="#groups">Groups and Group Contacts</a>.
       </b>
       <br /><br />
       <ul>
@@ -145,7 +145,7 @@
 
     <li>
       <b>
-        <a name="contents-organisation"></a><a href="#organisation"><span class="freenode">freenode</span> Project organisation</a>.
+        <a id="contents-organisation"></a><a href="#organisation"><span class="freenode">freenode</span> Project organisation</a>.
       </b>
       <br /><br />
       <ul>
@@ -163,7 +163,7 @@
 
     <li>
       <b>
-        <a name="contents-pdpc"></a><a href="#pdpc">Contributions</a>.
+        <a id="contents-pdpc"></a><a href="#pdpc">Contributions</a>.
       </b>
       <br /><br />
       <ul>
@@ -178,14 +178,14 @@
 
   <br />
   <div class="large">
-    <a name="general"></a>
+    <a id="general"></a>
     General Questions.
   </div>
 
   <ul>
     <li>
       <b>
-        <a name="whatwhy"></a>What is <span class="freenode">freenode</span>
+        <a id="whatwhy"></a>What is <span class="freenode">freenode</span>
         about? Why is it here?
       </b>
 
@@ -206,7 +206,7 @@
     
     <li>
       <b>
-        <a name="createchannel"></a>Should I create a channel on
+        <a id="createchannel"></a>Should I create a channel on
 
         <span class="freenode">freenode</span>?
       </b>
@@ -235,7 +235,7 @@
     
     <li>
       <b>
-        <a name="whyfreenode"></a>Why is it called <span class="freenode">freenode</span>?
+        <a id="whyfreenode"></a>Why is it called <span class="freenode">freenode</span>?
       </b>
       Prior to the creation of <span class="freenode">freenode</span>'s not-for
       profit parent entity, Peer-Directed Projects Center, we called the
@@ -251,7 +251,7 @@
     
     <li>
       <b>
-        <a name="sourceavailable"></a>Is the source code used for your servers publicly available?
+        <a id="sourceavailable"></a>Is the source code used for your servers publicly available?
       </b>
       Yes. We currently use ircd-seven, which can be found in its
 
@@ -267,7 +267,7 @@
     
     <li>
       <b>
-        <a name="minimumstandards"></a>Are there minimum standards of conduct for using <span class="freenode">freenode</span>?
+        <a id="minimumstandards"></a>Are there minimum standards of conduct for using <span class="freenode">freenode</span>?
       </b>
       The basic policies for the network are outlined
 
@@ -288,7 +288,7 @@
     
     <li>
       <b>
-        <a name="fst"></a>What is fST or <span class="freenode">freenode</span> Standard Time?
+        <a id="fst"></a>What is fST or <span class="freenode">freenode</span> Standard Time?
       </b>
       It's our official time zone.  Well, sort of. We're not entirely
       serious. :) <span class="freenode">freenode</span> <b>Standard Time</b> is
@@ -299,14 +299,14 @@
 
   <br />
   <div class="large">
-    <a name="userregistration"></a>
+    <a id="userregistration"></a>
     User Registration.
   </div>
 
   <ul>
     <li>
       <b>
-        <a name="registering"></a> Why should I register my nick?
+        <a id="registering"></a> Why should I register my nick?
       </b>
       Your nick is how people on <span class="freenode">freenode</span> know you. 
       If you register it, you'll be able to use the same nick over and over. 
@@ -336,7 +336,7 @@
     
     <li>
       <b>
-        <a name="nicksetup"></a> What is the recommended way to set up my IRC nickname?
+        <a id="nicksetup"></a> What is the recommended way to set up my IRC nickname?
       </b>
       Please follow these steps to set up your nick and configure your
       client.  <b>Check off each step to make sure it's been done:</b>
@@ -443,7 +443,7 @@
 
     <li>
       <b>
-        <a name="identify"></a>What's the easiest way to identify to
+        <a id="identify"></a>What's the easiest way to identify to
         nickserv when I connect to <span class="freenode">freenode</span>?
       </b>
 
@@ -473,7 +473,7 @@
 	
 	<li>
       <b>
-        <a name="plusr"></a>Why am I seeing &quot;Cannot join channel (+r) - you need to be identified with services&quot;?
+        <a id="plusr"></a>Why am I seeing &quot;Cannot join channel (+r) - you need to be identified with services&quot;?
       </b>
 	This means that you need to <a href="#nicksetup">register</a> (and verify) your nickname.  If you have already registered, you probably need to <a href="#identify">identify.</a>
 	 <br /><br /> 
@@ -481,7 +481,7 @@
     
     <li>
       <b>
-        <a name="spoofing"></a>How can I tell when someone might be spoofing a user's identity?
+        <a id="spoofing"></a>How can I tell when someone might be spoofing a user's identity?
       </b>
       If your client supports <b>CAP identify-msg</b>, you can configure
       it to let you know when someone speaking on channel or via /msg is
@@ -513,7 +513,7 @@
     
     <li>
       <b>
-        <a name="userexpirations"></a>When do IRC nicknames expire?
+        <a id="userexpirations"></a>When do IRC nicknames expire?
       </b>
 
       We consider IRC nicks expired after they have not been used for 10 weeks 
@@ -542,7 +542,7 @@
     
     <li>
       <b>
-        <a name="inuse"></a>How do you know the last time an IRC nickname
+        <a id="inuse"></a>How do you know the last time an IRC nickname
         was used?
       </b>
 
@@ -574,7 +574,7 @@
     
     <li>
       <b>
-        <a name="unusednick"></a>How can I take over a registered nick that hasn't been used in a long time?
+        <a id="unusednick"></a>How can I take over a registered nick that hasn't been used in a long time?
       </b>
       Nicks which are considered
       
@@ -589,7 +589,7 @@
     
     <li>
       <b>
-        <a name="nickisgone"></a>I registered my nick and now someone else has it. Did someone steal it? How do I get it back?
+        <a id="nickisgone"></a>I registered my nick and now someone else has it. Did someone steal it? How do I get it back?
       </b>
       To keep your registered nick, you must
 
@@ -624,14 +624,14 @@
 
   <br />
   <div class="large">
-    <a name="usingfreenode"></a>
+    <a id="usingfreenode"></a>
     Using the Network.
   </div>
 
   <ul>
     <li>
       <b>
-        <a name="webchat"></a>Can I access the network via webchat?
+        <a id="webchat"></a>Can I access the network via webchat?
       </b>
 
      
@@ -666,7 +666,7 @@
 
     <li>
       <b>
-        <a name="userequals"></a> What is this '~' in some hostnames?
+        <a id="userequals"></a> What is this '~' in some hostnames?
       </b>
 
       The '~', or lack thereof, is in fact in the username field. Usernames
@@ -704,7 +704,7 @@
 
     <li>
       <b>
-        <a name="howtoconnect"></a>How do I connect to <span class="freenode">freenode</span>?  How do I use the network?
+        <a id="howtoconnect"></a>How do I connect to <span class="freenode">freenode</span>?  How do I use the network?
       </b>
       Information on using the network can be found
 
@@ -722,7 +722,7 @@
     
     <li>
       <b>
-        <a name="channellist"></a>How can I get a list of <span class="freenode">freenode</span> public channels?
+        <a id="channellist"></a>How can I get a list of <span class="freenode">freenode</span> public channels?
       </b>
       Check the
       
@@ -739,7 +739,7 @@
     
     <li>
       <b>
-        <a name="ipv6access"></a>How do I access <span class="freenode">freenode</span> via IPv6?
+        <a id="ipv6access"></a>How do I access <span class="freenode">freenode</span> via IPv6?
       </b>
       
       The simplest way is to connect to <b>irc.ipv6.freenode.net</b>.
@@ -748,7 +748,7 @@
     
     <li>
       <b>
-        <a name="defocuschannel"></a> What is the purpose of channel #defocus?
+        <a id="defocuschannel"></a> What is the purpose of channel #defocus?
       </b>
       
       It's a social channel. It's the home channel of the
@@ -768,7 +768,7 @@
     
     <li>
       <b>
-        <a name="nobodysees"></a>Why can't anyone see what I'm typing on channel?
+        <a id="nobodysees"></a>Why can't anyone see what I'm typing on channel?
       </b>
       One of several server features might be keeping people from seeing
       your comments.  The channel might be moderated using channel mode
@@ -801,7 +801,7 @@
     
     <li>
       <b>
-        <a name="pdpc_cloak"></a>Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?
+        <a id="pdpc_cloak"></a>Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?
       </b>
       
       They're users who have
@@ -816,7 +816,7 @@
     
     <li>
       <b>
-        <a name="channelexpirations"></a>When do IRC channels expire?
+        <a id="channelexpirations"></a>When do IRC channels expire?
       </b>
 
       We consider <a href ="policy.shtml#channelnaming">non-primary</a>
@@ -842,7 +842,7 @@
 
     <li>
       <b>
-        <a name="channelpolicy"></a>Who sets channel policy on <span class="freenode">freenode</span>?
+        <a id="channelpolicy"></a>Who sets channel policy on <span class="freenode">freenode</span>?
       </b>
       Channel policy is set by channel owners. Network staff set the basic
 
@@ -868,7 +868,7 @@
     
     <li>
       <b>
-        <a name="channelfreezing"></a>Why do you freeze channels when groups leave the network?
+        <a id="channelfreezing"></a>Why do you freeze channels when groups leave the network?
       </b>
       Frequently when groups leave the network, they put up a pointer to
       the location of their new channel, on another network.  This helps
@@ -884,7 +884,7 @@
     
     <li>
       <b>
-        <a name="networkinfo"></a>How do I find out what's going on with the network?
+        <a id="networkinfo"></a>How do I find out what's going on with the network?
       </b>
       
       We put information on the network in a variety of places.  Your best
@@ -926,7 +926,7 @@
     
     <li>
       <b>
-        <a name="lessinfo"></a>How can I get fewer notices from the staff?
+        <a id="lessinfo"></a>How can I get fewer notices from the staff?
       </b> 
       Most of those messages are sent via WALLOPS, an IRC facility for
       displaying messages from server operators.
@@ -965,7 +965,7 @@
     
     <li>
       <b>
-        <a name="firewall"></a>My firewall logs show that someone from your network is trying to crack my box. What's going on?
+        <a id="firewall"></a>My firewall logs show that someone from your network is trying to crack my box. What's going on?
       </b>
 
       You're probably seeing our open proxy detector.  After numerous
@@ -984,7 +984,7 @@
     
     <li>
       <b>
-        <a name="loopback"></a>Why is my client trying to connect to 127.0.0.1 when I try to connect to your network?
+        <a id="loopback"></a>Why is my client trying to connect to 127.0.0.1 when I try to connect to your network?
       </b>
       
       You've tried to connect to <span class="freenode">freenode</span> during a
@@ -1004,7 +1004,7 @@
     
     <li>
       <b>
-        <a name="rejected"></a>Why does my client get "connection rejected" when I try to connect to your network?
+        <a id="rejected"></a>Why does my client get "connection rejected" when I try to connect to your network?
       </b>
       
       As in the case
@@ -1021,7 +1021,7 @@
     
     <li>
       <b>
-        <a name="drones"></a>I joined this channel and now I can't access <span class="freenode">freenode</span> anymore.  The message says I'm a clonebot.  What's going on?
+        <a id="drones"></a>I joined this channel and now I can't access <span class="freenode">freenode</span> anymore.  The message says I'm a clonebot.  What's going on?
       </b>
       Apologies for the inconvenience.  Due to problems with drones and
       automated clonebots, we've had to institute automated network bans
@@ -1032,7 +1032,7 @@
     
     <li>
       <b>
-        <a name="practicaljoke"></a>Someone told me to join this channel and now I can't get to the network anymore.  What's going on?
+        <a id="practicaljoke"></a>Someone told me to join this channel and now I can't get to the network anymore.  What's going on?
       </b>
       Someone has played a practical joke on you.  Please see
 
@@ -1045,7 +1045,7 @@
     
     <li>
       <b>
-        <a name="klineannoyinguser"></a>Do you mind if I refer annoying user foo to one of the auto-kline channels to get him out of my hair?
+        <a id="klineannoyinguser"></a>Do you mind if I refer annoying user foo to one of the auto-kline channels to get him out of my hair?
       </b>
       Please don't do that.  It causes staff headaches and extra work. 
       We'll be extremely testy if you refer people to those channels,
@@ -1055,7 +1055,7 @@
     
     <li>
       <b>
-        <a name="ctcpversion"></a>Why did someone CTCP VERSION me?
+        <a id="ctcpversion"></a>Why did someone CTCP VERSION me?
       </b>
       CTCP VERSION causes your IRC client to return a
       client-name-and-version string to some requesting user.  It's a
@@ -1080,7 +1080,7 @@
     
     <li>
       <b>
-        <a name="freenodeconnect"></a>Why does user
+        <a id="freenodeconnect"></a>Why does user
         
         <span class="freenode">frigg</span>
         
@@ -1118,7 +1118,7 @@
     
     <li>
       <b>
-        <a name="freenode-info"></a>Why do I get these
+        <a id="freenode-info"></a>Why do I get these
         
         <span class="freenode">[freenode-info]</span>
         
@@ -1153,7 +1153,7 @@
     
     <li>
       <b>
-        <a name="spambots"></a>I'm getting a lot of spam/porn/blank
+        <a id="spambots"></a>I'm getting a lot of spam/porn/blank
         messages. What can I do to block them?
       </b>
       
@@ -1203,7 +1203,7 @@
     
     <li>
       <b>
-        <a name="blockingmessages"></a>When I send private messages to my
+        <a id="blockingmessages"></a>When I send private messages to my
         friend, it says that she's blocking messages from unidentified
         users. How do I fix it?
       </b>
@@ -1220,7 +1220,7 @@
     
     <li>
       <b>
-        <a name="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?
+        <a id="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?
       </b>
       Your account name and password must be sent to NickServ and verified,
       and then NickServ must tell the servers about your cloak. This process
@@ -1262,7 +1262,7 @@
     
     <li>
       <b>
-        <a name="sslaccess"></a>Does <span class="freenode">freenode</span> provide SSL-based client access?
+        <a id="sslaccess"></a>Does <span class="freenode">freenode</span> provide SSL-based client access?
       </b>
       <span class="freenode">freenode</span> supports SSL, for client and server 
       connections. Users connecting via SSL will get user mode +Z to denote this. 
@@ -1273,7 +1273,7 @@
 
     <li>
       <b>
-        <a name="join"></a>Why can't I join a certain channel?
+        <a id="join"></a>Why can't I join a certain channel?
       </b>
 
       There are a few things that might be preventing you from joining a 
@@ -1321,7 +1321,7 @@
 
     <li>
       <b>
-        <a name="unban"></a>How do I get unbanned/unquieted in a channel?
+        <a id="unban"></a>How do I get unbanned/unquieted in a channel?
       </b>
 
       <span class="freenode">freenode</span> tries to allow channels to run and 
@@ -1343,7 +1343,7 @@
 
     <li>
       <b>
-        <a name="talk"></a>Why can't I talk in a certain channel?
+        <a id="talk"></a>Why can't I talk in a certain channel?
       </b>
 
       There are two common reasons for being unable to talk in a channel. The 
@@ -1367,7 +1367,7 @@
 
     <li>
       <b>
-        <a name="changepass"></a>How do I change my password?
+        <a id="changepass"></a>How do I change my password?
       </b>
 
       If you are identified to your account, you can change your password yourself. 
@@ -1386,7 +1386,7 @@
 
     <li>
       <b>
-        <a name="sendpass"></a>What do I do if I forget my password?
+        <a id="sendpass"></a>What do I do if I forget my password?
       </b>
 
       If you forget your password, but still have access to the email account 
@@ -1398,7 +1398,7 @@
 
     <li>
       <b>
-        <a name="monitor"></a>Is there a way to get notified when a user comes online?
+        <a id="monitor"></a>Is there a way to get notified when a user comes online?
       </b>
 
       The server supports a special command called 'MONITOR', which is a server 
@@ -1412,7 +1412,7 @@
 
     <li>
       <b>
-        <a name="memoserv"></a>How do I contact an offline user?
+        <a id="memoserv"></a>How do I contact an offline user?
       </b>
 
       <span class="freenode">freenode</span> runs several <a href="services.shtml">services</a>, 
@@ -1434,7 +1434,7 @@
 
     <li>
       <b>
-        <a name="channelts">What does it mean when I see &quot;*** Notice -- TS for #channel changed from 1300123123 to 1255123123&quot;?</a>
+        <a id="channelts">What does it mean when I see &quot;*** Notice -- TS for #channel changed from 1300123123 to 1255123123&quot;?</a>
       </b>
 
       You may see a server notice like this when you join an empty, registered
@@ -1453,14 +1453,14 @@
 
   <br />
   <div class="large">
-    <a name="gettinghelp"></a>
+    <a id="gettinghelp"></a>
     Getting Help
   </div>
 
   <ul>
     <li>
       <b>
-        <a name="helpfromstaff"></a> How do I get help from the network staff?
+        <a id="helpfromstaff"></a> How do I get help from the network staff?
       </b>
       All staff currently connected to the network will be voiced in #freenode.
       Keep in mind that all network staff are volunteers and you may sometimes
@@ -1485,7 +1485,7 @@
    <!--
     <li>
       <b>
-        <a name="messageyou"></a>May I message you?
+        <a id="messageyou"></a>May I message you?
       </b>
 
       You can message staff at any time. You may like to check that whoever
@@ -1495,7 +1495,7 @@
 
     <li>
       <b>
-        <a name="cloaks"></a>Can I get a hostname cloak?
+        <a id="cloaks"></a>Can I get a hostname cloak?
       </b>
 
       Yes. You can get a generic "unaffiliated" user cloak to hide
@@ -1581,7 +1581,7 @@
     
     <li>
       <b>
-        <a name="projectcloak"></a>How do we set up cloaking to identify participants in our FOSS project?
+        <a id="projectcloak"></a>How do we set up cloaking to identify participants in our FOSS project?
       </b>
       
       First
@@ -1604,14 +1604,14 @@
 
   <br />
   <div class="large">
-    <a name="groups"></a>
+    <a id="groups"></a>
     Groups and Group Contacts
   </div>
 
   <ul>
     <li>
       <b>
-        <a name="groupregistration"></a>
+        <a id="groupregistration"></a>
         
         What is the purpose of group registration?
       </b>
@@ -1634,7 +1634,7 @@
 
     <li>
       <b>
-        <a name="groupactivity"></a>
+        <a id="groupactivity"></a>
         
         What level of activity is expected from groups registered on freenode?
       </b>
@@ -1658,7 +1658,7 @@
 
     <li>
       <b>
-        <a name="gcfunctions"></a> What functions can group contacts perform?
+        <a id="gcfunctions"></a> What functions can group contacts perform?
       </b>
       
       Group contacts represent your group to
@@ -1683,7 +1683,7 @@
 
     <li>
       <b>
-        <a name="gcsetup"></a> How do we set up group contacts?
+        <a id="gcsetup"></a> How do we set up group contacts?
       </b>
       
       The following checklist will help you set up your registration and
@@ -1749,7 +1749,7 @@
     
     <li>
       <b>
-        <a name="gcverify"></a> How do you verify group contacts?
+        <a id="gcverify"></a> How do you verify group contacts?
       </b>
       
       A representative of
@@ -1764,7 +1764,7 @@
     
     <li>
       <b>
-        <a name="gcdifference"></a> What is the difference between a
+        <a id="gcdifference"></a> What is the difference between a
         <i>primary</i> and an <i>alternate</i> group contact?
       </b>
       
@@ -1787,7 +1787,7 @@
     
     <li>
       <b>
-        <a name="cloakformat"></a> How are group cloaks formatted?
+        <a id="cloakformat"></a> How are group cloaks formatted?
       </b>
       
       Group cloak components appear in left-major order and are separated by
@@ -1853,7 +1853,7 @@
     
     <li>
       <b>
-        <a name="cloakchoice"></a> To whom may we offer a group cloak?
+        <a id="cloakchoice"></a> To whom may we offer a group cloak?
       </b>
       
       Group cloaks indicate a relationship with your group or project.  You
@@ -1869,7 +1869,7 @@
     
     <li>
       <b>
-        <a name="gcrequest"></a> How do we request group or project cloaks?
+        <a id="gcrequest"></a> How do we request group or project cloaks?
       </b>
       
       To request a cloak, just provide us with your user's master IRC
@@ -1894,7 +1894,7 @@
     
     <li>
       <b>
-        <a name="gcautomate"></a> What plans do you have to automate the group contact function?
+        <a id="gcautomate"></a> What plans do you have to automate the group contact function?
       </b>
       
       We are working on GMS (Group Management System) which will be a "dashboard" allowing 
@@ -1911,7 +1911,7 @@
     
     <li>
       <b>
-        <a name="gcwhen"></a> When will group contact processing be automated?
+        <a id="gcwhen"></a> When will group contact processing be automated?
       </b>
       
       Due to very light availability of coding help, we can't predict when
@@ -1922,7 +1922,7 @@
     
     <li>
       <b>
-        <a name="gcwhenform"></a> I haven't received a response on my group
+        <a id="gcwhenform"></a> I haven't received a response on my group
         contact form yet. What's up?
       </b>
 
@@ -1934,7 +1934,7 @@
     
     <li>
       <b>
-        <a name="squeakywheel"></a><a name="gcspeedup"></a> How can I speed up the processing of my
+        <a id="squeakywheel"></a><a id="gcspeedup"></a> How can I speed up the processing of my
         group contact form?
       </b>
 
@@ -1950,7 +1950,7 @@
     
     <li>
       <b>
-        <a name="grouprequests"></a> How do our group members request
+        <a id="grouprequests"></a> How do our group members request
         hostname cloaks or channel resets?
       </b>
       
@@ -1966,14 +1966,14 @@
 
   <br />
   <div class="large">
-    <a name="organisation"></a>
+    <a id="organisation"></a>
     <span class="freenode">freenode</span> Project organisation.
   </div>
 
   <ul>
     <li>
       <b>
-        <a name="projectfreenode"></a>Who runs <span class="freenode">freenode</span>?
+        <a id="projectfreenode"></a>Who runs <span class="freenode">freenode</span>?
       </b>
 
       About 40 volunteer staffers around the planet run the network, under
@@ -1990,7 +1990,7 @@
     
     <li>
       <b>
-        <a name="howtovolunteer"></a>How do I volunteer?
+        <a id="howtovolunteer"></a>How do I volunteer?
       </b>
       If you spend time in <b>#freenode</b> or elsewhere around the network,
       it's possible you'll be asked if you'd like to perform some staff
@@ -2000,7 +2000,7 @@
     
     <li>
       <b>
-        <a name="serverownersandstaff"></a>Do server owners run the network?
+        <a id="serverownersandstaff"></a>Do server owners run the network?
       </b>
       No, they don't.  Server owners may be tapped for a staff role, but the
       roles of <i>staffer</i> and <i>facilities host</i> are as separate as
@@ -2013,7 +2013,7 @@
     
     <li>
       <b>
-        <a name="staffprivileges"></a>What privileges do staff members get?
+        <a id="staffprivileges"></a>What privileges do staff members get?
       </b>
       It varies from staff member to staff member. No minimum level of
       access is guaranteed to any staff member, including those who host
@@ -2023,7 +2023,7 @@
     
     <li>
       <b>
-        <a name="serveradministration"></a>Who administers the servers?
+        <a id="serveradministration"></a>Who administers the servers?
       </b>
       Staff members update server configurations and install new releases of
       the software.  They're responsible for routing changes and server
@@ -2035,7 +2035,7 @@
     
     <li>
       <b>
-        <a name="howtolink"></a>How do I link my server?
+        <a id="howtolink"></a>How do I link my server?
       </b>
       Servers are hosted, not linked.  For information on how to host a
       server, please take a look
@@ -2047,7 +2047,7 @@
     
     <li>
       <b>
-        <a name="complaintdept"></a>Who do I complain to?
+        <a id="complaintdept"></a>Who do I complain to?
       </b>
       If you have a constructive suggestion, please email it to: support at
       freenode dot net.  If you would like to suggest a server feature,
@@ -2061,7 +2061,7 @@
     
     <li>
       <b>
-        <a name="complaintvolume"></a>Do you get a lot of complaints?
+        <a id="complaintvolume"></a>Do you get a lot of complaints?
       </b>
       Not so many, but the ones we get can be, uh, very memorable. When
       things are running well, people tend to forget how much work it
@@ -2073,14 +2073,14 @@
 
   <br />
   <div class="large">
-    <a name="pdpc"></a>
+    <a id="pdpc"></a>
     Contributions.
   </div>
 
   <ul>
     <li>
       <b>
-        <a name="whymoney"></a>Why do you need money?
+        <a id="whymoney"></a>Why do you need money?
       </b>
       Peer-Directed Projects Center, the parent organisation of <b
       class="freenode">freenode</b>, is a not for profit organisation 
@@ -2104,7 +2104,7 @@
     
     <li>
       <b>
-        <a name="moneydecisions"></a>Who decides how the money you collect will be spent?
+        <a id="moneydecisions"></a>Who decides how the money you collect will be spent?
       </b>
       The Board of Directors of Peer-Directed Projects Center must approve
       all expenditures of funds for <span class="freenode">freenode</span> and
@@ -2114,7 +2114,7 @@
     
     <li>
       <b>
-        <a name="donationcost"></a>What does it cost when I donate?
+        <a id="donationcost"></a>What does it cost when I donate?
       </b>
       If you donate via PayPal, we receive your donation less PayPal fees. 
       At last check, we were charged at the standard rate, 2.9% plus a 20 
@@ -2126,7 +2126,7 @@
     
     <li>
       <b>
-        <a name="whycloak"></a> Why should I wear a <a href="#cloaks">cloak</a> to acknowledge my donation?
+        <a id="whycloak"></a> Why should I wear a <a href="#cloaks">cloak</a> to acknowledge my donation?
       </b>
       
       When you wear the cloak, your donation becomes more visible, which

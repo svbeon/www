@@ -16,7 +16,7 @@
 </p>
 
 <p>
-  <a name="supportlevels"></a><a name="donorlevels"></a>
+  <a id="supportlevels"></a><a name="donorlevels"></a>
   
   Beginning in 2004, we established formal donation levels. When you donate,
   please provide your realname and your snailmail address for our records. 
@@ -35,7 +35,7 @@
 US dollars</b></p>
 
 <blockquote>
-  <a name="levels"></a>
+  <a id="levels"></a>
   <table summary="Donation Levels" cellspacing="0" cellpadding="5" border="1">
     <tr>
       <td style="text-align: center; vertical-align: top;">
@@ -119,7 +119,7 @@ US dollars</b></p>
 <p>
   <br />
 
-  <a name="privacy"></a>
+  <a id="privacy"></a>
 
   <b>Privacy Note:</b> Peer-Directed Projects Center is currently in the
   process of formulating a privacy policy. This notice describes the interim

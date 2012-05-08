@@ -39,7 +39,7 @@ on
 
 which contains a variety of other useful information as well.</p>
 
-<!--#set var="title" value="<a name=\"reg\"></a>Channel and nick registration" -->
+<!--#set var="title" value="<a id=\"reg\"></a>Channel and nick registration" -->
 <!--#include file="include/title.shtml" -->
 
 <p><b class="freenode">freenode</b> provides
@@ -62,7 +62,7 @@ registration services, use "/msg nickserv help" or "/msg chanserv help".
 For specific information on registration, use "/msg nickserv help register" or
 "/msg chanserv help register".</p>
 
-<!--#set var="title" value="<a name=\"flags\"></a>Channel access management (flags)" -->
+<!--#set var="title" value="<a id=\"flags\"></a>Channel access management (flags)" -->
 <!--#include file="include/title.shtml" -->
 
 
@@ -85,7 +85,7 @@ channel temperature low and reduce conflicts.</p>
 <p>The use of a system called "templates"
 can help to simplify the system of flags.  See "/msg chanserv help template" for more information.</p>
 
-<!--#set var="title" value="<a name=\"modes\"></a>User and channel modes" -->
+<!--#set var="title" value="<a id=\"modes\"></a>User and channel modes" -->
 <!--#include file="include/title.shtml" -->
 
 

@@ -61,7 +61,7 @@ such our advice is to connect using <i>chat.freenode.net</i>. </p>
 </table>
 
 <span style="size: larger; color: #525668;"><br /><br />
-<a name="ssl"></a>Accessing freenode Via SSL</span>
+<a id="ssl"></a>Accessing freenode Via SSL</span>
 <p><span class="freenode">freenode</span> now provides SSL client access on all
 servers. If your client is not configured to verify SSL certificates, then you
 can simply connect, with SSL enabled, on port 6697, 7000 or 7070. Users
@@ -99,7 +99,7 @@ chat.freenode.net 6697</i> </blockquote>
 verify the certificate correctly.</p>
 
 <span style="size: larger; color: #525668;"><br /><br />
-<a name="tor"></a>Accessing freenode Via Tor</span>
+<a id="tor"></a>Accessing freenode Via Tor</span>
 
 <p> The current Tor hidden service address for <span
 class="freenode">freenode</span> is <a

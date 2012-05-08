@@ -276,7 +276,7 @@
    </a></li>
 </ol>
 
-<p><a name="1"></a><b>1. Do I contact you to tell you I'm interested in volunteering?</b></p>
+<p><a id="1"></a><b>1. Do I contact you to tell you I'm interested in volunteering?</b></p>
 
 <p>
    You can contact staff in #<span class="freenode">freenode</span>, the best 
@@ -288,7 +288,7 @@
    These are generally good opportunities to try applying.
 </p>
 
-<p><a name="2"></a><b>2. What will happen after I've indicated interest in volunteering?</b></p>
+<p><a id="2"></a><b>2. What will happen after I've indicated interest in volunteering?</b></p>
 
 <p>
    The recruitment procedures for different roles vary slightly, but the next 
@@ -299,7 +299,7 @@
    to fill in an application form.
 </p>
 
-<p><a name="3"></a><b>3. Will I have to complete an application form / have an interview?</b></p>
+<p><a id="3"></a><b>3. Will I have to complete an application form / have an interview?</b></p>
 
 <p>
    The application form and interview is a two-way process. It enables the organisation to find out 
@@ -307,7 +307,7 @@
    the volunteering opportunity meets your needs and interests.
 </p>
 
-<p><a name="4"></a><b>4. I've got specific skills and experience, can you use them?</b></p>
+<p><a id="4"></a><b>4. I've got specific skills and experience, can you use them?</b></p>
 
 <p>
    We pride ourselves on being staffed by volunteers from a wide range of backgrounds, and the 
@@ -316,7 +316,7 @@
    like to share with the organisation in your role with us.
 </p>
 
-<p><a name="5"></a><b>5. Are there certain skills I will need to be a PDPC volunteer?</b></p>
+<p><a id="5"></a><b>5. Are there certain skills I will need to be a PDPC volunteer?</b></p>
 
 <p>
    This depends on which role you are interested in. Some roles may require some form of prior 
@@ -324,7 +324,7 @@
    listen, learn and work in a team.
 </p>
 
-<p><a name="6"></a><b>6. What will I get out of volunteering?</b></p>
+<p><a id="6"></a><b>6. What will I get out of volunteering?</b></p>
 
 <p>
    All our volunteers find their involvement with us rewarding, satisfying and challenging and 
@@ -340,7 +340,7 @@
    </ul>
 </p>
 
-<p><a name="7"></a><b>7. Do you provide any training?</b></p>
+<p><a id="7"></a><b>7. Do you provide any training?</b></p>
 
 <p>
    Volunteers in some roles will receive training relevant to their position. This may be 
@@ -349,7 +349,7 @@
    specific role.
 </p>
 
-<p><a name="8"></a><b>8. Do you always need volunteers?</b></p>
+<p><a id="8"></a><b>8. Do you always need volunteers?</b></p>
 
 <p>
    With the PDPC expanding, and our flagship service, <span class="freenode">freenode</span>, 
@@ -359,7 +359,7 @@
    volunteers tend to change over time.
 </p>
 
-<p><a name="9"></a><b>9. What support will I get?</b></p>
+<p><a id="9"></a><b>9. What support will I get?</b></p>
 
 <p>
    All volunteers are fully supported and supervised throughout their involvement. There will 
@@ -369,14 +369,14 @@
    with us to be both rewarding and challenging.
 </p>
 
-<p><a name="10"></a><b>10.How much time do I need to give?</b></p>
+<p><a id="10"></a><b>10.How much time do I need to give?</b></p>
 
 <p>
    There is no minimum time requirement to volunteer with the PDPC. You should discuss with head of staff the 
    time you have available, your interests and skills, and how they fit with the organisations needs.
 </p>
 
-<p><a name="11"></a><b>11. When/What times can I volunteer?</b></p>
+<p><a id="11"></a><b>11. When/What times can I volunteer?</b></p>
 
 <p>
    The times for volunteering may differ between projects. For instance, FOSSCON volunteers may be required 
@@ -384,7 +384,7 @@
    <span class="freenode">freenode</span> is in operation 24/7 and as such we look for volunteers who can cover any time of the day.
 </p>
 
-<p><a name="12"></a><b>12. When can I start?</b></p>
+<p><a id="12"></a><b>12. When can I start?</b></p>
 
 <p>
    The PDPC and a representative from the project for which you are volunteering will talk through options with 
@@ -393,7 +393,7 @@
    being trained for the role.
 </p>
 
-<p><a name="13"></a><b>13. Are there any age restrictions?</b></p>
+<p><a id="13"></a><b>13. Are there any age restrictions?</b></p>
 
 <p>
    Volunteers need to be 16 or over. There is no upper age limit for volunteers. However, if you are under 18, 

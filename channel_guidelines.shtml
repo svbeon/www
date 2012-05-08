@@ -94,7 +94,7 @@
 
   <li>
     <b>
-      <a name="messages"></a>Be nice if someone messages you.
+      <a id="messages"></a>Be nice if someone messages you.
     </b>
     
     They've gone to the trouble to seek out someone with the background to
@@ -165,7 +165,7 @@
   
   <li>
     <b>
-      <a name="sensitivematerial"></a>Avoid sensitive material.
+      <a id="sensitivematerial"></a>Avoid sensitive material.
     </b>
     
     Some users on
@@ -240,7 +240,7 @@
 
   <li>
     <b>
-      <a name="elitist"></a>Don't be elitist.
+      <a id="elitist"></a>Don't be elitist.
     </b>
     
     Today's newbies are tomorrow's experts.  A support channel is a place
@@ -261,7 +261,7 @@
   </li>
 
   <li>
-    <a name="supportburnout"></a><b>Don't be caught by support burnout.</b>
+    <a id="supportburnout"></a><b>Don't be caught by support burnout.</b>
     
     It's nearly impossible to answer every technical question that comes to
     your channel.  In many cases, the problem doesn't lie in the technical
@@ -307,7 +307,7 @@
 
   <li>
     <b>
-      <a name="logging"></a> If you're considering publishing channel logs,
+      <a id="logging"></a> If you're considering publishing channel logs,
       think it through.
     </b>
     

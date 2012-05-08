@@ -21,7 +21,7 @@
   <ul>
     <li>
       <b>
-        <a name="contents"></a><a href="#contents">Contents</a>.
+        <a id="contents"></a><a href="#contents">Contents</a>.
       </b>
       <br /><br />
       <ul>
@@ -35,7 +35,7 @@
 
     <li>
       <b>
-        <a name="general"></a><a href="#general">General rules</a>.
+        <a id="general"></a><a href="#general">General rules</a>.
       </b>
 	<p>
 #defocus should be a place where everybody can feel comfortable. Be civil and respect other people and their opinions, whether you agree or not. Please do not be rude, judgmental or belittling. 
@@ -46,7 +46,7 @@ Do not accuse, provoke or intentionally offend others, request kicks or bans in 
 
     <li>
       <b>
-        <a name="technical"></a><a href="#technical">Technical rules</a>.
+        <a id="technical"></a><a href="#technical">Technical rules</a>.
       </b>
 	<p>
 	Don't flood the channel or abuse the channel for rants. Bots and scripts are not permitted.
@@ -55,7 +55,7 @@ Do not accuse, provoke or intentionally offend others, request kicks or bans in 
 
     <li>
       <b>
-        <a name="topics"></a><a href="#topics">Topics</a>.
+        <a id="topics"></a><a href="#topics">Topics</a>.
       </b>
 	<p>We hope that #defocus is an interesting place, however some topics are not suitable: racism and intolerant speech of any kind is never permitted. Keep in mind, any topic that is not allowed on freenode, is still not allowed in #defocus.
 </p><p>
@@ -67,7 +67,7 @@ Remember that a lot of people use freenode as part of their job, therefore pleas
 
     <li>
       <b>
-        <a name="opdecisions"></a><a href="#opdecisions">Operator decisions</a>.
+        <a id="opdecisions"></a><a href="#opdecisions">Operator decisions</a>.
       </b>
 	<p>Respect decisions. Staff and channel ops work hard to be fair and balanced, but may not always resolve issues exactly the way you would.  
 </p><p>

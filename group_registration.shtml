@@ -63,7 +63,7 @@ volunteer-run.
 </p>
 
 <p>
-  <a name="relationship"></a>Group registration:
+  <a id="relationship"></a>Group registration:
 </p>
 
 <ol>
@@ -126,7 +126,7 @@ volunteer-run.
 </ol>
 
 <p>
-  <a name="types"></a>Two types of group contacts exist for freenode:
+  <a id="types"></a>Two types of group contacts exist for freenode:
 </p>
 
 <ol>
@@ -193,7 +193,7 @@ volunteer-run.
 </ol>
 
 <p>
-  <a name="facilities"></a>Group registration provides:
+  <a id="facilities"></a>Group registration provides:
 </p>
 
 <ol>
@@ -255,7 +255,7 @@ volunteer-run.
 </ol>
 
 <p>
-  <a name="groupcontacts"></a>Your group contacts:
+  <a id="groupcontacts"></a>Your group contacts:
 </p>
 
 <ol>

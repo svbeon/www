@@ -9,7 +9,7 @@ ircd-seven, is a branch of the
 ircd, with changes specific to freenode's needs. It has been designed to replace
 the legacy
 
-<a href="http://freenode.net/hyperion.shtml">hyperion</a>.
+<a href="hyperion.shtml">hyperion</a>.
 
 The network was migrated to ircd-seven at the end of January, 2010.
 

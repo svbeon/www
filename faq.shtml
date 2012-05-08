@@ -819,7 +819,7 @@
         <a name="channelexpirations"></a>When do IRC channels expire?
       </b>
 
-      We consider <a href ="http://freenode.net/policy.shtml#channelnaming">non-primary</a>
+      We consider <a href ="policy.shtml#channelnaming">non-primary</a>
       IRC channels (those which start with "##") to be expired after they have 
       not been used for 10 weeks plus one additional week per full year registered. 
       Staff will determine this by verifying that the founder has not been 
@@ -846,7 +846,7 @@
       </b>
       Channel policy is set by channel owners. Network staff set the basic
 
-      <a href="http://freenode.net/policy.shtml">ground rules</a>
+      <a href="policy.shtml">ground rules</a>
 
       for the use of the servers and we try to influence channel policies
       in a positive direction by urging channel owners to adopt the
@@ -1697,7 +1697,7 @@
           
           The page on
           
-          <a href="http://freenode.net/group_registration.shtml">group registration</a>
+          <a href="group_registration.shtml">group registration</a>
           
           provides basic reference information.
           
@@ -1958,7 +1958,7 @@
       with your group who can process their requests. We may not be able to
       point them directly to your group contact due to our
       
-      <a href="http://freenode.net/group_privacy.shtml">privacy policy</a>.
+      <a href="group_privacy.shtml">privacy policy</a>.
       
       <br /><br />
     </li>

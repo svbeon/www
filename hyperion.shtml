@@ -4,7 +4,7 @@
 
   <span class="freenode">freenode</span>'s legacy ircd, hyperion, is
   a continuation of the earlier dancer-ircd, itself a fork of hybrid 6.
-  Hyperion has been replaced by <a href="http://freenode.net/seven.shtml">ircd-seven</a> on
+  Hyperion has been replaced by <a href="seven.shtml">ircd-seven</a> on
   our production servers and is no longer maintained.
 
 </p>
@@ -13,7 +13,7 @@
 
   If you're interested in learning more about projects under active 
   development, or you are interested in helping out with development, 
-  please take a look <a href="http://freenode.net/development.shtml">here.</a>
+  please take a look <a href="development.shtml">here.</a>
 
 </p>
 

@@ -1245,8 +1245,10 @@
         that it has set your hidden host.<br />
         This notification is done with a 396 numeric that looks like this:
         <blockquote><i>396 YourNick unaffiliated/youraccount :is now your hidden host (set by services.)</i></blockquote>
-        A <a href="recommended/xchat/kludges/cloak-before-join.pl.txt">script
-        to do this for X-Chat</a> was kindly contributed by one of our users.
+        Scripts to do this for
+        <a href="recommended/xchat/kludges/cloak-before-join.pl.txt">X-Chat</a>
+        and <a href="recommended/mirc/cloak-before-join.ini.txt">mirc</a>
+        were kindly contributed by one of our users.
         You won't receive this numeric if your account or connection (for
         gateways) is not cloaked.</li>
       <li>Add a fixed amount of wait time before joining channels.<br />

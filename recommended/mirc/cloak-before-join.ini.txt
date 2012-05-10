@@ -1,0 +1,105 @@
+[script]
+n0=on *:unload: { set %runonce false | set %cnp $null | set %cjoinp $null }
+n1=on *:load: {
+n2=  echo -a -----
+n3=  echo -a -----
+n4=  echo -a -----
+n5=  echo -a CloakThenJoin for Freenode IRC drunkscripted by en1ggy
+n6=  echo -a For help/instructions type /cloak.help
+n7=  echo -a ***NOTICE: Unloading this script will clear your saved Nickserv password AND your saved channel passwords!***
+n8=  echo -a -----
+n9=  echo -a -----
+n10=  echo -a -----
+n11=  if ((%runonce != true) || (%runonce = $null)) {
+n12=    set %firstc 0
+n13=    set %runonce true
+n14=    set %nickcontrol $?!="Do you want this script to auto-identify Nickserv?"
+n15=    if (%nickcontrol = $true) {
+n16=      set %cnick $?="What is your registered nickname on Freenode?"
+n17=      set %cnp $?*="What is your Nickserv password?"
+n18=    }
+n19=    set %chanp $?!="Do you have any channels that require passwords?"
+n20=    if (%chanp = $false) {
+n21=      set %cregchan $?="Please enter auto-join channels (ie. #frenode,#channel,#channel2)"
+n22=    }
+n23=    elseif (%chanp = $true) {
+n24=      set %pcamount $?="How many channels require passwords?"
+n25=      set %cregchan $?="Enter the channels that DONOT require passwords (#chan1,#chan2,#chan3,etc)"
+n26=      pass.chan.set
+n27=    }
+n28=  }
+n29=}
+n30=alias pass.chan.set set %countc 0 | set %countp 0 | timer %pcamount 0 pass.chan.sett
+n31=alias pass.chan.sett {
+n32=  set %countc $calc(%countc + 1)
+n33=  set %pc $+ %countc $?="Enter a #channel that requires a password"
+n34=  chan.pass.set
+n35=}
+n36=alias chan.pass.set {
+n37=  set %countp $calc(%countp + 1)
+n38=  set %cp $+ %countp $?*="PASSWORD"
+n39=}
+n40=on *:notice:*:*: {
+n41=  if (%nickcontrol = $true) {
+n42=    if ($nick = NickServ) {
+n43=      if (*identify* iswm $1-) {
+n44=        if ($network = freenode) {
+n45=          if ($me = %cnick) { ns identify %cnp }
+n46=          elseif ($me != %cnick) { ghostns }
+n47=        }
+n48=      }
+n49=    }
+n50=  }
+n51=}
+n52=alias compile.clist {
+n53=  if (%countc != 0) {
+n54=    if (%countc != 1) {
+n55=      set [ %cchanjoin ] [ %cchanjoin $+ [ %pc [ $+ [ %countc ] ] ] ] $+ ,
+n56=      set %cjoinp %cjoinp $+ [ %cp [ $+ [ %countp ] ] ] $+ ,
+n57=      set %countc $calc(%countc - 1)
+n58=      set %countp $calc(%countp - 1)
+n59=    }
+n60=    if (%countc = 1) {
+n61=      set %cchanjoin %cchanjoin $+ %pc [ $+ [ %countc ] $+ ]
+n62=      set %cjoinp %cjoinp $+ %cp [ $+ [ %countp ] $+ ]
+n63=      set %countc $calc(%countc - 1)
+n64=      set %countp $calc(%countp - 1)
+n65=    }
+n66=  }
+n67=}
+n68=alias cjc {
+n69=  if (%firstc = 0) {
+n70=    set %firstc 1
+n71=    echo -a ****Compiling first time run channel list, please wait...
+n72=    if (%chanp = $true) {
+n73=      set %cregchan , $+ %cregchan
+n74=      timer %pcamount 0 compile.clist
+n75=      timer 1 3 omfg
+n76=      timer 1 6 cjcc
+n77=    }
+n78=    else cjcc
+n79=  }
+n80=  else cjcc
+n81=}
+n82=alias cjcc join %cjoinf %cjoinp
+n83=raw 396:*hidden host*: { if ($network = freenode) { beep 2 300 | echo -s Your Host is now *CLOAKED* on freenode -Joining Channels... | timer 1 1 cjc } }
+n84=alias omfg set [ %cjoinf ] [ %cchanjoin ] $+ %cregchan
+n85=alias ghostns timer 1 2 checkns | timer 1 4 recovern
+n86=alias checkns if ($network = freenode) { if ($me != %cnick) { ns ghost %cnick %cnp } }
+n87=alias recovern if ($network = freenode) { if ($me != %cnick) { nick %cnick } }
+n88=on *:connect: { if ($network = freenode) { if (%nickcontrol = $true) { if ($me != %cnick) { ghostns } } } }
+n89=alias cloak.help {
+n90=  if (%nickcontrol = $false) {
+n91=    echo -a To add a channel to auto join type /cloak.add <#channel> | echo -a To add a channel with a password type /cloak.add.pass <#channel> <password> | echo -a To remove an auto-join channel type /cloak.rem <#channel> or /cloak.rem.pass <#channel> <password>
+n92=  }
+n93=  if (%nickcontrol = $true) {
+n94=    echo -a To add a channel to auto join type /cloak.add <#channel> | echo -a To add a channel with a password type /cloak.add.pass <#channel> <password> | echo -a To remove an auto-join channel type /cloak.rem <#channel> or /cloak.rem.pass <#channel> <password>
+n95=    echo -a To change your registered nick or nickserv password type /cloak.nick <newnick> or /cloak.pass <newpassword>
+n96=  }
+n97=}
+n98=alias cloak.add set [ %cjoinf ] %cjoinf $+ , $+ $1 | echo -a $1 Added to auto-join list | cjcc
+n99=alias cloak.rem set %crem $1 $+ , | set %cjoinf $remove(%cjoinf,%crem) | echo -a $1 Removed from Auto-join List
+n100=alias cloak.add.pass set %cjoinf $$1 $+ , $+ %cjoinf | set %cjoinp $$2 $+ , $+ %cjoinp | echo -a $1 added to the Auto-join List with password: $2 | cjcc
+n101=alias cloak.rem.pass set %crem $1 $+ , | set %cremp $2 $+ , | set %cjoinf $remove(%cjoinf,%crem) | set %cjoinp $remove(%cjoinp,%cremp) | echo -a $1 Removed from the Auto-join list with password: $2
+n102=alias cloak.nick echo -a Changing your freenode registered nick from %cnick to $1 | set %cnick $1
+n103=alias cloak.pass echo -a Changing your freenode nickserv pass from %cnp to $1- | set %cnp $1-

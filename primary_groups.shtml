@@ -1,86 +1,59 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="Primary Groups" --><!--#set var="content_title" value="Primary Groups" --><!--#include file="include/header-mainlogos.shtml" -->
 
-<p> 
-  Primary groups are those which have a formal or informal claim on the
-  names associated with their groups or projects.  They can reserve
+<p> Primary groups are those which have a formal or informal claim on the names
+associated with their groups or projects.  They can reserve <a
+href="policy.shtml#primarychannels">primary channels</a> on the network.  The
+following such groups and projects maintain official relationships with <span
+class="freenode">freenode</span> and <a href="pdpc.shtml">PDPC</a>. Each is
+listed along with the top level domain(s) under which its affiliated users may
+be <b>cloaked.</b> Cloaks are special "virtual hostnames" which appear on a
+user's <span class="freenode">freenode</span> session to indicate that user's
+affiliation with a group.</p>
 
-  <a href="policy.shtml#primarychannels">primary channels</a>
+<p>Peer-Directed Projects Center attempts to verify information submitted on
+group contact forms and tries to minimize name conflicts, giving priority to
+trademark owners and peer-directed project groups. Due to the informal nature of
+community interactions, uncertainties may exist regarding the ownership of some
+names.</p>
 
-  on the network.  The following such groups and projects maintain official
-  relationships with
-  
-  <span class="freenode">freenode</span>
-  
-  and 
-  
-  <a href="pdpc.shtml">PDPC</a>.
-  
-  Each is listed along with the top level domain(s) under which its
-  affiliated users may be <b>cloaked.</b> Cloaks are special "virtual
-  hostnames" which appear on a user's <span class="freenode">freenode</span>
-  session to indicate that user's affiliation with a group.
+<p>For information on the privacy of group contact information, please see our
+interim <a href="group_privacy.shtml">group privacy policy</a>. See <a
+href="group_registration.shtml">Group Registration</a> for information on
+establishing an official relationship with <b class="freenode">freenode</b> by
+submitting contact information for your group or organization.</p>
 
-  <br /><br />
-
-  Peer-Directed Projects Center attempts to verify information submitted on
-  group contact forms and tries to minimize name conflicts, giving priority
-  to trademark owners and peer-directed project groups. Due to the informal
-  nature of community interactions, uncertainties may exist regarding the
-  ownership of some names.
-
-  <br /><br />
-
-  For information on the privacy of group contact information, please see
-  our interim
-  
-  <a href="group_privacy.shtml">group privacy policy</a>.
-  
-  See
-
-  <a href="group_registration.shtml">Group Registration</a>
-
-  for information on establishing an official relationship with <b
-  class="freenode">freenode</b> by submitting contact information for your
-  group or organization.
-</p>
-
-<table summary="Primary Groups">
+<table>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a href="irc://irc.freenode.net/aalug">aalug</a>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://frognet.net/~aalug/">AALUG</a>, the Athens (Ohio USA) Area Linux Users Group.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/aberlug">aberlug</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/aberlug">aberlug</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.aberdeen.lug.org.uk/">Aberdeen Linux Users Group</a>, Aberdeen, Scotland, UK.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/abiertos">abiertos</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/abiertos">abiertos</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.abiertos.org/">Abiertos.org</a>, the Dominican Republic's largest GNU/Linux users' group.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/afterstep">afterstep</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/afterstep">afterstep</a></td>
+    <td style="vertical-align: top">
       The
       <a rel="nofollow" href="http://www.afterstep.org/">AfterStep</a> window manager for X.
     </td>
   </tr>
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/abiquo">abiquo</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/abiquo">abiquo</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.abiquo.com">abiquo</a>
       Enterprise open source cloud computing platform.
     </td>
@@ -88,19 +61,17 @@
 
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/allegro">allegro</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/allegro">allegro</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://alleg.sf.net/">Allegro</a>, a freely-distributed game programming library.
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <b>americaonline</b>,
       <a href="irc://irc.freenode.net/aol">aol</a>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.americaonline.com/">America Online</a>,
       
       a division of
@@ -109,11 +80,10 @@
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a href="irc://irc.freenode.net/ampache">ampache</a>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.ampache.org/">Ampache</a>,
       
       a web-based tool for maintaing music files and playlists.
@@ -121,11 +91,10 @@
   </tr>
 
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a href="irc://irc.freenode.net/android">android</a>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.android.com/">android</a>,
 
      is an open source mobile operating system.    </td>
@@ -133,11 +102,10 @@
 
 
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a href="irc://irc.freenode.net/aolserver">aolserver</a>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.aolserver.com/">AOLserver</a>,
       <a rel="nofollow" href="http://www.americaonline.com/">America Online</a>'s
       
@@ -146,19 +114,17 @@
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a href="irc://irc.freenode.net/apache">apache</a>,
       <b>asf</b>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.apache.org/">Apache Software Foundation</a>, Wilmington, DE USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>aperturadigital</b></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><b>aperturadigital</b></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.aperturadigital.org/">Fundaci&oacute;n Apertura Digital</a>,
 
       Ushuaia, Tierra del Fuego, AR. A not-for-profit organization which
@@ -167,18 +133,16 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/asterisk">asterisk</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/asterisk">asterisk</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.asterisk.org/">Asterisk,</a>, the Open Source PBX.  A project of
       
       <a rel="nofollow" href="http://www.digium.com/">Digium, Inc</a>.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/asturlab">asturlab</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/asturlab">asturlab</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://asturlab.xwiki.com/">Asturlab,</a>,
 
       Pravia, Asturias, ES. A youth association for computer science and
@@ -186,26 +150,23 @@
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a href="irc://irc.freenode.net/autopackage">autopackage</a>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://autopackage.org/">autopackage</a>, a distro-neutral binary packaging framework for Linux systems.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/beigetower">beigetower</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/beigetower">beigetower</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.beigetower.org/">Beige Tower</a>, a community web infrastructure project.
       Avida Jaene, Inc., San Francisco, CA USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/blenderchat">blender</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/blenderchat">blender</a></td>
+    <td style="vertical-align: top">
 
       <a rel="nofollow" href="http://www.blender.org/">Blender Foundation</a>,
 
@@ -216,9 +177,8 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/brlcad">brlcad</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/brlcad">brlcad</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.brlcad.org/">BRL-CAD</a>,
 
       a Constructive Solid Geometry (CSG) based solid modeling
@@ -228,9 +188,8 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/calvix">calvix</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/calvix">calvix</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://CaLviX.org/">CaLviX</a>,
       
       Caen, FR.  A not-for profit association, the GNU/Linux Users Group
@@ -238,67 +197,60 @@
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <b>canonical,</b>
       <a href="irc://irc.freenode.net/ubuntu">ubuntu</a>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.canonical.com/">Canonical, Ltd</a>.,
       
       Douglas, Isle of Man, UK.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/cdk">cdk</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/cdk">cdk</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://cdk.sf.net/">CDK</a>,
       the Chemistry Development Kit.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/cogitateurs-agitateurs">cogitateurs-agitateurs</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/cogitateurs-agitateurs">cogitateurs-agitateurs</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.cogitateurs-agitateurs.org/">Cogitateurs Agitateurs</a>,
       a group for thinking and acting about free information.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/colloquy">colloquy</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/colloquy">colloquy</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://colloquy.info/">Colloquy</a>,
       
       a Mac OSX internet chat client.
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a href="irc://irc.freenode.net/cc">cc</a>,
       <b>creativecommons</b>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.creativecommons.org/">Creative Commons Corporation</a>.,
       
       Cambridge, MA USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>danga</b></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><b>danga</b></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.danga.com/">Danga Interactive, Inc</a>.,
       
       Beaverton, OR USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/debcenter">debiancenter</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/debcenter">debiancenter</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.debiancenter.org/">Debian Center</a>,
       
       a reference site for Debian and repository for unofficial Debian
@@ -307,104 +259,91 @@
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <b>digium</b>,
       <b>digium.sponsor.pdpc</b>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.digium.com/">Digium, Inc</a>., Wilmington, DE USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/docbook">docbook</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/docbook">docbook</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://sf.net/projects/docbook/">DocBook</a> Open Repository.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/dovecot">dovecot</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/dovecot">dovecot</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.dovecot.org/">Dovecot</a> IMAP/POP3 server.
     </td>
   </tr>
 
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/dragonflycms">dragonflycms</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/dragonflycms">dragonflycms</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.dragonflycms.com/">Dragonfly CMS</a>, a content management system / portal application.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/dspam">dspam</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/dspam">dspam</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.nuclearelephant.com/projects/dspam/">DSPAM</a>, statistical spam protection.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/durhamlug">durhamlug</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/durhamlug">durhamlug</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.dclug.org/">DurhamLUG</a>, a Linux Users' Group for the district of Durham in Ontario, CA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/efentharwireless">efentharwireless</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/efentharwireless">efentharwireless</a></td>
+    <td style="vertical-align: top">
       Efenthar Wireless, a community wireless network-in-planning in New Zealand.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/eicq">eicq</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/eicq">eicq</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://eicq.sf.net/">eicq</a>,
       an ICQ client for xemacs.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/ember">ember</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/ember">ember</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://sf.net/projects/ember/">ember</a>,
       an early-stage operating system project based on the MIT Exokernel design.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/eogeo">eogeo</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/eogeo">eogeo</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.eogeo.org/">EOGEO, Ltd</a>., Needham MA USA, an IRS 501(c)(03) organization
       chartered to provide access to geospatial data to the not-for-profit sector and the general public.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/epiar">epiar</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/epiar">epiar</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://epiar.net/">Epiar</a>, a C/SDL/OpenAL space shooter arcade game.
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a href="irc://irc.freenode.net/fedora">fedora</a>,
       <a href="irc://irc.freenode.net/fedora-es">fedora-es</a>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       The <a rel="nofollow" href="http://fedora.redhat.com/">Fedora Project</a> (<a rel="nofollow" href="http://www.redhat.com/">Red Hat, Inc</a>).
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/ferm">ferm</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/ferm">ferm</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://ferm.foo-projects.org/">Ferm</a>,
       
       a firewall scripting tool
@@ -413,116 +352,101 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/fire">fire</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/fire">fire</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://fire.sf.net/">fire</a>, a multi-protocol IM client for OS X.
     </td>
   </tr>
  <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/firefox">firefox</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/firefox">firefox</a></td>
+    <td style="vertical-align: top">
      <a rel="nofollow" href="http://www.mozilla.com/en-US/firefox/">Firefox</a>, the award winning next-generation web-browser from <a rel="nofollow" href="http://www.mozilla.com">Mozilla</a>. 
     </td>
   </tr>
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/foo-projects">foo-projects</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/foo-projects">foo-projects</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://foo-projects.org/">Foo-Projects.org</a>, an OSS development group.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/freecnc">freecnc</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/freecnc">freecnc</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://freecnc-sf.holarse.net/">FreeCNC</a>,
       an SDL-based game engine.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/freedesktop">freedesktop</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/freedesktop">freedesktop</a></td>
+    <td style="vertical-align: top">
       The
       <a rel="nofollow" href="http://freedesktop.org/">freedesktop.org</a>
       community collaboration zone.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/freematrix">freematrix</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/freematrix">freematrix</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://freematrix.org/">Freematrix Radio</a>,
       a streaming radio service.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/freenode">freenode</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/freenode">freenode</a></td>
+    <td style="vertical-align: top">
       The
       <a rel="nofollow" href="http://freenode.net/"><span class="freenode">freenode</span></a>
       interactive network, a service of Peer-Directed Projects Center.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/freevo">freevo</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/freevo">freevo</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://freevo.sf.net/">Freevo</a>,
       a home theatre PC platform based on Linux and open-source
       audio/video tools.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/fsf">fsf</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/fsf">fsf</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.fsf.org/">Free Software Foundation</a>, Boston, MA USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/gallery">gallery</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/gallery">gallery</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://gallery.menalto.com/index.php">Gallery</a>, a web-based application for website photo management.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/galago">galago</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/galago">galago</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://galago.sf.net/">Galago</a>, a framework for transmitting presence information between desktop applications.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/gentoo">gentoo</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/gentoo">gentoo</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.gentoo.org/">Gentoo Foundation, Inc.</a>, NM USA, and the Gentoo Linux distribution.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/geoshell">geoshell</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/geoshell">geoshell</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.geoshell.org/">Geoshell</a>, a GPL-licensed replacement shell for Windows&trade;, intended to replace the Explorer interface.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/gfsgl">gfsgl</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/gfsgl">gfsgl</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://gfsgl.sf.net/">GFSGL</a>, a Windows game installer/launcher for GNU/Linux.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/gnash">gnash</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/gnash">gnash</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.gnu.org/software/gnash/">Gnash</a>, a
       
       <a rel="nofollow" href="http://www.gnu.org/">GNU</a>
@@ -531,121 +455,105 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/gnokii">gnokii</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/gnokii">gnokii</a></td>
+    <td style="vertical-align: top">
       The <a rel="nofollow" href="http://www.gnokii.org/">gnokii</a> mobile phone tool project.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/guifications">guifications</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/guifications">guifications</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://guifications.sf.net/">Guifications</a>,
 
       a graphical notification plugin for the <b>gaim</b> instant message client.
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a href="irc://irc.freenode.net/gnu">gnu</a>,
       <a href="irc://irc.freenode.net/savannah">savannah</a>
     </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.gnu.org/">The GNU Project</a> (<a rel="nofollow" href="http://www.fsf.org/">Free Software Foundation</a>).
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/gpm">gpm</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/gpm">gpm</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://linux.schottelius.org/gpm/">GPM</a>, general purpose mouse support for the Linux console.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/growl">growl</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/growl">growl</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://growl.info/">Growl</a>, a global notification system for Mac OS X.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/hoodlug">hoodlug</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/hoodlug">hoodlug</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.hoodlug.org/">Fort Hood Linux Users Group</a> (informal; Fort Hood, Texas, USA).
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/horde">horde</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/horde">horde</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.horde.org/">The Horde Project</a>, a web-based application framework and associated applications.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/httpcraft">httpcraft</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/httpcraft">httpcraft</a></td>
+    <td style="vertical-align: top">
       A <a rel="nofollow" href="http://httpcraft.com/">support group</a> helping people with all areas of web craft.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/ignition-project">ignitionproject</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/ignition-project">ignitionproject</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.ignition-project.com/">The Ignition Project</a>, an IRC server with services.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/imgames">imgames</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/imgames">imgames</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://imgames.sf.net/">IMGames</a>, a client-independent IM entertainment project.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/interchange">interchange</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/interchange">interchange</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.icdevgroup.org/">Interchange</a>, an open source commerce server project.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/irssi">irssi</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/irssi">irssi</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.irssi.org/">irssi</a>, an IRC client.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/kde">kde</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/kde">kde</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.kde.org/">The KDE Project</a> and its parent organization,
       <a rel="nofollow" href="http://www.kde.org/areas/kde-ev/">K Desktop Environment e.V.</a>, Tuebingen, Germany.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/konversation">konversation</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/konversation">konversation</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.konversation.org/">konversation</a>, a user-friendly IRC client
       (<a rel="nofollow" href="http://www.kde.org/areas/kde-ev/">K Desktop Environment e.V.</a>).
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/lfd">linuxfordummies</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/lfd">linuxfordummies</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.linuxfordummies.org/">LinuxForDummies</a>, a Linux/Unix support site.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/livejournal">livejournal</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/livejournal">livejournal</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.livejournal.com/">LiveJournal</a>, an
       
       online journalling/blogging site
@@ -654,25 +562,22 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/lopsa">lopsa</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/lopsa">lopsa</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.lopsa.org/">LOPSA</a> The League of Professional System Administrators (LOPSA) is a nonprofit corporation with 
       members throughout the world. Our mission is to advance the practice of system administration; to support, recognize, educate, and encourage its practitioners; and to serve the public through education and outreach on system administration issues.
     </td>
 </tr>
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/lugbari">lugbari</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/lugbari">lugbari</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.lugbari.org/">LUGBari</a>, Bari Linux User Group, Castellana Grotte, Bari, IT.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/lunar">lunar</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/lunar">lunar</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://lunar-linux.org/">Lunar Linux</a>,
       
       a source-based Linux distribution designed to provide tailored and optimized software for the end-user
@@ -681,88 +586,77 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/madwifi">madwifi</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/madwifi">madwifi</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://madwifi.sf.net/">MADWiFi</a>, a Linux kernel driver
       for Atheros-based Wireless LAN devices.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/mandriva">mandriva</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/mandriva">mandriva</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.mandriva.com/">Mandriva</a> (name change in process, currently Mandrakesoft, S.A., Paris, FR).
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/mepislovers">mepislovers</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/mepislovers">mepislovers</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.mepislovers.org/">Mepis Lovers</a>, a website and forum for Mepis Linux.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/metabug">metabug</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/metabug">metabug</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.metabug.org/">Metabug</a>, Global Federation of BSD User Groups
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/moin">moinmoin</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/moin">moinmoin</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://moinmoin.wikiwikiweb.de/">MoinMoin</a>, a nice and easy WikiEngine with advanced features.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/mysql">mysql</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/mysql">mysql</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.mysql.com/">MySQL AB</a>, Uppsala, SE. The
       developers of the MySQL database management system, a key component of
       the LAMP open source application stack.
     </td>
   </tr>
   <tr>
-    <td valign="top">-</td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top">-</td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://learn.arc.nasa.gov/">NASA Learning Technologies</a>,
 
       Ames Research Center, Moffett Field, CA, USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/nectarine">nectarine</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/nectarine">nectarine</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.nectarine.info/">Nectarine Networks</a>, a sole
       proprietorship providing community internet services, Sinalunga, Siena,
       IT.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/netbsd">netbsd</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/netbsd">netbsd</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.netbsd.org/">NetBSD Foundation</a>, New York, NY USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/no-sources">no-sources</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/no-sources">no-sources</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://no.oldos.org/files/">No-Sources</a>,
       
       a Linux kernel source patch set for workstations or desktop machines.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/nslu2-linux">nslu2-linux</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/nslu2-linux">nslu2-linux</a></td>
+    <td style="vertical-align: top">
       The
     
       <a rel="nofollow" href="http://www.nslu2-linux.org/">nslu2-linux</a>
@@ -771,24 +665,21 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/nullteam">nullteam</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/nullteam">nullteam</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.null.ro/company.html">Null Team ImpExp SRL</a>,
       a VoIP software development and consulting company, Bucharest, RO.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/nylug">nylug</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/nylug">nylug</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.nylug.org/">New York Linux Users' Group</a>, New York, NY USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/opendarwin">opendarwin</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/opendarwin">opendarwin</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.opendarwin.org/">OpenDarwin</a>,
 
       a cooperative fork of Apple's Darwin OS, along with related
@@ -796,18 +687,16 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/openmoko">openmoko</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/openmoko">openmoko</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.openmoko.org/">OpenMoko</a>,
       an integrated Open Source Communications Platform for GNU/Linux based mobile phones.
     </td>
   </tr>
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/openrightsgroup">openrightsgroup</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/openrightsgroup">openrightsgroup</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.openrightsgroup.org">The Open Rights Group</a>,
 
      exists to preserve and promote your rights in the digital age. We are funded by thousands of people like you.
@@ -817,9 +706,8 @@
   </tr>
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/opensync">opensync</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/opensync">opensync</a></td>
+    <td style="vertical-align: top">
       The <a rel="nofollow" href="http://www.opensync.org">OpenSync</a> project 
       is an ongoing effort to create a synchronization framework that will be a 
       platform independent, general purpose synchronization engine utilizing 
@@ -831,9 +719,8 @@
 
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/objectx">objectx</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/objectx">objectx</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.objectx.org/">ObjectX.org</a>,
 
       an alternative to over-priced, commercially available Operating Systems, and over-complicated traditional Open-Source software.
@@ -841,9 +728,8 @@
   </tr>
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/ogo">ogo</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/ogo">ogo</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.opengroupware.org/">OpenGroupware.org</a>,
 
       a project to create an open source groupware server integrated with
@@ -851,52 +737,46 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/osuosl">osuosl</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/osuosl">osuosl</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://osuosl.org/">OSUOSL</a>,
       Oregon State University Open Source Laboratory, Corvallis, OR, USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/pound-perl.pm">p3m</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/pound-perl.pm">p3m</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://p3m.org/">pound-perl.pm (aka "p3m")</a>,
       a coordination project for perl-related interactive chat groups, especially those on Internet Relay Chat.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/pdpc">pdpc</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/pdpc">pdpc</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://freenode.net/pdpc.shtml">Peer-Directed Projects
       Center</a>, the (not-for-profit)
       entity which runs <span class="freenode">freenode</span>.
     </td>
   </tr>
  <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/penguicon">penguicon</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/penguicon">penguicon</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.penguicon.org/">Penguicon</a>
       is a combined Open Source Conference &amp; Science Fiction Convention that 
       takes place each Spring in South-East Michigan.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/pearpc">pearpc</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/pearpc">pearpc</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://pearpc.sf.net/">PearPC</a>,
       
       a generalized PowerPC architecture emulator.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/photogeeks">photogeeks</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/photogeeks">photogeeks</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.photogeeks.org/">photogeeks.org</a>,
 
       a.k.a. The Band Formerly Known As #Photography, a discussion group
@@ -904,50 +784,44 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/phpbb">phpbb</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/phpbb">phpbb</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.phpbb.com/">phpBB</a>,
       a scalable and customizable open source bulletin board package.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/phpgroupware">phpgroupware</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/phpgroupware">phpgroupware</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.phpgroupware.org/">phpGroupWare</a>,
       a multi-user groupware suite written in PHP.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/pld-linux">pld-linux</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/pld-linux">pld-linux</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://docs.pld-linux.org/">PLD Linux</a>,
       a Linux distribution for advanced users and developers.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/plone">plone</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/plone">plone</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.plone.org/">The Plone Foundation</a>,
       Wilmington, DE USA.  Its main project is <b>Plone</b>, a user friendly
       and powerful content management system.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/poipu">poipu</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/poipu">poipu</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.poipulinux.org/">Poipu</a>,
       a cutting-edge, fully open source distribution of GNU/Linux.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/princed">princed</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/princed">princed</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.princed.com.ar/">Princed</a>,
 
       a set of free software projects related to the Prince of Persia game.
@@ -957,25 +831,22 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/pseudocode">pseudocode</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/pseudocode">pseudocode</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://community.pseudocode.org/">pseudocode</a>,
 
       a web hosting community.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/qgis">qgis</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/qgis">qgis</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://qgis.org/">Quantum GIS</a>, a Geographic Information System (GIS) built for Linux/Unix.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/qt">qt</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/qt">qt</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://qtsoftware.com/">Qt</a>
       is a cross-platform application and UI framework. Using Qt, you can write applications once and deploy them across 
       many desktop and embedded operating systems without rewriting the source code. The Qt community is a loose community 
@@ -984,31 +855,27 @@
   </tr>
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/redhat">redhat</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/redhat">redhat</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.redhat.com/">Red Hat, Inc</a>., Raleigh, NC USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/rockbox">rockbox</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/rockbox">rockbox</a></td>
+    <td style="vertical-align: top">
      <a rel="nofollow" href="http://www.rockbox.org/">Rockbox</a>, an open source 
      firmware for mp3/digital audio players.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/rojo">rojo</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/rojo">rojo</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://rojo.com/">Rojo Neworks, Inc</a>., San Francisco, CA USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/rsbac">rsbac</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/rsbac">rsbac</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.rsbac.org/">RSBAC</a>,
 
       an access control framework for current Linux kernels which supports a
@@ -1016,9 +883,8 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/ruslug">ruslug</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/ruslug">ruslug</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://ruslug.rutgers.edu/">RUSLUG</a>,
 
       the Rutgers University Student Linux Users Group, New Brunswick, NJ
@@ -1026,26 +892,23 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/sabily">sabily</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/sabily">sabily</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.sabily.org/">Sabily</a> is an 
       Operating System designed for Muslims, based on Ubuntu.
       
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/sane">sane</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/sane">sane</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.sane-project.org/">SANE</a>,
       an API providing standardized access to raster image scanners.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/scummvm">scummvm</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/scummvm">scummvm</a></td>
+    <td style="vertical-align: top">
       The
       <a rel="nofollow" href="http://www.scummvm.org/">ScummVM</a>
       game virtual machine project.
@@ -1053,9 +916,8 @@
   </tr>
 
  <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/shadowcat">shadowcat</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/shadowcat">shadowcat</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.shadowcat.co.uk">shadowcat</a>
 
       Shadowcat Systems Ltd is an open source focused consultancy.
@@ -1066,9 +928,8 @@
 
 
  <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/sourceforge">sourceforge</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/sourceforge">sourceforge</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.sourceforge.net/">SourceForge.net</a>,
       a provider of free hosting for Open Source software development projects.
     </td>
@@ -1076,50 +937,44 @@
 
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/sourcemage">sourcemage</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/sourcemage">sourcemage</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.sourcemage.org/">Source Mage</a>,
       a source-based GNU/Linux distribution.
     </td>
   </tr>
  <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/squid">squid</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/squid">squid</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.squid-cache.org/">Squid</a>,
       web proxy cache.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/swig">swig</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/swig">swig</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.w3.org/2001/sw/interest/">Semantic Web Interest Group</a>
       
       (<a rel="nofollow" href="http://www.w3.org/">World Wide Web Consortium</a>).
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/svn">svn</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/svn">svn</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://subversion.tigris.org/">Subversion</a>,
       a version control system designed as a compelling replacement for CVS.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/suspend2">suspend2</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/suspend2">suspend2</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.suspend2.net/">Suspend2</a>,
       software suspend for the Linux kernel.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/sxemacs">sxemacs</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/sxemacs">sxemacs</a></td>
+    <td style="vertical-align: top">
       The
       <a rel="nofollow" href="http://www.sxemacs.org/">sxemacs</a>
       project,
@@ -1127,24 +982,21 @@
     </td>
   </tr>
  <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/synecdoche">synecdoche</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/synecdoche">synecdoche</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://code.google.com/p/synecdoche/">Synecdoche</a>
       is a fork of Berkeley Open Infrastructure for Network Computing (BOINC).
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>systemdefender</b></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><b>systemdefender</b></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.systemdefender.net/">System Defender, Ltd</a>., Clifton Bristol, UK.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/teachingopensource">teachingopensource</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/teachingopensource">teachingopensource</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.teachingopensource.org/">TeachingOpenSource.org</a> is a neutral
       collaboration point for professors, institutions, communities, and companies to come together and 
       make the teaching of Open Source a global success.
@@ -1153,40 +1005,35 @@
 
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/tikiwiki">tikiwiki</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/tikiwiki">tikiwiki</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.tikiwiki.org/">Tiki CMS/Groupware Project</a>.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/timewarner">timewarner</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/timewarner">timewarner</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.timewarner.com/">Time Warner, Inc</a>.,
       Glen Allen, VA USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/tlug">townsville-lug</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/tlug">townsville-lug</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://tlug.dnho.net/">Townsville Linux Users Group</a>.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/twiki">twiki</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/twiki">twiki</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://twiki.org/">TWiki Community</a>,
 
       developers of TWiki, a mature, full featured web-based collaboration system.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/twincling">twincling</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/twincling">twincling</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.twincling.org/">TWINCLING Society</a>,
       
       Hyderabad, India. A not-for-profit organization which develops,
@@ -1194,26 +1041,23 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/unixboard">unixboard</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/unixboard">unixboard</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.unixboard.de/">Unixboard</a>.
       a forum site for Unix and Linux users (DE).
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/unixmexico">unixmexico</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/unixmexico">unixmexico</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.unixmexico.org/">UNIXMEXICO</a>,
       
       a news and forum site for Mexican and Spanish-speaking *nix users.
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>w3</b></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><b>w3</b></td>
+    <td style="vertical-align: top">
       The
       <a rel="nofollow" href="http://www.w3.org/">World Wide Web Consortium</a>
       (<a rel="nofollow" href="http://www.mit.edu/">MIT</a>,
@@ -1222,17 +1066,15 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>wikia</b></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><b>wikia</b></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.wikia.com/">Wikia, Inc</a>.,
       St. Petersburg, FL, USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/wikicities">wikicities</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/wikicities">wikicities</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.wikicities.com/">WikiCities</a>,
 
       a collection of communities with freely-editable websites
@@ -1241,18 +1083,16 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/wikimedia">wikimedia</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/wikimedia">wikimedia</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc</a>.,
 
       St. Petersburg, FL, USA.
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/wikipedia">wikipedia</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/wikipedia">wikipedia</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.wikipedia.org/">Wikipedia</a>,
 
       the Free Encyclopedia
@@ -1261,9 +1101,8 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/worldwind">worldwind</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/worldwind">worldwind</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://worldwind.arc.nasa.gov/">WorldWind</a>,
 
       an application which displays satellite images for locations around
@@ -1272,9 +1111,8 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/xfce">xfce</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/xfce">xfce</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://xfce.org/">Xfce</a>,
       
       a lightweight desktop environment for unix-like operating systems
@@ -1283,18 +1121,16 @@
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/yabtuc">yabtuc</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/yabtuc">yabtuc</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://yabtuc.sourceforge.net/">yaBTuc</a>,
 
       "yet another BitTorrent upload center."
     </td>
   </tr>
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/YATE">YATE</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/YATE">YATE</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://yate.null.ro/">YATE</a>,
 
       "Yet Another Telephony Engine" (<a rel="nofollow" href="http://www.null.ro/company.html">Null Team ImpExp SRL</a>).
@@ -1302,17 +1138,14 @@
   </tr>
 
   <tr>
-    <td valign="top"><a href="irc://irc.freenode.net/zenoss">zenoss</a></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td valign="top">
+    <td style="vertical-align: top"><a href="irc://irc.freenode.net/zenoss">zenoss</a></td>
+    <td style="vertical-align: top">
       <a rel="nofollow" href="http://www.zenoss.com/">Zenoss Core</a> 
 
        is an open source IT monitoring product that monitors and manages the configuration, health and performance of networks, servers and applications through a single, 
        integrated software package.
     </td>
   </tr>
-
-
 </table>
 
 <!--#set var="SPONSOR_LINKS" value="<small>

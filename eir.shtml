@@ -5,19 +5,13 @@
 
  <a href="http://dev.freenode.net/eir"><em>http://dev.freenode.net/eir/</em></a>.
 
-<p>
-<!--#set var="title" value="Commands" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>Commands</h2>
 
 <p>These may be sent in PM to the bot, or in any channel in which the bot is present 
 by prefixing them with '!'
 Note that if commands are sent to the bot in a channel the reply will be sent to the channel.</p>
 
-<p>
-<!--#set var="title" value="btinfo <em>[index|nick|#channel]</em>" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>btinfo <em>[index|nick|#channel]</em></h2>
 
 <p>This will show you information about one ban if
   <em>btinfo [index]</em> is used. For example, the following command will show 
@@ -43,10 +37,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 
 </p>
 
-<p>
-<!--#set var="title" value="btcheck <em>[#channel] [nick|fullMask]</em>" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>btcheck <em>[#channel] [nick|fullMask]</em></h2>
 
 <p>This will return a list of active bans on the #channel that match the user
   either by nick or full mask (nick will use the bot's internal list). For 
@@ -57,10 +48,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 
 </p>
 
-<p>
-<!--#set var="title" value="btpending <em>[#channel|nick]</em>" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>btpending <em>[#channel|nick]</em></h2>
 
 
 <p>This command will list all of the bans that are both active and uncommented
@@ -70,10 +58,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
   <blockquote><i>/MSG eir btpending #freenode</i></blockquote>
 
 </p>
-<p>
-<!--#set var="title" value="btexpired <em>[#channel]</em>" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>btexpired <em>[#channel]</em></h2>
 
 
 <p>This command will list all of the bans in #channel that are active and
@@ -85,10 +70,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 </p>
 
 
-<p>
-<!--#set var="title" value="btset <em>index [~time]|[reason]</em>" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>btset <em>index [~time]|[reason]</em></h2>
 
 <p>Sets the ban expiry time and/or the reason for the ban by index. For example, 
  the following command will set a ban with an index of 2634 to expire in 1 week
@@ -98,10 +80,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 
 </p>
 
-<p>
-<!--#set var="title" value="Reasons" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>Reasons</h2>
 
 <p>When you set a ban, the bot will PM you requesting a comment on the ban. Simply
  reply to the comment, whatever you send will be recorded. If you have set more
@@ -110,10 +89,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 <p>If you wish to extend the default ban time (channel dependent, typically 24 hours),
  type this when you enter your comment: ~time comment - e.g. "~14d Trolling".</p>
 
-<p>
-<!--#set var="title" value="Time Specification" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>Time Specification</h2>
 
 <p>When commenting or using the btset command times can be specified in days, hours, minutes, seconds or any combination.</p>
 
@@ -126,10 +102,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 <li>"~14d" For 2 weeks (or 14 days) from the time set.</li>
 </ul>
 
-<p>
-<!--#set var="title" value="Actions" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>Actions</h2>
 
 <p>When specifying an expiry time it is also possible to change the action that will be taken when the ban expires by
  prefixing the time with a special character.</p>

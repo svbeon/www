@@ -39,8 +39,7 @@ on
 
 which contains a variety of other useful information as well.</p>
 
-<!--#set var="title" value="<a id=\"reg\"></a>Channel and nick registration" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="reg">Channel and nick registration</h2>
 
 <p><b class="freenode">freenode</b> provides
 nickname and channel registration services.  These should be used to avoid
@@ -62,9 +61,7 @@ registration services, use "/msg nickserv help" or "/msg chanserv help".
 For specific information on registration, use "/msg nickserv help register" or
 "/msg chanserv help register".</p>
 
-<!--#set var="title" value="<a id=\"flags\"></a>Channel access management (flags)" -->
-<!--#include file="include/title.shtml" -->
-
+<h2 id="flags">Channel access management (flags)</h2>
 
 <p>We strongly suggest that you avoid configuring
 your channel to "auto-op".  Use the chanserv "op" command to obtain
@@ -85,9 +82,7 @@ channel temperature low and reduce conflicts.</p>
 <p>The use of a system called "templates"
 can help to simplify the system of flags.  See "/msg chanserv help template" for more information.</p>
 
-<!--#set var="title" value="<a id=\"modes\"></a>User and channel modes" -->
-<!--#include file="include/title.shtml" -->
-
+<h2 id="modes">User and channel modes</h2>
 
 <p>The user and channel modes listed below are to be treated differently
 to the flags described above. The modes below are set using the "/mode" command: either "/mode &lt;nickname&gt; +w" or "/umode +w"

@@ -82,10 +82,7 @@
   for us. And of course, it's a chance to make a difference to the community!
 </p>
 
-<p>
-<!--#set var="title" value="What ways are there to volunteer?" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>What ways are there to volunteer?</h2>
 
 <p>
   There are several roles in which one can volunteer for <span class="freenode">
@@ -120,10 +117,7 @@
   <li> Other Roles</li>
 </ul>
 
-<p>
-<!--#set var="title" value="Am I ready to volunteer?" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>Am I ready to volunteer?</h2>
 
 <p>
   Volunteering online is different from working on site with an 
@@ -223,10 +217,7 @@
    fit in with the current crowd. 
 </p>
 
-<p>
-<!--#set var="title" value="How do I volunteer?" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>How do I volunteer?</h2>
 
 <p>
    Occasionally, we will actively recruit for a role -- more often than not, we try 

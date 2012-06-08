@@ -31,8 +31,7 @@
   <li><a href="#unlawful">Unlawful Activity</a></li>
 </ul>
 
-<!--#set var="title" value="<br /><br /><a id=\"purpose\"></a>Purpose" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="purpose">Purpose</h2>
 
 <p>
   The 
@@ -66,8 +65,7 @@
   real-time bridge to the outside world for our target communities.
 </p>
 
-<!--#set var="title" value="<br /><a id=\"channelownership\"></a>Channel Ownership" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="channelownership">Channel Ownership</h2>
 
 <p>
   Channels on <span class="freenode">freenode</span> are owned and operated by the
@@ -89,8 +87,8 @@
   <a href="channel_guidelines.shtml">network channel guidelines</a>.
 </p>
 
-<!--#set var="title" value="<br /><a id=\"channelnaming\"></a>Channel Naming" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="channelnaming">Channel Naming</h2>
+
 
 <p>
   Policy organizes the network into two classes of channels,
@@ -143,8 +141,8 @@
   determined for this transition.
 </p>
 
-<!--#set var="title" value="<br /><a id=\"primarychannels\"></a>Primary Channels" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="primarychannels">Primary Channels</h2>
+
 
 <p>
 
@@ -216,8 +214,8 @@
   at the server software level at some point in the future.
 </p>
 
-<!--#set var="title" value="<br /><a id=\"topicalchannels\"></a>Topical or Reference Channels" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="topicalchannels">Topical or Reference Channels</h2>
+
 
 <p>
   Topical or reference channels names, formatted with two leading hash marks
@@ -240,8 +238,8 @@
   without accepting these policies.</b>
 </p>
 
-<!--#set var="title" value="<br /><a id=\"channelforwarding\"></a>Channel Forwarding" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="channelforwarding">Channel Forwarding</h2>
+
 
 <p>
   Our current policy is not to create new forwards between # and ## channels of the same name.
@@ -281,7 +279,7 @@
 </p>
 
 <!--#set var="title" value="<br /><a id=\"ontopic\"></a>On-Topic Use" -->
-<!--#include file="include/title.shtml" -->
+
 
 <p>
   As a program of a not-for-profit entity,
@@ -461,7 +459,7 @@
 </ol>
 
 <!--#set var="title" value="<a id=\"offtopic\"></a>Off-Topic Use" -->
-<!--#include file="include/title.shtml" -->
+
 
 <p>
 
@@ -508,8 +506,8 @@
 
 </p>
 
-<!--#set var="title" value="<br /><a id=\"announcements\"></a>Announcements" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="announcements">Announcements</h2>
+
 
 <p>
   Information on the
@@ -574,7 +572,7 @@
 </p>
 
 <!--#set var="title" value="<a id=\"advertising\"><br /></a>Inappropriate Advertising" -->
-<!--#include file="include/title.shtml" -->
+
 
 <p>
   Unsolicited commercial advertisements via channel messages or private
@@ -615,8 +613,8 @@
   be removed by staff.
 </p>
 
-<!--#set var="title" value="<br /><a id=\"behaviorandcloaks\"></a>Behavior and Cloaks" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="behaviorandcloaks">Behavior and Cloaks</h2>
+
 
 <p>
 
@@ -632,8 +630,8 @@
 
 </p>
 
-<!--#set var="title" value="<br /><a id=\"termination\"></a>Termination of Use" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="termination">Termination of Use</h2>
+
 
 <p>
   We welcome users and developers in our target communities.  The network
@@ -666,7 +664,7 @@
 </p>
 
 <!--#set var="title" value="<br /><a id=\"proxies\"></a>Open Proxies, IIS and Appeals" -->
-<!--#include file="include/title.shtml" -->
+
 
 <p>
   Like many interactive networks, we've had our share of problems with
@@ -697,8 +695,8 @@
   the ban or provide an exception if possible.
 </p>
 
-<!--#set var="title" value="<br /><a id=\"tor\"></a>Tor and Freenode" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="tor">Tor and Freenode</h2>
+
 
 <p>
   The
@@ -792,8 +790,8 @@
   access issues in a timely fashion.
 </p>  
 
-<!--#set var="title" value="<br /><a id=\"unlawful\"></a>Unlawful Activity" -->
-<!--#include file="include/title.shtml" -->
+<h2 id="unlawful">Unlawful Activity</h2>
+
 
 <p>
   <span class="freenode">freenode</span>

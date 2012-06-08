@@ -6,8 +6,7 @@
   the organisation which runs <span class="freenode">freenode</span>.
 </blockquote>
 
-<!--#set var="title" value="Press Contact Information" -->
-<!--#include file="include/title.shtml" -->
+<h2>Press Contact Information</h2>
 
 <blockquote>
   <b>
@@ -16,8 +15,7 @@
   </b>
 </blockquote>
 
-<!--#set var="title" value="freenode in the Press" -->
-<!--#include file="include/title.shtml" -->
+<h2>freenode in the Press</h2>
 
 <blockquote>
   <p>
@@ -30,8 +28,7 @@
   </p>
 </blockquote>
 
-<!--#set var="title" value="Press Releases" -->
-<!--#include file="include/title.shtml" -->
+<h2>Press Releases</h2>
 
 <blockquote>
   The following links to press releases for PDPC are listed in reverse chronological order:

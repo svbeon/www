@@ -24,8 +24,7 @@ development of ircd-seven, join us in #freenode-seven or on the
 ircd-seven test network.
 </p>
 
-<!--#set var="title" value="The ircd-seven testnet" -->
-<!--#include file="include/title.shtml" -->
+<h2>The ircd-seven testnet</h2>
 
 <p>
 There is a public test network for ircd-seven running on 

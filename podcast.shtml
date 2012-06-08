@@ -10,10 +10,7 @@ often still, humorous.</p>
 <p>We provide light banter, occasional information, a feel of community and at times coarse language. Each episode features a guest from a project using freenode as part of <i>Pimp My Project</i> -- 
 alowing the projects to tell us exactly why they kick ass, while giving /you/ and us the chance to get to know them better!</p>
 
-<p>
-<!--#set var="title" value="free-as-in-who? The presenters" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>free-as-in-who? The presenters</h2>
 
 <p>
 	<div id="presenters" class="Accordion">
@@ -53,10 +50,8 @@ alowing the projects to tell us exactly why they kick ass, while giving /you/ an
 <script type="text/javascript">
 	var pres = new Spry.Widget.Accordion("presenters");
 </script>
-<p>
-<!--#set var="title" value="free-as-in-listen: Episodes" -->
-<!--#include file="include/title.shtml" -->
-</p>
+
+<h2>free-as-in-listen: Episodes</h2>
 
 <p>
 A list of episodes can be found at <a href="http://podcast.freenode.net">podcast.freenode.net</a>.
@@ -64,10 +59,7 @@ A list of episodes can be found at <a href="http://podcast.freenode.net">podcast
 <b>Released:</b> March 16th 2009<br />-->
 </p>
 
-<p>
-<!--#set var="title" value="free-as-in-you: Get Involved" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>free-as-in-you: Get Involved</h2>
 
 <p>If you want to get involved, as a guest on <i>Pimp My Project</i>, if you have an idea for something we should talk about, if your project/community is doing something cool that we should plug oro you have 
 something to say, why not drop us a line to <b>podcast at freenode dot net</b> or come hang out with us in #free-as-in-node on er, well, freenode! The podcast blog is over at <a href="http://podcast.freenode.net">podcast.freenode.net</a>.

@@ -28,10 +28,7 @@ Some of the features which will be added to the GMS dashboard:</p>
 <p>This list is far from exhaustive, and we would be delighted to hear your ideas 
 and suggestions.</p> 
 
-<p>
-<!--#set var="title" value="Getting Involved" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>Getting Involved</h2>
 
 <p>
 The source code, as well as a wiki and bug tracker are available in 
@@ -43,10 +40,7 @@ GMS development, join us in #freenode-gms or drop an e-mail to
 code at freenode dot net
 </p>
 
-<p>
-<!--#set var="title" value="freenode Group Advisory Board" -->
-<!--#include file="include/title.shtml" -->
-</p>
+<h2>freenode Group Advisory Board</h2>
 
 <p>
 

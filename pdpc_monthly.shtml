@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="PDPC: Monthly Donation" --><!--#set var="content_title" value="PDPC: Monthly Donation" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="PDPC: Monthly Donation" -->
+<!--#set var="content_title" value="PDPC: Monthly Donation" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <div class="contrib">
 <!--#include file="include/pdpc_donation_header.shtml" -->

@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: eir" --><!--#set var="content_title" value="eir" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode: eir" -->
+<!--#set var="content_title" value="eir" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p> eir is a freenode utility bot platform. Originally written to manage voicing in #defocus, subsequent utility components, such as the replacement for dircbot, have since been
             added. eir is open source; the bug tracker and source code can be found at 

@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode philosophy" --><!--#set var="content_title" value="Philosophy" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode philosophy" -->
+<!--#set var="content_title" value="Philosophy" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>The <span class="freenode">freenode</span>
 philosophy has several components.  The network exists

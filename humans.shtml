@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Using freenode" --><!--#set var="content_title" value="Using <span class=\"freenode\">freenode</span>" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="Using freenode" -->
+<!--#set var="content_title" value="Using <span class=\"freenode\">freenode</span>" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
   Welcome!

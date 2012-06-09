@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: acknowledgments" --><!--#set var="content_title" value="Acknowledgments" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode: acknowledgments" -->
+<!--#set var="content_title" value="Acknowledgments" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
 Over the last ten years a lot of incredible people, projects and corporations have provided both time and resources to the PDPC and freenode, not only in getting the network up and running but also to ensure that it continously 

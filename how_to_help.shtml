@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="How to Help" --><!--#set var="content_title" value="How to Help" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="How to Help" -->
+<!--#set var="content_title" value="How to Help" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p><span class="freenode">freenode</span> exists
 to provide an interactive environment for coordination and support

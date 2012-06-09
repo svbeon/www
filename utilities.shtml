@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: Utility Bots and Pseudo Servers" --><!--#set var="content_title" value="Utility Bots and Pseudo Servers" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode: Utility Bots and Pseudo Servers" -->
+<!--#set var="content_title" value="Utility Bots and Pseudo Servers" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
 <b>eir</b>, freenode utility bot. <a href="eir.shtml">documentation</a> | <a href="http://dev.freenode.net/eir">source code</a>.

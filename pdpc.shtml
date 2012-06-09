@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Peer-Directed Projects Center" --><!--#set var="content_title" value="Peer-Directed Projects Center" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="Peer-Directed Projects Center" -->
+<!--#set var="content_title" value="Peer-Directed Projects Center" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
   The <b>PDPC</b> was originally incorporated by founder Rob "lilo" Levin 

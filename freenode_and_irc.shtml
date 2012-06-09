@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode philosophy: freenode and irc" --><!--#set var="content_title" value="<span class=\"freenode\">freenode</span> and IRC" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode philosophy: freenode and irc" -->
+<!--#set var="content_title" value="<span class=\"freenode\">freenode</span> and IRC" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>The goals of <span class="freenode">freenode</span> differ from those of most
 general chat IRC networks.  For that reason, the design of our servers

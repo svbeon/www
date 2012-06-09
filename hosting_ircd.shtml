@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Hosting a Server" --><!--#set var="content_title" value="Hosting a Server" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="Hosting a Server" -->
+<!--#set var="content_title" value="Hosting a Server" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p><span class="freenode">freenode</span> urgently needs solid, well-connected
 hidden hub and public leaf servers. We look for multi-homed connections with

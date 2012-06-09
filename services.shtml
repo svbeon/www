@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: services" --><!--#set var="content_title" value="services" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode: services" -->
+<!--#set var="content_title" value="services" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>In May 2008, <span class="freenode">freenode</span> switched from the outdated Theia services
 to the <a href="http://www.atheme.net">Atheme</a> services package with some

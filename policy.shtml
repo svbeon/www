@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: Policies" --><!--#set var="content_title" value="Policies" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode: Policies" -->
+<!--#set var="content_title" value="Policies" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
   The following policies govern the use of the

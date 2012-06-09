@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: Group Management System" --><!--#set var="content_title" value="Group Management System" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode: Group Management System" -->
+<!--#set var="content_title" value="Group Management System" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
 <b>Group Management System</b> (GMS) is the future way of managing your 

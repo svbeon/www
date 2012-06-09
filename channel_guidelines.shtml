@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode philosophy: channel guidelines" --><!--#set var="content_title" value="Channel Guidelines" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode philosophy: channel guidelines" -->
+<!--#set var="content_title" value="Channel Guidelines" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
   IRC is a low-bandwidth method of communication, in comparison with

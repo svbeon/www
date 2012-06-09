@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Primary Groups" --><!--#set var="content_title" value="Primary Groups" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="Primary Groups" -->
+<!--#set var="content_title" value="Primary Groups" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p> Primary groups are those which have a formal or informal claim on the names
 associated with their groups or projects.  They can reserve <a

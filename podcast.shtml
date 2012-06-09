@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: free-as-in-node" --><!--#set var="content_title" value="free-as-in-node: a what?" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode: free-as-in-node" -->
+<!--#set var="content_title" value="free-as-in-node: a what?" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>free-as-in-node is podcast released every few weeks. While there are already tons of amazing tech podcasts out there, we're trying to create one which compliments freenode and other 
 PDPC projects, ensuring that we keep the community at the centre of every episode. free-as-in-node takes a look at current happenings in the FOSS world, often cynical, sometimes serious and more 

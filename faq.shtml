@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: frequently-asked questions" --><!--#set var="content_title" value="Frequently-Asked Questions" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode: frequently-asked questions" -->
+<!--#set var="content_title" value="Frequently-Asked Questions" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <div class="normal">
   <p>

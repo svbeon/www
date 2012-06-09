@@ -1,4 +1,5 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="Topical and Reference Groups" --><!--#set var="content_title" value="Topical and Reference Groups" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="content_title" value="Topical and Reference Groups" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p> 
   These groups provide references services and manage moderated discussion

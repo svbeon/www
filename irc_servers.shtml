@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="About freenode: IRC Servers" --><!--#set var="content_title" value="IRC Servers" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="About freenode: IRC Servers" -->
+<!--#set var="content_title" value="IRC Servers" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>Our main server rotation is <b>chat.freenode.net</b>. Pointers to
 <span class="freenode">freenode</span> currently include <b>irc.ghostscript.com,

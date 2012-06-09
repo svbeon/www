@@ -1,4 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: volunteering" --><!--#set var="content_title" value="Volunteering for freenode and the PDPC" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode: volunteering" -->
+<!--#set var="content_title" value="Volunteering for freenode and the PDPC" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
   People volunteer for many different reasons, but some things we all have

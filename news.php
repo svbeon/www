@@ -1,5 +1,6 @@
-<!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode news" -->
-<!--#set var="content_title" value="freenode news" --><!--#include file="include/header-mainlogos.shtml" -->
+<!--#set var="page_title" value="freenode news" -->
+<!--#set var="content_title" value="freenode news" -->
+<!--#include file="include/header-mainlogos.shtml" -->
 
 <?php
 	$sXML = file_get_contents("http://blog.freenode.net/feed/");

@@ -1,0 +1,55 @@
+<!--#include virtual="/include/include-config.shtml" -->
+<!--#set var="page_title" value="Configuring SASL for mIRC" -->
+<!--#set var="content_title" value="Configuring SASL for mIRC" -->
+<!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
+
+<p>The most recent solution for enabling SASL in mIRC appears to be with sasl.mrc, the first of the options documented below. Some older solutions have also been reported, with varying degrees of success. They are still listed here in case the first option does not work.</p>
+
+<h2 id="saslmrc">Configuring SASL for mIRC: sasl.mrc</h2>
+<p>The mirc script is written by Kyle Travaglini and was originally taken from a <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">SwiftIRC forum post</a>. The SwiftIRC version has been replaced by a version that does not require the DLL.</p>
+
+<p>The steps for using sasl.mrc are <a href="http://www.zph.co.cc/mirc#TOC-Simple-Authentication-and-Security-Layer-SASL-">documented here</a>. A brief summary is also included below.</p>
+
+<ol>
+	<li><p>Download <a href="sasl.mrc">sasl.mrc</a> and save it in the mIRC application data folder, probably C:\Users\<i>USERNAME</i>\AppData\Roaming\mIRC.</p></li>
+	<li><p>Load sasl.mrc using the <span class="verbatim-i">/load</span> command.</p></li>
+	<li><p>Press F2 to open the SASL configuration.</p></li>
+	<li><p>Select the entry for freenode and fill in your <i>primary</i> registered nickname, NickServ password, and other fields as required. A grouped nick will not work.</p></li>
+	<li><p>Click OK, then Save.</p></li>
+	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
+		<span class="verbatim-b">SASL authentication successful</span></li>
+</ol>
+
+<h2 id="saslmrclite">Configuring SASL for mIRC: sasl-lite.mrc</h2>
+<p>The &quot;lite&quot; script was taken from a <a href="http://forums.mIRC.com/ubbthreads.php?ubb=showflat&amp;Number=228222">mIRC forum post</a>, which took it from a now-expired pastebin. It lacks the configuration dialog that sasl.mrc has.</p>
+
+<ol>
+	<li><p>Download <a href="sasl-lite.mrc">sasl-lite.mrc</a> and save it in the mIRC application data folder, probably C:\Users\<i>USERNAME</i>\AppData\Roaming\mIRC.</p></li>
+	<li><p>Open the file in your editor and replace
+		<span class="verbatim-b">var %user = ENTER YOUR USERNAME HERE</span>
+		with your <i>primary</i> registered nickname. Then replace
+		<span class="verbatim-b">var %password = ENTER YOUR PASSWORD HERE</span>
+		with your NickServ password.</p></li>
+	<li><p>Load sasl-lite.mrc using the <span class="verbatim-i">/load</span> command.</p></li>
+	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
+		<span class="verbatim-b">SASL authentication successful</span></li>
+</ol>
+
+<h2 id="oldsaslmrc">Configuring SASL for mIRC: the original sasl.mrc and SASL.dll</h2>
+<p>This version of the sasl.mrc script is the original, taken from the <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">SwiftIRC forum post</a>. It needs a DLL in addition to the script file.</p>
+
+<ol>
+	<li><p>Download <a href="sasl-old.mrc">sasl-old.mrc</a> and save it as sasl.mrc in the mIRC application data folder, probably C:\Users\<i>USERNAME</i>\AppData\Roaming\mIRC.</p></li>
+	<li><p>Download <a href="SASL.dll">SASL.dll</a> and save it in the same place. The <a href="sasl-mirc.cpp">source code for the DLL</a> is available as well. It was compiled with Visual Studio 2008 on Windows 7.</p></li>
+	<li><p>Load the script, and press F2 to open the configuration.</p></li>
+	<li><p>Fill in the required fields. Make sure to enter your <i>primary</i> nickname.</p></li>
+	<li><p>Click OK. You may need to click Save.</p></li>
+	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
+		<span class="verbatim-b">SASL authentication successful</span></li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->

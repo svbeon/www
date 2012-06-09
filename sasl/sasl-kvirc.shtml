@@ -1,0 +1,37 @@
+<!--#include virtual="/include/include-config.shtml" -->
+<!--#set var="page_title" value="Configuring SASL for KVIrc" -->
+<!--#set var="content_title" value="Configuring SASL for KVIrc" -->
+<!--#set var="EXTRA_HEAD" value='<style type="text/css">
+	ol img { margin-top: 10px; }
+	</style>'
+-->
+<!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
+
+<p>If you have already added freenode as a network, open your servers window, select the freenode server, and skip to step five.</p>
+
+<ol>
+	<li><p>Click <u>S</u>ettings and then Co<u>n</u>figure Servers...<br />
+		<img src="sasl-kvirc-1.png" alt="KVIrc: Configure Servers" height=356 width=538 /></p></li>
+	<li><p>Anywhere in the Servers window that appears, right click and select N<u>e</u>w Network...<br />
+		<img src="sasl-kvirc-2.png" alt="KVIrc: New Network" height=429 width=638 /></p></li>
+	<li><p>Enter a name (perhaps freenode)...<br />
+		<img src="sasl-kvirc-3.png" alt="KVIrc: Add freenode as network" height=181 width=549 /></p></li>
+	<li><p>Right click on the network you just added and click <u>N</u>ew Server...<br />
+		<img src="sasl-kvirc-4.png" alt="KVIrc: Add server" height=166 width=351 /></p></li>
+	<li><p>Enter chat.freenode.net (or irc.freenode.net) as the server name, and then click <u>A</u>dvanced...<br />
+		<img src="sasl-kvirc-5.png" alt="KVIrc: Open advanced settings" height=156 width=628 /></p></li>
+	<li><p>In the <u>C</u>onnection tab in the Server Details window, enter 6697 (or any of the <a href="../irc_servers.shtml">listed SSL ports</a>) for the port, then enable the &quot;Use <u>S</u>SL protocol&quot; checkbox.<br />
+		<img src="sasl-kvirc-6.png" alt="KVIrc: Connection Details" height=367 width=684 /></p></li>
+	<li><p>Still in the Server Details window, select the <u>A</u>dvanced tab. Enable the <u>Q</u>uery extended capabilities checkbox and the Authenticate <u>v</u>ia SASL checkbox. In the Sasl Nickname field you need to enter your <i>primary</i> nick. A grouped nick will not work. In the Sasl Password field, enter your NickServ password.<br />
+		<img src="sasl-kvirc-7.png" alt="KVIrc: Advanced Details" height=563 width=684 /></p></li>
+	<li><p>Click OK until you have returned to the Servers window. Click Connect <u>N</u>ow...<br />
+		<img src="sasl-kvirc-8.png" alt="KVIrc: Connect Now" height=429 width=638 /></p></li>
+</ol>
+
+<p>If everything was configured correctly, you should see a <span class="verbatim-i">SASL authentication successful</span> message when you connect. You will already be identified, so you don't need to do this again.</p>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->

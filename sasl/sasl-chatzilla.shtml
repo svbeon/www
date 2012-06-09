@@ -1,0 +1,25 @@
+<!--#include virtual="/include/include-config.shtml" -->
+<!--#set var="page_title" value="Configuring SASL for ChatZilla" -->
+<!--#set var="content_title" value="Configuring SASL for ChatZilla" -->
+<!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
+
+<p>This script is by Gryllida, for the <a href="https://addons.mozilla.org/addon/16">ChatZilla add-on</a> to Firefox.</p>
+
+<ol>
+	<li><p>Install <a href="cz_sasl.js">cz_sasl.js</a> as you would any other script, following the <a href="http://chatzilla.hacksrus.com/faq/#install-script">instructions here</a>.</p></li>
+	<li><p>Enter the commands below. Replace <span class="verbatim-i subst">YOUR_USERNAME</span> with your <i>primary</i> registered nickname and <span class="verbatim-i subst">YOUR_PASSWORD</span> with your NickServ password.</p>
+		<span class="verbatim-b">/plugin-pref cz_sasl</span>
+		<span class="verbatim-b">/plugin-pref cz_sasl sasl.username <span class="subst">YOUR_USERNAME</span></span>
+		<span class="verbatim-b">/plugin-pref cz_sasl sasl.password <span class="subst">YOUR_PASSWORD</span></span></li>
+	<li><p>If you want to continue connecting when SASL authentication fails, enter:
+		<span class="verbatim-b">/plugin-pref cz_sasl sasl.proceed_on_fail true</span>
+		Or set it to <span class="verbatim-i">false</span> to stop connecting if SASL authentication fails.</p></li>
+	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
+		<span class="verbatim-b">SASL authentication successful</span></li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->

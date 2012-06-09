@@ -1,0 +1,29 @@
+<!--#include virtual="/include/include-config.shtml" -->
+<!--#set var="page_title" value="Configuring SASL for irssi" -->
+<!--#set var="content_title" value="Configuring SASL for irssi" -->
+<!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
+
+<p>This script, by Michael Tharp and Jilles Tjoelker, comes from <a href="http://www.stack.nl/~jilles/irc/">http://www.stack.nl/~jilles/irc/</a>. Authentication information is stored in &tilde;/.irssi/sasl.auth.</p>
+
+<ol>
+	<li><p>Copy the script, <a href="cap_sasl.pl">cap_sasl.pl</a>, into your &tilde;/.irssi/scripts/autorun directory or from wherever irssi loads startup scripts.</p></li>
+	<li><p>Load the script using <span class="verbatim-i">/script load autorun/cap_sasl.pl</span>.</p></li>
+	<li><p>The script needs to be configured with <span class="verbatim-i">/sasl set <span class="subst">network</span> <span class="subst">nick</span> <span class="subst">password</span>.</p>
+		<ul>
+		<li><span class="verbatim-i subst">network</span> is the (case-sensitive) name of the network specified with <span class="verbatim-i">/network add</span>.</li>
+		<li><span class="verbatim-i subst">nick</span> is your <i>primary</i> registered nickname. A grouped nickname will not work.</li>
+		<li><span class="verbatim-i subst">password</span> is your NickServ password.</li>
+		</ul>
+	</li>
+	<li><p>Save the settings with <span class="verbatim-i">/sasl save</span>.</p></li>
+	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
+		<span class="verbatim-b">SASL authentication successful</span></li>
+</ol>
+
+<p>The script also supports <span class="verbatim-i">/sasl show</span> and <span class="verbatim-i">/sasl load</span>. Show lists currently-configured networks and the saved credentials. Load re-reads the sasl.auth file. A <span class="verbatim-i">/sasl set <span class="subst">network</span></span> command with no other arguments will delete the configuration for that network.</p>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->

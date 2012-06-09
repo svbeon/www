@@ -1,8 +1,5 @@
 <!--#set var="more_meta" value="" --><!--#set var="page_title" value="freenode: free-as-in-node" --><!--#set var="content_title" value="free-as-in-node: a what?" --><!--#include file="include/header-mainlogos.shtml" -->
 
-<link href="static/javascript/SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
-<script src="static/javascript/SpryAssets/SpryAccordion.js" type="text/javascript"></script>
-
 <p>free-as-in-node is podcast released every few weeks. While there are already tons of amazing tech podcasts out there, we're trying to create one which compliments freenode and other 
 PDPC projects, ensuring that we keep the community at the centre of every episode. free-as-in-node takes a look at current happenings in the FOSS world, often cynical, sometimes serious and more 
 often still, humorous.</p>
@@ -12,44 +9,16 @@ alowing the projects to tell us exactly why they kick ass, while giving /you/ an
 
 <h2>free-as-in-who? The presenters</h2>
 
-<p>
-	<div id="presenters" class="Accordion">
-		<div class="AccordionPanel">
-			<div class="AccordionPanelTab">Xalior</div>
-			<div class="AccordionPanelContent">
-				Xalior aka D Rimron, ex-radio DJ, expatriated welshman living in Glasgow, #lugradio extraordinaire and all-round grafter for the free-as-in-node podcast.<br />
-			</div>
-		</div>
-		<div class="AccordionPanel">
-			<div class="AccordionPanelTab">w00t</div>
-			<div class="AccordionPanelContent">
-				w00t aka Robin Burchell, australian freenode developer with a love for kangaroos and scandinavian women.<br />
-			</div>
-		</div>
-		<div class="AccordionPanel">
-			<div class="AccordionPanelTab">Bryn_S</div>
-			<div class="AccordionPanelContent">
-				Bryn_S aka Bryn Salisbury, a ginger, welsh security nut with a passion for rugby!<br />
-			</div>
-		</div>
-		<div class="AccordionPanel">
-			<div class="AccordionPanelTab">christel</div>
-			<div class="AccordionPanelContent">
-				christel aka Christel Dahlskjaer, freenode Head of Staff and occasional global notice spammer.<br />
-			</div>
-		</div>
-		<div class="AccordionPanel">
-			<div class="AccordionPanelTab">Pendulum</div>
-			<div class="AccordionPanelContent">
-				Last, but by no means least - let us not forget the ever so lovely Miss Pendulum, or if you prefer, Penelope Stowe who has the terrible task of transcribing the podcast! Thank you!
-			</div>
-		</div>
-	</div>
-
-
-<script type="text/javascript">
-	var pres = new Spry.Widget.Accordion("presenters");
-</script>
+<h2>Xalior</h2>
+<p>Xalior aka D Rimron, ex-radio DJ, expatriated welshman living in Glasgow, #lugradio extraordinaire and all-round grafter for the free-as-in-node podcast.</p>
+<h2>w00t</h2>
+<p>w00t aka Robin Burchell, australian freenode developer with a love for kangaroos and scandinavian women.</p>
+<h2>Bryn_S</h2>
+<p>Bryn_S aka Bryn Salisbury, a ginger, welsh security nut with a passion for rugby!</p>
+<h2>christel</h2>
+<p>christel aka Christel Dahlskjaer, freenode Head of Staff and occasional global notice spammer.</p>
+<h2>Pendulum</h2>
+<p>Last, but by no means least - let us not forget the ever so lovely Miss Pendulum, or if you prefer, Penelope Stowe who has the terrible task of transcribing the podcast! Thank you!</p>
 
 <h2>free-as-in-listen: Episodes</h2>
 

@@ -435,7 +435,7 @@
           regardless of the nickname you are using when you connect. For
           example:
 
-          <blockquote><i>/connect irc.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</i></blockquote>
+          <blockquote><i>/connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</i></blockquote>
         </li>
       </ol>
       <br />

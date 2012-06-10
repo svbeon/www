@@ -1,0 +1,44 @@
+<!--#set var="page_title" value="Configuring Client SSL Certificates for KVIrc" -->
+<!--#set var="content_title" value="Configuring Client SSL Certificates for KVIrc" -->
+<!--#set var="EXTRA_HEAD" value='<style type="text/css">
+	ol img { margin-top: 10px; }
+	</style>'
+-->
+<!--#include virtual="../include/header-mainlogos.shtml" -->
+
+<ol>
+	<li><p>Click <u>S</u>ettings, and then <u>C</u>onfigure KVIrc...<br />
+		<img src="certfp-kvirc-01.png" alt="KVIrc: Configure KVIrc" height=333 width=556 /></p></li>
+	<li><p>Click to expand the Connection menu, and select Advanced...<br />
+		<img src="certfp-kvirc-02.png" alt="KVIrc: Connection Advanced" height=295 width=465 /></p></li>
+	<li><p>In the advanced connection settings, enable the <u>U</u>se SSL certificate option and fill in the path to <a href="makecert.shtml">your certificate</a> and password. Enable the Use SSL <u>p</u>rivate key option, and fill in the same values for your certificate and password.</p>
+		<p>If you did not use a passphrase for your certificate, leave the password fields blank.<br />
+		<img src="certfp-kvirc-03.png" alt="KVIrc: Use SSL certificate, private key" height=527 width=670 /></p></li>
+	<li><p>Press <u>O</u>K to return back to the main KVIrc window.</p></li>
+	<li><p>Click <u>S</u>ettings and then Co<u>n</u>figure Servers...<br />
+		<img src="certfp-kvirc-04.png" alt="KVIrc: Configure Servers" height=356 width=538 /></p></li>
+	<li><p>If you already have a <span class="freenode">freenode</span> network defined, then select the server(s) in that network and skip to step 9. If you don't have a <span class="freenode">freenode</span> network yet, anywhere in the Servers window that appears, right click and select N<u>e</u>w Network...<br />
+		<img src="certfp-kvirc-05.png" alt="KVIrc: New Network" height=429 width=638 /></p></li>
+	<li><p>Enter a name (perhaps freenode)...<br />
+		<img src="certfp-kvirc-06.png" alt="KVIrc: Add freenode as network" height=181 width=549 /></p></li>
+	<li><p>Right click on the network you just added and click <u>N</u>ew Server...<br />
+		<img src="certfp-kvirc-07.png" alt="KVIrc: Add server" height=166 width=351 /></p></li>
+	<li><p>Enter chat.freenode.net (or irc.freenode.net) as the server name, and then click <u>A</u>dvanced...<br />
+		<img src="certfp-kvirc-08.png" alt="KVIrc: Open advanced settings" height=156 width=628 /></p></li>
+	<li><p>In the <u>C</u>onnection tab in the Server Details window, enter 6697 (or any of the <a href="../irc_servers.shtml">listed SSL ports</a>) for the port, then enable the &quot;Use <u>S</u>SL protocol&quot; checkbox.<br />
+		<img src="certfp-kvirc-09.png" alt="KVIrc: Connection Details" height=367 width=684 /></p></li>
+	<li><p>Click OK until you have returned to the Servers window. Click Connect <u>N</u>ow...<br />
+		<img src="certfp-kvirc-10.png" alt="KVIrc: Connect Now" height=429 width=638 /></p></li>
+	<li><p>If everything was configured correctly, when you type <span class="verbatim-i">/whois <span class="subst">yournick</span></span> you will see a line like:</p>
+		<p><span class="verbatim-b">[00:01:01] yournick's info: has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195</span></p>
+		<p>You can tell NickServ to automatically identify based on this certificate fingerprint by doing:</p>
+		<span class="verbatim-b">/msg nickserv CERT ADD</span></li>
+</ol>
+
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->
+

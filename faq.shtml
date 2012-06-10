@@ -170,7 +170,7 @@
         <li><a href="#whymoney">Why do you need money?</a></li>
         <li><a href="#moneydecisions">Who decides how the money you collect will be spent?</a></li>
         <li><a href="#donationcost">What does it cost when I donate?</a></li>
-        <li><a href="#whycloak"> Why should I wear a Cloak to acknowledge my donation?</a></li>
+        <li><a href="#whycloak"> Why should I wear a cloak to acknowledge my donation?</a></li>
       </ul>
       <br />
     </li>
@@ -2126,10 +2126,10 @@
     
     <li>
       <b>
-        <a name="whycloak"></a> Why should I wear a <a href="#cloaks">Cloak</a> to acknowledge my donation?
+        <a name="whycloak"></a> Why should I wear a <a href="#cloaks">cloak</a> to acknowledge my donation?
       </b>
       
-      When you wear the Cloak, your donation becomes more visible, which
+      When you wear the cloak, your donation becomes more visible, which
       helps to raise awareness of the idea of donating to Peer-Directed
       Projects Center, the not-for-profit entity which runs <b
       class="freenode">freenode</b>. So, in a sense, your donation goes
@@ -2137,7 +2137,7 @@
 
       <a href="#nicksetup">do the necessary setup</a>
 
-      and wear the Cloak!
+      and wear the cloak!
       <br /><br />
     </li>
   </ul>

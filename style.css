@@ -751,3 +751,24 @@ table.modetable td
 	padding: 5px;
 	vertical-align: top;
 }
+.verbatim-i {
+	/* display inline */
+	display: inline-block;
+	font-family: monospace;
+}
+.verbatim-b {
+	/* display as block */
+	display: block;
+	margin-left: 4em;
+	font-family: monospace;
+}
+.subst {
+	/* Values the user should replace, typically used
+	within a verbatim span/block, e.g.:
+	<span class="verbatim-i">/msg NickServ identify
+		<span class="subst">account</span>
+		<span class="subst">password</span>
+	</span> */
+	font-style: oblique;
+}
+

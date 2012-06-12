@@ -1,4 +1,4 @@
-<!--#include virtual="/include/include-config.shtml" -->
+<!--#include virtual="../include/include-config.shtml" -->
 <!--#set var="page_title" value="Configuring SASL for XChat: Perl script" -->
 <!--#set var="content_title" value="Configuring SASL for XChat" -->
 <!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->

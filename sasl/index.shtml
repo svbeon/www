@@ -1,4 +1,4 @@
-<!--#include virtual="/include/include-config.shtml" -->
+<!--#include virtual="../include/include-config.shtml" -->
 <!--#set var="page_title" value="Connecting with SASL" -->
 <!--#set var="content_title" value="Connecting with SASL" -->
 <!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->

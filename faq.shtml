@@ -51,8 +51,8 @@
       <ul>
         <li><a href="#registering">Why should I register my nick?</a></li>
         <li><a href="#nicksetup">What is the recommended way to set up my IRC nickname?</a></li>
-        <li><a href="#identify">What's the easiest way to identify to nickserv when I connect to <span class="freenode">freenode</span>?</a></li>
-        <li><a href="#plusr">Why do I see &quot;Cannot join channel (+r) - you need to be identified with services&quot;?</a></li>
+        <li><a href="#identify">What's the easiest way to identify to NickServ when I connect to <span class="freenode">freenode</span>?</a></li>
+        <li><a href="#plusr">Why do I see <span class="verbatim-i">Cannot join channel (+r) - you need to be identified with services</span>?</a></li>
 		 <li><a href="#spoofing">How can I tell when someone might be spoofing a user's identity?</a></li>
         <li><a href="#userexpirations">When do IRC nicknames expire?</a></li>
         <li><a href="#inuse">How do you know the last time an IRC nickname was used?</a></li>
@@ -89,7 +89,7 @@
         <li><a href="#klineannoyinguser">Do you mind if I refer annoying user foo to one of the auto-kline channels to get him out of my hair?</a></li>
         <li><a href="#ctcpversion">Why did someone CTCP VERSION me?</a></li>
         <li><a href="#freenodeconnect">Why does user frigg send CTCP VERSION when I connect to the network?</a></li>
-        <li><a href="#freenode-info">Why do I get these [freenode-info] messages sometimes when I join a channel, or during a netsplit?</a></li>
+        <li><a href="#freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</a></li>
         <li><a href="#spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block  them?</a></li>
         <li><a href="#blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</a></li>
         <li><a href="#nocloakonjoin">Why is my cloak not applied initially when I auto-join channels?</a></li>
@@ -101,7 +101,7 @@
         <li><a href="#sendpass">What do I do if I forget my password?</a></li>
         <li><a href="#monitor">Is there a way to get notified when a user comes online?</a></li>
         <li><a href="#memoserv">How do I contact an offline user?</a></li>
-        <li><a href="#channelts">What does it mean when I see &quot;*** Notice -- TS for #channel changed from 1300123123 to 1255123123&quot;?</a></li>
+        <li><a href="#channelts">What does it mean when I see <span class="verbatim-i">*** Notice -- TS for #channel changed from 1300123123 to 1255123123</span>?</a></li>
       </ul>
       <br />
     </li>
@@ -305,14 +305,15 @@
       If you register it, you'll be able to use the same nick over and over. 
       If you don't register, someone else may end up registering the nick
       you want.  If you register and use the same nick, people will begin to
-      know you by reputation. If they're running IRC software which supports
-      <b>CAP identify-msg</b>, they'll be able to tell when someone is
+      know you by reputation. If they're running IRC software which supports the
+      <a href="http://www.leeh.co.uk/draft-mitchell-irc-capabilities-02.html">CAP</a>
+      identify-msg, they'll be able to tell when someone is
       spoofing your identity.
 
       <br /><br />
 
       If a channel is set to mode <b>+r</b>, you won't be able to join it
-      unless you are registered and identified to nickserv.  If you try to
+      unless you are registered and identified to NickServ.  If you try to
       join, you might be forwarded to a different channel.  If a channel
       is set to mode <b>+q $~a</b>, you won't be able to speak while on that
       channel unless you are registered and identified.  Both of these
@@ -337,98 +338,75 @@
       <br /><br />
       
       <ol>
-        <li>
+        <li><p>
           Select a permanent, master nickname. If the nickname you want is
           registered but has <a href="#userexpirations">expired</a>, just
+          <a href="#gettinghelp">ask a staffer</a> and in most cases, we
+          will be happy to drop it for you.</p>
 
-          <a href="#gettinghelp">ask a staffer</a>
-          
-          and in most cases, we will be happy to drop it for you.
-
-          <br /><br />
-
-          Please avoid using the name of a community project or trademarked
+          <p>Please avoid using the name of a community project or trademarked
           entity, to avoid conflicts. Write down your password and be sure
-          to keep the sheet of paper in a safe place.
-          
-          <br /><br />
+          to keep the sheet of paper in a safe place.</p>
         </li>
 
-        <li>
-          Register your IRC nick:
-          <blockquote><i>
-            /msg nickserv register &lt;password&gt; &lt;email&gt;
-          </i></blockquote>
+        <li><p>
+          Register your IRC nick:</p>
+          <span class="verbatim-b">/msg nickserv register
+          <span class="subst">password</span>
+          <span class="subst">youremail@example.com</span>
+          </span>
 
-          Do NOT include the &lt; or &gt; around your password or email.
+          <p>Replace <span class="subst">password</span> with a secure, unguessable
+          password that you keep secret.</p>
         </li>
 
-        <li>
+        <li><p>
           The email address that you select will not be given out by staff, and 
           is mainly used to allow us to help you recover the account in the event 
           that you forget your password. For this reason, you are required to use 
           a real, non-disposable, email address. Upon registering, you will receive 
           an email with a verification command that you will need to run to complete 
           the registration process. Failure to verify the account will cause it to be 
-          automatically dropped after about 24 hours.
-	</li>
-        <li>
+          automatically dropped after about 24 hours.</p>
+    </li>
+        <li><p>
           To keep your email address private, rather than displaying it
-          publicly, mark it as hidden (which is done by default for new accounts):
+          publicly, mark it as hidden (which is done by default for new accounts):</p>
 
-          <blockquote><i>
-            /msg nickserv set hidemail on
-          </i></blockquote>
+          <span class="verbatim-b">/msg nickserv set hidemail on</span>
         </li>
 
         <li>
-          It's useful, but not required, to have an alternate nick grouped to your account.
-
-          For example, if your primary
-          nick is foo:
-
-          <blockquote><i>
-            /nick foo_
-          </i></blockquote>
-
-          then identify to your primary account
-
-          <blockquote><i>
-            /msg nickserv identify foo &lt;password&gt;
-          </i></blockquote>
-
-          and finally, group the new nick to your account
-
-          <blockquote><i>
-            /msg nickserv group
-          </i></blockquote>
-
+          <p>It's useful, but not required, to have an alternate nick grouped
+          to your account. For example, if your primary nick is
+          <span class="verbatim-i">foo</span>:</p>
+          <span class="verbatim-b">/nick foo_</span>
+          <p>then identify to your primary account:</p>
+          <span class="verbatim-b">/msg nickserv identify
+          foo <span class="subst">password</span></span>
+          <p>and finally, group the new nick to your account</p>
+          <span class="verbatim-b">/msg nickserv group</span><br />
         </li>
-		
-		<li>
-		  We prefer you to use just one account, and group nicks to it as described above, rather than 
-		  registering for multiple accounts.  Grouping nicks in this way gives you the benefit of having all your
-		  nicks covered by the same cloak, should you choose to <a href="#cloaks">wear a cloak</a>. The exception to 
-		  this is where you might want to run a bot.  You should register a separate account for your bot.
+        
+        <li>
+          <p>We prefer you to use just one account, and group nicks to it as described above, rather than registering for multiple accounts.  Grouping nicks in this way gives you the benefit of having all your nicks covered by the same cloak, should you choose to <a href="#cloaks">wear a cloak</a>.</p>
+          <p>The exception to this is where you might want to run a bot.  You should register a separate account for your bot.</p>
 		</li>
 
         <li>
-          Configure your client to identify itself to nickserv automatically
+          <p>Configure your client to identify itself to NickServ automatically
           whenever it connects to freenode so that it's less likely you'll
-          connect to the network without being identified to nickserv.  The
-          easiest approach is to specify your nickserv password as a server
-          password:
+          connect to the network without being identified to NickServ.  The
+          easiest approach is to specify your NickServ password as a server
+          password.</p>
 
-          <br /><br />
-
-          If your client supports server password, please set this up as 
-          <code>&lt;accountname&gt;:&lt;password&gt;</code>. (Make sure to
-          include the colon and not the literal &lt; and &gt;.) This will
+          <p>If your client supports server password, please set this up as 
+          <span class="verbatim-i"><span class="subst">accountname</span>:<span class="subst">password</span></span>.
+          Make sure to include the colon. This will
           allow you to identify to your services account on connect,
           regardless of the nickname you are using when you connect. For
-          example:
-
-          <blockquote><i>/connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</i></blockquote>
+          example:</p>
+          <span class="verbatim-b">/connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</span>
         </li>
       </ol>
       <br />
@@ -437,38 +415,30 @@
     <li>
       <b>
         <a id="identify"></a>What's the easiest way to identify to
-        nickserv when I connect to <span class="freenode">freenode</span>?
+        NickServ when I connect to <span class="freenode">freenode</span>?
       </b>
-
-      Just plug your nickserv password into your client as a server
+      Just plug your NickServ password into your client as a server
       password, to make this work when connecting from a different nick than 
       the one you've got registered use ':nick password'.  
-      You'll be identified to nickserv automatically when you
+      You'll be identified to NickServ automatically when you
       connect. In some cases, it's more convenient to configure your client
-      to send the command 
+      to send this command to achieve the same effect:<br /><br />
 
-      <blockquote><i>
-        /msg nickserv identify &lt;account&gt; &lt;password&gt;
-      </i></blockquote>
+      <span class="verbatim-b">/msg nickserv identify
+      <span class="subst">account</span>
+      <span class="subst">password</span>
+      </span>
 
-      to achieve the same effect.
-
-      <br /><br />
-
-      We recommend you read and follow the steps of the
-
+      <p>We recommend you read and follow the steps of the
       <a href="#nicksetup">canonical nickname setup</a>
-
-      to make sure your client identifies reliably to nickserv.
-
-      <br /><br />
+      to make sure your client identifies reliably to NickServ.</p>
     </li>
 	
 	<li>
       <b>
-        <a id="plusr"></a>Why am I seeing &quot;Cannot join channel (+r) - you need to be identified with services&quot;?
+        <a id="plusr"></a>Why am I seeing <span class="verbatim-i">Cannot join channel (+r) - you need to be identified with services</span>?
       </b>
-	This means that you need to <a href="#nicksetup">register</a> (and verify) your nickname.  If you have already registered, you probably need to <a href="#identify">identify.</a>
+	This means that you need to <a href="#nicksetup">register</a> your nickname and verify your email address.  If you have already done this, you probably need to <a href="#identify">identify</a>, on ensure that you are identified before joining channels. (<a href="#nocloakonjoin">This question</a> can help with that.)
 	 <br /><br /> 
 	</li>
     
@@ -492,7 +462,7 @@
       If you want other people using this
       feature to know that you're you, have your client
 
-      <a href="#identify">identify to nickserv</a>
+      <a href="#identify">identify to NickServ</a>
 
       when you connect to the network. You should also follow the
 
@@ -542,7 +512,7 @@
       We know this only as a result of your
 
       
-      <a href="#identify">identifying to nickserv</a>
+      <a href="#identify">identifying to NickServ</a>
 
       when you connect to the network.  If you don't identify, we'll have no
       way to know that your nick is in use, and it will eventually be
@@ -552,15 +522,13 @@
       
       for your IRC nickname.
 
-      You can see the last time someone identified to nickserv for a nick with:
+      You can see the last time someone identified to NickServ for a nick with:
 
-      <blockquote><i>
-        /msg nickserv info &lt;nick&gt;
-      </i></blockquote>
+      <br /><br />
+      <span class="verbatim-b">/msg nickserv info <span class="subst">nick</span></span>
+      <br />
 
-      Do not include the &lt; and &gt; around the nick.
-
-      The 'Last seen' field tells you the last time someone used the nick while identified.
+      The <span class="verbatim-i">Last seen:</span> field tells you the last time someone used the nick while identified.
 
       <br /><br />
     </li>
@@ -597,9 +565,11 @@
       In other cases, someone could simply be using the nick while unidentified. 
       You can force them to change their nick with:
 
-      <blockquote><i>
-      /MSG NickServ RELEASE yournick yourpassword
-      </i></blockquote>
+      <br /><br />
+      <span class="verbatim-b">/MSG NickServ RELEASE
+      <span class="subst">yournick</span> <span class="subst">yourpassword</span>
+      </span>
+      <br />
 
       You may need to run the above command a second time if you get a message 
       saying the nick is temporarily unavailable.
@@ -607,11 +577,9 @@
       You can also set enforce on your nick to have NickServ force users to 
       identify to the account within 30 seconds in order to continue to use it:
 
-      <blockquote><i>
-      /MSG NickServ SET ENFORCE ON
-      </i></blockquote>
-
       <br /><br />
+      <span class="verbatim-b">/MSG NickServ SET ENFORCE ON</span>
+      <br />
     </li>
   </ul>
 
@@ -672,22 +640,26 @@
       banning someone with the user name <i>foo</i> without regard to whether
       they match ident is frequently done in this way:
       
-      <blockquote><i>/mode #channel +b nickmask!*foo@hostmask</i></blockquote>
+      <br /><br />
+      <span class="verbatim-b">/mode #channel +b nickmask!*foo@hostmask</span>
+      <br />
       
-      which bans both <i>foo</i> and <i>~foo</i>. Unfortunately, it also bans
-      usernames such as:
+      which bans both <span class="verbatim-i">foo</span> and <span class="verbatim-i">~foo</span>. Unfortunately, it also bans usernames such as:
       
-      <blockquote><i>
-        foofoo<br />
-        moofoo<br />
-        goofoo<br />
-        anythingfoo
-      </i></blockquote>
+      <span class="verbatim-b">foofoo</span>
+      <span class="verbatim-b">moofoo</span>
+      <span class="verbatim-b">goofoo</span>
+      <span class="verbatim-b">anythingfoo</span>
+      <br />
       
       Instead, ban just 'foo' by using the following:
-      <blockquote><i>/mode #channel +b nickmask!~foo@hostmask</i></blockquote>
+      <br /><br />
+      <span class="verbatim-b">/mode #channel +b nickmask!~foo@hostmask</span>
+      <br />
       If identd or authd is in use, use:
-      <blockquote><i>/mode #channel +b nickmask!foo@hostmask</i></blockquote>
+      <br /><br />
+      <span class="verbatim-b">/mode #channel +b nickmask!foo@hostmask</span>
+      <br />
       <br />
     </li>
 
@@ -719,10 +691,8 @@
 
       site for a current list. To find channels about a specific topic you can also use our "alis" service: 
       
-      <blockquote><i>
-        /msg alis help list
-      </i></blockquote>
-
+      <br /><br />
+      <span class="verbatim-b">/msg alis help list</span>
       <br />
     </li>
     
@@ -731,7 +701,7 @@
         <a id="ipv6access"></a>How do I access <span class="freenode">freenode</span> via IPv6?
       </b>
       
-      The simplest way is to connect to <b>irc.ipv6.freenode.net</b>.
+      The simplest way is to connect to <span class="verbatim-i">irc.ipv6.freenode.net</span>.
       <br /><br />
     </li>
     
@@ -782,9 +752,9 @@
 
       <a href="#registering">registered</a>
 
-      and identified to nickserv.  In this case, you'll see a message in
+      and identified to NickServ.  In this case, you'll see a message in
       your server notice window which explains the problem and points you
-      to nickserv for more information.
+      to NickServ for more information.
       <br /><br />
     </li>
     
@@ -876,80 +846,60 @@
         <a id="networkinfo"></a>How do I find out what's going on with the network?
       </b>
       
-      We put information on the network in a variety of places.  Your best
+      <p>We put information on the network in a variety of places.  Your best
       ongoing source is this website; it provides reference information on
       the network, its philosophy, the software it uses, etc.  In addition,
       staff send WALLOPS messages with time-sensitive status information (as
       well as a variety of general comments and announcements). To receive
-      these messages, on most clients, you can use 
+      these messages, on most clients, you can use:</p>
+      <span class="verbatim-b">/umode +w</span>
 
-      <blockquote><i>
-        /umode +w
-      </i></blockquote>
+      <p>or</p>
 
-      or
+      <span class="verbatim-b">/mode yournick +w</span>
 
-      <blockquote><i>
-        /mode yournick +w
-      </i></blockquote>
-
-      For best results, place the command in your client's startup script.
+      <p>For best results, place the command in your client's startup script.</p>
       
-      <br /><br />
-
-      In addition to WALLOPS we make announcements via our 
+      <p>In addition to WALLOPS we make announcements via our 
       <a href="http://blog.freenode.net">blog</a>, a more critical announce 
       website which can be found at 
       <a href="http://announce.freenode.net">http://announce.freenode.net</a>,
       <a href="http://twitter.com/freenodestaff">twitter</a> and
-      <a href="http://identi.ca/freenodestaff">identi.ca</a>.
+      <a href="http://identi.ca/freenodestaff">identi.ca</a>.</p>
            
-      <br /><br />
-      
-      Finally, we send information we judge to have global significance to
+      <p>Finally, we send information we judge to have global significance to
       our users via global notices.  You don't generally have to do
       anything to see these, though they may appear on a different window
-      of your client (along with the WALLOPS messages).
-      <br /><br />
+      of your client (along with the WALLOPS messages).</p>
     </li>
     
     <li>
       <b>
         <a id="lessinfo"></a>How can I get fewer notices from the staff?
       </b> 
-      Most of those messages are sent via WALLOPS, an IRC facility for
+      <p>Most of those messages are sent via WALLOPS, an IRC facility for
       displaying messages from server operators.
       On <span class="freenode">freenode</span>, WALLOPS messages may contain
       non-critical comments and announcements from staff, as well as
       detailed server administration information. If you don't like the
       number of messages or the messages seem too trivial or detailed, you
       can turn them off by turning off user mode "w".  On most clients this
-      can be accomplished via:
-
-      <blockquote><i>
-        /umode -w
-      </i></blockquote>
-
-      or
-
-      <blockquote><i>
-        /mode yournick -w
-      </i></blockquote>
+      can be accomplished via:</p>
+      <span class="verbatim-b">/umode -w</span>
+      <p>or</p>
+      <span class="verbatim-b">/mode yournick -w</span>
       
-      For best results, place the command in your client's startup
-      script.
+      <p>For best results, place the command in your client's startup
+      script.</p>
 
-      <br /><br />
-
-      We also send information with global significance to our users via
+      <p>We also send information with global significance to our users via
       global notices.  These notices are a bit more difficult to turn off;
       you can usually tell your client to ignore notices from specific staff
       members, notices from all staffers or all notices. <b>It's not
-      recommended.</b> But on most clients, it works something like this:
+      recommended.</b> But on most clients, it works something like this:</p>
       
-      <blockquote><i>
-        /ignore *!*@freenode/staff/* notice
-      </i></blockquote>
+      <span class="verbatim-b">/ignore *!*@freenode/staff/* notice</span>
+      <br />
     </li>
     
     <li>
@@ -1109,14 +1059,14 @@
       <b>
         <a id="freenode-info"></a>Why do I get these
         
-        <span class="freenode">[freenode-info]</span>
+        <span class="verbatim-i">[freenode-info]</span>
         
         messages sometimes when I join a channel, or during a netsplit?
       </b>
 
       Messages labeled
       
-      <span class="freenode">freenode-info</span>
+      <span class="verbatim-i">freenode-info</span>
       
       contain important, non-time-critical information for
       
@@ -1146,48 +1096,34 @@
         messages. What can I do to block them?
       </b>
       
-      Sometimes
-      
-      <span class="freenode">freenode</span>
-      
+      <p>Sometimes <span class="freenode">freenode</span>
       has to deal with infestations of spam bots. These bots often join
       large channels to get lists of people to spam via private message.
       We're working on long-term solutions to the problem. In the meantime,
       your best bet is to
-      
       <a href="#nicksetup">register your IRC nickname and do the standard setup</a>,
-      
       and then set your user mode to <b>+R</b> to filter out any private messages
       sent to you by unregistered users.  Depending on which client you're running,
-      one of these commands will set that user mode:
+      one of these commands will set that user mode:</p>
 
-      <blockquote><i>
-        /umode +R <br />
-        /mode YOURNICK +R <br />
-        /quote mode YOURNICK +R <br />
-        /raw mode YOURNICK +R <br />
-      </i></blockquote>
+      <span class="verbatim-b">/umode +R</span>
+      <span class="verbatim-b">/mode <span class="subst">YOURNICK</span> +R</span>
+      <span class="verbatim-b">/quote mode <span class="subst">YOURNICK</span> +R</span>
+      <span class="verbatim-b">/raw mode <span class="subst">YOURNICK</span> +R</span>
       
-      <br /><br />
+      <p>If you run a support channel, please consider using something like:</p>
       
-      If you run a support channel, please consider using something like:
+      <span class="verbatim-b">/mode <span class="subst">#yourchannel</span>
+      +rf #yourchannel-unregistered</span>
       
-      <blockquote><i>
-        /mode #yourchannel +rf #yourchannel-unregistered
-      </i></blockquote>
-      
-      This will forward unregistered users to a separate channel on join.
+      <p>This will forward unregistered users to a separate channel on join.
       You can let those users know about
-      
       <a href="#nicksetup">registration options</a>,
-      
       but try to provide them support on the 'unregistered' channel, as
       well---it's a way to help keep spammers from taking away support
       options from our unregistered users! Note that you will have to
       be +o in #yourchannel-unregistered, or that channel must be
-      <b>+F</b> to set the forward.
-
-      <br /><br />
+      <b>+F</b> to set the forward.</p>
     </li>
     
     <li>
@@ -1211,18 +1147,18 @@
       <b>
         <a id="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?
       </b>
-      Your account name and password must be sent to NickServ and verified,
+      <p>Your account name and password must be sent to NickServ and verified,
       and then NickServ must tell the servers about your cloak. This process
       may take a little time, depending on how heavily services is loaded
-      and the amount of lag between your server and services.
-      <br /><br />
-      Some clients send your identification to NickServ and, without
+      and the amount of lag between your server and services.</p>
+
+      <p>Some clients send your identification to NickServ and, without
       waiting, start to join channels. This may lead to showing your
       uncloaked host when you join the channel, followed shortly by a
-      quit and re-join as your cloak is applied.
-      <br /><br />
-      To prevent this, you may need to do one of the following (roughly
-      in order of preference):
+      quit and re-join as your cloak is applied.</p>
+
+      <p>To prevent this, you may need to do one of the following (roughly
+      in order of preference):</p>
       <ul>
       <li>Authenticate using SASL.<br />
         SASL is a method of identifying
@@ -1231,22 +1167,23 @@
         collection of scripts for common clients and instructions
         for setting up SASL can be found <a href="sasl/">here</a>.</li>
       <li>Wait to join channels until after the server notifies you
-        that it has set your hidden host.<br />
+        that it has set your hidden host.
         This notification is done with a 396 numeric that looks like this:
-        <blockquote><i>396 YourNick unaffiliated/youraccount :is now your hidden host (set by services.)</i></blockquote>
+        <span class="verbatim-b">396 YourNick unaffiliated/youraccount :is now your hidden host (set by services.)</span>
         Scripts to do this for
         <a href="recommended/xchat/kludges/cloak-before-join.pl.txt">X-Chat</a>
         and <a href="recommended/mirc/cloak-before-join.ini.txt">mirc</a>
-        were kindly contributed by one of our users.
-        You won't receive this numeric if your account or connection (for
-        gateways) is not cloaked.</li>
+        were kindly contributed by our users. You won't receive this numeric
+        if your account or connection (for gateways) is not cloaked.</li>
       <li>Add a fixed amount of wait time before joining channels.<br />
-        This can be done on X-Chat with <i>/set irc_join_delay</i>,
-        or on irssi by adding <i>wait &lt;time&gt;</i> to the
-        autosendcmd for the network.</li>
+        This can be done on X-Chat with
+        <span class="verbatim-i">set irc_join_delay</span>,
+        or on irssi by adding
+        <span class="verbatim-i">wait <span class="subst">time</span></span>
+        to the autosendcmd for the network.</li>
       <li>Don't auto-join channels; do it manually.</li>
       </ul>
-      <br /><br />
+      <br />
     </li>
     
     <li>
@@ -1264,31 +1201,24 @@
       <b>
         <a id="join"></a>Why can't I join a certain channel?
       </b>
-
-      There are a few things that might be preventing you from joining a 
+      <p>There are a few things that might be preventing you from joining a 
       channel. The first thing you should check is whether you are identified 
-      to NickServ. You can identify to NickServ with 
+      to NickServ. You can identify to NickServ with:</p>
+      <span class="verbatim-b">/MSG NickServ IDENTIFY
+      <span class="subst">YourNick</span>
+      <span class="subst">YourPassword</span>
+      </span>
 
-      <blockquote><i>
-        /MSG NickServ IDENTIFY YourNick YourPassword
-      </i></blockquote>
-
-      Certain channels have channel mode +r set, which prevents unidentified 
+      <p>Certain channels have channel mode +r set, which prevents unidentified 
       users from joining. You can check what channel modes are enabled on a 
-      channel with 
+      channel with:</p>
+      <span class="verbatim-b">/mode #channel</span>
 
-      <blockquote><i>
-        /mode #channel
-      </i></blockquote>
+      <p>The next thing you should check is whether or not you are banned from the 
+      channel. You can view the ban list with:</p>
+      <span class="verbatim-b">/mode #channel +b</span>
 
-      The next thing you should check is whether or not you are banned from the 
-      channel. You can view the ban list with 
-
-      <blockquote><i>
-        /mode #channel +b
-      </i></blockquote>
-
-      Remember, you may be unintentionally affected by a large ban that was 
+      <p>Remember, you may be unintentionally affected by a large ban that was 
       set, so pay particular attention to bans that include wildcards (* and ?). 
       Also, keep in mind that if you are cloaked, a ban set against your IP 
       address will still prevent you from joining. Finally, do not forget about 
@@ -1296,81 +1226,63 @@
       not be initially obvious. An explanation about bans (including extbans) is 
       available <a href="using_the_network.shtml">here</a>. If you do find a ban 
       set against you and you feel it is a mistake, you should contact the 
-      channel operators to discuss having it removed.
+      channel operators to discuss having it removed.</p>
 
-      If neither of these methods work, you will want to check what other channel 
+      <p>If neither of these methods work, you will want to check what other channel 
       modes are enabled for the channel. modes such as +i, +k, and several others 
-      might be preventing you from joining.
+      might be preventing you from joining.</p>
 
-      If you are still unable to figure out why you can't join a certain channel, 
-      feel free to ask in #freenode.
-      
-      <br /><br />
+      <p>If you are still unable to figure out why you can't join a certain channel, 
+      feel free to ask in #freenode.</p>
     </li>
 
     <li>
       <b>
         <a id="unban"></a>How do I get unbanned/unquieted in a channel?
       </b>
-
-      <span class="freenode">freenode</span> tries to allow channels to run and 
+      <p><span class="freenode">freenode</span> tries to allow channels to run and 
       manage themselves. As a result, channel operators are generally free to 
       ban/quiet users for any reason they see fit. If you wish to discuss your 
       ban/quiet, you will need to contact the channel operators. A list of 
-      operators can be found with 
+      operators can be found with</p>
+      <span class="verbatim-b">/msg chanserv ACCESS <span class="subst">#channel</span> LIST</span>
 
-      <blockquote><i>
-        /msg chanserv access #channel list
-      </i></blockquote>
-
-      Operators will have the +o flag. One of these operators will have to 
+      <p>Operators will have the +o flag. One of these operators will have to 
       unban/unquiet you, <span class="freenode">freenode</span> staff will not 
-      intervene in most cases.
-
-      <br /><br />
+      intervene in most cases.</p>
     </li>
 
     <li>
       <b>
         <a id="talk"></a>Why can't I talk in a certain channel?
       </b>
-
-      There are two common reasons for being unable to talk in a channel. The 
+      <p>There are two common reasons for being unable to talk in a channel. The 
       first is that you might be quieted. You can view the quiet list for a 
-      channel with 
+      channel with</p>
+      <span class="verbatim-b">/mode #channel +q</span>
 
-      <blockquote><i>
-        /mode #channel +q
-      </i></blockquote>
-
-      If you find a quiet set against you and you feel it is a mistake, you 
-      should contact the channel operators to discuss having it removed.
+      <p>If you find a quiet set against you and you feel it is a mistake, you 
+      should contact the channel operators to discuss having it removed.</p>
       
-      The second common reason for being unable to talk in a channel is that it 
+      <p>The second common reason for being unable to talk in a channel is that it 
       has channel mode +m enabled. This mode prevents anyone who is not voiced 
       from talking (if channel mode +z is also enabled, you will be able to talk, 
-      but only operators will see your messages).
-
-      <br /><br />
+      but only operators will see your messages).</p>
     </li>
 
     <li>
       <b>
         <a id="changepass"></a>How do I change my password?
       </b>
+      <p>If you are identified to your account, you can change your password yourself. 
+      To change the password, enter the following command:</p>
+      <span class="verbatim-b">/MSG NickServ
+      SET PASSWORD <span class="subst">mynewpassword</span></span>
 
-      If you are identified to your account, you can change your password yourself. 
-      To change the password, enter the following command:
-
-      <blockquote><i>
-        /MSG NickServ SET PASSWORD mynewpassword
-      </i></blockquote>
-
-      Make sure that you are using SET PASSWORD instead of SETPASS. If you have 
-      forgotten your old password and are unable to identify, see <a href="#sendpass">
-      below</a> for information on how to have staff send you a password reset email.
-
-      <br /><br />
+      <p>Make sure that you are using SET PASSWORD instead of SETPASS. If you have 
+      forgotten your old password and are unable to identify, see
+      <a href="#sendpass">below</a> for information on how to have staff send you
+      a password reset email.</p>
     </li>
 
     <li>
@@ -1404,38 +1316,33 @@
         <a id="memoserv"></a>How do I contact an offline user?
       </b>
 
-      <span class="freenode">freenode</span> runs several <a href="services.shtml">services</a>, 
-      one of which is MemoServ. You can send a message to a user via MemoServ with:
+      <p><span class="freenode">freenode</span> runs several <a href="services.shtml">services</a>, 
+      one of which is MemoServ. You can send a message to a user via MemoServ with:</p>
 
-      <blockquote><i>/MSG MemoServ SEND nhandler Please contact me when you get 
-      this message.</i></blockquote>
+      <span class="verbatim-b">/MSG MemoServ SEND nhandler Please contact me when you get 
+      this message.</span>
 
-      In this example, nhandler will be notified when he comes online about the 
+      <p>In this example, nhandler will be notified when he comes online about the 
       message. If he has notifications enabled, he will also be notified via 
-      email. You can enable email notifications with:
-
-      <blockquote><i>/MSG NickServ SET EMAILMEMOS ON</i></blockquote>
-
-      You can prevent yourself from receiving messages via MemoServ with:
-
-      <blockquote><i>/MSG NickServ SET NOMEMO ON</i></blockquote>
+      email. You can enable email notifications with:</p>
+      <span class="verbatim-b">/MSG NickServ SET EMAILMEMOS ON</span>
+      <p>You can prevent yourself from receiving messages via MemoServ with:</p>
+      <span class="verbatim-b">/MSG NickServ SET NOMEMO ON</span>
     </li>
 
     <li>
       <b>
-        <a id="channelts">What does it mean when I see &quot;*** Notice -- TS for #channel changed from 1300123123 to 1255123123&quot;?</a>
+        <a id="channelts">What does it mean when I see <span class="verbatim-i">*** Notice -- TS for #channel changed from 1300123123 to 1255123123</span>?</a>
       </b>
 
-      You may see a server notice like this when you join an empty, registered
+      <p>You may see a server notice like this when you join an empty, registered
       channel. The TS is the server adjusting the channel's timestamp, which is
       saved for every channel and used when recovering from netsplits. If a
       channel is created independently on two servers that are split, the older
       channel wins, and when the servers reunite, the newer channel's mode
       changes and timestamp will be undone and replaced by the older, triggering
-      the notice you see.
-      <br /><br />
-      In short, it's a technical detail that you can safely ignore.
-      <br /><br />
+      the notice you see.</p>
+      <p>In short, it's a technical detail that you can safely ignore.</p>
     </li>
 
   </ul>
@@ -1447,25 +1354,17 @@
       <b>
         <a id="helpfromstaff"></a> How do I get help from the network staff?
       </b>
-      All staff currently connected to the network will be voiced in #freenode.
+      <p>All staff currently connected to the network will be voiced in #freenode.
       Keep in mind that all network staff are volunteers and you may sometimes
-      have to wait for a staffer to become active. You can also issue the command
-
-
-      <blockquote><i>/stats p</i></blockquote>
-
-      from within your IRC client. Certain clients, such have BitchX, have bugs which make it harder
-      to use the command; in those cases you may have to type something like <i>/quote stats p</i>.
-      You'll be provided a current list of on-call
-
-      <span class="freenode">freenode</span>
-
+      have to wait for a staffer to become active. You can also issue the command</p>
+      <span class="verbatim-b">/stats p</span>
+      <p>from within your IRC client. Certain clients, such have BitchX, have
+      bugs which make it harder to use the command; in those cases you may have
+      to type something like <span class="verbatim-i">/quote stats p</span>.
+      You'll be provided a current list of on-call <span class="freenode">freenode</span>
       staffers. Feel free to message one or more staffers as necessary until you
       find someone who can help you. Not all freenode staffers are listed; please
-      use this list as your indication of current availability.
-
-      <br /><br />
-
+      use this list as your indication of current availability.</p>
     </li>
    <!--
     <li>

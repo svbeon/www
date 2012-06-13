@@ -2,8 +2,8 @@
 <!--#set var="content_title" value="Catalysts" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>The "catalyst" role is critical to <b
-class="freenode">freenode</b> and an essential building block of channels.
+<p>The "catalyst" role is critical to <span
+class="freenode">freenode</span> and an essential building block of channels.
  No one is required to be a catalyst, but the users who perform this
 role ensure the smooth and efficient functioning of the network.</p>
 

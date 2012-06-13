@@ -88,8 +88,8 @@
         <li><a href="#practicaljoke">Someone told me to join this channel and now I can't get to the network anymore.  What's going on?</a></li>
         <li><a href="#klineannoyinguser">Do you mind if I refer annoying user foo to one of the auto-kline channels to get him out of my hair?</a></li>
         <li><a href="#ctcpversion">Why did someone CTCP VERSION me?</a></li>
-        <li><a href="#freenodeconnect">Why does user <b>frigg</b> send CTCP VERSION when I connect to the network?</a></li>
-        <li><a href="#freenode-info">Why do I get these <span class="freenode">[freenode-info]</b> messages sometimes when I join a channel, or during a netsplit?</a></li>
+        <li><a href="#freenodeconnect">Why does user frigg send CTCP VERSION when I connect to the network?</a></li>
+        <li><a href="#freenode-info">Why do I get these [freenode-info] messages sometimes when I join a channel, or during a netsplit?</a></li>
         <li><a href="#spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block  them?</a></li>
         <li><a href="#blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</a></li>
         <li><a href="#nocloakonjoin">Why is my cloak not applied initially when I auto-join channels?</a></li>
@@ -236,8 +236,8 @@
       </b>
       Prior to the creation of <span class="freenode">freenode</span>'s not-for
       profit parent entity, Peer-Directed Projects Center, we called the
-      network Open Projects.  We picked a new name, <b
-      class="freenode">freenode</b>, to mark its new status as a service of
+      network Open Projects.  We picked a new name, <span
+      class="freenode">freenode</span>, to mark its new status as a service of
       PDPC.  The new name brings to mind the best qualities of free software
       and open source.  It suggests the non-hierarchical nature of the
       network, in which the individual channels are run by the groups which
@@ -1051,8 +1051,8 @@
       service provided by your client which you can turn on and off.  On
       many IRC clients, you can even set a false VERSION string.  But the
       random person using the command on your client was probably just
-      curious what IRC client you're running.  And <b
-      class="freenode">freenode</b>
+      curious what IRC client you're running.  And <span
+      class="freenode">freenode</span>
       
       <a href="#freenodeconnect">requests</a>
       
@@ -1148,7 +1148,7 @@
       
       Sometimes
       
-      <span class="freenode">freenode</b>
+      <span class="freenode">freenode</span>
       
       has to deal with infestations of spam bots. These bots often join
       large channels to get lists of people to spam via private message.
@@ -2005,8 +2005,8 @@
       Staff members update server configurations and install new releases of
       the software.  They're responsible for routing changes and server
       problem resolution. Facilities hosts are asked to provide technical
-      contacts who can perform administrative functions in areas where <b
-      class="freenode">freenode</b> staffers have no access.
+      contacts who can perform administrative functions in areas where <span
+      class="freenode">freenode</span> staffers have no access.
       <br /><br />
     </li>
     
@@ -2055,8 +2055,8 @@
       <b>
         <a id="whymoney"></a>Why do you need money?
       </b>
-      Peer-Directed Projects Center, the parent organisation of <b
-      class="freenode">freenode</b>, is a not for profit organisation 
+      Peer-Directed Projects Center, the parent organisation of <span
+      class="freenode">freenode</span>, is a not for profit organisation 
       incorporated in England and Wales.
 
       We talk about some of our other projects
@@ -2104,8 +2104,8 @@
       
       When you wear the cloak, your donation becomes more visible, which
       helps to raise awareness of the idea of donating to Peer-Directed
-      Projects Center, the not-for-profit entity which runs <b
-      class="freenode">freenode</b>. So, in a sense, your donation goes
+      Projects Center, the not-for-profit entity which runs <span
+      class="freenode">freenode</span>. So, in a sense, your donation goes
       twice as far.  We strongly recommend that you
 
       <a href="#nicksetup">do the necessary setup</a>

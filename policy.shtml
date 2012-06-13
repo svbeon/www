@@ -156,8 +156,8 @@
   <a href="pdpc.shtml">Peer-Directed Projects Center</a>,
   
   the organization which runs the network, has reserved the name
-  <b>freenode</b> and has been granted control over channel
-  <b>#freenode</b>, as well as any channel beginning with <b>#freenode-</b>.
+  <span class="freenode">freenode</span> and has been granted control over channel
+  #freenode, as well as any channel beginning with #freenode-.
 </p>
 
 <p>
@@ -385,8 +385,8 @@
     </b>
 
     Formal news organizations with an interest in our target
-    communities are encouraged to create contact channels on <b
-    class="freenode">freenode</b>.
+    communities are encouraged to create contact channels on <span
+    class="freenode">freenode</span>.
 
     <br /><br />
   </li>

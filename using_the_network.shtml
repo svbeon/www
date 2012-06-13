@@ -2,7 +2,7 @@
 <!--#set var="content_title" value="Using the Network" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>To access the <b class="freenode">freenode</b> IRC servers,
+<p>To access the <span class="freenode">freenode</span> IRC servers,
 you'll first need an IRC client.  Text clients include
 irssi, WeeChat, and ERC.  Graphical clients include XChat, Smuxi, and Quassel 
 for Unix and GNU/Linux, and mIRC for Windows. There is also the 
@@ -43,7 +43,7 @@ which contains a variety of other useful information as well.</p>
 
 <h2 id="reg">Channel and nick registration</h2>
 
-<p><b class="freenode">freenode</b> provides
+<p><span class="freenode">freenode</span> provides
 nickname and channel registration services.  These should be used to avoid
 disagreements about nickname use and to maintain clear operational control
 of channels.  You must register your nickname to register a channel or to
@@ -392,7 +392,7 @@ of ircd-seven 1.0 channel modes, some additional information about them is avail
   <tr>
     <td style="vertical-align: top">+P (permanent channel)</td>
     <td style="vertical-align: top">
-      This mode may only be set by <b>freenode</b> staff.  Once set, the channel will not be deleted when
+      This mode may only be set by <span class="freenode">freenode</span> staff.  Once set, the channel will not be deleted when
       it becomes empty.  Additionally, the +b, +e, +I and +q lists have higher
       capacity to make channel forwarding easier.  NOTE: Permanent channels can still 
       be erased by catastrophic network failures.

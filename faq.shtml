@@ -2,7 +2,6 @@
 <!--#set var="content_title" value="Frequently-Asked Questions" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<div class="normal">
   <p>
     This page has been set up to answer a few of the most common questions 
     we get. If you can't find the answer to your question here, feel free to 
@@ -90,7 +89,7 @@
         <li><a href="#klineannoyinguser">Do you mind if I refer annoying user foo to one of the auto-kline channels to get him out of my hair?</a></li>
         <li><a href="#ctcpversion">Why did someone CTCP VERSION me?</a></li>
         <li><a href="#freenodeconnect">Why does user <b>frigg</b> send CTCP VERSION when I connect to the network?</a></li>
-        <li><a href="#freenode-info">Why do I get these <b class="freenode">[freenode-info]</b> messages sometimes when I join a channel, or during a netsplit?</a></li>
+        <li><a href="#freenode-info">Why do I get these <span class="freenode">[freenode-info]</b> messages sometimes when I join a channel, or during a netsplit?</a></li>
         <li><a href="#spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block  them?</a></li>
         <li><a href="#blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</a></li>
         <li><a href="#nocloakonjoin">Why is my cloak not applied initially when I auto-join channels?</a></li>
@@ -178,11 +177,7 @@
     </li>
   </ul>
 
-  <br />
-  <div class="large">
-    <a id="general"></a>
-    General Questions.
-  </div>
+  <h2 id="general">General Questions</h2>
 
   <ul>
     <li>
@@ -299,11 +294,7 @@
     </li>
   </ul>
 
-  <br />
-  <div class="large">
-    <a id="userregistration"></a>
-    User Registration.
-  </div>
+  <h2 id="userregistration">User Registration</h2>
 
   <ul>
     <li>
@@ -624,11 +615,7 @@
     </li>
   </ul>
 
-  <br />
-  <div class="large">
-    <a id="usingfreenode"></a>
-    Using the Network.
-  </div>
+  <h2 id="usingfreenode">Using the Network</h2>
 
   <ul>
     <li>
@@ -1161,7 +1148,7 @@
       
       Sometimes
       
-      <b class="freenode">freenode</b>
+      <span class="freenode">freenode</b>
       
       has to deal with infestations of spam bots. These bots often join
       large channels to get lists of people to spam via private message.
@@ -1453,11 +1440,7 @@
 
   </ul>
 
-  <br />
-  <div class="large">
-    <a id="gettinghelp"></a>
-    Getting Help
-  </div>
+  <h2 id="gettinghelp">Getting Help</h2>
 
   <ul>
     <li>
@@ -1604,11 +1587,7 @@
     </li>
   </ul>
 
-  <br />
-  <div class="large">
-    <a id="groups"></a>
-    Groups and Group Contacts
-  </div>
+  <h2 id="groups">Groups and Group Contacts</h2>
 
   <ul>
     <li>
@@ -1966,11 +1945,7 @@
     </li>
   </ul>
 
-  <br />
-  <div class="large">
-    <a id="organisation"></a>
-    <span class="freenode">freenode</span> Project organisation.
-  </div>
+  <h2 id="organisation"><span class="freenode">freenode</span> Project organisation</h2>
 
   <ul>
     <li>
@@ -2073,11 +2048,7 @@
     </li>
   </ul>
 
-  <br />
-  <div class="large">
-    <a id="pdpc"></a>
-    Contributions.
-  </div>
+  <h2 id="pdpc">Contributions</h2>
 
   <ul>
     <li>
@@ -2143,7 +2114,6 @@
       <br /><br />
     </li>
   </ul>
-</div>
 
 
 <!--#include file="include/trailer.shtml" -->

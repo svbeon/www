@@ -8,8 +8,8 @@ irc.gnu.org, irc.handhelds.org, and irc.kde.org.</b> Please see our
 <a href="acknowledgements.shtml">acknowledgements</a> page for the generous
 groups and organizations who have helped us to provide this service.</p>
 
-<p><b class="green">If you're running <a href="http://www.torproject.org/">Tor</a>,
-access is available via our <a href="#tor">hidden service.</a></b></p>
+<p>If you're running <a href="http://www.torproject.org/">Tor</a>,
+access is available via our <a href="#tor">hidden service.</a></p>
 
 <p><b>NOTE:</b>The network needs servers.  We are in particular need of servers
 on the <b>Pacific Rim</b> and in the <b>Americas</b>.  If you think you might be

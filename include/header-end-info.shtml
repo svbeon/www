@@ -10,7 +10,7 @@
 			<a href="<!--#echo var="VIRTROOT"-->pdpc_yearly.shtml" class="donatebutton">Yearly</a></p>
 		</div>
 	<ul>
-		<li><a href="<!--#echo var="VIRTROOT"-->news.php">News</a></li>
+		<li><a href="http://blog.freenode.net/">News</a></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->pdpc.shtml">About PDPC</a></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->index.shtml">About the network</a>
 		<ul>

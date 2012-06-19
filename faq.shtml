@@ -701,7 +701,7 @@
         <a id="ipv6access"></a>How do I access <span class="freenode">freenode</span> via IPv6?
       </b>
       
-      The simplest way is to connect to <span class="verbatim-i">irc.ipv6.freenode.net</span>.
+      Our main rotation contains both IPv4 and IPv6 addresses. Simply point your IRC client to <span class="verbatim-i">chat.freenode.net</span>.
       <br /><br />
     </li>
     

@@ -280,9 +280,7 @@
   to be temporary and subject to removal.
 </p>
 
-<!--#set var="title" value="<br /><a id=\"ontopic\"></a>On-Topic Use" -->
-
-
+<h2 id="ontopic">On-Topic Use</h2>
 <p>
   As a program of a not-for-profit entity,
   
@@ -460,9 +458,7 @@
   </li>
 </ol>
 
-<!--#set var="title" value="<a id=\"offtopic\"></a>Off-Topic Use" -->
-
-
+<h2 id="offtopic">Off-Topic Use</h2>
 <p>
 
   Unlawful activities and their related support activities are considered
@@ -573,9 +569,7 @@
   Thanks in advance for your understanding.
 </p>
 
-<!--#set var="title" value="<a id=\"advertising\"><br /></a>Inappropriate Advertising" -->
-
-
+<h2 id="advertising">Inappropriate Advertising</h2>
 <p>
   Unsolicited commercial advertisements via channel messages or private
   messages are considered inappropriate on
@@ -665,9 +659,7 @@
   new location, so that everybody gets the message.
 </p>
 
-<!--#set var="title" value="<br /><a id=\"proxies\"></a>Open Proxies, IIS and Appeals" -->
-
-
+<h2 id="proxies">Open Proxies, IIS and Appeals</h2>
 <p>
   Like many interactive networks, we've had our share of problems with
   denial-of-service attacks.  As a result, we've had to develop a variety

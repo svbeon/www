@@ -1,0 +1,38 @@
+<!--#set var="page_title" value="Configuring Client SSL Certificates for Irssi" -->
+<!--#set var="content_title" value="Configuring Client SSL Certificates for Irssi" -->
+<!--#include virtual="../include/header-mainlogos.shtml" -->
+
+<ol>
+	<li><p>Copy the <a href="makecert.shtml">cert you made</a> into your &tilde;/.irssi directory. Make sure the filesystem permissions restrict read access for the file to just you.</p>
+		<p><span class="verbatim-b">mv mynick.pem &tilde;/.irssi/mynick.pem</span></p></li>
+
+	<li><p>(optional) To enable strict SSL validation, you may also need to tell irssi to trust the UTN-USERFirst-Hardware certificate. Either install the appropriate package (as explained on the <a href="../irc_servers.shtml#ssl">IRC Servers</a> page) or <a href="http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt">download the certificate</a>.</p>
+		<p>Copy or move the downloaded certificate PEM file to your &tilde;/.irssi directory.</p>
+		<p><span class="verbatim-b">mv UTN-USERFirst-Hardware.crt &tilde;/.irssi/UTN-USERFirst-Hardware.pem</span></p>
+		<p>You shouldn't need the following; the server should provide the <a href="http://crt.gandi.net/GandiStandardSSLCA.crt">Gandi intermediary cert</a> when you connect. If you have trouble with it though, you will need to convert the downloaded file into PEM format using: <span class="verbatim-i">openssl x509 -inform der -in GandiStandardSSLCA.crt -out gandi.pem</span> and prepend gandi.pem to UTN-USERFirst-Hardware.pem, avoiding any extra newlines.</p></li>
+
+	<li><p>We will add/edit a network for <span class="freenode">freenode</span>. We'll creatively call it <span class="verbatim-i">freenode</span>. It's case-sensitive, and the name doesn't matter as long as it's used consistently.</p>
+		<p><span class="verbatim-b">/network add -whois 1 -msgs 4 -kicks 1 -modes 4 freenode</span></p>
+		<p>You might also add parameters for <span class="verbatim-i">-nick</span>, <span class="verbatim-i">-user</span>, and/or <span class="verbatim-i">-realname</span>. See <span class="verbatim-i">/help network</span> for details.</p></li>
+
+	<li><p>In irssi, each network can support multiple servers, but we only need to add one:</p>
+		<p><span class="verbatim-b">/server add -auto -ssl -ssl_cert &tilde;/.irssi/mynick.pem -ssl_verify -ssl_cafile &tilde;/.irssi/UTN-USERFirst-Hardware.pem -network freenode chat.freenode.net 6697</span></p>
+		<p>If you skipped step two above, then omit the <span class="verbatim-i">-ssl_verify</span> and <span class="verbatim-i">-ssl_cafile</span> options.</p></li>
+
+	<li><p>The next time you <span class="verbatim-i">/connect freenode</span> or start irssi, you will automatically be connected to freenode using your SSL certificate.</p></li>
+
+	<li><p>After connecting with the updated configuration, <span class="verbatim-i">/whois <span class="subst">yournick</span></span> will show:</p>
+		<p><span class="verbatim-b">-!-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: is using a secure connection</span>
+		<span class="verbatim-b">-!-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195</span></p>
+		<p>(Your fingerprint will be different, of course.)</p></li>
+
+	<li><p>You can tell NickServ to automatically identify based on this certificate fingerprint by doing:</p>
+		<span class="verbatim-b">/msg nickserv CERT ADD</span></li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->
+

@@ -1,0 +1,27 @@
+<!--#set var="page_title" value="Configuring Client SSL Certificates for ChatZilla" -->
+<!--#set var="content_title" value="Configuring Client SSL Certificates for ChatZilla" -->
+<!--#include virtual="../include/header-mainlogos.shtml" -->
+
+<p>These instructions are taken, with permission, from <a href="http://www.oftc.net/oftc/NickServ/CertFP">OFTC</a>. Thanks!</p>
+
+<ol>
+
+	<li><p>ChatZilla requires that the <a href="makecert.shtml">cert you made</a> be converted to a different format called pkcs12. You can use OpenSSL to do the conversion:</p>
+		<p><span class="verbatim-b">openssl pkcs12 -export -out <span class="subst">mynick.pfx</span> -in <span class="subst">mynick.pem</span></span></p></li>
+
+	<li><p>Click Preferences, then Advanced Options, then Encryption. This will open the ChatZilla certificate manager.</p></li>
+
+	<li><p>Under &quot;View certificates&quot; there should be an option to import mynick.pfx.</p></li>
+
+	<li><p>The next time you connect to <span class="freenode">freenode</span>, ChatZilla will ask whether to use your certificate for authentication. You will have to click yes. Because there are multiple servers in the chat.freenode.net DNS rotation, this confirmation will need to be done for each one.</p></li>
+
+	<li><p>Once connected, you can tell NickServ to automatically identify based on your certificate fingerprint by doing:</p>
+		<span class="verbatim-b">/msg nickserv CERT ADD</span></li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->
+

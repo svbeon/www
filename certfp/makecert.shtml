@@ -1,0 +1,41 @@
+<!--#set var="page_title" value="Creating an SSL Certificate" -->
+<!--#set var="content_title" value="Creating an SSL Certificate" -->
+<!--#include virtual="../include/header-mainlogos.shtml" -->
+
+<p>A certificate signed by a trusted root CA will work, but is unnecessary. A self-signed certificate can be created for free, with OpenSSL. If a client certificate is self-signed, ircd-seven will only verify that it is not expired. If the client certificate is not self-signed, then it must verify completely, as <span class="verbatim-i">openssl verify</span> would do.</p>
+
+<p>These instructions assume a Linux or Unix-like shell with openssl installed. Creating a self-signed certificate on Windows is possible through IIS, the <a href="http://www.microsoft.com/en-us/download/search.aspx?q=ssl%20diagnostics%20tool">SSL Diagnostics Tool</a>, the makecert tool included with Visual Studio, or with the selfcert tool that is part of &quot;Digital Signature for VBA projects&quot; in Microsoft Office. Nobody has contributed documentation to us for these tools.</p>
+
+<ol>To create a new self-signed certificate:
+	<li><p>Open a new shell, and ensure newly-created files won't be readable by anybody else:</p>
+		<span class="verbatim-b">umask 077</span></li>
+	<li><p>Use openssl to create a new RSA certificate. We suggest a 2048-bit certificate, but 1024, 4096, or other lengths may also work if your IRC client supports them. If you do not want to protect your certificate with a passphrase, add <span class="verbatim-i">-nodes</span> to the options below. Not having a passphrase means anybody with access to read your certificate file will be able to identify as you. With a passphrase, both access to the certificate file and knowledge of the passphrase would be required. The certificate generated will expire in two years. If you want a longer/shorter time, you can change the number after <span class="verbatim-i">-days</span>.</p>
+		<span class="verbatim-b">openssl req -newkey rsa:2048 -days 730 -x509 -keyout mynick.key -out mynick.cert</span></li>
+	<li><p>OpenSSL will ask for a passphrase (unless you added <span class="verbatim-i">-nodes</span>), and depending on its configuration, perhaps a number of other attributes. The values you enter are not important to the IRC server.</p>
+		<span class="verbatim-b">Enter PEM pass phrase:</span>
+		<span class="verbatim-b">Verifying - Enter PEM pass phrase:</span>
+		<span class="verbatim-b">-----</span>
+		<span class="verbatim-b">Country Name (2 letter code) [AU]:<span class="subst">CA</span></span>
+		<span class="verbatim-b">State or Province Name (full name) [Some-State]:<span class="subst">Saskatchewan</span></span>
+		<span class="verbatim-b">Locality Name (eg, city) []:<span class="subst">Saskatoon</span></span>
+		<span class="verbatim-b">Organization Name (eg, company) [Internet Widgits Pty Ltd]:</span>
+		<span class="verbatim-b">Organizational Unit Name (eg, section) []:<span class="subst">Information Logistics</span></span>
+		<span class="verbatim-b">Common Name (eg, YOUR name) []:<span class="subst">Nifflewhim Bunderluff</span></span>
+		<span class="verbatim-b">Email Address []:<span class="subst">niff@example.com</span></span></li>
+	<li><p>Now you have your certificate key and your self-signed certificate. For most IRC clients, you can combine the certificate and key together into a single PEM file.</p>
+		<span class="verbatim-b">cat mynick.cert mynick.key &gt; mynick.pem</span></li>
+	<li id="fingerprint"><p>NickServ will need to know your certificate's fingerprint later, so save the output of this command temporarily:</p>
+		<span class="verbatim-b">openssl x509 -sha1 -noout -fingerprint -in mynick.pem
+		| sed -e 's/^.*=//;s/://g;y/ABCDEF/abcdef/' </span>
+		<p>The output will look like: <span class="verbatim-i">f1ecf46714198533cda14cccc76e5d7114be4195</span>. (The <span class="verbatim-i">| sed</span> ... part is optional and just removes the colons and other irrelevant parts from the openssl output.)</p></li>
+	<li><p>If your IRC client supports using the PEM file, you can delete the cert and key files.</p>
+		<span class="verbatim-b">rm mynick.cert mynick.key</span></li>
+	<li><p>Move the PEM file (and/or cert and key files) to the appropriate directory for your IRC client. Double-check that the permissions are restricted so only you can read the file. You can close the shell and <a href="./">configure NickServ and your client</a>.</p></li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->
+

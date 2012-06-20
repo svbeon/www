@@ -1,0 +1,58 @@
+<!--#set var="page_title" value="Identifying with CERTFP" -->
+<!--#set var="content_title" value="Identifying with CERTFP" -->
+<!--#include virtual="../include/header-mainlogos.shtml" -->
+
+<p>CertFP allows clients connected via SSL with a client SSL certificate to authenticate to services using the SHA1 fingerprint of their client SSL certificate. One must have <a href="../faq.shtml#nicksetup">registered with services</a>. If you do not already have an SSL certificate, you will need to <a href="makecert.shtml">create one</a>.</p>
+
+<h2 id="nscertfp">Adding a Fingerprint to NickServ</h2>
+
+<ol>
+	<li><p>Identify to your account, if you haven't already: <span class="verbatim-i">/msg NickServ identify <span class="subst">account</span> <span class="subst">password</span></span>.</p></li>
+	<li><p>If you haven't found your certificate fingerprint yet, use
+		<span class="verbatim-b">openssl x509 -sha1 -noout -fingerprint -in <span class="subst">mynick.pem</span> | sed -e 's/^.*=//;s/://g;y/ABCDEF/abcdef/' </span>
+		to determine it. Replace <span class="verbatim-i subst">mynick.pem</span> with the actual filename of your certificate.</p>
+		<p>If you have connected using your SSL certificate, you will also see the fingerprint in your own WHOIS. It is sent with a 276 numeric that looks like:</p>
+		<span class="verbatim-b">276 yournick yournick :has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195</span></li>
+	<li><p>Use <span class="verbatim-i">/msg NickServ cert add <span class="subst">fingerprint</span></span> to add your fingerprint. Replace <span class="verbatim-ii subst">fingerprint</span> with the actual fingerprint.</p></li>
+</ol>
+
+<p>The next time you connect using your client SSL certificate, you will be automatically identified.</p>
+
+<h2 id="certfptroubleshooting">Troubleshooting CertFP Identification</h2>
+<ul>
+	<li><p>Are you connected via SSL? You should be connecting to an <a href="../irc_servers.shtml">SSL port</a>. You should have user mode +Z, and in your own whois you will see
+		<span class="verbatim-b">671 yournick yournick :is using a secure connection</span>.</p></li>
+	<li><p>Does your client certificate fingerprint show in whois? If you do not see a line in your own whois that looks like
+		<span class="verbatim-b">276 yournick yournick :has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195</span>
+	then it may be a client misconfiguration or your certificate might be expired or invalid.</p>
+		<p>Check your client configuration <a href="#clientsslcert">below</a>.</p>
+		<p>To check your SSL certificate validity, try
+		<span class="verbatim-b">openssl verify <span class="subst">mycert.pem</span></span>
+		If the output is either:
+		<span class="verbatim-b"><span class="subst">mycert.pem</span>: OK</span>
+		or
+		<span class="verbatim-b">error 18 at 0 depth lookup:self signed certificate</span>
+		<span class="verbatim-b">OK</span>
+		and the exit status of the command is zero, then the certificate should be okay.</p></li>
+
+	<li><p>Is your computer clock on-time, or at least close? If your clock is way off, that may cause problems. Consider running <a href="http://en.wikipedia.org/wiki/Network_Time_Protocol">NTP</a> to keep your computer's clock synchronized.</p></li>
+</ul>
+
+<h2 id="clientsslcert">Configuring Client SSL Certificates</h2>
+<p>Instructions for configuring a client SSL certificate for some popular clients are below.</p>
+<ul>
+	<li><a href="certfp-chatzilla.shtml">ChatZilla</a></li>
+	<li><a href="certfp-irssi.shtml">irssi</a></li>
+	<li><a href="certfp-kvirc.shtml">KVIrc</a></li>
+	<li><a href="certfp-mirc.shtml">mirc</a></li>
+	<li><a href="certfp-quassel.shtml">Quassel</a></li>
+	<li><a href="certfp-xchat.shtml">XChat</a></li>
+	<li><a href="http://en.znc.in/wiki/Cert">ZNC</a></li>
+</ul>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->
+

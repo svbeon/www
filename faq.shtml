@@ -1194,7 +1194,10 @@
       connections. Users connecting via SSL will get user mode +Z to denote this. 
       More information about connecting via SSL is on the
       <a href="irc_servers.shtml#ssl">IRC servers</a> page.
-      <br /><br />
+	  <br /><br />
+	  Client SSL certificates are also supported, and may be used for services
+	  identification. More information about <a href="certfp/">CertFP is here</a>
+	  <br /><br />
     </li>
 
     <li>

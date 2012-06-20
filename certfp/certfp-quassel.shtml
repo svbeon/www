@@ -1,0 +1,31 @@
+<!--#set var="page_title" value="Configuring Client SSL Certificates for Quassel" -->
+<!--#set var="content_title" value="Configuring Client SSL Certificates for Quassel" -->
+<!--#include virtual="../include/header-mainlogos.shtml" -->
+
+<p>These instructions are taken, with permission, from <a href="http://www.oftc.net/oftc/NickServ/CertFP">OFTC</a>. Thanks!</p>
+
+<ol>
+
+	<li><p>Copy the <a href="makecert.shtml">cert and key that  you made</a> into the &tilde;/.config/quassel-irc.org/certs directory. Quassel will not use the PEM file. Make sure the filesystem permissions restrict read access for the files to just you.</p>
+		<p><span class="verbatim-b">mv mynick.cert &tilde;/.config/quassel-irc.org/certs</span>
+		<span class="verbatim-b">mv mynick.key &tilde;/.config/quassel-irc.org/certs</span></p></li>
+
+	<li><p>Click Settings and Configure Quassel. In the IRC section of settings, click Identities. Then click the Advanced tab.</p>
+		<p><img src="certfp-quassel.png" alt="Quassel: Identities Advanced" height=601 width=727 /></p></li>
+
+	<li><p>Under Use SSL Key, click the Load button and select <span class="verbatim-i subst">mynick.key</span>.</p></li>
+
+	<li><p>Under Use SSL Certificate, click the Load button and select <span class="verbatim-i subst">mynick.cert</span>.</p></li>
+
+	<li><p>Click <u>O</u>K to return to the main window and connect.</p></li>
+
+	<li><p>Once connected, you can tell NickServ to automatically identify based on your certificate fingerprint by doing:</p>
+		<span class="verbatim-b">/msg nickserv CERT ADD</span></li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->
+

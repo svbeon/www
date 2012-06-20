@@ -1,0 +1,31 @@
+<!--#set var="page_title" value="Configuring Client SSL Certificates for mirc" -->
+<!--#set var="content_title" value="Configuring Client SSL Certificates for mirc" -->
+<!--#include virtual="../include/header-mainlogos.shtml" -->
+
+<p>These instructions are taken, with permission, from <a href="http://www.oftc.net/oftc/NickServ/CertFP">OFTC</a>. Thanks!</p>
+
+<ol>
+
+	<li><p>The OpenSSL DLL files <span class="verbatim-i">libeay32.dll</span> and <span class="verbatim-i">ssleay32.dll</span> from version &ge;0.9.7d will be needed. The debug runtime, <span class="verbatim-i">msvcr70d.dll</span> may be needed as well, which can be obtained from Microsoft. Build or <a href="http://www.openssl.org/related/binaries.html">download</a> these DLLs and put them into the mirc folder.</p></li>
+
+	<li><p>Restart mirc.</p></li>
+
+	<li><p>Open the mirc options configuration.</p></li>
+
+	<li><p>Click to expand Connect, then click Options. There will be an SSL button; click this.</p>
+		<p><img src="certfp-mirc.png" alt="mirc SSL configuration" height=367 width=673 /></p></li>
+
+	<li><p>Click the button below Private key file. Find the <a href="makecert.shtml">cert you made</a> and select it. Do the same for the Certificate chain file.</p></li>
+
+	<li><p>When connecting to <span class="freenode">freenode</span>, prepend a plus sign to the port number to indicate SSL, e.g. <span class="verbatim-i">/server chat.freenode.net +6697</span> (or any of the other <a href="../irc_servers.shtml">listed SSL ports</a>).</p></li>
+
+	<li><p>Once connected, you can tell NickServ to automatically identify based on your certificate fingerprint by doing:</p>
+		<span class="verbatim-b">/msg nickserv CERT ADD</span></li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->
+

@@ -46,6 +46,7 @@
 	<li><a href="certfp-kvirc.shtml">KVIrc</a></li>
 	<li><a href="certfp-mirc.shtml">mirc</a></li>
 	<li><a href="certfp-quassel.shtml">Quassel</a></li>
+	<li><a href="http://dev.weechat.org/post/2009/12/01/SSL-certificates">WeeChat</a></li>
 	<li><a href="certfp-xchat.shtml">XChat</a></li>
 	<li><a href="http://en.znc.in/wiki/Cert">ZNC</a></li>
 </ul>

@@ -3,7 +3,7 @@
 		<div id="donate" class="navcontrib" style="margin: 0;">
 				<p>Help keep freenode running.
 				<br />
-				Donate to the <a href="pdpc_donations.shtml">PDPC</a>!</p>
+				Donate to the <a href="<!--#echo var="VIRTROOT"-->pdpc_donations.shtml">PDPC</a>!</p>
 
 			<p><a href="<!--#echo var="VIRTROOT"-->pdpc_onetime.shtml" class="donatebutton">One time</a>
 			<a href="<!--#echo var="VIRTROOT"-->pdpc_monthly.shtml" class="donatebutton">Monthly</a> 

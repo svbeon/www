@@ -307,7 +307,7 @@
       If you don't register, someone else may end up registering the nick
       you want.  If you register and use the same nick, people will begin to
       know you by reputation. If they're running IRC software which supports the
-      <a href="http://www.leeh.co.uk/draft-mitchell-irc-capabilities-02.html">CAP</a>
+      <a href="https://tools.ietf.org/html/draft-mitchell-irc-capabilities-01">CAP</a>
       identify-msg, they'll be able to tell when someone is
       spoofing your identity.
 

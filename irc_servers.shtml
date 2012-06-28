@@ -120,7 +120,7 @@ steps are necessary beyond that, besides configuring your client. Information on
 how to register a nick can be found on <a href="faq.shtml#nicksetup">our FAQ
 page</a>. The Tor hidden service uses SASL for authentication, which may require
 the use of additional scripts in your client to provide support. A collection of
-scripts and instructions for use can be found <a href="sasl">here</a>. Tor's
+scripts and instructions for use can be found <a href="sasl/">here</a>. Tor's
 wiki also has a page on <a
 href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IrcSilc">configuring
 IRC clients to use Tor</a>.</p>

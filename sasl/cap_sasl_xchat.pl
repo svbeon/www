@@ -17,7 +17,7 @@ use MIME::Base64;
 
 register(
 	"CAP SASL",
-	"1.0106",
+	"1.0107",
 	"Implements PLAIN SASL authentication mechanism for use with charybdis ircds, and enables CAP MULTI-PREFIX IDENTIFY-MSG",
 	\&cmd_sasl_save,
 );
@@ -101,6 +101,10 @@ sub cap_out {
 
 sub event_connected {
 	cap( "LS" );
+
+	# reset everything for new connection
+	timeout_remove();
+	delete $processing_cap{ get_info( "id" ) };
 	return EAT_NONE;
 }
 
@@ -220,7 +224,7 @@ sub timeout_start {
 }
 
 sub timeout_remove {
-	unhook( $timeouts{ context_info->{id} } );
+	unhook( $timeouts{ context_info->{id} } ) if $timeouts{ context_info->{id} };
 }
 
 sub timeout_reset {
@@ -424,3 +428,4 @@ eval {
 cmd_sasl_load();
 
 # vim: ts=4
+

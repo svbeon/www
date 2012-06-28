@@ -102,7 +102,7 @@
         <li><a href="#monitor">Is there a way to get notified when a user comes online?</a></li>
         <li><a href="#memoserv">How do I contact an offline user?</a></li>
         <li><a href="#channelts">What does it mean when I see <span class="verbatim-i">*** Notice -- TS for #channel changed from 1300123123 to 1255123123</span>?</a></li>
-		<li><a href="#csinhabit">Why won't ChanServ leave my channel?</a></li>
+        <li><a href="#csinhabit">Why won't ChanServ leave my channel?</a></li>
       </ul>
       <br />
     </li>
@@ -1349,30 +1349,26 @@
       <p>In short, it's a technical detail that you can safely ignore.</p>
     </li>
 
-	<li><p><b id="csinhabit">Why won't ChanServ leave my channel?</b> First, check if
-		you have enabled GUARD by looking at the flags line in</p>
+    <li>
+      <b id="csinhabit">Why won't ChanServ leave my channel?</b>
 
-		<p><span class="verbatim-b">/msg ChanServ INFO <span class="subst">#channel</span></span></p>
-		<p>If you see GUARD listed as a flag, you can cause ChanServ to part by turning
-		off GUARD:</p>
-
-		<p><span class="verbatim-b">/msg ChanServ SET <span class="subst">#channel</span>
-		GUARD off</span></p>
-
-		<p>If ChanServ still won't leave, and you are the only other person
-		in the channel, you are seeing ChanServ's &quot;inhabit&quot;
-		behavior. Some clients continuously, rapidly join and part a channel
-		when they are the only channel occupant, attempting to gain ops.
-		This doesn't work on a network that has services, like
-		<span class="freenode">freenode</span>, but such clients are for
-		services-less networks.</p>
-		
-		<p>To prevent this behavior, ChanServ remains in the channel until
-		a third person joins. This behavior cannot be disabled. If it is
-		bothersome, you can momentarily join a second connection and join
-		the channel. This will cause ChanServ to part. If the channel empties
-		and is recreated, the inhabit behavior will be triggered again.</p>
-	</li>
+      <p>First, check if you have enabled GUARD by looking at the flags line
+      in</p>
+      <p><span class="verbatim-b">/msg ChanServ INFO <span class="subst">#channel</span></span></p>
+      <p>If you see GUARD listed as a flag, you can cause ChanServ to part by turning off GUARD:</p>
+      <p><span class="verbatim-b">/msg ChanServ SET <span class="subst">#channel</span> GUARD off</span></p>
+      <p>If ChanServ still won't leave, and you are the only other person in
+      the channel, you are seeing ChanServ's &quot;inhabit&quot; behavior. Some
+      clients part and rejoin a channel when they are its only occupant,
+      attempting to gain ops. This doesn't work on a network that has services,
+      like <span class="freenode">freenode</span>, and causes the client to
+      rapidly join and part the channel.</p>
+      <p>To prevent this behavior, ChanServ remains in the channel until another
+      person joins. This behavior cannot be disabled. If it is bothersome, you
+      can momentarily join the channel on a second connection. This will cause
+      ChanServ to part. If the channel empties and is recreated, the inhabit
+      behavior will be triggered again.</p>
+    </li>
   </ul>
 
   <h2 id="gettinghelp">Getting Help</h2>

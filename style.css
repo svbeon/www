@@ -77,7 +77,7 @@ a:active, a:active .freenode {
 	margin: 0;
 	padding: 0;
 }
-b
+b, strong
 {
 	color: #525668;
 }
@@ -234,4 +234,12 @@ table.modetable td
 		<span class="subst">password</span>
 	</span> */
 	font-style: oblique;
+}
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+	color: #525668;
+}
+dd p:first-child {
+	margin-top: 0em;
 }

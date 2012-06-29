@@ -2,1225 +2,746 @@
 <!--#set var="content_title" value="Frequently-Asked Questions" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-  <p>
-    This page has been set up to answer a few of the most common questions 
-    we get. If you can't find the answer to your question here, feel free to 
-    ask us in #freenode, where all staff are voiced or drop us a line to 
-    support at freenode dot net! Thank you.
-  </p>
+<p>This page has been set up to answer a few of the most common questions we
+get. If you can't find the answer to your question here, feel free to ask us in
+#freenode, where all staff are voiced, or drop us a line to support at freenode
+dot net! Thank you.</p>
 
-  <ul>
-    <li>
-      <b>
-        <a id="contents"></a><a href="#contents">Contents</a>.
-      </b>
-      <br /><br />
-      <ul>
-        <li><a href="#contents-general">General Questions.</a></li>
-        <li><a href="#contents-userregistration">User Registration.</a></li>
-        <li><a href="#contents-usingfreenode">Using the Network.</a></li>
-        <li><a href="#contents-gettinghelp">Getting Help.</a></li>
-        <li><a href="#contents-groups">Groups and Group Contacts.</a></li>
-        <li><a href="#contents-organisation"><span class="freenode">freenode</span> Project Organisation.</a></li>
-        <li><a href="#contents-pdpc">Contributions.</a></li>
-      </ul>
-      <br />
-    </li>
+<h2 id="contents"><a href="#contents">Contents</a></h2>
+<ul>
+  <li><a href="#contents-general">General Questions</a></li>
+  <li><a href="#contents-userregistration">User Registration</a></li>
+  <li><a href="#contents-usingfreenode">Using the Network</a></li>
+  <li><a href="#contents-gettinghelp">Getting Help</a></li>
+  <li><a href="#contents-groups">Groups and Group Contacts</a></li>
+  <li><a href="#contents-organisation"><span class="freenode">freenode</span> Project Organisation</a></li>
+  <li><a href="#contents-pdpc">Contributions</a></li>
+</ul>
 
-    <li>
-      <b>
-        <a id="contents-general"></a><a href="#general">General Questions</a>.
-      </b>
-      <br /><br />
-      <ul>
-        <li><a href="#whatwhy">What is <span class="freenode">freenode</span>? Why is it here?</a></li>
-        <li><a href="#createchannel">Should I create a channel on <span class="freenode">freenode</span>?</a></li>
-        <li><a href="#whyfreenode">Why is it called <span class="freenode">freenode</span>?</a></li>
-        <li><a href="#sourceavailable">Is the source code used for your servers publicly available?</a></li>
-        <li><a href="#minimumstandards">Are there minimum standards of conduct for using <span class="freenode">freenode</span>?</a></li>
-        <li><a href="#fst">What is fST or <span class="freenode">freenode</span> Standard Time?</a></li>
-      </ul>
-      <br />
-    </li>
+<h3 id="contents-general"><a href="#general">General Questions</a></h3>
+<ul>
+  <li><a href="#whatwhy">What is <span class="freenode">freenode</span>? Why is it here?</a></li>
+  <li><a href="#createchannel">Should I create a channel on <span class="freenode">freenode</span>?</a></li>
+  <li><a href="#whyfreenode">Why is it called <span class="freenode">freenode</span>?</a></li>
+  <li><a href="#sourceavailable">Is the source code used for your servers publicly available?</a></li>
+  <li><a href="#minimumstandards">Are there minimum standards of conduct for using <span class="freenode">freenode</span>?</a></li>
+  <li><a href="#fst">What is fST or <span class="freenode">freenode</span> Standard Time?</a></li>
+</ul>
 
-    <li>
-      <b>
-        <a id="contents-userregistration"></a><a href="#userregistration">User Registration</a>.
-      </b>
-      <br /><br />
-      <ul>
-        <li><a href="#registering">Why should I register my nick?</a></li>
-        <li><a href="#nicksetup">What is the recommended way to set up my IRC nickname?</a></li>
-        <li><a href="#identify">What's the easiest way to identify to NickServ when I connect to <span class="freenode">freenode</span>?</a></li>
-        <li><a href="#plusr">Why do I see <span class="verbatim-i">Cannot join channel (+r) - you need to be identified with services</span>?</a></li>
-		 <li><a href="#spoofing">How can I tell when someone might be spoofing a user's identity?</a></li>
-        <li><a href="#userexpirations">When do IRC nicknames expire?</a></li>
-        <li><a href="#inuse">How do you know the last time an IRC nickname was used?</a></li>
-        <li><a href="#unusednick">How can I take over a registered nick that hasn't been used in a long time?</a></li>
-        <li><a href="#nickisgone">I registered my nick and now someone else has it. Did someone steal it? How do I get it back?</a></li>
-      </ul>
-      <br />
-    </li>
+<h3 id="contents-userregistration"><a href="#userregistration">User Registration</a></h3>
+<ul>
+  <li><a href="#registering">Why should I register my nick?</a></li>
+  <li><a href="#nicksetup">What is the recommended way to set up my IRC nickname?</a></li>
+  <li><a href="#identify">What's the easiest way to identify to NickServ when I connect to <span class="freenode">freenode</span>?</a></li>
+  <li><a href="#plusr">Why do I see <span class="verbatim-i">Cannot join channel (+r) - you need to be identified with services</span>?</a></li>
+  <li><a href="#spoofing">How can I tell when someone might be spoofing a user's identity?</a></li>
+  <li><a href="#userexpirations">When do IRC nicknames expire?</a></li>
+  <li><a href="#inuse">How do you know the last time an IRC nickname was used?</a></li>
+  <li><a href="#unusednick">How can I take over a registered nick that hasn't been used in a long time?</a></li>
+  <li><a href="#nickisgone">I registered my nick and now someone else has it. Did someone steal it? How do I get it back?</a></li>
+</ul>
 
-    <li>
-      <b>
-        <a id="contents-usingfreenode"></a><a href="#usingfreenode">Using the Network</a>.
-      </b>
-      <br /><br />
-      <ul>
-        <li><a href="#webchat">Can I access the network via webchat?</a></li>
-        <li><a href="#userequals">What is this '~' in some hostnames?</a></li>
-        <li><a href="#howtoconnect">How do I connect to <span class="freenode">freenode</span>?  How do I use the network?</a></li>
-        <li><a href="#channellist">How can I get a list of <span class="freenode">freenode</span> public channels?</a></li>
-        <li><a href="#ipv6access">How do I access <span class="freenode">freenode</span> via IPv6?</a></li>
-        <li><a href="#defocuschannel"> What is the purpose of channel #defocus?</a></li>
-        <li><a href="#nobodysees">Why can't anyone see what I'm typing on channel?</a></li>
-        <li><a href="#pdpc_cloak">Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?</a></li>
-        <li><a href="#channelexpirations">When do IRC channels expire?</a></li>
-        <li><a href="#channelpolicy">Who sets channel policy on <span class="freenode">freenode</span>?</a></li>
-        <li><a href="#channelfreezing">Why do you freeze channels when groups leave the network?</a></li>
-        <li><a href="#networkinfo">How do I find out what's going on with the network?</a></li>
-        <li><a href="#lessinfo">How can I get fewer notices from the staff?</a></li>
-        <li><a href="#firewall">My firewall logs show that someone from your network is trying to crack my box. What's going on?</a></li>
-        <li><a href="#loopback">Why is my client trying to connect to 127.0.0.1 when I try to connect to your network?</a></li>
-        <li><a href="#rejected">Why does my client get "connection rejected" when I try to connect to your network?</a></li>
-        <li><a href="#drones">I joined this channel and now I can't access <span class="freenode">freenode</span> anymore.  The message says I'm a clonebot.  What's going on?</a></li>
-        <li><a href="#practicaljoke">Someone told me to join this channel and now I can't get to the network anymore.  What's going on?</a></li>
-        <li><a href="#klineannoyinguser">Do you mind if I refer annoying user foo to one of the auto-kline channels to get him out of my hair?</a></li>
-        <li><a href="#ctcpversion">Why did someone CTCP VERSION me?</a></li>
-        <li><a href="#freenodeconnect">Why does user frigg send CTCP VERSION when I connect to the network?</a></li>
-        <li><a href="#freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</a></li>
-        <li><a href="#spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block  them?</a></li>
-        <li><a href="#blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</a></li>
-        <li><a href="#nocloakonjoin">Why is my cloak not applied initially when I auto-join channels?</a></li>
-        <li><a href="#sslaccess">Does <span class="freenode">freenode</span> provide SSL-based client access?</a></li>
-        <li><a href="#join">Why can't I join a certain channel?</a></li>
-        <li><a href="#unban">How do I get unbanned/unquieted in a channel?</a></li>
-        <li><a href="#talk">Why can't I talk in a certain channel?</a></li>
-        <li><a href="#changepass">How do I change my password?</a></li>
-        <li><a href="#sendpass">What do I do if I forget my password?</a></li>
-        <li><a href="#monitor">Is there a way to get notified when a user comes online?</a></li>
-        <li><a href="#memoserv">How do I contact an offline user?</a></li>
-        <li><a href="#channelts">What does it mean when I see <span class="verbatim-i">*** Notice -- TS for #channel changed from 1300123123 to 1255123123</span>?</a></li>
-        <li><a href="#csinhabit">Why won't ChanServ leave my channel?</a></li>
-      </ul>
-      <br />
-    </li>
+<h3 id="contents-usingfreenode"><a href="#usingfreenode">Using the Network</a></h3>
+<ul>
+  <li><a href="#webchat">Can I access the network via webchat?</a></li>
+  <li><a href="#userequals">What is this '~' in some hostnames?</a></li>
+  <li><a href="#howtoconnect">How do I connect to <span class="freenode">freenode</span>?  How do I use the network?</a></li>
+  <li><a href="#channellist">How can I get a list of <span class="freenode">freenode</span> public channels?</a></li>
+  <li><a href="#ipv6access">How do I access <span class="freenode">freenode</span> via IPv6?</a></li>
+  <li><a href="#defocuschannel"> What is the purpose of channel #defocus?</a></li>
+  <li><a href="#pdpc_cloak">Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?</a></li>
+  <li><a href="#channelexpirations">When do IRC channels expire?</a></li>
+  <li><a href="#channelpolicy">Who sets channel policy on <span class="freenode">freenode</span>?</a></li>
+  <li><a href="#channelfreezing">Why do you freeze channels when groups leave the network?</a></li>
+  <li><a href="#networkinfo">How do I find out what's going on with the network?</a></li>
+  <li><a href="#lessinfo">How can I get fewer notices from the staff?</a></li>
+  <li><a href="#firewall">My firewall logs show that someone from your network is trying to crack my box. What's going on?</a></li>
+  <li><a href="#drones">I joined this channel and now I can't access <span class="freenode">freenode</span> anymore. What's going on?</a></li>
+  <li><a href="#ctcpversion">Why did someone CTCP VERSION me?</a></li>
+<!--  <li><a href="#freenodeconnect">Why does user frigg send CTCP VERSION when I connect to the network?</a></li>-->
+  <li><a href="#freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</a></li>
+  <li><a href="#spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block them?</a></li>
+  <li><a href="#blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</a></li>
+  <li><a href="#nocloakonjoin">Why is my cloak not applied initially when I auto-join channels?</a></li>
+  <li><a href="#sslaccess">Does <span class="freenode">freenode</span> provide SSL-based client access?</a></li>
+  <li><a href="#join">Why can't I join a certain channel?</a></li>
+  <li><a href="#unban">How do I get unbanned/unquieted in a channel?</a></li>
+  <li><a href="#talk">Why can't I talk in a certain channel?</a></li>
+  <li><a href="#changepass">How do I change my password?</a></li>
+  <li><a href="#sendpass">What do I do if I forget my password?</a></li>
+  <li><a href="#monitor">Is there a way to get notified when a user comes online?</a></li>
+  <li><a href="#memoserv">How do I contact an offline user?</a></li>
+  <li><a href="#channelts">What does it mean when I see <span class="verbatim-i">*** Notice -- TS for #channel changed from 1300123123 to 1255123123</span>?</a></li>
+  <li><a href="#csinhabit">Why won't ChanServ leave my channel?</a></li>
+</ul>
 
-    <li>
-      <b>
-        <a id="contents-gettinghelp"></a><a href="#gettinghelp">Getting Help</a>.
-      </b>
-      <br /><br />
-      <ul>
-        <li><a href="#helpfromstaff"> How do I get help from the network staff?</a></li>
-   <!--     <li><a href="#messageyou">May I message you?</a></li> -->
-        <li><a href="#cloaks">Can I get a hostname cloak?</a></li>
-        <li><a href="#projectcloak">How do we set up cloaking to identify participants in our FOSS project?</a></li>
-      </ul>
-      <br />
-    </li>
 
-    <li>
-      <b>
-        <a id="contents-groups"></a><a href="#groups">Groups and Group Contacts</a>.
-      </b>
-      <br /><br />
-      <ul>
-        <li><a href="#groupregistration">What is the purpose of group registration?</a></li>
-        <li><a href="#groupactivity">What level of activity is expected from groups registered on freenode?</a></li>
-        <li><a href="#gcfunctions">What functions can group contacts perform?</a></li>
-        <li><a href="#gcsetup">How do we set up group contacts?</a></li>
-        <li><a href="#gcverify">How do you verify group contacts?</a></li>
-        <li><a href="#gcdifference">What is the difference between a <i>primary</i> and an <i>alternate</i> group contact?</a></li>
-        <li><a href="#cloakformat">How are group cloaks formatted?</a></li>
-        <li><a href="#cloakchoice">To whom may we offer a group cloak?</a></li>
-        <li><a href="#gcrequest">How do we request group or project cloaks?</a></li>
-        <li><a href="#gcautomate">What plans do you have to automate the group contact function?</a></li>
-        <li><a href="#gcwhen">When will group contact processing be automated?</a></li>
-        <li><a href="#gcwhenform">I haven't received a response on my group contact form yet. What's up?</a></li>
-        <li><a href="#squeakywheel">How can I speed up the processing of my group contact form?</a></li>
-        <li><a href="#grouprequests">How do our group members request hostname cloaks or channel resets?</a></li>
-      </ul>
-      <br />
-    </li>
+<h3 id="contents-gettinghelp"><a href="#gettinghelp">Getting Help</a></h3>
+<ul>
+  <li><a href="#helpfromstaff">How do I get help from the network staff?</a></li>
+<!--  <li><a href="#messageyou">May I message you?</a></li> -->
+  <li><a href="#cloaks">Can I get a hostname cloak?</a></li>
+  <li><a href="#projectcloak">How do we set up cloaking to identify participants in our FOSS project?</a></li>
+</ul>
 
-    <li>
-      <b>
-        <a id="contents-organisation"></a><a href="#organisation"><span class="freenode">freenode</span> Project Organisation</a>.
-      </b>
-      <br /><br />
-      <ul>
-        <li><a href="#projectfreenode">Who runs <span class="freenode">freenode</span>?</a></li>
-        <li><a href="#howtovolunteer">How do I volunteer?</a></li>
-        <li><a href="#serverownersandstaff">Do server owners run the network?</a></li>
-        <li><a href="#staffprivileges">What privileges do staff members get?</a></li>
-        <li><a href="#serveradministration">Who administers the servers?</a></li>
-        <li><a href="#howtolink">How do I link my server?</a></li>
-        <li><a href="#complaintdept">Who do I complain to?</a></li>
-        <li><a href="#complaintvolume">Do you get a lot of complaints?</a></li>
-      </ul>
-      <br />
-    </li>
+<h3 id="contents-groups"><a href="#groups">Groups and Group Contacts</a></h3>
+<ul>
+  <li><a href="#groupregistration">What is the purpose of group registration?</a></li>
+  <li><a href="#groupactivity">What level of activity is expected from groups registered on <span class="freenode">freenode</span>?</a></li>
+  <li><a href="#gcfunctions">What functions can group contacts perform?</a></li>
+  <li><a href="#gcsetup">How do we set up group contacts?</a></li>
+  <li><a href="#gcverify">How do you verify group contacts?</a></li>
+  <li><a href="#gcdifference">What is the difference between a primary and an alternate group contact?</a></li>
+  <li><a href="#cloakformat">How are group cloaks formatted?</a></li>
+  <li><a href="#cloakchoice">To whom may we offer a group cloak?</a></li>
+  <li><a href="#gcrequest">How do we request group or project cloaks?</a></li>
+  <li><a href="#gcautomate">What plans do you have to automate the group contact function?</a></li>
+  <li><a href="#gcwhen">When will group contact processing be automated?</a></li>
+  <li><a href="#gcwhenform">I haven't received a response on my group contact form yet. What's up?</a></li>
+  <li><a href="#grouprequests">How do our group members request hostname cloaks?</a></li>
+</ul>
 
-    <li>
-      <b>
-        <a id="contents-pdpc"></a><a href="#pdpc">Contributions</a>.
-      </b>
-      <br /><br />
-      <ul>
-        <li><a href="#whymoney">Why do you need money?</a></li>
-        <li><a href="#moneydecisions">Who decides how the money you collect will be spent?</a></li>
-        <li><a href="#donationcost">What does it cost when I donate?</a></li>
-        <li><a href="#whycloak"> Why should I wear a cloak to acknowledge my donation?</a></li>
-      </ul>
-      <br />
-    </li>
-  </ul>
+<h3 id="contents-organisation"><a href="#organisation"><span class="freenode">freenode</span> Project Organisation</a></h3>
+<ul>
+  <li><a href="#projectfreenode">Who runs <span class="freenode">freenode</span>?</a></li>
+  <li><a href="#howtovolunteer">How do I volunteer?</a></li>
+  <li><a href="#serverownersandstaff">Do server owners run the network?</a></li>
+  <li><a href="#staffprivileges">What privileges do staff members get?</a></li>
+  <li><a href="#serveradministration">Who administers the servers?</a></li>
+  <li><a href="#howtolink">How do I link my server?</a></li>
+  <li><a href="#complaintdept">Who do I complain to?</a></li>
+  <li><a href="#complaintvolume">Do you get a lot of complaints?</a></li>
+</ul>
 
-  <h2 id="general">General Questions</h2>
+<h3 id="contents-pdpc"><a href="#pdpc">Contributions</a></h3>
+<ul>
+  <li><a href="#whymoney">Why do you need money?</a></li>
+  <li><a href="#moneydecisions">Who decides how the money you collect will be spent?</a></li>
+  <li><a href="#donationcost">What does it cost when I donate?</a></li>
+  <li><a href="#whycloak"> Why should I wear a cloak to acknowledge my donation?</a></li>
+</ul>
 
-  <ul>
-    <li>
-      <b>
-        <a id="whatwhy"></a>What is <span class="freenode">freenode</span>
-        about? Why is it here?
-      </b>
+<h2 id="general">General Questions</h2>
+<dl>
 
-      <span class="freenode">freenode</span> is a special-purpose, not a
-      general-purpose, discussion network, currently implemented on Internet
-      Relay Chat (IRC). It exists to support specific communities.  It
-      provides an interactive environment for coordination and support of
-      peer-directed projects, including those relating to free software and
-      open source. Our aim is to help our participants to improve their
-      communicative and collaborative skills and to maintain a friendly,
-      efficient environment for project coordination and technical support. 
-      For more information about the network philosophy, please take a look
+  <dt id="whatwhy">What is <span class="freenode">freenode</span> about? Why is it here?</dt>
+    <dd><span class="freenode">freenode</span> is a special-purpose, not a
+    general-purpose, discussion network, currently implemented on Internet Relay
+    Chat (IRC). It exists to support specific communities. It provides an
+    interactive environment for coordination and support of peer-directed
+    projects, including those relating to free software and open source. Our aim
+    is to help our participants to improve their communicative and collaborative
+    skills and to maintain a friendly, efficient environment for project
+    coordination and technical support. For more information about the network
+    philosophy, please take a look <a href="philosophy.shtml">here</a>.</dd>
 
-      <a href="philosophy.shtml">here</a>.
-      
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="createchannel"></a>Should I create a channel on
+  <dt id="createchannel">Should I create a channel on <span class="freenode">freenode</span>?</dt>
+    <dd>That depends. Certain <a href="policy.shtml#ontopic">channel
+    categories</a> are considered to be on-topic and are listed on the <a
+    href="policy.shtml">network policy page</a>. If you want to create a
+    general-purpose chat channel, <span class="freenode">freenode</span> is
+    probably not for you. Similarly, if you want to create a channel to support
+    some sort of unlawful activity, <span class="freenode">freenode</span> is
+    not the network you should be using.</dd>
 
-        <span class="freenode">freenode</span>?
-      </b>
+  <dt id="whyfreenode">Why is it called <span class="freenode">freenode</span>?</dt>
+    <dd>Prior to the creation of <span class="freenode">freenode</span>'s
+    not-for-profit parent entity, Peer-Directed Projects Center, we called the
+    network Open Projects. We picked a new name, <span
+    class="freenode">freenode</span>, to mark its new status as a service of
+    PDPC. The new name brings to mind the best qualities of free software and
+    open source. It suggests the non-hierarchical nature of the network, in
+    which the individual channels are run by the groups which own them, and
+    network staff works to maintain a relaxed and congenial environment.</dd>
 
-      That depends.  Certain
-      
-      <a href="policy.shtml#ontopic">channel categories</a>
-      
-      are considered to be on-topic and are listed on the
-      
-      <a href="policy.shtml">network policy page</a>.
-      
-      If you want to create a general-purpose chat channel,
-      
-      <span class="freenode">freenode</span>
-      
-      is probably not for you. Similarly, if you want to create a channel to
-      support some sort of unlawful activity,
-      
-      <span class="freenode">freenode</span>
-      
-      is not the network you should be using.
+  <dt id="sourceavailable">Is the source code used for your servers publicly available?</dt>
+    <dd>Yes. We currently use ircd-seven, which can be found in its <a
+    href="http://git.freenode.net/ircd-seven">GIT source repository</a>, and
+    Atheme, our IRC services daemon, in <a href="http://www.atheme.net/">Atheme
+    IRC services</a> and <a href="http://svn.freenode.net/atheme+fn/"><span
+    class="freenode">freenode</span> modules</a>. Both are offered under terms
+    of the ISC License.</dd>
 
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="whyfreenode"></a>Why is it called <span class="freenode">freenode</span>?
-      </b>
-      Prior to the creation of <span class="freenode">freenode</span>'s not-for
-      profit parent entity, Peer-Directed Projects Center, we called the
-      network Open Projects.  We picked a new name, <span
-      class="freenode">freenode</span>, to mark its new status as a service of
-      PDPC.  The new name brings to mind the best qualities of free software
-      and open source.  It suggests the non-hierarchical nature of the
-      network, in which the individual channels are run by the groups which
-      own them, and network staff works to maintain a relaxed and congenial
-      environment.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="sourceavailable"></a>Is the source code used for your servers publicly available?
-      </b>
-      Yes. We currently use ircd-seven, which can be found in its
+  <dt id="minimumstandards">Are there minimum standards of conduct for using <span class="freenode">freenode</span>?</dt>
+    <dd>The basic policies for the network are outlined <a
+    href="policy.shtml">here</a>. Beyond that, we strongly urge you to adopt the
+    <span class="freenode">freenode</span> <a
+    href="channel_guidelines.shtml">channel guidelines</a> and <a
+    href="philosophy.shtml">philosophy</a> to help us keep the network a
+    friendly and useful place.</dd>
 
-      <a href="http://git.freenode.net/ircd-seven">GIT source repository</a>,      
-      
-      and Atheme, our IRC services daemon, in
+  <dt id="fst">What is fST or <span class="freenode">freenode</span> Standard Time?</dt>
+    <dd>It's our official time zone. Well, sort of. We're not entirely serious.
+    :) <span class="freenode">freenode</span> Standard Time is UTC.</dd>
 
-      <a href="http://www.atheme.net/">Atheme IRC services</a> and <a href="http://svn.freenode.net/atheme+fn/">freenode modules</a>.
+</dl>
 
-      Both are offered under terms of the ISC License.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="minimumstandards"></a>Are there minimum standards of conduct for using <span class="freenode">freenode</span>?
-      </b>
-      The basic policies for the network are outlined
+<h2 id="userregistration">User Registration</h2>
+<dl>
 
-      <a href="policy.shtml">here</a>.
+  <dt id="registering">Why should I register my nick?</dt>
+    <dd>
+    <p>Your nick is how people on <span class="freenode">freenode</span> know
+    you. If you register it, you'll be able to use the same nick over and over.
+    If you don't register, someone else may end up registering the nick you
+    want. If you register and use the same nick, people will begin to know you
+    by reputation. If they're running IRC software which supports the <a
+    href="https://tools.ietf.org/html/draft-mitchell-irc-capabilities-01">CAP</a>
+    identify-msg, they'll be able to tell when someone is spoofing your
+    identity.</p>
+    <p>If a channel is set to mode <span class="verbatim-i">+r</span>, you won't
+    be able to join it unless you are registered and identified to NickServ. If
+    you try to join, you might be forwarded to a different channel. If a channel
+    is set to mode <span class="verbatim-i">+q $~a</span>, you won't be able to
+    speak while on that channel unless you are registered and identified. Both
+    of these modes are used to reduce channel harassment and abuse.</p>
+    <p>For more information on how to set up a registered nick, take a look <a
+    href="#nicksetup">here</a>.</p>
+    </dd>
 
-      Beyond that, we strongly urge you to adopt the
-      <span class="freenode">freenode</span>
-
-      <a href="channel_guidelines.shtml">channel guidelines</a>
-
-      and
-
-      <a href="philosophy.shtml">philosophy</a>
-
-      to help us keep the network a friendly and useful place.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="fst"></a>What is fST or <span class="freenode">freenode</span> Standard Time?
-      </b>
-      It's our official time zone.  Well, sort of. We're not entirely
-      serious. :) <span class="freenode">freenode</span> <b>Standard Time</b> is
-      UTC.
-      <br /><br />
-    </li>
-  </ul>
-
-  <h2 id="userregistration">User Registration</h2>
-
-  <ul>
-    <li>
-      <b>
-        <a id="registering"></a> Why should I register my nick?
-      </b>
-      Your nick is how people on <span class="freenode">freenode</span> know you. 
-      If you register it, you'll be able to use the same nick over and over. 
-      If you don't register, someone else may end up registering the nick
-      you want.  If you register and use the same nick, people will begin to
-      know you by reputation. If they're running IRC software which supports the
-      <a href="https://tools.ietf.org/html/draft-mitchell-irc-capabilities-01">CAP</a>
-      identify-msg, they'll be able to tell when someone is
-      spoofing your identity.
-
-      <br /><br />
-
-      If a channel is set to mode <b>+r</b>, you won't be able to join it
-      unless you are registered and identified to NickServ.  If you try to
-      join, you might be forwarded to a different channel.  If a channel
-      is set to mode <b>+q $~a</b>, you won't be able to speak while on that
-      channel unless you are registered and identified.  Both of these
-      modes are used to reduce channel harassment and abuse.
-
-      <br /><br />
-
-      For more information on how to set up a registered nick, take a look
-
-      <a href="#nicksetup">here</a>.
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="nicksetup"></a> What is the recommended way to set up my IRC nickname?
-      </b>
-      Please follow these steps to set up your nick and configure your
-      client.  <b>Check off each step to make sure it's been done:</b>
-      
-      <br /><br />
-      
+  <dt id="nicksetup">What is the recommended way to set up my IRC nickname?</dt>
+    <dd>
+      <p>Please follow these steps to set up your nick and configure your client.
+      <strong>Check off each step to make sure it's been done:</strong></p>
       <ol>
-        <li><p>
-          Select a permanent, master nickname. If the nickname you want is
-          registered but has <a href="#userexpirations">expired</a>, just
-          <a href="#gettinghelp">ask a staffer</a> and in most cases, we
-          will be happy to drop it for you.</p>
 
-          <p>Please avoid using the name of a community project or trademarked
-          entity, to avoid conflicts. Write down your password and be sure
-          to keep the sheet of paper in a safe place.</p>
-        </li>
+        <li><p>Select a permanent, master nickname. If the nickname you want is
+        registered but has <a href="#userexpirations">expired</a>, just <a
+        href="#gettinghelp">ask a staffer</a> and in most cases, we will be happy to
+        drop it for you.</p><p>Please avoid using the name of a community project or
+        trademarked entity, to avoid conflicts. Write down your password and be sure
+        to keep the sheet of paper in a safe place.</p></li>
 
-        <li><p>
-          Register your IRC nick:</p>
-          <span class="verbatim-b">/msg nickserv register
-          <span class="subst">password</span>
-          <span class="subst">youremail@example.com</span>
-          </span>
+        <li><p>Register your IRC nick:</p>
 
-          <p>Replace <span class="subst">password</span> with a secure, unguessable
-          password that you keep secret.</p>
-        </li>
 
-        <li><p>
-          The email address that you select will not be given out by staff, and 
-          is mainly used to allow us to help you recover the account in the event 
-          that you forget your password. For this reason, you are required to use 
-          a real, non-disposable, email address. Upon registering, you will receive 
-          an email with a verification command that you will need to run to complete 
-          the registration process. Failure to verify the account will cause it to be 
-          automatically dropped after about 24 hours.</p>
-    </li>
-        <li><p>
-          To keep your email address private, rather than displaying it
-          publicly, mark it as hidden (which is done by default for new accounts):</p>
+          <span class="verbatim-b">/MSG NickServ REGISTER <span
+          class="subst">password</span><span
+          class="subst">youremail@example.com</span></span>
 
-          <span class="verbatim-b">/msg nickserv set hidemail on</span>
-        </li>
 
-        <li>
-          <p>It's useful, but not required, to have an alternate nick grouped
-          to your account. For example, if your primary nick is
-          <span class="verbatim-i">foo</span>:</p>
-          <span class="verbatim-b">/nick foo_</span>
+          <p>Replace <span class="subst">password</span> with a secure,
+          unguessable password that you keep secret.</p></li>
+
+        <li><p>The email address that you select will not be given out by staff, and
+        is mainly used to allow us to help you recover the account in the event that
+        you forget your password. For this reason, you are required to use a real,
+        non-disposable, email address. Upon registering, you will receive an email
+        with a verification command that you will need to run to complete the
+        registration process. Failure to verify the account will cause it to be
+        automatically dropped after about 24 hours.</p></li>
+
+        <li><p>To keep your email address private, rather than displaying it
+        publicly, mark it as hidden (which is done by default for new
+        accounts):</p>
+
+
+          <span class="verbatim-b">/MSG NickServ SET HIDEMAIL ON</span></li>
+
+
+        <li><p>It's useful, but not required, to have an alternate nick grouped to
+        your account. For example, if your primary nick is <span
+        class="verbatim-i">foo</span>:</p>
+
+
+          <span class="verbatim-b">/NICK foo_</span>
+
+
           <p>then identify to your primary account:</p>
-          <span class="verbatim-b">/msg nickserv identify
-          foo <span class="subst">password</span></span>
+
+
+          <span class="verbatim-b">/MSG NickServ IDENTIFY foo <span class="subst">password</span></span>
+
+
           <p>and finally, group the new nick to your account</p>
-          <span class="verbatim-b">/msg nickserv group</span><br />
-        </li>
-        
-        <li>
-          <p>We prefer you to use just one account, and group nicks to it as described above, rather than registering for multiple accounts.  Grouping nicks in this way gives you the benefit of having all your nicks covered by the same cloak, should you choose to <a href="#cloaks">wear a cloak</a>.</p>
-          <p>The exception to this is where you might want to run a bot.  You should register a separate account for your bot.</p>
-		</li>
 
-        <li>
-          <p>Configure your client to identify itself to NickServ automatically
-          whenever it connects to freenode so that it's less likely you'll
-          connect to the network without being identified to NickServ.  The
-          easiest approach is to specify your NickServ password as a server
-          password.</p>
 
-          <p>If your client supports server password, please set this up as 
-          <span class="verbatim-i"><span class="subst">accountname</span>:<span class="subst">password</span></span>.
-          Make sure to include the colon. This will
-          allow you to identify to your services account on connect,
-          regardless of the nickname you are using when you connect. For
-          example:</p>
-          <span class="verbatim-b">/connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</span>
-        </li>
+          <span class="verbatim-b">/MSG NickServ GROUP</span></li>
+
+        <li><p>We prefer you to use just one account, and group nicks to it as
+        described above, rather than registering for multiple accounts. Grouping
+        nicks in this way gives you the benefit of having all your nicks covered by
+        the same cloak, should you choose to <a href="#cloaks">wear a
+        cloak</a>.</p><p>The exception to this is where you might want to run a bot.
+        You should register a separate account for your bot.</p></li>
+
+        <li><p>Configure your client to identify itself to NickServ automatically
+        whenever it connects to <span class="freenode">freenode</span> so that it's
+        less likely you'll connect to the network without being identified to
+        NickServ. The easiest approach is to specify your NickServ password as a
+        server password.</p><p>If your client supports server password, please set
+        this up as <span class="verbatim-i"><span
+        class="subst">accountname</span>:<span class="subst">password</span></span>.
+        Make sure to include the colon. This will allow you to identify to your
+        services account on connect, regardless of the nickname you are using when
+        you connect. For example:</p>
+
+
+          <span class="verbatim-b">/CONNECT chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</span></li>
+
+
       </ol>
-      <br />
-    </li>
+    </dd>
 
-    <li>
-      <b>
-        <a id="identify"></a>What's the easiest way to identify to
-        NickServ when I connect to <span class="freenode">freenode</span>?
-      </b>
-      Just plug your NickServ password into your client as a server
-      password, to make this work when connecting from a different nick than 
-      the one you've got registered use ':nick password'.  
-      You'll be identified to NickServ automatically when you
-      connect. In some cases, it's more convenient to configure your client
-      to send this command to achieve the same effect:<br /><br />
+  <dt id="identify">What's the easiest way to identify to NickServ when I connect to <span class="freenode">freenode</span>?</dt>
+    <dd><p>Just plug your NickServ password into your client as a server
+    password, to make this work when connecting from a different nick than the
+    one you've got registered use 'nick:password'. You'll be identified to
+    NickServ automatically when you connect. In some cases, it's more convenient
+    to configure your client to send this command to achieve the same
+    effect:</p>
 
-      <span class="verbatim-b">/msg nickserv identify
-      <span class="subst">account</span>
-      <span class="subst">password</span>
-      </span>
 
-      <p>We recommend you read and follow the steps of the
-      <a href="#nicksetup">canonical nickname setup</a>
-      to make sure your client identifies reliably to NickServ.</p>
-    </li>
-	
-	<li>
-      <b>
-        <a id="plusr"></a>Why am I seeing <span class="verbatim-i">Cannot join channel (+r) - you need to be identified with services</span>?
-      </b>
-	This means that you need to <a href="#nicksetup">register</a> your nickname and verify your email address.  If you have already done this, you probably need to <a href="#identify">identify</a>, on ensure that you are identified before joining channels. (<a href="#nocloakonjoin">This question</a> can help with that.)
-	 <br /><br /> 
-	</li>
-    
-    <li>
-      <b>
-        <a id="spoofing"></a>How can I tell when someone might be spoofing a user's identity?
-      </b>
-      If your client supports <b>CAP identify-msg</b>, you can configure
-      it to let you know when someone speaking on channel or via /msg is
-      not identified to services.
+      <span class="verbatim-b">/MSG NickServ IDENTIFY <span
+      class="subst">account</span> <span class="subst">password</span></span>
 
-      A script to take advantage of <b>CAP identify-msg</b> is currently
-      available for
 
-      <a href="http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl">irssi</a>.
+      <p>We recommend you read and follow the steps of the <a
+      href="#nicksetup">canonical nickname setup</a> to make sure your client
+      identifies reliably to NickServ.</p></dd>
 
-      It was originally written for the <b>CAPAB</b> command in dancer
-      (hyperion), but has been modified to support the more versatile
-      <b>CAP</b> command in charybdis (ircd-seven).
+  <dt id="plusr">Why am I seeing <span class="verbatim-i">Cannot join channel (+r) - you need to be identified with services</span>?</dt>
+    <dd>This means that you need to <a href="#nicksetup">register</a> your
+    nickname and verify your email address. If you have already done this, you
+    probably need to <a href="#identify">identify</a>, on ensure that you are
+    identified before joining channels. (<a href="#nocloakonjoin">This
+    question</a> can help with that.)</dd>
 
-      If you want other people using this
-      feature to know that you're you, have your client
+  <dt id="spoofing">How can I tell when someone might be spoofing a user's identity?</dt>
+    <dd>If your client supports CAP identify-msg, you can configure it to let
+    you know when someone speaking on channel or via /msg is not identified to
+    services. A script to take advantage of CAP identify-msg is currently
+    available for <a
+    href="http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl">irssi</a>.
+    It was originally written for the CAPAB command in dancer (hyperion), but
+    has been modified to support the more versatile CAP command in charybdis
+    (ircd-seven). If you want other people using this feature to know that
+    you're you, have your client <a href="#identify">identify to NickServ</a>
+    when you connect to the network. You should also follow the <a
+    href="#nicksetup">canonical setup steps</a> for your IRC nickname.
 
-      <a href="#identify">identify to NickServ</a>
+  <dt id="userexpirations">When do IRC nicknames expire?</dt>
+    <dd><p>We consider IRC nicks expired after they have not been used for 10
+    weeks plus one additional week per full year of registration. Accounts which
+    are at least two weeks old and which were last used less than two hours
+    after their creation are also considered to be expired. These time limits do
+    not apply to staff-reserved nicks, which are allocated and dropped as
+    needed. If the nick you want to register is someone's alternate nickname and
+    it's the only alternate nickname they have, we may be reluctant to drop it,
+    even if it's expired.</p>
+    <p>Nicknames that are not confirmed by a valid email address will be
+    automatically dropped after 24 hours.</p>
+    <p>We occasionally prune the Services databases for deadwood, removing
+    nicknames and channels that have not been in use for some time. Please
+    ensure you IDENTIFY to avoid disappointment as your identifying is the only
+    way we have of telling if your nickname is still in use.</p></dd>
 
-      when you connect to the network. You should also follow the
+  <dt id="inuse">How do you know the last time an IRC nickname was used?</dt>
 
-      <a href="#nicksetup">canonical setup steps</a>
-      
-      for your IRC nickname.
+    <dd><p>We know this only as a result of your <a href="#identify">identifying
+    to NickServ</a> when you connect to the network. If you don't identify,
+    we'll have no way to know that your nick is in use, and it will eventually
+    be dropped. You should also follow the <a href="#nicksetup">canonical setup
+    steps</a> for your IRC nickname. You can see the last time someone
+    identified to NickServ for a nick with:</p>
 
-      <br /><br />
-      
-    </li>
-    
-    <li>
-      <b>
-        <a id="userexpirations"></a>When do IRC nicknames expire?
-      </b>
 
-      We consider IRC nicks expired after they have not been used for 10 weeks 
-      plus one additional week per full year of registration. Accounts which are 
-      at least two weeks old and which were last used less than two hours after 
-      their creation are also considered to be expired. These time limits do not 
-      apply to staff-reserved nicks, which are allocated and dropped as needed. 
-      If the nick you want to register is someone's alternate nickname and it's 
-      the only alternate nickname they have, we may be reluctant to drop it, 
-      even if it's expired.
+      <span class="verbatim-b">/MSG NickServ INFO <span
+      class="subst">nick</span></span>
 
-      <br /><br />
-      Nicknames that are not confirmed by a valid email address will be
-      automatically dropped after 24 hours.
 
-      <br /><br />
+      <p>The <span class="verbatim-i">Last seen:</span> field tells you the last
+      time someone used the nick while identified.</p></dd>
 
-      We occasionally prune the Services databases for deadwood, removing 
-      nicknames and channels that have not been in use for some time.
-      Please ensure you IDENTIFY to avoid disappointment as your identifying 
-      is the only way we have of telling if your nickname is still in use.
-      
-      <br /><br />
+  <dt id="unusednick">How can I take over a registered nick that hasn't been used in a long time?</dt>
+    <dd>Nicks which are considered <a href="#userexpirations">expired</a> are
+    not dropped automatically on a regular basis. If you ask a staffer, we'll usually be happy to manually drop the
+    one you want so that you can re-register it.</dd>
 
-    </li>
-    
-    <li>
-      <b>
-        <a id="inuse"></a>How do you know the last time an IRC nickname
-        was used?
-      </b>
+  <dt id="nickisgone">I registered my nick and now someone else has it. Did someone steal it? How do I get it back?</dt>
+    <dd><p>To keep your registered nick, you must <a href="#inuse">continue to use
+    it</a>. If you do not identify to your nick, it may eventually become <a
+    href="#userexpirations">expired</a>. Once it becomes expired, someone can <a
+    href="#unusednick">ask to have it dropped</a>. When a nick has been dropped
+    and picked up by another user, we are not able to take it back from them.
+    That would be unfair to the user who picked it up. In other cases, someone
+    could simply be using the nick while unidentified. You can force them to
+    change their nick with:</p>
 
-      We know this only as a result of your
 
-      
-      <a href="#identify">identifying to NickServ</a>
+      <span class="verbatim-b">/MSG NickServ RELEASE <span class="subst">yournick</span> <span class="subst">yourpassword</span></span>
 
-      when you connect to the network.  If you don't identify, we'll have no
-      way to know that your nick is in use, and it will eventually be
-      dropped.  You should also follow the
 
-      <a href="#nicksetup">canonical setup steps</a>
-      
-      for your IRC nickname.
+      <p>You may need to run the above command a second time if you get a message 
+      saying the nick is temporarily unavailable. You can also set enforce on your nick to have NickServ force users to 
+      identify to the account within 30 seconds in order to continue to use it:</p>
 
-      You can see the last time someone identified to NickServ for a nick with:
 
-      <br /><br />
-      <span class="verbatim-b">/msg nickserv info <span class="subst">nick</span></span>
-      <br />
+      <span class="verbatim-b">/MSG NickServ SET ENFORCE ON</span></dd>
 
-      The <span class="verbatim-i">Last seen:</span> field tells you the last time someone used the nick while identified.
+</dl>
 
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="unusednick"></a>How can I take over a registered nick that hasn't been used in a long time?
-      </b>
-      Nicks which are considered
-      
-      <a href="#userexpirations">expired</a>
-      
-      are not dropped automatically on a regular basis.  We do drop them
-      when we notice them, and if you ask a staffer, we'll usually be happy to
-      manually drop the one you want so that you can re-register it.
+<h2 id="usingfreenode">Using the Network</h2>
+<dl>
 
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="nickisgone"></a>I registered my nick and now someone else has it. Did someone steal it? How do I get it back?
-      </b>
-      To keep your registered nick, you must
+  <dt id="webchat">Can I access the network via webchat?</dt>
+    <dd><p>There is an official <span class="freenode">freenode</span> webchat
+    running at <a href="http://webchat.freenode.net">webchat.freenode.net</a>,
+    you are welcome to use this. We run <a
+    href="http://qwebirc.org/">Qwebirc</a>, an open source web IRC client
+    originally designed by and for the <a
+    href="http://www.quakenet.org/">QuakeNet IRC network</a>.</p>
+    <p>There are many other such facilities available. Just consult <a
+    href="http://search.yahoo.com/search?p=%22CGI%3AIRC+Login%22+%22irc.freenode.net%22&amp;fr=FP-tab-web-t500&amp;toggle=1&amp;cop=&amp;ei=UTF-8">Yahoo</a>
+    or <a
+    href="http://www.google.com/search?hl=en&amp;lr=&amp;q=%22CGI%3AIRC+Login%22+%22irc.freenode.net%22&amp;btnG=Search">Google</a>
+    for a list and try one of the pages on the list. Obviously <span
+    class="freenode">freenode</span> can not recommend a particular webchat
+    facility bar our own, and we might have to limit access if they're abused,
+    but we're happy to have you connect in this way.</p></dd>
 
-      <a href="#inuse">continue to use it</a>.
+  <dt id="userequals">What is this '~' in some hostnames?</dt>
+    <dd><p>The '~', or lack thereof, is in fact in the username field. Usernames
+    will typically display a tilde ('~') at the beginning of the username if it
+    is provided by the IRC client, instead of the identd or authd service.
+    Usually ident or auth daemons are run by shell services, gateways, or other
+    situations where multiple users may share the same host.</p>
+    <p>Try to avoid unnecessarily-broad bans. As the <a
+    href="catalysts.shtml">catalysts</a> page implies, we don't support
+    unnecessary use of bans. When banning, target the ban as narrowly as
+    possible. With the tilde construction, banning someone with the user name
+    "foo" without regard to whether they match ident is frequently done in
+    this way:</p>
 
-      If you do not identify to your nick, it may eventually become 
-      <a href="#userexpirations">expired</a>. Once it becomes expired, someone 
-      can <a href="#unusednick">ask to have it dropped</a>. When a nick has been 
-      dropped and picked up by another user, we are not able to take it back 
-      from them. That would be unfair to the user who picked it up.
 
-      In other cases, someone could simply be using the nick while unidentified. 
-      You can force them to change their nick with:
+      <span class="verbatim-b">/MODE <span class="subst">#channel</span> +b <span
+      class="subst">nickmask</span>!*foo@<span
+      class="subst">hostmask</span></span>
 
-      <br /><br />
-      <span class="verbatim-b">/MSG NickServ RELEASE
-      <span class="subst">yournick</span> <span class="subst">yourpassword</span>
-      </span>
-      <br />
 
-      You may need to run the above command a second time if you get a message 
-      saying the nick is temporarily unavailable.
+      <p>which bans both <span class="verbatim-i">foo</span> and <span
+      class="verbatim-i">~foo</span>. Unfortunately, it also bans usernames such
+      as:</p>
 
-      You can also set enforce on your nick to have NickServ force users to 
-      identify to the account within 30 seconds in order to continue to use it:
-
-      <br /><br />
-      <span class="verbatim-b">/MSG NickServ SET ENFORCE ON</span>
-      <br />
-    </li>
-  </ul>
-
-  <h2 id="usingfreenode">Using the Network</h2>
-
-  <ul>
-    <li>
-      <b>
-        <a id="webchat"></a>Can I access the network via webchat?
-      </b>
-
-     
-      There is an official
-      
-      <span class="freenode">freenode</span>
-      
-      webchat running at <a href="http://webchat.freenode.net">webchat.freenode.net</a>, 
-      you are welcome to use this. We run <a href="http://qwebirc.org/">Qwebirc</a>, an
-      open source web IRC client originally designed by and for the 
-      <a href="http://www.quakenet.org/">QuakeNet IRC network</a>. 
-
-     <br /><br />
-     There are many other such facilities available. Just consult
-      
-      <a href="http://search.yahoo.com/search?p=%22CGI%3AIRC+Login%22+%22irc.freenode.net%22&amp;fr=FP-tab-web-t500&amp;toggle=1&amp;cop=&amp;ei=UTF-8">Yahoo</a>
-
-      or
-
-      <a href="http://www.google.com/search?hl=en&amp;lr=&amp;q=%22CGI%3AIRC+Login%22+%22irc.freenode.net%22&amp;btnG=Search">Google</a>
-      
-      for a list and try one of the pages on the list.
-      
-      Obviously <span class="freenode">freenode</span>
-      
-      can not recommend a particular webchat facility bar our own, and we might have to
-      limit access if they're abused, but we're happy to have you connect in
-      this way.
-      
-      <br /><br />
-    </li>
-
-    <li>
-      <b>
-        <a id="userequals"></a> What is this '~' in some hostnames?
-      </b>
-
-      The '~', or lack thereof, is in fact in the username field. Usernames
-      will typically display a tilde ('~') at the beginning of the username 
-      if it is provided by the IRC client, instead of the identd or authd
-      service. Usually ident or auth daemons are run by shell services,
-      gateways, or other situations where multiple users may share the same
-      host.
-      <br /><br />
-      Try to avoid unnecessarily-broad bans. As the
-      <a href="catalysts.shtml">catalysts</a>
-      page implies, we don't support unnecessary use of bans. When banning,
-      target the ban as narrowly as possible. With the tilde construction,
-      banning someone with the user name <i>foo</i> without regard to whether
-      they match ident is frequently done in this way:
-      
-      <br /><br />
-      <span class="verbatim-b">/mode #channel +b nickmask!*foo@hostmask</span>
-      <br />
-      
-      which bans both <span class="verbatim-i">foo</span> and <span class="verbatim-i">~foo</span>. Unfortunately, it also bans usernames such as:
-      
       <span class="verbatim-b">foofoo</span>
       <span class="verbatim-b">moofoo</span>
       <span class="verbatim-b">goofoo</span>
       <span class="verbatim-b">anythingfoo</span>
-      <br />
-      
-      Instead, ban just 'foo' by using the following:
-      <br /><br />
-      <span class="verbatim-b">/mode #channel +b nickmask!~foo@hostmask</span>
-      <br />
-      If identd or authd is in use, use:
-      <br /><br />
-      <span class="verbatim-b">/mode #channel +b nickmask!foo@hostmask</span>
-      <br />
-      <br />
-    </li>
 
-    <li>
-      <b>
-        <a id="howtoconnect"></a>How do I connect to <span class="freenode">freenode</span>?  How do I use the network?
-      </b>
-      Information on using the network can be found
 
-      <a href="using_the_network.shtml">here</a>
+      <p>Instead, ban just 'foo' by using the following:</p>
 
-      and guides to ircd-seven, the code tree under development, can be found
 
-      <a href="http://git.freenode.net/ircd-seven/">here</a>.
+      <span class="verbatim-b">/MODE <span class="subst">#channel</span> +b <span
+      class="subst">nickmask</span>!~foo@<span
+      class="subst">hostmask</span></span>
 
-      A list of servers can be found
 
-      <a href="irc_servers.shtml">here</a>.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="channellist"></a>How can I get a list of <span class="freenode">freenode</span> public channels?
-      </b>
-      Check the
-      
-      <a href="http://irc.netsplit.de/channels/?net=freenode">Gelhausen</a>
+      <p>If identd or authd is in use, use:</p>
 
-      site for a current list. To find channels about a specific topic you can also use our "alis" service: 
-      
-      <br /><br />
-      <span class="verbatim-b">/msg alis help list</span>
-      <br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="ipv6access"></a>How do I access <span class="freenode">freenode</span> via IPv6?
-      </b>
-      
-      Our main rotation contains both IPv4 and IPv6 addresses. Simply point your IRC client to <span class="verbatim-i">chat.freenode.net</span>.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="defocuschannel"></a> What is the purpose of channel #defocus?
-      </b>
-      
-      It's a social channel. It's the home channel of the
-      <span class="freenode">freenode</span> project, a place for friendly,
-      relaxed conversation with staff and users. Sometimes it will be forwarded
-      to another channel, but underneath you may just find that the character of
-      the channel hasn't changed much. It's not a forum for IRC
-      politics or a place to flame the staff, on a personal or professional
-      basis.  It's not really a support channel, though we probably won't
-      get too upset if you ask a question or two.  Feel free to
 
-      <a href="#helpfromstaff">ask for help</a>
+      <span class="verbatim-b">/MODE <span class="subst">#channel</span> +b <span
+      class="subst">nickmask</span>!foo@<span
+      class="subst">hostmask</span></span></dd>
 
-      from network staff if you're having problems.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="nobodysees"></a>Why can't anyone see what I'm typing on channel?
-      </b>
-      One of several server features might be keeping people from seeing
-      your comments.  The channel might be moderated using channel mode
-      <b>+m</b>; if so, no one can talk who hasn't been explicitly voiced
-      by a channel operator via <b>+v</b>. You might want to send a private
-      message to a channel operator to find out what's wrong.  Channel
-      operators are identified on most clients with an <b>@</b> in front of
-      their nicks.
-      
-      <br /><br />
 
-      You might be silenced by a <b>+q</b> mask; this feature is used to
-      prevent problem users from talking on channel, or to moderate the
-      channel during a seminar. <b>+v</b> or <b>+e</b> can be used to
-      counteract the effects of <b>+q</b>. Again, send a private message
-      to a channel operator to find out what's wrong.
+  <dt id="howtoconnect">How do I connect to <span class="freenode">freenode</span>? How do I use the network?</dt>
+    <dd>Information on using the network can be found <a
+    href="using_the_network.shtml">here</a> and guides to ircd-seven, the code
+    tree under development, can be found <a
+    href="http://git.freenode.net/ircd-seven/">here</a>. A list of servers can
+    be found <a href="irc_servers.shtml">here</a>.</dd>
 
-      <br /><br />
+  <dt id="channellist">How can I get a list of <span class="freenode">freenode</span> public channels?</dt>
+    <dd><p>Check the <a
+    href="http://irc.netsplit.de/channels/?net=freenode">Gelhausen</a> site for
+    a current list. To find channels about a specific topic you can also use our
+    "alis" service:</p>
 
-      Finally, the channel might have <b>+q $~a</b> set.  This mode prevents
-      you from talking on channel until you're
 
-      <a href="#registering">registered</a>
+      <span class="verbatim-b">/MSG Alis HELP LIST</span></dd>
 
-      and identified to NickServ.  In this case, you'll see a message in
-      your server notice window which explains the problem and points you
-      to NickServ for more information.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="pdpc_cloak"></a>Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?
-      </b>
-      
-      They're users who have
 
-      <a href="pdpc_donations.shtml">donated</a>
+  <dt id="ipv6access">How do I access <span class="freenode">freenode</span> via IPv6?</dt>
+    <dd>Our main rotation contains both IPv4 and IPv6 addresses. Simply point
+    your IRC client to <span class="verbatim-i">chat.freenode.net</span>.</dd>
 
-      to <b>Peer-Directed Projects Center</b>, the not-for-profit entity
-      which runs <span class="freenode">freenode</span>.  The hostnames
-      acknowledge their donations.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="channelexpirations"></a>When do IRC channels expire?
-      </b>
+  <dt id="defocuschannel">What is the purpose of channel #defocus?</dt>
+    <dd>It's a social channel. It's the home channel of the <span
+    class="freenode">freenode</span> project, a place for friendly, relaxed
+    conversation with staff and users. It's not a forum for IRC politics or a
+    place to flame the staff, on a personal or professional basis. It's not
+    really a support channel, though we probably won't get too upset if you ask
+    a question or two. Feel free to <a href="#helpfromstaff">ask for help</a>
+    from network staff if you're having problems.</dd>
 
-      We consider <a href ="policy.shtml#channelnaming">non-primary</a>
-      IRC channels (those which start with "##") to be expired after they have 
-      not been used for 10 weeks plus one additional week per full year registered. 
-      Staff will determine this by verifying that the founder has not been 
-      present in the channel for that duration of time. We might also idle in the 
-      channel to confirm that it really is not being used.
+  <dt id="pdpc_cloak">Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?</dt>
+    <dd>They're users who have <a href="pdpc_donations.shtml">donated</a> to
+    Peer-Directed Projects Center, the not-for-profit entity which runs
+    <span class="freenode">freenode</span>. The hostnames acknowledge their
+    donations.</dd>
 
-      For active channels where the founder might have simply disappeared, staff 
-      may decide to have the regular users of the channel vote who the new channel 
-      founder should be.
+  <dt id="channelexpirations">When do IRC channels expire?</dt>
+    <dd><p>We consider <a href="policy.shtml#channelnaming">non-primary</a> IRC
+    channels (those which start with "##") to be expired after they have not
+    been used for 10 weeks plus one additional week per full year registered.
+    Staff will determine this by verifying that the founder has not been present
+    in the channel for that duration of time. We might also idle in the channel
+    to confirm that it really is not being used.</p>
+    <p>For active channels where the founder might have simply disappeared,
+    staff may decide to have the regular users of the channel vote who the new
+    channel founder should be.</p> <p>Primary channels, namely those which start
+    with a single "#", can <em>only</em> be dropped if a valid <a
+    href="group_registration.shtml">Group Registration</a> is completed. Primary
+    channels are not dropped due to founder nick drops or after a long period of
+    time without use.</p></dd>
 
-      <br /><br />
+  <dt id="channelpolicy">Who sets channel policy on <span class="freenode">freenode</span>?</dt>
+    <dd>Channel policy is set by channel owners. Network staff set the basic <a
+    href="policy.shtml">ground rules</a> for the use of the servers and we try
+    to influence channel policies in a positive direction by urging channel
+    owners to adopt the <span class="freenode">freenode</span> <a
+    href="channel_guidelines.shtml">channel guidelines</a>. They're formulated
+    based on our experience encouraging the growth of relaxed, productive
+    discussion environments. We strongly urge you to adopt these guidelines to
+    help keep <span class="freenode">freenode</span>a friendly and useful place
+    for community discussion and project coordination.</dd>
 
-      Primary channels, namely those which start with a single "#", can <b>only</b>
-      be dropped if a valid <a href="group_registration.shtml">Group Registration</a>
-      is completed. Primary channels are not dropped due to founder nick drops 
-      or after a long period of time without use.
+  <dt id="channelfreezing">Why do you freeze channels when groups leave the network?</dt>
+    <dd>Frequently when groups leave the network, they put up a pointer to the
+    location of their new channel, on another network. This helps ensure that
+    active users who were unaware of the move can find the new channel. But
+    leaving the message up permanently encourages people to use <span
+    class="freenode">freenode</span> channel topics as billboards for channels
+    on other networks, or as forums for IRC politics. If you've moved, we'll
+    leave your pointer up for a week. After that, please use your project or
+    group website to point to the new channel.</dd>
 
-      <br /><br />
-    </li>
+  <dt id="networkinfo">How do I find out what's going on with the network?</dt>
+    <dd><p>We put information on the network in a variety of places. Your best
+    ongoing source is this website; it provides reference information on the
+    network, its philosophy, the software it uses, etc. In addition, staff send
+    WALLOPS messages with time-sensitive status information (as well as a
+    variety of general comments and announcements). To receive these messages,
+    on most clients, you can use:</p>
 
-    <li>
-      <b>
-        <a id="channelpolicy"></a>Who sets channel policy on <span class="freenode">freenode</span>?
-      </b>
-      Channel policy is set by channel owners. Network staff set the basic
 
-      <a href="policy.shtml">ground rules</a>
+      <span class="verbatim-b">/UMODE +w</span>
 
-      for the use of the servers and we try to influence channel policies
-      in a positive direction by urging channel owners to adopt the
-
-      <span class="freenode">freenode</span>
-
-      <a href="channel_guidelines.shtml">channel guidelines</a>.
-
-      They're formulated based on our experience encouraging the growth of
-      relaxed, productive discussion environments.  We strongly urge you to
-      adopt these guidelines to help keep
-
-      <span class="freenode">freenode</span> 
-
-      a friendly and useful place for community discussion and project
-      coordination.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="channelfreezing"></a>Why do you freeze channels when groups leave the network?
-      </b>
-      Frequently when groups leave the network, they put up a pointer to
-      the location of their new channel, on another network.  This helps
-      ensure that active users who were unaware of the move can find the
-      new channel. But leaving the message up permanently encourages
-      people to use <span class="freenode">freenode</span> channel topics as
-      billboards for channels on other networks, or as forums for IRC
-      politics. If you've moved, we'll leave your pointer up for a week. 
-      After that, please use your project or group website to point to the
-      new channel.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="networkinfo"></a>How do I find out what's going on with the network?
-      </b>
-      
-      <p>We put information on the network in a variety of places.  Your best
-      ongoing source is this website; it provides reference information on
-      the network, its philosophy, the software it uses, etc.  In addition,
-      staff send WALLOPS messages with time-sensitive status information (as
-      well as a variety of general comments and announcements). To receive
-      these messages, on most clients, you can use:</p>
-      <span class="verbatim-b">/umode +w</span>
 
       <p>or</p>
 
-      <span class="verbatim-b">/mode yournick +w</span>
+
+      <span class="verbatim-b">/MODE <span class="subst">yournick</span> +w</span>
+
 
       <p>For best results, place the command in your client's startup script.</p>
-      
-      <p>In addition to WALLOPS we make announcements via our 
-      <a href="http://blog.freenode.net">blog</a>, a more critical announce 
-      website which can be found at 
-      <a href="http://announce.freenode.net">http://announce.freenode.net</a>,
-      <a href="http://twitter.com/freenodestaff">twitter</a> and
-      <a href="http://identi.ca/freenodestaff">identi.ca</a>.</p>
-           
-      <p>Finally, we send information we judge to have global significance to
-      our users via global notices.  You don't generally have to do
-      anything to see these, though they may appear on a different window
-      of your client (along with the WALLOPS messages).</p>
-    </li>
-    
-    <li>
-      <b>
-        <a id="lessinfo"></a>How can I get fewer notices from the staff?
-      </b> 
-      <p>Most of those messages are sent via WALLOPS, an IRC facility for
-      displaying messages from server operators.
-      On <span class="freenode">freenode</span>, WALLOPS messages may contain
-      non-critical comments and announcements from staff, as well as
-      detailed server administration information. If you don't like the
-      number of messages or the messages seem too trivial or detailed, you
-      can turn them off by turning off user mode "w".  On most clients this
-      can be accomplished via:</p>
-      <span class="verbatim-b">/umode -w</span>
+
+      <p>In addition to WALLOPS we make announcements via our <a
+      href="http://blog.freenode.net">blog</a>, a more critical announce website
+      which can be found at <a
+      href="http://announce.freenode.net">http://announce.freenode.net</a>, <a
+      href="http://twitter.com/freenodestaff">twitter</a> and <a
+      href="http://identi.ca/freenodestaff">identi.ca</a>.</p>
+
+      <p>Finally, we send information we judge to have global significance to our
+      users via global notices. You don't generally have to do anything to see
+      these, though they may appear on a different window of your client (along
+      with the WALLOPS messages).</p></dd>
+
+  <dt id="lessinfo">How can I get fewer notices from the staff?</dt> 
+    <dd><p>Most of those messages are sent via WALLOPS, an IRC facility for
+    displaying messages from server operators. On <span
+    class="freenode">freenode</span>, WALLOPS messages may contain non-critical
+    comments and announcements from staff, as well as detailed server
+    administration information. If you don't like the number of messages or the
+    messages seem too trivial or detailed, you can turn them off by turning off
+    user mode "w". On most clients this can be accomplished via:</p>
+
+
+      <span class="verbatim-b">/UMODE -w</span>
+
+
       <p>or</p>
-      <span class="verbatim-b">/mode yournick -w</span>
-      
-      <p>For best results, place the command in your client's startup
-      script.</p>
 
-      <p>We also send information with global significance to our users via
-      global notices.  These notices are a bit more difficult to turn off;
-      you can usually tell your client to ignore notices from specific staff
-      members, notices from all staffers or all notices. <b>It's not
-      recommended.</b> But on most clients, it works something like this:</p>
-      
-      <span class="verbatim-b">/ignore *!*@freenode/staff/* notice</span>
-      <br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="firewall"></a>My firewall logs show that someone from your network is trying to crack my box. What's going on?
-      </b>
 
-      You're probably seeing our open proxy detector.  After numerous
-      problems with clonebots, we began checking for open proxies and
-      similar software on the hosts of clients connecting to our network.
-      We use
-
-      <a href="http://www.blitzed.org/bopm/">BOPM</a>
-
-      for this.  It's popular with a number of IRC networks, and it's very
-      reliable.  For more information, please see our
-
-      <a href="policy.shtml#proxies">policy page</a>.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="loopback"></a>Why is my client trying to connect to 127.0.0.1 when I try to connect to your network?
-      </b>
-      
-      You've tried to connect to <span class="freenode">freenode</span> during a
-      massive clonebot (or some other denial-of-service) attack.  IRC
-      suffers from the lack of a reputation-based system for filtering out
-      malicious clients. For this and other reasons, we must sometimes shut
-      off new connects or shut down servers for (hopefully brief) periods of
-      time. We apologize for the inconvenience and want you to know that we
-      are slowly working on the problem.  We hope you'll consider
-
-      <a href="pdpc.shtml">donating to PDPC</a>,
-
-      the not-for-profit entity which runs <span class="freenode">freenode</span>,
-      to help us acquire the resources to advance this and other projects.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="rejected"></a>Why does my client get "connection rejected" when I try to connect to your network?
-      </b>
-      
-      As in the case
-      
-      <a href="#loopback">above</a>,
-      
-      you've tried to connect to <span class="freenode">freenode</span>
-      during a large denial attack, and our listening ports are closed.
-      Please try a different server or check back in a few minutes if you
-      can't get in.
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="drones"></a>I joined this channel and now I can't access <span class="freenode">freenode</span> anymore.  The message says I'm a clonebot.  What's going on?
-      </b>
-      Apologies for the inconvenience.  Due to problems with drones and
-      automated clonebots, we've had to institute automated network bans
-      when clients join certain channels.  Please contact support at freenode
-      dot net, providing your IP address to be unbanned.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="practicaljoke"></a>Someone told me to join this channel and now I can't get to the network anymore.  What's going on?
-      </b>
-      Someone has played a practical joke on you.  Please see
-
-      <a href="faq.shtml#drones">above</a>.
-
-      Sorry for the inconvenience.  Please feel free to let us gently tap
-      the malefactor over the head with a rubber mallet. ;)
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="klineannoyinguser"></a>Do you mind if I refer annoying user foo to one of the auto-kline channels to get him out of my hair?
-      </b>
-      Please don't do that.  It causes staff headaches and extra work. 
-      We'll be extremely testy if you refer people to those channels,
-      as a practical joke or to get rid of annoying users.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="ctcpversion"></a>Why did someone CTCP VERSION me?
-      </b>
-      CTCP VERSION causes your IRC client to return a
-      client-name-and-version string to some requesting user.  It's a
-      service provided by your client which you can turn on and off.  On
-      many IRC clients, you can even set a false VERSION string.  But the
-      random person using the command on your client was probably just
-      curious what IRC client you're running.  And <span
-      class="freenode">freenode</span>
-      
-      <a href="#freenodeconnect">requests</a>
-      
-      that information when you connect to the network.
-
-      <br /><br />
-
-      Occasionally, a cracker will use CTCP VERSION to try to determine if
-      your client is vulnerable to attack.  Update your client regularly
-      to avoid security problems, and don't be too worried unless they're
-      doing more than just CTCP VERSION, or doing it over and over.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="freenodeconnect"></a>Why does user
-        
-        <span class="freenode">frigg</span>
-        
-        send CTCP VERSION when I connect to the network?
-      </b>
-      CTCP VERSION is a
-      
-      <a href="#ctcpversion">public IRC client interface</a>
-      
-      which you can turn on or off or even spoof. We've started to request
-      version information using that interface when users connect to
-      
-      <span class="freenode">freenode</span>,
-      
-      so that we can help users with client-related problems, track down
-      abusive bots and deny network access from old, insecure releases of
-      client software, as well as analyze client-use statistics to help us
-      better support our users' needs. It helps us as administrators for you
-      to leave CTCP VERSION available and un-spoofed, but you should upgrade
-      your client frequently to reduce your exposure to attacks.
-      
-      <br /><br />
-      
-      For privacy purposes, staff will treat your client version information
-      in the same way it treats
-      
-      <a href="group_privacy.shtml">personal information provided by group contacts</a>,
-      
-      though we may also publish that version information in statistical
-      form, aggregated with that of other users. We'll be careful to avoid
-      using it in ways which unnecessarily disrupt your use of the network.
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="freenode-info"></a>Why do I get these
-        
-        <span class="verbatim-i">[freenode-info]</span>
-        
-        messages sometimes when I join a channel, or during a netsplit?
-      </b>
-
-      Messages labeled
-      
-      <span class="verbatim-i">freenode-info</span>
-      
-      contain important, non-time-critical information for
-      
-      <span class="freenode">freenode</span>
-      
-      users. They're designed to appear with varying, random frequency and
-      are sent using numeric 477.  You're most likely to see them on your
-      channel window around the time when you join a channel, or
-      occasionally while rejoining from a netsplit.  If you find them
-      extremely annoying, we provide a set of
-
-      <a href="unrecommended/freenode-info/scripts/">scripts</a>
-
-      to allow you to turn them off, but
-      <b>
-        we strongly urge that you leave them turned on.  Otherwise, you
-        may miss an essential notification, and your reliable, timely
-        access to the <span class="freenode">freenode</span> network may be
-        impaired.
-      </b>
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="spambots"></a>I'm getting a lot of spam/porn/blank
-        messages. What can I do to block them?
-      </b>
-      
-      <p>Sometimes <span class="freenode">freenode</span>
-      has to deal with infestations of spam bots. These bots often join
-      large channels to get lists of people to spam via private message.
-      We're working on long-term solutions to the problem. In the meantime,
-      your best bet is to
-      <a href="#nicksetup">register your IRC nickname and do the standard setup</a>,
-      and then set your user mode to <b>+R</b> to filter out any private messages
-      sent to you by unregistered users.  Depending on which client you're running,
-      one of these commands will set that user mode:</p>
-
-      <span class="verbatim-b">/umode +R</span>
-      <span class="verbatim-b">/mode <span class="subst">YOURNICK</span> +R</span>
-      <span class="verbatim-b">/quote mode <span class="subst">YOURNICK</span> +R</span>
-      <span class="verbatim-b">/raw mode <span class="subst">YOURNICK</span> +R</span>
-      
-      <p>If you run a support channel, please consider using something like:</p>
-      
-      <span class="verbatim-b">/mode <span class="subst">#yourchannel</span>
-      +rf #yourchannel-unregistered</span>
-      
-      <p>This will forward unregistered users to a separate channel on join.
-      You can let those users know about
-      <a href="#nicksetup">registration options</a>,
-      but try to provide them support on the 'unregistered' channel, as
-      well---it's a way to help keep spammers from taking away support
-      options from our unregistered users! Note that you will have to
-      be +o in #yourchannel-unregistered, or that channel must be
-      <b>+F</b> to set the forward.</p>
-    </li>
-    
-    <li>
-      <b>
-        <a id="blockingmessages"></a>When I send private messages to my
-        friend, it says that she's blocking messages from unidentified
-        users. How do I fix it?
-      </b>
-      
-      Your friend has set user mode <b>+R</b> to block messages from
-      unregistered users. Just
-      
-      <a href="#nicksetup">register your IRC nickname and do the standard setup</a>
-      
-      and your problem will be solved.
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="nocloakonjoin"></a>Why is my cloak not applied initially when I auto-join channels?
-      </b>
-      <p>Your account name and password must be sent to NickServ and verified,
-      and then NickServ must tell the servers about your cloak. This process
-      may take a little time, depending on how heavily services is loaded
-      and the amount of lag between your server and services.</p>
-
-      <p>Some clients send your identification to NickServ and, without
-      waiting, start to join channels. This may lead to showing your
-      uncloaked host when you join the channel, followed shortly by a
-      quit and re-join as your cloak is applied.</p>
-
-      <p>To prevent this, you may need to do one of the following (roughly
-      in order of preference):</p>
-      <ul>
-      <li>Authenticate using SASL.<br />
-        SASL is a method of identifying
-        during your connection, before anything else happens. This is
-        the best way to ensure you are cloaked immediately. A
-        collection of scripts for common clients and instructions
-        for setting up SASL can be found <a href="sasl/">here</a>.</li>
-      <li>Wait to join channels until after the server notifies you
-        that it has set your hidden host.
-        This notification is done with a 396 numeric that looks like this:
-        <span class="verbatim-b">396 YourNick unaffiliated/youraccount :is now your hidden host (set by services.)</span>
-        Scripts to do this for
-        <a href="recommended/xchat/kludges/cloak-before-join.pl.txt">X-Chat</a>
-        and <a href="recommended/mirc/cloak-before-join.ini.txt">mirc</a>
-        were kindly contributed by our users. You won't receive this numeric
-        if your account or connection (for gateways) is not cloaked.</li>
-      <li>Add a fixed amount of wait time before joining channels.<br />
-        This can be done on X-Chat with
-        <span class="verbatim-i">set irc_join_delay</span>,
-        or on irssi by adding
-        <span class="verbatim-i">wait <span class="subst">time</span></span>
-        to the autosendcmd for the network.</li>
-      <li>Don't auto-join channels; do it manually.</li>
-      </ul>
-      <br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="sslaccess"></a>Does <span class="freenode">freenode</span> provide SSL-based client access?
-      </b>
-      <span class="freenode">freenode</span> supports SSL, for client and server 
-      connections. Users connecting via SSL will get user mode +Z to denote this. 
-      More information about connecting via SSL is on the
-      <a href="irc_servers.shtml#ssl">IRC servers</a> page.
-	  <br /><br />
-	  Client SSL certificates are also supported, and may be used for services
-	  identification. More information about <a href="certfp/">CertFP is here</a>
-	  <br /><br />
-    </li>
-
-    <li>
-      <b>
-        <a id="join"></a>Why can't I join a certain channel?
-      </b>
-      <p>There are a few things that might be preventing you from joining a 
-      channel. The first thing you should check is whether you are identified 
-      to NickServ. You can identify to NickServ with:</p>
-      <span class="verbatim-b">/MSG NickServ IDENTIFY
-      <span class="subst">YourNick</span>
-      <span class="subst">YourPassword</span>
+      <span class="verbatim-b">/MODE <span class="subst">yournick</span> -w
       </span>
 
-      <p>Certain channels have channel mode +r set, which prevents unidentified 
-      users from joining. You can check what channel modes are enabled on a 
-      channel with:</p>
-      <span class="verbatim-b">/mode #channel</span>
 
-      <p>The next thing you should check is whether or not you are banned from the 
+      <p>For best results, place the command in your client's startup
+      script.</p>
+      <p>We also send information with global significance to our users via global
+      notices. These notices are a bit more difficult to turn off; you can usually
+      tell your client to ignore notices from specific staff members, notices from
+      all staffers or all notices. <strong>It's not recommended.</strong> But on
+      most clients, it works something like this:</p>
+
+
+      <span class="verbatim-b">/IGNORE *!*@freenode/staff/* NOTICE</span></dd>
+
+
+  <dt id="firewall">My firewall logs show that someone from your network is trying to crack my box. What's going on?</dt>
+    <dd>You're probably seeing our open proxy detector. After numerous problems
+    with clonebots, we began checking for open proxies and similar software on
+    the hosts of clients connecting to our network. We use <a
+    href="http://www.blitzed.org/bopm/">BOPM</a> for this. It's popular with a
+    number of IRC networks, and it's very reliable. For more information, please
+    see our <a href="policy.shtml#proxies">policy page</a>.</dd>
+
+  <dt id="drones">I joined this channel and now I can't access <span class="freenode">freenode</span> anymore. What's going on?</dt>
+    <dd>Apologies for the inconvenience. Due to problems with drones and
+    automated clonebots, we've had to institute automated network bans when
+    clients join certain channels. Please contact support at freenode dot net,
+    providing your IP address to be unbanned.</dd>
+
+  <dt id="ctcpversion">Why did someone CTCP VERSION me?</dt>
+    <dd>CTCP VERSION causes your IRC client to return a client-name-and-version
+    string to some requesting user. It's a service provided by your client which
+    you can turn on and off. On many IRC clients, you can even set a false
+    VERSION string. But the random person using the command on your client was
+    probably just curious what IRC client you're running. Occasionally, a
+    cracker will use CTCP VERSION to try to determine if your client is
+    vulnerable to attack. Update your client regularly to avoid security
+    problems, and don't be too worried unless they're doing more than just CTCP
+    VERSION, or doing it over and over.</dd>
+
+<!--  <dt id="freenodeconnect">Why does user <span class="freenode">frigg</span> send CTCP VERSION when I connect to the network?</dt>
+    <dd><p>CTCP VERSION is a <a href="#ctcpversion">public IRC client
+    interface</a> which you can turn on or off or even spoof. We've started to
+    request version information using that interface when users connect to <span
+    class="freenode">freenode</span>, so that we can help users with
+    client-related problems, track down abusive bots and deny network access
+    from old, insecure releases of client software, as well as analyze
+    client-use statistics to help us better support our users' needs. It helps
+    us as administrators for you to leave CTCP VERSION available and un-spoofed,
+    but you should upgrade your client frequently to reduce your exposure to
+    attacks.</p>
+    <p>For privacy purposes, staff will treat your client version information in
+    the same way it treats <a href="group_privacy.shtml">personal information
+    provided by group contacts</a>, though we may also publish that version
+    information in statistical form, aggregated with that of other users. We'll
+    be careful to avoid using it in ways which unnecessarily disrupt your use of
+    the network.</p></dd>-->
+
+  <dt id="freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</dt>
+    <dd>Messages labeled <span class="verbatim-i">freenode-info</span> contain
+    important, non-time-critical information for <span
+    class="freenode">freenode</span> users. They're designed to appear with
+    varying, random frequency and are sent using numeric 477. You're most likely
+    to see them on your channel window around the time when you join a channel,
+    or occasionally while rejoining from a netsplit. If you find them extremely
+    annoying, we provide a set of <a
+    href="unrecommended/freenode-info/scripts/">scripts</a> to allow you to turn
+    them off, but <em>we strongly urge that you leave them turned on</em>.
+    Otherwise, you may miss an essential notification, and your reliable, timely
+    access to the <span class="freenode">freenode</span> network may be
+    impaired.</dd>
+
+  <dt id="spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block them?</dt>
+    <dd><p>Sometimes <span class="freenode">freenode</span> has to deal with
+    infestations of spam bots. These bots often join large channels to get lists
+    of people to spam via private message. We're working on long-term solutions
+    to the problem. In the meantime, your best bet is to <a
+    href="#nicksetup">register your IRC nickname and do the standard setup</a>,
+    and then set your user mode to <span class="verbatim-i">+R</span> to filter
+    out any private messages sent to you by unregistered users. Depending on
+    which client you're running, one of these commands will set that user
+    mode:</p>
+
+
+      <span class="verbatim-b">/UMODE +R</span>
+      <span class="verbatim-b">/MODE <span class="subst">yournick</span> +R</span>
+      <span class="verbatim-b">/QUOTE MODE <span class="subst">yournick</span> +R</span>
+      <span class="verbatim-b">/RAW MODE <span class="subst">yournick</span> +R</span>
+
+
+      <p>If you run a support channel, please consider using something like:</p>
+
+
+      <span class="verbatim-b">/MODE <span class="subst">#channel</span> +rf
+      #channel-unregistered</span>
+
+
+      <p>This will forward unregistered users to a separate channel on join. You
+      can let those users know about <a href="#nicksetup">registration
+      options</a>, but try to provide them support on the 'unregistered' channel,
+      as well &mdash; it's a way to help keep spammers from taking away support
+      options from our unregistered users! Note that you will have to be +o in
+      #channel-unregistered, or that channel must be <span
+      class="verbatim-i">+F</span> to set the forward.</p>
+
+  <dt id="blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</dt>
+    <dd>Your friend has set user mode +R to block messages from unregistered
+    users. Just <a href="#nicksetup">register your IRC nickname and do the
+    standard setup</a> and your problem will be solved.</dd>
+
+  <dt id="nocloakonjoin">Why is my cloak not applied initially when I auto-join channels?</dt>
+    <dd><p>Your account name and password must be sent to NickServ and verified,
+    and then NickServ must tell the servers about your cloak. This process may
+    take a little time, depending on how heavily services is loaded and the
+    amount of lag between your server and services.</p>
+    <p>Some clients send your identification to NickServ and, without waiting,
+    start to join channels. This may lead to showing your uncloaked host when
+    you join the channel, followed shortly by a quit and re-join as your cloak
+    is applied.</p>
+    <p>To prevent this, you may need to do one of the following (roughly in
+    order of preference):</p>
+    <ul>
+      <li>Authenticate using SASL.<br />
+        SASL is a method of identifying during your connection, before anything else
+        happens. This is the best way to ensure you are cloaked immediately. A
+        collection of scripts for common clients and instructions for setting up
+        SASL can be found <a href="sasl/">here</a>.</li>
+      <li>Wait to join channels until after the server notifies you that it has
+      set your hidden host. This notification is done with a 396 numeric that
+      looks like this: <span class="verbatim-i">396 YourNick
+      unaffiliated/youraccount :is now your hidden host (set by services.)</span>
+      Scripts to do this for <a
+      href="recommended/xchat/kludges/cloak-before-join.pl.txt">X-Chat</a> and <a
+      href="recommended/mirc/cloak-before-join.ini.txt">mirc</a> were kindly
+      contributed by our users. You won't receive this numeric if your account or
+      connection (for gateways) is not cloaked.</li>
+      <li>Add a fixed amount of wait time before joining channels.<br />
+        This can be done on X-Chat with <span class="verbatim-i">set
+        irc_join_delay</span>, or on irssi by adding <span class="verbatim-i">wait
+        <span class="subst">time</span></span> to the autosendcmd for the
+        network.</li>
+      <li>Don't auto-join channels; do it manually.</li>
+    </ul></dd>
+
+  <dt id="sslaccess">Does <span class="freenode">freenode</span> provide SSL-based client access?</dt>
+    <dd><p><span class="freenode">freenode</span> supports SSL, for client and
+    server connections. Users connecting via SSL will get user mode +Z to denote
+    this. More information about connecting via SSL is on the <a
+    href="irc_servers.shtml#ssl">IRC servers</a> page.</p>
+    <p>Client SSL certificates are also supported, and may be used for services
+    identification. More information about CertFP is on the <a
+    href="certfp/">CertFP</a> page.</p>
+
+  <dt id="join">Why can't I join a certain channel?</dt>
+    <dd><p>There are a few things that might be preventing you from joining a 
+    channel. The first thing you should check is whether you are identified 
+    to NickServ. You can identify to NickServ with:</p>
+
+
+      <span class="verbatim-b">/MSG NickServ IDENTIFY <span class="subst">YourNick</span> <span class="subst">YourPassword</span></span>
+
+
+      <p>Certain channels have channel mode +r set, which prevents unidentified
+      users from joining. You can check what channel modes are enabled on a
+      channel with:</p>
+
+
+      <span class="verbatim-b">/MODE #channel</span>
+
+
+      <p>The next thing you should check is whether or not you are banned from the
       channel. You can view the ban list with:</p>
-      <span class="verbatim-b">/mode #channel +b</span>
+
+
+      <span class="verbatim-b">/MODE #channel +b</span>
+
 
       <p>Remember, you may be unintentionally affected by a large ban that was 
       set, so pay particular attention to bans that include wildcards (* and ?). 
@@ -1231,812 +752,408 @@
       available <a href="using_the_network.shtml">here</a>. If you do find a ban 
       set against you and you feel it is a mistake, you should contact the 
       channel operators to discuss having it removed.</p>
+      <p>If neither of these methods work, you will want to check what other
+      channel modes are enabled for the channel. modes such as +i, +k, and several
+      others might be preventing you from joining.</p>
+      <p>If you are still unable to figure out why you can't join a certain
+      channel, feel free to ask in #freenode.</p></dd>
 
-      <p>If neither of these methods work, you will want to check what other channel 
-      modes are enabled for the channel. modes such as +i, +k, and several others 
-      might be preventing you from joining.</p>
+  <dt id="unban">How do I get unbanned/unquieted in a channel?</dt>
+    <dd><p><span class="freenode">freenode</span> tries to allow channels to run
+    and manage themselves. As a result, channel operators are generally free to
+    ban/quiet users for any reason they see fit. If you wish to discuss your
+    ban/quiet, you will need to contact the channel operators. A list of
+    operators can be found with</p>
 
-      <p>If you are still unable to figure out why you can't join a certain channel, 
-      feel free to ask in #freenode.</p>
-    </li>
 
-    <li>
-      <b>
-        <a id="unban"></a>How do I get unbanned/unquieted in a channel?
-      </b>
-      <p><span class="freenode">freenode</span> tries to allow channels to run and 
-      manage themselves. As a result, channel operators are generally free to 
-      ban/quiet users for any reason they see fit. If you wish to discuss your 
-      ban/quiet, you will need to contact the channel operators. A list of 
-      operators can be found with</p>
-      <span class="verbatim-b">/msg chanserv ACCESS <span class="subst">#channel</span> LIST</span>
+      <span class="verbatim-b">/MSG ChanServ ACCESS <span class="subst">#channel</span> LIST</span>
+
 
       <p>Operators will have the +o flag. One of these operators will have to 
       unban/unquiet you, <span class="freenode">freenode</span> staff will not 
-      intervene in most cases.</p>
-    </li>
+      intervene in most cases.</p></dd>
 
-    <li>
-      <b>
-        <a id="talk"></a>Why can't I talk in a certain channel?
-      </b>
-      <p>There are two common reasons for being unable to talk in a channel. The 
-      first is that you might be quieted. You can view the quiet list for a 
-      channel with</p>
-      <span class="verbatim-b">/mode #channel +q</span>
+  <dt id="talk">Why can't I talk in a certain channel?</dt>
+    <dd><p>There are two common reasons for being unable to talk in a channel.
+    The first is that you might be quieted. You can view the quiet list for a
+    channel with</p>
 
-      <p>If you find a quiet set against you and you feel it is a mistake, you 
+
+      <span class="verbatim-b">/MODE #channel +q</span>
+
+
+      <p>If you find a quiet set against you and you feel it is a mistake, you
       should contact the channel operators to discuss having it removed.</p>
-      
-      <p>The second common reason for being unable to talk in a channel is that it 
-      has channel mode +m enabled. This mode prevents anyone who is not voiced 
-      from talking (if channel mode +z is also enabled, you will be able to talk, 
-      but only operators will see your messages).</p>
-    </li>
+      <p>The second common reason for being unable to talk in a channel is that it
+      has channel mode +m enabled. This mode prevents anyone who is not voiced
+      from talking (if channel mode +z is also enabled, you will be able to talk,
+      but only operators will see your messages).</p></dd>
 
-    <li>
-      <b>
-        <a id="changepass"></a>How do I change my password?
-      </b>
-      <p>If you are identified to your account, you can change your password yourself. 
-      To change the password, enter the following command:</p>
-      <span class="verbatim-b">/MSG NickServ
-      SET PASSWORD <span class="subst">mynewpassword</span></span>
+  <dt id="changepass">How do I change my password?</dt>
+    <dd><p>If you are identified to your account, you can change your password
+    yourself. To change the password, enter the following command:</p>
 
-      <p>Make sure that you are using SET PASSWORD instead of SETPASS. If you have 
-      forgotten your old password and are unable to identify, see
-      <a href="#sendpass">below</a> for information on how to have staff send you
-      a password reset email.</p>
-    </li>
+      <span class="verbatim-b">/MSG NickServ SET PASSWORD <span
+      class="subst">mynewpassword</span></span>
 
-    <li>
-      <b>
-        <a id="sendpass"></a>What do I do if I forget my password?
-      </b>
+      <p>Make sure that you are using SET PASSWORD instead of SETPASS. If you have
+      forgotten your old password and are unable to identify, see <a
+      href="#sendpass">below</a> for information on how to have staff send you a
+      password reset email.</p></dd>
 
-      If you forget your password, but still have access to the email account 
-      that is associated with the IRC account, staff can send a password reset 
-      email. Simply ask in #freenode or PM a staff member to have the email sent.
+  <dt id="sendpass">What do I do if I forget my password?</dt>
+    <dd>If you forget your password, but still have access to the email account
+    that is associated with the IRC account, staff can send a password reset
+    email. Simply ask in #freenode or PM a staff member to have the email
+    sent.</dd>
 
-      <br /><br />
-    </li>
+  <dt id="monitor">Is there a way to get notified when a user comes online?</dt>
+    <dd>The server supports a special command called 'MONITOR', which is a
+    server side notify list. This command is a more efficient version of most
+    'NOTIFY' commands or friend list that your client might support. Consult
+    your client's documentation for help. A script for irssi is available from
+    the irssi <a href="http://scripts.irssi.org">scripts repository</a>.</dd>
 
-    <li>
-      <b>
-        <a id="monitor"></a>Is there a way to get notified when a user comes online?
-      </b>
+  <dt id="memoserv">How do I contact an offline user?</dt>
+    <dd><p><span class="freenode">freenode</span> runs several <a
+    href="services.shtml">services</a>, one of which is MemoServ. You can send a
+    message to a user via MemoServ with:</p>
 
-      The server supports a special command called 'MONITOR', which is a server 
-      side notify list. This command is a more efficient version of most 'NOTIFY' 
-      commands or friend list that your client might support. Consult your client's
-      documentation for help. A script for irssi is available from the irssi 
-      <a href="http://scripts.irssi.org">scripts repository</a>.
 
-      <br /><br />
-    </li>
+      <span class="verbatim-b">/MSG MemoServ SEND nhandler Please contact me when you get this message.</span>
 
-    <li>
-      <b>
-        <a id="memoserv"></a>How do I contact an offline user?
-      </b>
 
-      <p><span class="freenode">freenode</span> runs several <a href="services.shtml">services</a>, 
-      one of which is MemoServ. You can send a message to a user via MemoServ with:</p>
-
-      <span class="verbatim-b">/MSG MemoServ SEND nhandler Please contact me when you get 
-      this message.</span>
-
-      <p>In this example, nhandler will be notified when he comes online about the 
-      message. If he has notifications enabled, he will also be notified via 
+      <p>In this example, nhandler will be notified when he comes online about the
+      message. If he has notifications enabled, he will also be notified via
       email. You can enable email notifications with:</p>
+
+
       <span class="verbatim-b">/MSG NickServ SET EMAILMEMOS ON</span>
+
+
       <p>You can prevent yourself from receiving messages via MemoServ with:</p>
-      <p><span class="verbatim-b">/MSG NickServ SET NOMEMO ON</span></p>
-    </li>
 
-    <li>
-      <b>
-        <a id="channelts">What does it mean when I see <span class="verbatim-i">*** Notice -- TS for #channel changed from 1300123123 to 1255123123</span>?</a>
-      </b>
 
-      <p>You may see a server notice like this when you join an empty, registered
-      channel. The TS is the server adjusting the channel's timestamp, which is
-      saved for every channel and used when recovering from netsplits. If a
-      channel is created independently on two servers that are split, the older
-      channel wins, and when the servers reunite, the newer channel's mode
-      changes and timestamp will be undone and replaced by the older, triggering
-      the notice you see.</p>
-      <p>In short, it's a technical detail that you can safely ignore.</p>
-    </li>
+      <span class="verbatim-b">/MSG NickServ SET NOMEMO ON</span></dd>
 
-    <li>
-      <b id="csinhabit">Why won't ChanServ leave my channel?</b>
 
-      <p>First, check if you have enabled GUARD by looking at the flags line
-      in</p>
-      <p><span class="verbatim-b">/msg ChanServ INFO <span class="subst">#channel</span></span></p>
-      <p>If you see GUARD listed as a flag, you can cause ChanServ to part by turning off GUARD:</p>
-      <p><span class="verbatim-b">/msg ChanServ SET <span class="subst">#channel</span> GUARD off</span></p>
-      <p>If ChanServ still won't leave, and you are the only other person in
-      the channel, you are seeing ChanServ's &quot;inhabit&quot; behavior. Some
+  <dt id="channelts">What does it mean when I see <span class="verbatim-i">*** Notice -- TS for #channel changed from 1300123123 to 1255123123</span>?</dt>
+    <dd>You may see a server notice like this when you join an empty, registered
+    channel. The TS is the server adjusting the channel's timestamp, which is
+    saved for every channel and used when recovering from netsplits. If a
+    channel is created independently on two servers that are split, the older
+    channel wins, and when the servers reunite, the newer channel's mode changes
+    and timestamp will be undone and replaced by the older, triggering the
+    notice you see. In short, it's a technical detail that you can safely
+    ignore.</dd>
+
+  <dt id="csinhabit">Why won't ChanServ leave my channel?</dt>
+    <dd><p>First, check if you have enabled GUARD by looking at the flags line
+    in</p>
+
+
+      <span class="verbatim-b">/MSG ChanServ INFO <span class="subst">#channel</span></span>
+
+
+      <p>If you see GUARD listed as a flag, you can cause ChanServ to part by
+      turning off GUARD:</p>
+
+
+      <span class="verbatim-b">/MSG ChanServ SET <span class="subst">#channel</span> GUARD off</span>
+
+
+      <p>If ChanServ still won't leave, and you are the only other person in the
+      channel, you are seeing ChanServ's &quot;inhabit&quot; behavior. Some
       clients part and rejoin a channel when they are its only occupant,
       attempting to gain ops. This doesn't work on a network that has services,
       like <span class="freenode">freenode</span>, and causes the client to
       rapidly join and part the channel.</p>
       <p>To prevent this behavior, ChanServ remains in the channel until another
-      person joins. This behavior cannot be disabled. If it is bothersome, you
-      can momentarily join the channel on a second connection. This will cause
+      person joins. This behavior cannot be disabled. If it is bothersome, you can
+      momentarily join the channel on a second connection. This will cause
       ChanServ to part. If the channel empties and is recreated, the inhabit
-      behavior will be triggered again.</p>
-    </li>
-  </ul>
+      behavior will be triggered again.</p></dd>
 
-  <h2 id="gettinghelp">Getting Help</h2>
+</dl>
 
-  <ul>
-    <li>
-      <b>
-        <a id="helpfromstaff"></a> How do I get help from the network staff?
-      </b>
-      <p>All staff currently connected to the network will be voiced in #freenode.
-      Keep in mind that all network staff are volunteers and you may sometimes
-      have to wait for a staffer to become active. You can also issue the command</p>
-      <span class="verbatim-b">/stats p</span>
-      <p>from within your IRC client. Certain clients, such have BitchX, have
-      bugs which make it harder to use the command; in those cases you may have
-      to type something like <span class="verbatim-i">/quote stats p</span>.
-      You'll be provided a current list of on-call <span class="freenode">freenode</span>
+<h2 id="gettinghelp">Getting Help</h2>
+<dl>
+
+  <dt id="helpfromstaff">How do I get help from the network staff?</dt>
+    <dd><p>All staff currently connected to the network will be voiced in
+    #freenode. Keep in mind that all network staff are volunteers and you may
+    sometimes have to wait for a staffer to become active. You can also issue
+    the command</p>
+
+
+      <span class="verbatim-b">/STATS p</span>
+
+
+      <p>from within your IRC client. Certain clients, such have BitchX, have bugs
+      which make it harder to use the command; in those cases you may have to type
+      something like <span class="verbatim-i">/QUOTE STATS p</span>. You'll be
+      provided a current list of on-call <span class="freenode">freenode</span>
       staffers. Feel free to message one or more staffers as necessary until you
-      find someone who can help you. Not all freenode staffers are listed; please
-      use this list as your indication of current availability.</p>
-    </li>
-   <!--
-    <li>
-      <b>
-        <a id="messageyou"></a>May I message you?
-      </b>
-
-      You can message staff at any time. You may like to check that whoever
-      you want to message is online before sending. Do so using <i>/whois Nick</i>
-      and looking for a line stating that the user is "away".
-    </li>-->
-
-    <li>
-      <b>
-        <a id="cloaks"></a>Can I get a hostname cloak?
-      </b>
-
-      Yes. You can get a generic "unaffiliated" user cloak to hide
-      your hostname or you can get a project cloak to show your
-      participation in a community project. Please be aware that
-      cloaks do not provide an absolute guarantee that your hostname
-      is hidden. An alternative approach is to
-      use <a href="irc_servers.shtml#tor">Tor-SASL</a> to connect to
-      freenode.
-
-      <br /><br />
-
-      While we do offer generic (unaffiliated) cloaks and group cloaks without
-      a donation to PDPC, we hope you'll consider 
-
-      <a href="pdpc_donations.shtml">making a donation</a>
-
-      to
-
-      <a href="pdpc.shtml">Peer-Directed Projects Center</a>.
-
-      PDPC is the not-for-profit entity which runs the network. If you
-      donate, you'll get a nice cloak by way of acknowledgement and have the
-      satisfaction of knowing that you've helped the network and PDPC
-      continue to grow.
-
-      <br /><br />
-
-      Regardless of which type of cloak you decide to get, the setup
-      is the same. Just read <a href="#nicksetup">this link</a>,
-      which explains the procedure. Be sure to check off all the
-      steps and make sure they're done. Then:
-
-      <br /><br />
-
-      <ul>
-        <li>
-          If you'd like a generic "unaffiliated" user cloak, just ask a
-          network staffer to turn it on for you.
-          <br /><br />
-          The cloak will be unaffiliated/<i>youraccount</i>, where
-          <i>youraccount</i> is your account name, lower-cased. If your
-          account name contains characters other than 0-9, A-Z, a-z, or
-          hyphen, your cloak will be appended with a /x-1234567, to
-          make it unique (the 1234567 numbers are pseudo-randomly chosen)
-          and the invalid characters will be removed or substituted.
-          If your account name does not contain any alphanumeric
-          characters, we will ask you to pick another account name before
-          receiving a cloak.
-          <br /><br />
-        </li>
-
-        <li>
-          If you'd like a project cloak, contact your project leader to set
-          it up.
-          <br /><br />
-          The format of project cloaks is determined by each project. More
-          information is in the FAQ on <a href="#cloakformat">group cloak
-          formats</a>.
-          <br /><br />
-        </li>
-
-        <li>
-          If you'd like to
-
-          <a href="pdpc_donations.shtml">donate</a>,
-
-          just use one of the
-          
-          <a href="pdpc.shtml#donate">buttons</a>
-
-          on the navbar at the left hand side of the page. We'll mark your
-          cloak to indicate your level of support!
-          <br /><br />
-        </li>
-      </ul>
-      Keep in mind, a cloak is applied to a NickServ account. This means that 
-      all grouped nicks will also be cloaked while you are identified. It also 
-      means that dropping your account will result in you losing your cloak. We generally
-      only offer one cloaked account per user (excluding (a) legitimate bot account(s)).
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="projectcloak"></a>How do we set up cloaking to identify participants in our FOSS project?
-      </b>
-      
-      First
-
-      <a href="group_registration.shtml">register your group</a>
-
-      to provide <span class="freenode">freenode</span> staff with an official
-      liaison to your project.  We'll contact you to work out an
-      appropriate cloaking suffix to identify your participants.  Your
-      group contact will be responsible for contacting us, as needed, to
-      designate the IRC nicknames of participants who are eligible to
-      have your project cloaks, as well as the specifics of the cloaks. 
-      <br /><br />
-      Until <a href="gms.shtml"><b>GMS</b></a> complements <b>services</b>, this process will
-      remain a mostly-manual one, so please don't hesitate to ping a staffer
-      if you don't receive a response within a couple of weeks or so.
-      <br /><br />
-    </li>
-  </ul>
-
-  <h2 id="groups">Groups and Group Contacts</h2>
-
-  <ul>
-    <li>
-      <b>
-        <a id="groupregistration"></a>
-        
-        What is the purpose of group registration?
-      </b>
-      
-      When you register your group or organisation, you indicate your
-      official participation in the network. Registration allows you to
-      reserve, acquire and control channels associated with your group name
-      and allows you to provide your participants with hostname cloaks. 
-      Group registration is required to sponsor a new server.
-
-      <br /><br />
-      
-      At some point, registration will be required to create permanent
-      channels on
-      
-      <span class="freenode">freenode</span>.
-
-      <br /><br />
-    </li>
-
-    <li>
-      <b>
-        <a id="groupactivity"></a>
-        
-        What level of activity is expected from groups registered on freenode?
-      </b>
-      
-      No minimum level of activity is expected or required from registered
-      groups.  You need not sponsor a server, provide your members,
-      participants or employees with hostname cloaks or actively moderate
-      the channels reserved to you.
-
-      <br /><br />
-      
-      Registration indicates your official participation in
-      
-      <span class="freenode">freenode</span>
-      
-      and provides your group with facilities and capabilities which
-      you can use as needed.
-      
-      <br /><br />
-    </li>
-
-    <li>
-      <b>
-        <a id="gcfunctions"></a> What functions can group contacts perform?
-      </b>
-      
-      Group contacts represent your group to
-      
-      <span class="freenode">freenode</span>
-      
-      staff. Group contacts can request cloaks for group members or project
-      participants.  They can request password resets for channels reserved
-      to your group. They can request changes in the channel contact or
-      access list for any channel reserved to your group. Group contacts
-      serve as technical contacts if your group sponsors a server.
-
-      Group contacts are also invited to sit on the Group Advisory Board, or 
-      GAB as we refer to it, which has been introduced to allow the projects 
-      who use our services to have a voice in shaping the future of freenode
-      and the PDPC and which direction we take in future and how we can best 
-      help create environments that promote cross project collaboration, 
-      sharing of resources and bringing people together, on and offline.
-      <br /><br />
-
-    </li>
-
-    <li>
-      <b>
-        <a id="gcsetup"></a> How do we set up group contacts?
-      </b>
-      
-      The following checklist will help you set up your registration and
-      group contacts.
-      
-      <br /><br />
-      
-      <ol>
-        <li>
-          <b>Read the documentation.</b>
-          
-          The page on
-          
-          <a href="group_registration.shtml">group registration</a>
-          
-          provides basic reference information.
-          
-          <br /><br />
-        </li>
-          
-        <li>
-          <b>Discuss registration with your board, manager or core group.</b>
-          
-          Group registration indicates official participation by your group
-          or organisation in
-          
-          <span class="freenode">freenode</span>.
-          
-          If this is something your group wants to do, it should make an
-          official decision to do so before proceeding.
-          
-          <br /><br />
-        </li>
-        
-        <li>
-          <b>Fill out a <i>primary</i> group contact form(s).</b>
-          
-          Have a board representative, a manager or a member of your core
-          group, as appropriate,
-          
-          <a href="group_registration_form.php">fill out the group contact form</a>,
-          
-          selecting "I am: primary a contact person" and providing his or
-          her own contact information.  More than one primary contact
-          form can be submitted, as appropriate.
-          
-          <br /><br />
-        </li>
-        
-        <li>
-          <b>Fill out one or more <i>alternate</i> group contact form(s).</b>
-          
-          Have one or more active group contacts
-          
-          <a href="group_registration_form.php">fill out the group contact form</a>,
-          
-          selecting "I am: a contact person being alternate."
-          
-          <br /><br />
-        </li>
-      </ol>
-    </li>
-    
-    <li>
-      <b>
-        <a id="gcverify"></a> How do you verify group contacts?
-      </b>
-      
-      A representative of
-      
-      <a href="pdpc.shtml">Peer-Directed Projects Center</a>,
-      
-      the not-for-profit entity which runs the network, will contact your
-      group contact to verify the information provided on the form.
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="gcdifference"></a> What is the difference between a
-        <i>primary</i> and an <i>alternate</i> group contact?
-      </b>
-      
-      A <i>primary</i> contact has the authority to represent your group,
-      project or organisation and to verify that your group has approved its
-      registration with <span class="freenode">freenode</span>.  For a legal
-      entity, a primary contact can be an upper-level manager or a member
-      of your board. For an informal group, a primary contact should be
-      your project lead or a member of the core committee that makes
-      decisions for your group.
-      
-      <br /><br />
-      
-      An <i>alternate</i> contact, where specified, is an individual who does
-      not have clear authority to represent your group and must be alternate
-      by at least one <i>primary</i> contact.
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="cloakformat"></a> How are group cloaks formatted?
-      </b>
-      
-      Group cloak components appear in left-major order and are separated by
-      slashes ('/'). They are:
-      
-      <br /><br />
-      
-      <ol>        
-        <li>
-          <b>Group or project name.</b>
-          
-          We'll provide you with a group name and with optional project
-          names.  For each cloak you request, you should select a name from
-          the set we've reserved for you.
-          
-          <br /><br />
-        </li>
-
-        <li>
-          <b>Cloak hierarchy.</b>
-          
-          You can select "inside" tokens to indicate the user's role in your
-          project or group.  These might include words like <b>developer,
-          staffer, support, member</b> or even <b>donor</b>. You can create
-          a hierarchy of roles if you wish.  "Inside" tokens and any cloak
-          hierarchy are entirely your choice, and some projects omit them.
-          
-          <br /><br />
-          
-          Please use the token <b>bot</b> to indicate automated utility
-          clients.
-          
-          <br /><br />
-        </li>
-
-        <li>
-          <b>Unique identifier.</b>
-          
-          The last token of a group cloak is a unique identifier for the
-          user to whom the cloak belongs. Examples: the user's name, their
-          forum name, their committer id or account id on your server, or
-          their master IRC nick.  Whatever you choose must be unique within
-          the context of your project or group.
-          
-          <br /><br />
-          
-          With your user's permission, we'll prefix a period-separated label
-          to this token to indicate if your user is a donor to PDPC.
-
-	  <br /><br />
-
-	  Dual cloaks, where a period-separated label to the token bearing 
-	  the name of some other project is inserted into the cloak, are
-          strongly discouraged and are only applied, as for all cloaks, at staff discretion
-          and with the consent of group contacts involved and the user.
-          
- 
-          
-          <br /><br />
-        </li>
-      </ol>
-    </li>
-    
-    <li>
-      <b>
-        <a id="cloakchoice"></a> To whom may we offer a group cloak?
-      </b>
-      
-      Group cloaks indicate a relationship with your group or project.  You
-      may offer a cloak to any individual with whom you want to assert such
-      a relationship.  For example, you might want to cloak group members or
-      organisational employees, developers, administrative or staff
-      personnel or even donors.  It's your choice.  You request the cloak
-      and we'll offer it to the person you specify. They'll decide whether
-      to accept it.
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="gcrequest"></a> How do we request group or project cloaks?
-      </b>
-      
-      To request a cloak, just provide us with your user's master IRC
-      nickname and the proposed cloak. You can request a list of cloaks or
-      cloaking changes at one time.  If it's a short list, check with
-
-      <a href="#gettinghelp">first level support</a>
-      
-      and we'll be happy to help. If it's a longer list, please email it to
-      <b>support at freenode dot net</b> and mark your email as containing
-      cloak updates for your project. You can still check with first-level
-      support to speed things along.
-      
-      <br /><br />
-      
-      We'll process your cloak updates as soon as we can.  Global changes,
-      such as those involved in a group name change, will probably take
-      longer.
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="gcautomate"></a> What plans do you have to automate the group contact function?
-      </b>
-      
-      We are working on GMS (Group Management System) which will be a "dashboard" allowing 
-      group contacts to easier manage their groups namespace (channels, cloaks, access lists etc)
-      via IRC (Services) and a web-frontend. If you would like to help out with 
-      GMS, head over to 
-
-      <a href="http://dev.freenode.net/GMS">dev.freenode.net/GMS</a> 
-
-      and see if you have any skills we could use!
-      
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="gcwhen"></a> When will group contact processing be automated?
-      </b>
-      
-      Due to very light availability of coding help, we can't predict when
-      <b>GMS</b> will be finished.  We'll keep you posted.
-      
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="gcwhenform"></a> I haven't received a response on my group
-        contact form yet. What's up?
-      </b>
-
-      We're several months behind in our processing of the forms. We're
-      catching up as quickly as we can.
-      
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="squeakywheel"></a><a id="gcspeedup"></a> How can I speed up the processing of my
-        group contact form?
-      </b>
-
-      We use the "squeaky wheel" system.  Speak to
-
-      <a href="#gettinghelp">first level support</a>
-      
-      and ask to have the priority bumped up. We'll do our best to get
-      you taken care of quickly!
-      
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="grouprequests"></a> How do our group members request
-        hostname cloaks or channel resets?
-      </b>
-      
-      You should provide your members with the name of someone associated
-      with your group who can process their requests. We may not be able to
-      point them directly to your group contact due to our
-      
-      <a href="group_privacy.shtml">privacy policy</a>.
-      
-      <br /><br />
-    </li>
-  </ul>
-
-  <h2 id="organisation"><span class="freenode">freenode</span> Project Organisation</h2>
-
-  <ul>
-    <li>
-      <b>
-        <a id="projectfreenode"></a>Who runs <span class="freenode">freenode</span>?
-      </b>
-
-      About 40 volunteer staffers around the planet run the network, under
-      the direction of the head of the project.
-      
-      Since October 2010, <a href="mailto:richih@freeNOSPAMnode.net">Richard Hartmann</a> and
-      <a href="mailto:martin@freeNOSPAMnode.net">Martin Peeks</a> have headed up
-      the <span class="freenode">freenode</span> project, while 
-      <a href="mailto:christel@freeNOSPAMnode.net">Christel Dahlskjaer</a> takes a break
-      from active duty (<a href="http://blog.freenode.net/2010/12/happy-holidays-2/">blog</a>).
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="howtovolunteer"></a>How do I volunteer?
-      </b>
-      If you spend time in <b>#freenode</b> or elsewhere around the network,
-      it's possible you'll be asked if you'd like to perform some staff
-      role.  We usually look for people who haven't asked.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="serverownersandstaff"></a>Do server owners run the network?
-      </b>
-      No, they don't.  Server owners may be tapped for a staff role, but the
-      roles of <i>staffer</i> and <i>facilities host</i> are as separate as
-      we can make them.  On most IRC networks, the roles are combined, which
-      often results in heavy IRC politics and uneven service.  We can't
-      eliminate politics, but we do our best to minimize the effect of such
-      activity on the network.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="staffprivileges"></a>What privileges do staff members get?
-      </b>
-      It varies from staff member to staff member. No minimum level of
-      access is guaranteed to any staff member, including those who host
-      servers.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="serveradministration"></a>Who administers the servers?
-      </b>
-      Staff members update server configurations and install new releases of
-      the software.  They're responsible for routing changes and server
-      problem resolution. Facilities hosts are asked to provide technical
-      contacts who can perform administrative functions in areas where <span
-      class="freenode">freenode</span> staffers have no access.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="howtolink"></a>How do I link my server?
-      </b>
-      Servers are hosted, not linked.  For information on how to host a
-      server, please take a look
-
-      <a href="hosting_ircd.shtml">here</a>.
-
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="complaintdept"></a>Who do I complain to?
-      </b>
-      If you have a constructive suggestion, please email it to: support at
-      freenode dot net.  If you would like to suggest a server feature,
-      please email it to: features at freenode dot net.  If you think you've
-      found a bug in the server code, please email a detailed bug report to:
-      bugs at freenode dot net.  Please avoid sending flames and abusive
-      messages to staff, particularly while we're trying to solve a problem. 
-      It may be good for your ego, but it doesn't help the network.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="complaintvolume"></a>Do you get a lot of complaints?
-      </b>
-      Not so many, but the ones we get can be, uh, very memorable. When
-      things are running well, people tend to forget how much work it
-      takes to keep <span class="freenode">freenode</span> running.  If you like
-      the service, tell a staffer.  It'll make our day. :)
-      <br /><br />
-    </li>
-  </ul>
-
-  <h2 id="pdpc">Contributions</h2>
-
-  <ul>
-    <li>
-      <b>
-        <a id="whymoney"></a>Why do you need money?
-      </b>
-      Peer-Directed Projects Center, the parent organisation of <span
-      class="freenode">freenode</span>, is a not for profit organisation 
-      incorporated in England and Wales.
-
-      We talk about some of our other projects
-
-      <a href="pdpc.shtml">here</a>.
-
-      Without your
-
-      <a href="pdpc_donations.shtml">support</a>,
-
-      we'll find it difficult to maintain and expand the growing
-
-      <a href="index.shtml	">freenode</a>
-
-      network or take on the other community service projects in planning.
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="moneydecisions"></a>Who decides how the money you collect will be spent?
-      </b>
-      The Board of Directors of Peer-Directed Projects Center must approve
-      all expenditures of funds for <span class="freenode">freenode</span> and
-      other PDPC projects.  
-      <br /><br />
-    </li>
-    
-    <li>
-      <b>
-        <a id="donationcost"></a>What does it cost when I donate?
-      </b>
-      If you donate via PayPal, we receive your donation less PayPal fees. 
-      At last check, we were charged at the standard rate, 2.9% plus a 20 
-      pence fee.
-
-      <br /><br />
-
-    </li>
-    
-    <li>
-      <b>
-        <a id="whycloak"></a> Why should I wear a <a href="#cloaks">cloak</a> to acknowledge my donation?
-      </b>
-      
-      When you wear the cloak, your donation becomes more visible, which
-      helps to raise awareness of the idea of donating to Peer-Directed
-      Projects Center, the not-for-profit entity which runs <span
-      class="freenode">freenode</span>. So, in a sense, your donation goes
-      twice as far.  We strongly recommend that you
-
-      <a href="#nicksetup">do the necessary setup</a>
-
-      and wear the cloak!
-      <br /><br />
-    </li>
-  </ul>
-
+      find someone who can help you. Not all <span
+      class="freenode">freenode</span> staffers are listed; please use this list
+      as your indication of current availability.</p></dd>
+
+<!--  <dt id="messageyou">May I message you?</dt>
+    <dd>You can message staff at any time. You may like to check that whoever
+    you want to message is online before sending. Do so using <span
+    class="verbatim-i">/WHOIS nick</span> and looking for a line stating that
+    the user is "away".</dd>-->
+
+  <dt id="cloaks">Can I get a hostname cloak?</dt>
+    <dd><p>You can ask for an unaffiliated cloak in #freenode. This is our
+    standard cloak and normally shows @unaffiliated/youraccountname. You will
+    need a <a href="#nicksetup">registered nickserv account</a>. Some of our
+    registered groups offer their own cloaks for their projects. To obtain one
+    of these, you need to find the group contact for the group you are
+    interested in, and ask them to arrange the cloak for you. Lastly, if you <a
+    href="pdpc_donations.shtml">make a donation</a> to the <a
+    href="pdpc.shtml">Peer-Directed Projects Center</a>. our parent group, we
+    offer special donation cloaks in acknowledgement.</p>
+    <p>We generally offer only one cloak per person, and a cloak is applied to a
+    <a href="#nicksetup">nickserv account</a>. If you want a cloak for your bot,
+    please create a separate account for it before asking.</p>
+
+    <p>As always, please observe good behaviour and adhere to network policies
+    whilst wearing cloaks. We reserve the right to refuse to cloak accounts, and
+    to remove cloaks from accounts if necessary.</p>
+
+    <p>Lastly, note that a cloak does not guarantee that your IP address remains
+    hidden. If this is very important to you, we'd suggest that you look at the
+    <a href="irc_servers.shtml#tor">tor hidden service</a>.</p></dd>
+
+  <dt id="projectcloak">How do we set up cloaking to identify participants in our FOSS project?</dt>
+    <dd><p>First <a href="group_registration.shtml">register your group</a> to
+    provide <span class="freenode">freenode</span> staff with an official
+    liaison to your project. We'll contact you to work out an appropriate
+    cloaking suffix to identify your participants. Your group contact will be
+    responsible for contacting us, as needed, to designate the IRC nicknames of
+    participants who are eligible to have your project cloaks, as well as the
+    specifics of the cloaks.</p>
+    <p>Until <a href="gms.shtml">GMS</a> complements services, this process will
+    remain a mostly-manual one, so please don't hesitate to ping a staffer if
+    you don't receive a response within a couple of weeks or so.</p></dd>
+
+</dl>
+
+<h2 id="groups">Groups and Group Contacts</h2>
+<dl>
+
+  <dt id="groupregistration">What is the purpose of group registration?</dt>
+    <dd>When you register your group or organisation, you indicate your official
+    participation in the network. Registration allows you to reserve, acquire
+    and control channels associated with your group name and allows you to
+    provide your participants with hostname cloaks. At some point, registration
+    will be required to create permanent primary channels on <span
+    class="freenode">freenode</span>.</dd>
+
+  <dt id="groupactivity">What level of activity is expected from groups registered on <span class="freenode">freenode</span>?</dt>
+    <dd>No minimum level of activity is expected or required from registered
+    groups. You need not sponsor a server, provide your members, participants or
+    employees with hostname cloaks or actively moderate the channels reserved to
+    you. Registration indicates your official participation in <span
+    class="freenode">freenode</span> and provides your group with facilities and
+    capabilities which you can use as needed.</dd>
+
+  <dt id="gcfunctions">What functions can group contacts perform?</dt>
+    <dd><p>Group contacts represent your group to <span
+    class="freenode">freenode</span> staff. Group contacts can request cloaks
+    for group members or project participants. They can request changes in the
+    channel founder or access list for any channel reserved to your group.</p>
+    <p>Group contacts are also invited to sit on the Group Advisory Board, or
+    GAB as we refer to it, which has been introduced to allow the projects who
+    use our services to have a voice in shaping the future of <span
+    class="freenode">freenode</span> and the PDPC and which direction we take in
+    future and how we can best help create environments that promote cross
+    project collaboration, sharing of resources and bringing people together, on
+    and offline.</p></dd>
+
+  <dt id="gcsetup">How do we set up group contacts?</dt>
+    <dd><p>Our <a href="group_registration.shtml">group registration</a> page
+    provides basic reference information for the registration process. Group
+    registration indicates official participation by your group or organisation
+    in <span class="freenode">freenode</span>, so discuss it with your board or
+    leadership and have them make an official decision before proceeding.</p>
+    <p>Then, have a board representative, a manager or a member of your core
+    group, as appropriate, fill out a <a
+    href="group_registration_form.php">group contact form</a>, selecting "I am:
+    a primary contact person" and providing his or her own contact information.
+    More than one primary contact form can be submitted, as appropriate. You can
+    also have one or more active group contacts <a
+    href="group_registration_form.php">fill out the group contact form</a>,
+    selecting "I am: a contact person being alternate."</p></dd>
+
+  <dt id="gcverify">How do you verify group contacts?</dt>
+    <dd>A representative of <a href="pdpc.shtml">Peer-Directed Projects
+    Center</a>, the not-for-profit entity which runs the network, will contact
+    your group contact to verify the information provided on the form.</dd>
+
+  <dt id="gcdifference">What is the difference between a <em>primary</em> and an <em>alternate</em> group contact?</dt>
+    <dd><p>A <em>primary</em> contact has the authority to represent your group,
+    project or organisation and to verify that your group has approved its
+    registration with <span class="freenode">freenode</span>. For a legal
+    entity, a primary contact can be an upper-level manager or a member of your
+    board. For an informal group, a primary contact should be your project lead
+    or a member of the core committee that makes decisions for your group.</p>
+    <p>An <em>alternate</em> contact, where specified, is an individual who does
+    not have clear authority to represent your group and must be alternate by at
+    least one <em>primary</em> contact.</p></dd>
+
+  <dt id="cloakformat">How are group cloaks formatted?</dt>
+    <dd><p>Group cloak components appear in left-major order and are separated
+    by slashes ('/'). They are:</p>
+    <ol>
+      <li><p><strong>Group or project name:</strong> We'll provide you with a
+      group name and with optional project names. For each cloak you request, you
+      should select a name from the set we've reserved for you.</p></li>
+      <li><p><strong>Cloak hierarchy:</strong> You can select "inside" tokens to
+      indicate the user's role in your project or group. These might include words
+      like developer, staffer, support, member or even donor. You can create a
+      hierarchy of roles if you wish. "Inside" tokens and any cloak hierarchy are
+      entirely your choice, and some projects omit them.</p>
+        <p>Please use the token "bot" to indicate automated utility
+        clients.</p></li>
+      <li><p><strong>Unique identifier:</strong>The last token of a group cloak is
+      a unique identifier for the user to whom the cloak belongs. Examples: the
+      user's name, their forum name, their committer id or account id on your
+      server, or their master IRC nick. Whatever you choose must be unique within
+      the context of your project or group.</p>
+        <p>With your user's permission, we'll prefix a period-separated label to
+        this token to indicate if your user is a donor to PDPC.</p>
+        <p>Dual cloaks, where a period-separated label to the token bearing the name
+        of some other project is inserted into the cloak, are strongly discouraged
+        and are only applied, as for all cloaks, at staff discretion and with the
+        consent of group contacts involved and the user.</p></li>
+    </ol></dd>
+
+  <dt id="cloakchoice">To whom may we offer a group cloak?</dt>
+    <dd>Group cloaks indicate a relationship with your group or project. You may
+    offer a cloak to any individual with whom you want to assert such a
+    relationship. For example, you might want to cloak group members or
+    organisational employees, developers, administrative or staff personnel or
+    even donors. It's your choice. You request the cloak and we'll offer it to
+    the person you specify. They'll decide whether to accept it.</dd>
+
+  <dt id="gcrequest">How do we request group or project cloaks?</dt>
+    <dd><p>To request a cloak, just provide us with your user's master IRC
+    nickname and the proposed cloak. You can request a list of cloaks or
+    cloaking changes at one time. If it's a short list, check with <a
+    href="#gettinghelp">first level support</a> and we'll be happy to help. If
+    it's a longer list, please email it to support at freenode dot net and mark
+    your email as containing cloak updates for your project. You can still check
+    with first-level support to speed things along.</p>
+    <p>We'll process your cloak updates as soon as we can. Global changes, such
+    as those involved in a group name change, will probably take longer.</p></dd>
+
+  <dt id="gcautomate">What plans do you have to automate the group contact function?</dt>
+    <dd>We are working on GMS (Group Management System) which will be a
+    "dashboard" allowing group contacts to easier manage their groups namespace
+    (channels, cloaks, access lists etc) via IRC (Services) and a web-frontend.
+    If you would like to help out with GMS, head over to <a
+    href="http://dev.freenode.net/GMS">dev.freenode.net/GMS</a> and see if you
+    have any skills we could use!</dd>
+
+  <dt id="gcwhen">When will group contact processing be automated?</dt>
+    <dd>Due to very light availability of coding help, we can't predict when GMS
+    will be finished. We'll keep you posted.</dd>
+
+  <dt id="gcwhenform">I haven't received a response on my group contact form yet. What's up?</dt>
+    <dd>We're several months behind in our processing of the forms. We're
+    catching up as quickly as we can.</dd>
+
+  <dt id="grouprequests">How do our group members request hostname cloaks?</dt>
+    <dd>You should provide your members with the name of someone associated with
+    your group who can process their requests. We may not be able to point them
+    directly to your group contact due to our <a
+    href="group_privacy.shtml">privacy policy</a>.</dd>
+
+</dl>
+
+<h2 id="organisation"><span class="freenode">freenode</span> Project Organisation</h2>
+<dl>
+
+  <dt id="projectfreenode">Who runs <span class="freenode">freenode</span>?</dt>
+    <dd>About 40 volunteer staffers around the planet run the network, under the
+    direction of the head of the project, <a
+    href="mailto:christel@freeNOSPAMnode.net">Christel Dahlskjaer</a>.</dd>
+
+  <dt id="howtovolunteer">How do I volunteer?</dt>
+    <dd>If you spend time in #freenode or elsewhere around the network, it's
+    possible you'll be asked if you'd like to perform some staff role. We
+    usually look for people who haven't asked.</dd>
+
+  <dt id="serverownersandstaff">Do server owners run the network?</dt>
+    <dd>No, they don't. Server owners may be tapped for a staff role, but the
+    roles of staffer and facilities host are as separate as we can make them. On
+    most IRC networks, the roles are combined, which often results in heavy IRC
+    politics and uneven service. We can't eliminate politics, but we do our best
+    to minimize the effect of such activity on the network.</dd>
+
+  <dt id="staffprivileges">What privileges do staff members get?</dt>
+    <dd>It varies from staff member to staff member. No minimum level of access
+    is guaranteed to any staff member, including those who host servers.</dd>
+
+  <dt id="serveradministration">Who administers the servers?</dt>
+    <dd>Staff members update server configurations and install new releases of
+    the software. They're responsible for routing changes and server problem
+    resolution. Facilities hosts are asked to provide technical contacts who can
+    perform administrative functions in areas where <span
+    class="freenode">freenode</span> staffers have no access.</dd>
+
+  <dt id="howtolink">How do I link my server?</dt>
+    <dd>Servers are hosted, not linked. For information on how to host a server,
+    please take a look <a href="hosting_ircd.shtml">here</a>.</dd>
+
+  <dt id="complaintdept">Who do I complain to?</dt>
+    <dd>If you have a constructive suggestion, please email it to: support at
+    freenode dot net. If you would like to suggest a server feature, please
+    email it to: features at freenode dot net. If you think you've found a bug
+    in the server code, please email a detailed bug report to: bugs at freenode
+    dot net. Please avoid sending flames and abusive messages to staff,
+    particularly while we're trying to solve a problem. It may be good for your
+    ego, but it doesn't help the network.</dd>
+
+  <dt id="complaintvolume">Do you get a lot of complaints?</dt>
+    <dd>Not so many, but the ones we get can be, uh, very memorable. When things
+    are running well, people tend to forget how much work it takes to keep <span
+    class="freenode">freenode</span> running. If you like the service, tell a
+    staffer. It'll make our day. :)</dd>
+
+</dl>
+
+<h2 id="pdpc">Contributions</h2>
+<dl>
+
+  <dt id="whymoney">Why do you need money?</dt>
+    <dd>Peer-Directed Projects Center, the parent organisation of <span
+    class="freenode">freenode</span>, is a not for profit organisation
+    incorporated in England and Wales. We talk about some of our other projects
+    <a href="pdpc.shtml">here</a>. Without your <a
+    href="pdpc_donations.shtml">support</a>, we'll find it difficult to maintain
+    and expand the growing <a href="index.shtml ">freenode</a> network or take
+    on the other community service projects in planning.</dd>
+
+  <dt id="moneydecisions">Who decides how the money you collect will be spent?</dt>
+    <dd>The Board of Directors of Peer-Directed Projects Center must approve all
+    expenditures of funds for <span class="freenode">freenode</span> and other
+    PDPC projects.</dd>
+
+  <dt id="donationcost">What does it cost when I donate?</dt>
+    <dd>If you donate via PayPal, we receive your donation less PayPal fees. At
+    last check, we were charged at the standard rate, 2.9% plus a 20 pence
+    fee.</dd>
+
+  <dt id="whycloak">Why should I wear a <a href="#cloaks">cloak</a> to acknowledge my donation?</dt>
+    <dd>When you wear the cloak, your donation becomes more visible, which helps
+    to raise awareness of the idea of donating to Peer-Directed Projects Center,
+    the not-for-profit entity which runs <span class="freenode">freenode</span>.
+    So, in a sense, your donation goes twice as far. We strongly recommend that
+    you <a href="#nicksetup">do the necessary setup</a> and wear the cloak!</dd>
+
+</dl>
 
 <!--#include file="include/trailer.shtml" -->

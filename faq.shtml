@@ -216,7 +216,7 @@ dot net! Thank you.</p>
 
 
           <span class="verbatim-b">/MSG NickServ REGISTER <span
-          class="subst">password</span><span
+          class="subst">password</span> <span
           class="subst">youremail@example.com</span></span>
 
 

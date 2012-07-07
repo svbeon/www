@@ -924,7 +924,7 @@ dot net! Thank you.</p>
 
     <p>Lastly, note that a cloak does not guarantee that your IP address remains
     hidden. If this is very important to you, we'd suggest that you look at the
-    <a href="irc_servers.shtml#tor">tor hidden service</a>.</p></dd>
+    <a href="irc_servers.shtml#tor">Tor hidden service</a>.</p></dd>
 
   <dt id="projectcloak">How do we set up cloaking to identify participants in our FOSS project?</dt>
     <dd><p>First <a href="group_registration.shtml">register your group</a> to

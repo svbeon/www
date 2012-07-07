@@ -246,38 +246,7 @@
 <p>
   Our current policy is not to create new forwards between # and ## channels of the same name.
   Some channels may be forwarded to a holding channel that explains the namespace policy.
-</p> 
-
-<p>  
-  If a primary channel name owner has never registered its group on
-
-  <span class="freenode">freenode</span>
-
-  or has registered and subsequently left the network, senior network staff
-  may decide to forward the primary channel to the corresponding topical or
-  reference channel or to some other group channel on the network.
-</p>
-
-<p>
-  A forward may be created in a case where staff believes that the
-  destination channel will provide useful unofficial support for the
-  project. We're most likely to create and maintain the forward if the
-  destination channel belongs to a
-
-  <a href="group_registration.shtml">registered group</a>,
-
-  is relatively large and well-developed and conforms to the
-
-  <span class="freenode">freenode</span>
-
-  <a href="channel_guidelines.shtml">channel guidelines</a>.
-</p>
-
-<p>
-  The forward will be removed if the name owner registers and reserves the
-  # channel (or, in a case where the name owner has left the network, if the
-  group returns to active participation).  Channel forwards should be considered
-  to be temporary and subject to removal.
+  Exceptions to this are looked at on a case-by-case basis.
 </p>
 
 <h2 id="ontopic">On-Topic Use</h2>
@@ -618,7 +587,7 @@
   your part reflects on the group which provided you your cloak.  Most
   groups will withdraw a cloak rather than have its owner reflect badly on
   them.  PDPC is no exception. If we receive complaints about your behavior
-  and you're wearing a PDPC cloak, we may remove your cloak. This includes
+  and you're wearing a cloak, we may remove your cloak. This includes
   "pdpc/supporter" cloaks. If we remove your cloak, we may replace it with
   an "unaffiliated" cloak; but antisocial behavior may result in the loss of
   those cloaks as well.  We'll try to contact you in order to let you know
@@ -742,7 +711,7 @@
 
 <blockquote>
   <b>
-    /mode #foo +b *@gateway/tor/*
+    /mode #foo +b *@gateway/tor-sasl/*
   </b>
 </blockquote>
 
@@ -752,7 +721,7 @@
 
 <blockquote>
   <b>
-    /mode #foo +q *@gateway/tor/*
+    /mode #foo +q *@gateway/tor-sasl/*
   </b>
 </blockquote>
 

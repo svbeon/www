@@ -2,19 +2,19 @@
 <!--#set var="content_title" value="Group Registration" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>If you are considering registering as a group on freenode, or you have already filed a GCF and are waiting for this to be processed, please be aware that we are currently experiencing a time-delay in processing forms. 
+<p>If you are considering registering as a group on <span class="freenode">freenode</span>, or you have already filed a GRF and are waiting for this to be processed, please be aware that we are currently experiencing a time-delay in processing forms. 
 This is an unfortunate side-effect of the combination of the following:</p>
 <ul>
 <li> The network has more than doubled in size in the past couple of years, while the number of committed volunteer staff stay much the same as before.</li>
-<li> The PDPC (freenode's parent organisation) no longer has any paid employees and is entirely volunteer-run, a big change from 2006 when there was a dedicated full-time paid employee.</li>
+<li> The PDPC (<span class="freenode">freenode</span>'s parent organisation) no longer has any paid employees and is entirely volunteer-run, a big change from 2006 when there was a dedicated full-time paid employee.</li>
 <li> Under a volunteer-only system the current process is too costly in time and money, and we are committed to develop a replacement. This is the  <a href="http://dev.freenode.net/GMS">Group Management System</a>, which 
-is being worked on when time and availability of volunteers allow (freenode is desperately seeking coders, for this and other projects).</li>
+is being worked on when time and availability of volunteers allow (<span class="freenode">freenode</span> is desperately seeking coders, for this and other projects).</li>
 <li> Due to sensitive nature of the information contained within the Group Contact registration forms currently, only a limited number of people are able to process these, for legal reasons -- to protect both you and us.</li>
 </ul>
 
-<p>
-For the reasons outlined above, the current system is rather inadequate and we hope we will get a replacement in place soon which will enable you to have your group registered much faster than what is currently possible. Due to the current
-backlog, priority is given to groups requiring approval in order to re-gain access/control of their group namespace. We would also ask that "about groups" (ie. double hash/## namespace) do not submit group registration forms. </p> 
+<p> For the reasons outlined above, the current system is rather inadequate and we hope we will get a replacement in place soon which will enable you to have your group registered much faster than what is currently possible. Due 
+to the current backlog, priority is given to groups requiring approval in order to re-gain access/control of their group namespace. We would also ask that "about groups" (ie. double hash/## namespace) do not submit group 
+registration forms. </p>
 
 <p>
 We apologise for the inconvenience and delay and ask that you have patience with us while we attempt to adjust to the exceptional growth and popularity the network has experienced as of late and the transition to being entirely 
@@ -37,7 +37,7 @@ volunteer-run.
 
   or
 
-  <a href="about_groups.shtml">"about"</a>
+  <a href="topical_groups.shtml">"about"</a>
 
   channels. In either case, group registration represents an official
   relationship with
@@ -61,7 +61,6 @@ volunteer-run.
   hope will make the process much smoother, and allow more timely updates to
   your group configuration.
 
-  <br /><br />
 </p>
 
 <p>
@@ -70,7 +69,7 @@ volunteer-run.
 
 <ol>
   <li>
-    <b>
+    <p><b>
       Represents an official relationship between
     
       <span class="freenode">freenode</span>
@@ -80,26 +79,22 @@ volunteer-run.
     
     By registering your group, you're indicating that you are maintaining an
     official presence on the network. If your group is a legal entity, we want
-    to make sure that management has approved your registration.
-
-    <br /><br />
+    to make sure that management has approved your registration.</p>
   </li>
 
   <li>
-    <b>
+    <p><b>
       Requires no special type or level of participation.
     </b>
     
     You may maintain as little or as much control over your channels as
     desired. You may cloak your members, employees or participants, or not,
     as you decide. You may apply to sponsor a server if that's something you
-    wish to do.
-    
-    <br /><br />
+    wish to do.</p>
   </li>
 
   <li>
-    <b>
+    <p><b>
       Is accomplished by submitting one or more
       
       <a href="#groupcontacts">group contact</a>
@@ -113,17 +108,13 @@ volunteer-run.
     
     staff. Forms may be submitted by the group contact or on behalf of that
     person ("proxy submittal") with his or her permission. They are verified
-    by phone. The process takes about fifteen minutes.
+    by phone. The process takes about fifteen minutes.</p>
     
-    <br /><br />
-    
-    If the group contact has limited availability, he or she can provide
+    <p>If the group contact has limited availability, he or she can provide
     scheduling information for the phone call in the 'Contact Notes' field
     of the form. There is currently an extensive backlog in form submittal;
     if we're unable to contact you at the scheduled time, we'll email you to
-    ask for another time to schedule the call.
-
-    <br /><br />
+    ask for another time to schedule the call.</p>
   </li>
 </ol>
 
@@ -133,20 +124,18 @@ volunteer-run.
 
 <ol>
   <li>
-    <b>
+    <p><b>
       The Primary contact.
     </b>
     
     This contact registers to establish that your group intends to create a
     relationship with <span class="freenode">freenode</span> and PDPC. The 
     primary contact should have the authority to make the determination 
-    that your group intends to register, with the specifics depending on the type of group:
-    
-    <br /><br />
+    that your group intends to register, with the specifics depending on the type of group:</p>
     
     <ul>
       <li>
-        <b>
+        <p><b>
           Legal entities.
         </b>
         
@@ -154,13 +143,11 @@ volunteer-run.
         organization's board. This authority can be delegated further in the
         case of larger organizations, but it's not recommended; in cases
         where such delegation occurs, contact with the organization is often
-        lost and the group registration must subsequently be removed.
-        
-        <br /><br />
+        lost and the group registration must subsequently be removed.</p>
       </li>
       
       <li>
-        <b>
+        <p><b>
           Informal, project-oriented groups.
         </b>
         
@@ -171,15 +158,13 @@ volunteer-run.
         form to make it clear that both wish to have the group registered.
         If it's run by a larger core group or by voting across the project,
         the voting group should make a collective decision to register and
-        should appoint one of their number as primary contact.
-        
-        <br /><br />
+        should appoint one of their number as primary contact.</p>
       </li>
     </ul>
   </li>
   
   <li>
-    <b>
+    <p><b>
       The secondary contact.
     </b>
     
@@ -188,9 +173,7 @@ volunteer-run.
     privileges. They need no special level of authority; delegate whatever
     level of authority seems appropriate.  We won't expect them to make
     policy decisions, just to find out the answers to any questions that are
-    raised.
-    
-    <br /><br />
+    raised.</p>
   </li>
 </ol>
 
@@ -200,7 +183,7 @@ volunteer-run.
 
 <ol>
   <li>
-    <b>
+    <p><b>
       Additional channel management capabilities.
     </b>
     
@@ -211,26 +194,22 @@ volunteer-run.
     states that projects and organizations are entitled to own channels
     bearing their names. Your group contact can request changes in channel
     ownership in accordance with this policy and can directly request
-    changes to access lists and configuration for any channels you own.
-    
-    <br /><br />
+    changes to access lists and configuration for any channels you own.</p>
   </li>
 
   <li>
-    <b>
+    <p><b>
       Group hostname cloaks.
     </b>
     
     <a href="faq.shtml#projectcloak">Cloaks</a>
 
     allow your project or organization to grant official recognition to
-    project participants. Your group contact maintains this cloak list.
-
-    <br /><br />
+    project participants. Your group contact maintains this cloak list.</p>
   </li>
 
   <li>
-    <b>
+    <p><b>
       Server maintenance.
     </b>
     
@@ -238,21 +217,17 @@ volunteer-run.
     
     <span class="freenode">freenode</span>
     
-    server, your group contact acts as technical liason.
-
-    <br /><br />
+    server, your group contact acts as technical liason.</p>
   </li>
 
   <li>
-    <b>
+    <p><b>
       Problem solving.
     </b>
     
     When there's a problem with one of your channels or with a server you
     sponsor, a complaint by a user or a question about policy, we'll pass
-    it on to your group contact.
-
-    <br /><br />
+    it on to your group contact.</p>
   </li>
 </ol>
 
@@ -262,51 +237,43 @@ volunteer-run.
 
 <ol>
   <li>
-    <b>
+    <p><b>
       Are designated by your project or organization.
     </b>
     
     For example, a group contact might be your IT manager or someone
-    involved with your project infrastructure.
-    
-    <br /><br />
+    involved with your project infrastructure.</p>
   </li>
 
   <li>
-    <b>
+    <p><b>
       Can be one person or several.
     </b>
     
     You decide who acts as group contact.  Each contact can be designated to
     handle issues pertaining to your entire group, or to a limited set of
     projects or users.  You can designate primary and backup contacts if you
-    wish.
-
-    <br /><br />
+    wish.</p>
   </li>
 
   <li>
-    <b>
+    <p><b>
       Acts as your "goto".
     </b>
     
     When you need someone to talk to us about a network issue, your group
     contact is the person.  They're your formal point of contact with our
-    network staff.
-
-    <br /><br />
+    network staff.</p>
   </li>
 
   <li>
-    <b>
+    <p><b>
       Acts as our "goto".
     </b>
     
     We'll ask your group contact whenever we have any question about your
     project or organizational policies as they pertain to participation in
-    the network.
-    
-    <br /><br />
+    the network.</p>
   </li>
 </ol>
 

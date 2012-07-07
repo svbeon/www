@@ -4,9 +4,9 @@
 
 <p>
 <b>Group Management System</b> (GMS) is the future way of managing your 
-project/group on <span class="freenode">freenode</span>. <br /><br />
+project/group on <span class="freenode">freenode</span>.</p>
 
-GMS will replace the current, ineffective and time consuming, 
+<p>GMS will replace the current, ineffective and time consuming, 
 
 <a href="group_registration.shtml">Group Registration</a> 
 
@@ -16,15 +16,15 @@ in with
 <a href="services.shtml">Atheme Services</a> 
 
 allowing Group Contacts to easier manage their <span class="freenode">freenode</span> 
-namespace. <br /><br />
+namespace.</p>
 
-Some of the features which will be added to the GMS dashboard:</p>
+<p>Some of the features which will be added to the GMS dashboard:</p>
 
 <ul>
 	<li> Channel/ACL Management </li>
 	<li> Namespace Cloaking</li>
 	<li> Channel/Namespace Logging -- <i>Public, Private or Project-wide access</i></li>
-	<li> Ability to add RSS feeds and similar to project's GMS dashboard -- <i> Pull blogs, commit stats, bugtracker etc,.</i></li>
+	<li> Ability to add RSS feeds and similar to project's GMS dashboard -- <i> Pull blogs, commit stats, bugtracker etc.</i></li>
 
 </ul>
 <p>This list is far from exhaustive, and we would be delighted to hear your ideas 
@@ -38,11 +38,11 @@ The source code, as well as a wiki and bug tracker are available in
 <a href="http://dev.freenode.net/GMS">trac</a>. 
 
 If you are interested in helping with, or just following, the 
-GMS development, join us in #freenode-gms or drop an e-mail to 
+GMS development, join us in #freenode-gms or drop an email to 
 code at freenode dot net
 </p>
 
-<h2>freenode Group Advisory Board</h2>
+<h2><span class="freenode">freenode</span> Group Advisory Board</h2>
 
 <p>
 
@@ -55,7 +55,7 @@ relationships.
 <p>
 
 We invite all current (and future) Group Contacts to join GAB, the 
-freenode Group Advisory Board. While we hope to see many Group Contacts 
+<span class="freenode">freenode</span> Group Advisory Board. While we hope to see many Group Contacts 
 involved with GAB in an advisory capacity, GAB membership is of course  
 optional. 
 
@@ -70,11 +70,9 @@ issues.
 </p>
 <p>
  
-If you are a current Group Contact and wish to get involved with GAB, 
-please get in touch with christel or Martinp23 on IRC for details on 
-how to subscribe to the <b>freenode-groups</b> mailing list and for an 
-invite to the #freenode-gab channel.
-</p>
+If you are a current Group Contact and wish to get involved with GAB, please contact staff on IRC or email 
+groups at freenode dot net for instructions on how to subscribe to the <b>freenode-groups</b> mailing list 
+and for an invite to the #freenode-gab channel. </p>
 
 <p>
   Thanks in advance for any help you can provide!

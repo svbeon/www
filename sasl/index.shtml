@@ -18,7 +18,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="http://www.kvirc.net">KVIrc</a> (versions &ge;4)</li>
 	<li><a href="http://www.quassel-irc.org">Quassel</a> (versions &ge;0.6.1)</li>
 	<li><a href="http://www.weechat.org/">Weechat</a></li>
-	<li><a href="http://www.xchat-wdk.org">XChat-WDK</a> comes with the
+	<li><a href="http://www.hexchat.org/">Hexchat</a> comes with the
 		<a href="http://code.google.com/p/xchat-wdk/source/browse/?r=wdk#git/plugins/xsasl">XSASL plugin</a></li>
 </ul>
 <p>This list may not be completely up-to-date, so check your client's latest documentation.</p>
@@ -48,7 +48,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="sasl-mirc.shtml">mirc</a></li>
 	<li><a href="http://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication">Weechat</a></li>
 	<li><a href="sasl-xchat.shtml">XChat</a></li>
-	<li><a href="http://www.xchat-wdk.org/plugins/x-sasl">XChat-WDK</a></li>
+	<li><a href="http://www.hexchat.org/plugins/x-sasl">Hexchat</a></li>
 </ul>
 
 <p>If you know of any additions or corrections to the lists above, or would like to contribute a script or (better) documentation, contact us at the email below.</p>

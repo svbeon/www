@@ -21,6 +21,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="http://www.weechat.org/">Weechat</a></li>
 	<li><a href="http://www.hexchat.org/">Hexchat</a> comes with the
 		<a href="http://code.google.com/p/xchat-wdk/source/browse/?r=wdk#git/plugins/xsasl">XSASL plugin</a></li>
+        <li><a href="http://znc.in/">ZNC</a>'s <a href="https://github.com/znc/znc">development version</a> comes with an <a href="http://wiki.znc.in/Sasl">SASL plugin</a> as of 2012-05-20</li>
 </ul>
 <p>This list may not be completely up-to-date, so check your client's latest documentation.</p>
 

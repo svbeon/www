@@ -33,7 +33,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 		<a href="sasl.mrc">sasl.mrc</a> or others</li>
 	<li><a href="http://xchat.org">XChat</a> (or
 		<a href="http://www.silverex.org">Silverex</a>), using
-		<a href="cap_sasl_xchat.pl">cap_sasl_xchat.pl</a> or
+		<a href="http://lwsitu.com/xchat/cap_sasl_xchat.pl">cap_sasl_xchat.pl</a> or
 		<a href="cap_sasl_xchat.py">cap_sasl_xchat.py</a></li>
 </ul>
 <p>And possibly others we have not listed here.</p>

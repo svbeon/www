@@ -13,7 +13,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 <ul>
 	<li><a href="http://www.andchat.net">AndChat</a> (versions &ge;1.3.4)</li>
 	<li><a href="http://www.androirc.com">AndroIRC</a> (versions &ge;2.0)</li>
-	<li><a href="https://github.com/BitchX/BitchX1.2">BitchX 1.2</a> (as of 2012-07-09)</li>
+	<li><a href="https://github.com/BitchX/BitchX1.2">BitchX</a> (versions &ge;1.2)</li>
 	<!-- jayne: seems to be dead? <li><a href="http://confluence.atheme.org/display/CON/Home">Conspire</a></li> -->
 	<li><a href="http://www.hexchat.org/">HexChat</a></li>
 	<li><a href="http://konversation.kde.org">Konversation</a> (versions &ge;1.5)</li>
@@ -42,7 +42,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 <p>We have instructions on how to configure SASL for some clients, below. In all cases, when asked for a SASL nick or username, one must provide the <i>primary</i> nick for the account. A grouped nick will not work.</p>
 <ul>
 	<li><a href="http://www.andchat.net/page/misc_doc">AndChat</a></li>
-	<li><a href="https://github.com/BitchX/BitchX1.2/wiki">BitchX 1.2</a></li>
+	<li><a href="sasl-bitchx.shtml">BitchX 1.2</a></li>
 	<li><a href="sasl-chatzilla.shtml">Chatzilla</a></li>
 	<li><a href="http://www.hexchat.org/plugins/sasl">HexChat</a></li>
 	<li><a href="sasl-irssi.shtml">irssi</a></li>

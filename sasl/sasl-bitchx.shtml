@@ -1,0 +1,19 @@
+<!--#include virtual="../include/include-config.shtml" -->
+<!--#set var="page_title" value="Configuring SASL for BitchX" -->
+<!--#set var="content_title" value="Configuring SASL for BitchX" -->
+<!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
+
+<p>Information about using SASL with BitchX is in the <a href="https://github.com/BitchX/BitchX1.2/wiki">Readme file</a> by Dan Marshal. Search for &quot;SASL&quot;; it's about halfway down the page.</p>
+
+<ol>
+	<li><p>Edit or create a file named <span class="verbatim-i">.ircservers</span> in your home directory.</p></li>
+	<li><p>Add or edit the line for <span class="freenode">freenode</span> to look like:</p>
+		<span class="verbatim-b">chat.freenode.net:::<span class="subst">NickName</span>::<span class="subst">SASL-username</span>:<span class="subst">NickServ-password</span></span>
+		<p>Replace <span class="verbatim-i subst">NickName</span> with the nick you want to use, <span class="verbatim-i subst">SASL-username</span> with your primary nickname, and <span class="verbatim-i subst">NickServ-password</span> with your services password. The next time BitchX is started, it will connect and identify automatically using SASL.</p></li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->

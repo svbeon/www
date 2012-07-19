@@ -5,7 +5,8 @@
 <p>These instructions are partially taken, with permission, from <a href="http://www.oftc.net/oftc/NickServ/CertFP">OFTC</a>. Thanks!</p>
 
 <ol>
-	<li><p>Copy the <a href="makecert.shtml">cert you made</a> into your &tilde;/.xchat2 directory, C:\Users\<i>USERNAME</i>\AppData\Roaming\X-Chat2 directory, or from wherever XChat stores user settings. The certificate filename must match the name of the network, so you should probably name it <span class="verbatim-i">freenode.pem</span>.</p></li>
+	<li><p><a href="makecert.shtml">Make a cert</a> if you haven&apos;t already. XChat does not support passphrase-protected client certificates, so make sure you specify the <span class="verbatim-i">-nodes</span> option.</p></li>
+	<li><p>Copy the cert you made into your &tilde;/.xchat2 directory, C:\Users\<i>USERNAME</i>\AppData\Roaming\X-Chat2 directory, or from wherever XChat stores user settings. The certificate filename must match the name of the network, so you should probably name it <span class="verbatim-i">freenode.pem</span>.</p></li>
 		<p><span class="verbatim-b">mv mynick.pem &tilde;/.xchat2/freenode.pem</span></p></li>
 		<p>Make sure the filesystem permissions restrict read access for the file to just you.</p>
 

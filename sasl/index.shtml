@@ -42,6 +42,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 <p>We have instructions on how to configure SASL for some clients, below. In all cases, when asked for a SASL nick or username, one must provide the <i>primary</i> nick for the account. A grouped nick will not work.</p>
 <ul>
 	<li><a href="http://www.andchat.net/page/misc_doc">AndChat</a></li>
+	<li><a href="http://redmine.madalynn.eu/projects/androirc/wiki/NickServ__SASL">AndroIRC</a></li>
 	<li><a href="sasl-bitchx.shtml">BitchX 1.2</a></li>
 	<li><a href="sasl-chatzilla.shtml">Chatzilla</a></li>
 	<li><a href="http://www.hexchat.org/plugins/sasl">HexChat</a></li>

@@ -215,7 +215,7 @@ dot net! Thank you.</p>
         <li><p>Register your IRC nick:</p>
 
 
-          <span class="verbatim-b">/MSG NickServ REGISTER <span
+          <span class="verbatim-b">/msg NickServ REGISTER <span
           class="subst">password</span> <span
           class="subst">youremail@example.com</span></span>
 
@@ -236,7 +236,7 @@ dot net! Thank you.</p>
         accounts):</p>
 
 
-          <span class="verbatim-b">/MSG NickServ SET HIDEMAIL ON</span></li>
+          <span class="verbatim-b">/msg NickServ SET HIDEMAIL ON</span></li>
 
 
         <li><p>It's useful, but not required, to have an alternate nick grouped to
@@ -244,19 +244,19 @@ dot net! Thank you.</p>
         class="verbatim-i">foo</span>:</p>
 
 
-          <span class="verbatim-b">/NICK foo_</span>
+          <span class="verbatim-b">/nick foo_</span>
 
 
           <p>then identify to your primary account:</p>
 
 
-          <span class="verbatim-b">/MSG NickServ IDENTIFY foo <span class="subst">password</span></span>
+          <span class="verbatim-b">/msg NickServ IDENTIFY foo <span class="subst">password</span></span>
 
 
           <p>and finally, group the new nick to your account</p>
 
 
-          <span class="verbatim-b">/MSG NickServ GROUP</span></li>
+          <span class="verbatim-b">/msg NickServ GROUP</span></li>
 
         <li><p>We prefer you to use just one account, and group nicks to it as
         described above, rather than registering for multiple accounts. Grouping
@@ -277,7 +277,7 @@ dot net! Thank you.</p>
         you connect. For example:</p>
 
 
-          <span class="verbatim-b">/CONNECT chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</span></li>
+          <span class="verbatim-b">/connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</span></li>
 
 
       </ol>
@@ -292,7 +292,7 @@ dot net! Thank you.</p>
     effect:</p>
 
 
-      <span class="verbatim-b">/MSG NickServ IDENTIFY <span
+      <span class="verbatim-b">/msg NickServ IDENTIFY <span
       class="subst">account</span> <span class="subst">password</span></span>
 
 
@@ -346,7 +346,7 @@ dot net! Thank you.</p>
     identified to NickServ for a nick with:</p>
 
 
-      <span class="verbatim-b">/MSG NickServ INFO <span
+      <span class="verbatim-b">/msg NickServ INFO <span
       class="subst">nick</span></span>
 
 
@@ -369,7 +369,7 @@ dot net! Thank you.</p>
     change their nick with:</p>
 
 
-      <span class="verbatim-b">/MSG NickServ RELEASE <span class="subst">yournick</span> <span class="subst">yourpassword</span></span>
+      <span class="verbatim-b">/msg NickServ RELEASE <span class="subst">yournick</span> <span class="subst">yourpassword</span></span>
 
 
       <p>You may need to run the above command a second time if you get a message 
@@ -377,7 +377,7 @@ dot net! Thank you.</p>
       identify to the account within 30 seconds in order to continue to use it:</p>
 
 
-      <span class="verbatim-b">/MSG NickServ SET ENFORCE ON</span></dd>
+      <span class="verbatim-b">/msg NickServ SET ENFORCE ON</span></dd>
 
 </dl>
 
@@ -414,7 +414,7 @@ dot net! Thank you.</p>
     this way:</p>
 
 
-      <span class="verbatim-b">/MODE <span class="subst">#channel</span> +b <span
+      <span class="verbatim-b">/mode <span class="subst">#channel</span> +b <span
       class="subst">nickmask</span>!*foo@<span
       class="subst">hostmask</span></span>
 
@@ -432,7 +432,7 @@ dot net! Thank you.</p>
       <p>Instead, ban just 'foo' by using the following:</p>
 
 
-      <span class="verbatim-b">/MODE <span class="subst">#channel</span> +b <span
+      <span class="verbatim-b">/mode <span class="subst">#channel</span> +b <span
       class="subst">nickmask</span>!~foo@<span
       class="subst">hostmask</span></span>
 
@@ -440,7 +440,7 @@ dot net! Thank you.</p>
       <p>If identd or authd is in use, use:</p>
 
 
-      <span class="verbatim-b">/MODE <span class="subst">#channel</span> +b <span
+      <span class="verbatim-b">/mode <span class="subst">#channel</span> +b <span
       class="subst">nickmask</span>!foo@<span
       class="subst">hostmask</span></span></dd>
 
@@ -459,7 +459,7 @@ dot net! Thank you.</p>
     "alis" service:</p>
 
 
-      <span class="verbatim-b">/MSG Alis HELP LIST</span></dd>
+      <span class="verbatim-b">/msg Alis HELP LIST</span></dd>
 
 
   <dt id="ipv6access">How do I access <span class="freenode">freenode</span> via IPv6?</dt>
@@ -526,13 +526,13 @@ dot net! Thank you.</p>
     on most clients, you can use:</p>
 
 
-      <span class="verbatim-b">/UMODE +w</span>
+      <span class="verbatim-b">/umode +w</span>
 
 
       <p>or</p>
 
 
-      <span class="verbatim-b">/MODE <span class="subst">yournick</span> +w</span>
+      <span class="verbatim-b">/mode <span class="subst">yournick</span> +w</span>
 
 
       <p>For best results, place the command in your client's startup script.</p>
@@ -559,13 +559,13 @@ dot net! Thank you.</p>
     user mode "w". On most clients this can be accomplished via:</p>
 
 
-      <span class="verbatim-b">/UMODE -w</span>
+      <span class="verbatim-b">/umode -w</span>
 
 
       <p>or</p>
 
 
-      <span class="verbatim-b">/MODE <span class="subst">yournick</span> -w
+      <span class="verbatim-b">/mode <span class="subst">yournick</span> -w
       </span>
 
 
@@ -578,7 +578,7 @@ dot net! Thank you.</p>
       most clients, it works something like this:</p>
 
 
-      <span class="verbatim-b">/IGNORE *!*@freenode/staff/* NOTICE</span></dd>
+      <span class="verbatim-b">/ignore *!*@freenode/staff/* NOTICE</span></dd>
 
 
   <dt id="firewall">My firewall logs show that someone from your network is trying to crack my box. What's going on?</dt>
@@ -650,16 +650,16 @@ dot net! Thank you.</p>
     mode:</p>
 
 
-      <span class="verbatim-b">/UMODE +R</span>
-      <span class="verbatim-b">/MODE <span class="subst">yournick</span> +R</span>
-      <span class="verbatim-b">/QUOTE MODE <span class="subst">yournick</span> +R</span>
-      <span class="verbatim-b">/RAW MODE <span class="subst">yournick</span> +R</span>
+      <span class="verbatim-b">/umode +R</span>
+      <span class="verbatim-b">/mode <span class="subst">yournick</span> +R</span>
+      <span class="verbatim-b">/quote MODE <span class="subst">yournick</span> +R</span>
+      <span class="verbatim-b">/raw MODE <span class="subst">yournick</span> +R</span>
 
 
       <p>If you run a support channel, please consider using something like:</p>
 
 
-      <span class="verbatim-b">/MODE <span class="subst">#channel</span> +rf
+      <span class="verbatim-b">/mode <span class="subst">#channel</span> +rf
       #channel-unregistered</span>
 
 
@@ -725,7 +725,7 @@ dot net! Thank you.</p>
     to NickServ. You can identify to NickServ with:</p>
 
 
-      <span class="verbatim-b">/MSG NickServ IDENTIFY <span class="subst">YourNick</span> <span class="subst">YourPassword</span></span>
+      <span class="verbatim-b">/msg NickServ IDENTIFY <span class="subst">YourNick</span> <span class="subst">YourPassword</span></span>
 
 
       <p>Certain channels have channel mode +r set, which prevents unidentified
@@ -733,14 +733,14 @@ dot net! Thank you.</p>
       channel with:</p>
 
 
-      <span class="verbatim-b">/MODE #channel</span>
+      <span class="verbatim-b">/mode #channel</span>
 
 
       <p>The next thing you should check is whether or not you are banned from the
       channel. You can view the ban list with:</p>
 
 
-      <span class="verbatim-b">/MODE #channel +b</span>
+      <span class="verbatim-b">/mode #channel +b</span>
 
 
       <p>Remember, you may be unintentionally affected by a large ban that was 
@@ -766,7 +766,7 @@ dot net! Thank you.</p>
     operators can be found with</p>
 
 
-      <span class="verbatim-b">/MSG ChanServ ACCESS <span class="subst">#channel</span> LIST</span>
+      <span class="verbatim-b">/msg ChanServ ACCESS <span class="subst">#channel</span> LIST</span>
 
 
       <p>Operators will have the +o flag. One of these operators will have to 
@@ -779,7 +779,7 @@ dot net! Thank you.</p>
     channel with</p>
 
 
-      <span class="verbatim-b">/MODE #channel +q</span>
+      <span class="verbatim-b">/mode #channel +q</span>
 
 
       <p>If you find a quiet set against you and you feel it is a mistake, you
@@ -793,7 +793,7 @@ dot net! Thank you.</p>
     <dd><p>If you are identified to your account, you can change your password
     yourself. To change the password, enter the following command:</p>
 
-      <span class="verbatim-b">/MSG NickServ SET PASSWORD <span
+      <span class="verbatim-b">/msg NickServ SET PASSWORD <span
       class="subst">mynewpassword</span></span>
 
       <p>Make sure that you are using SET PASSWORD instead of SETPASS. If you have
@@ -820,7 +820,7 @@ dot net! Thank you.</p>
     message to a user via MemoServ with:</p>
 
 
-      <span class="verbatim-b">/MSG MemoServ SEND nhandler Please contact me when you get this message.</span>
+      <span class="verbatim-b">/msg MemoServ SEND nhandler Please contact me when you get this message.</span>
 
 
       <p>In this example, nhandler will be notified when he comes online about the
@@ -828,13 +828,13 @@ dot net! Thank you.</p>
       email. You can enable email notifications with:</p>
 
 
-      <span class="verbatim-b">/MSG NickServ SET EMAILMEMOS ON</span>
+      <span class="verbatim-b">/msg NickServ SET EMAILMEMOS ON</span>
 
 
       <p>You can prevent yourself from receiving messages via MemoServ with:</p>
 
 
-      <span class="verbatim-b">/MSG NickServ SET NOMEMO ON</span></dd>
+      <span class="verbatim-b">/msg NickServ SET NOMEMO ON</span></dd>
 
 
   <dt id="channelts">What does it mean when I see <span class="verbatim-i">*** Notice -- TS for #channel changed from 1300123123 to 1255123123</span>?</dt>
@@ -852,14 +852,14 @@ dot net! Thank you.</p>
     in</p>
 
 
-      <span class="verbatim-b">/MSG ChanServ INFO <span class="subst">#channel</span></span>
+      <span class="verbatim-b">/msg ChanServ INFO <span class="subst">#channel</span></span>
 
 
       <p>If you see GUARD listed as a flag, you can cause ChanServ to part by
       turning off GUARD:</p>
 
 
-      <span class="verbatim-b">/MSG ChanServ SET <span class="subst">#channel</span> GUARD off</span>
+      <span class="verbatim-b">/msg ChanServ SET <span class="subst">#channel</span> GUARD off</span>
 
 
       <p>If ChanServ still won't leave, and you are the only other person in the
@@ -886,12 +886,12 @@ dot net! Thank you.</p>
     the command</p>
 
 
-      <span class="verbatim-b">/STATS p</span>
+      <span class="verbatim-b">/stats p</span>
 
 
       <p>from within your IRC client. Certain clients, such have BitchX, have bugs
       which make it harder to use the command; in those cases you may have to type
-      something like <span class="verbatim-i">/QUOTE STATS p</span>. You'll be
+      something like <span class="verbatim-i">/quote STATS p</span>. You'll be
       provided a current list of on-call <span class="freenode">freenode</span>
       staffers. Feel free to message one or more staffers as necessary until you
       find someone who can help you. Not all <span
@@ -901,7 +901,7 @@ dot net! Thank you.</p>
 <!--  <dt id="messageyou">May I message you?</dt>
     <dd>You can message staff at any time. You may like to check that whoever
     you want to message is online before sending. Do so using <span
-    class="verbatim-i">/WHOIS nick</span> and looking for a line stating that
+    class="verbatim-i">/whois nick</span> and looking for a line stating that
     the user is "away".</dd>-->
 
   <dt id="cloaks">Can I get a hostname cloak?</dt>

@@ -19,7 +19,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
   <em>btinfo [index]</em> is used. For example, the following command will show 
   information about a ban with an index of 1058.
 
-  <blockquote><i>/MSG eir btinfo 1058</i></blockquote>
+  <blockquote><i>/msg eir btinfo 1058</i></blockquote>
 
 </p>
 
@@ -27,7 +27,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
   active bans set by the nick, and how many bans the nick has set in total. For 
   example, the following command will show all active bans set by nhandler.
 
-  <blockquote><i>/MSG eir btinfo nhandler</i></blockquote>
+  <blockquote><i>/msg eir btinfo nhandler</i></blockquote>
 
 </p>
 
@@ -35,7 +35,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
   set in a channel (warning, this may be a long list). For example, the following 
   command will show a list of all of the recorded bans set in #freenode.
 
-  <blockquote><i>/MSG eir btinfo #freenode</i></blockquote>
+  <blockquote><i>/msg eir btinfo #freenode</i></blockquote>
 
 </p>
 
@@ -46,7 +46,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
   example, the following command will show a list of all active bans set in 
   #freenode that match nhandler.
 
-  <blockquote><i>/MSG eir btcheck #freenode nhandler!~nhandler@freenode/staff/ubuntu.member.nhandler</i></blockquote>
+  <blockquote><i>/msg eir btcheck #freenode nhandler!~nhandler@freenode/staff/ubuntu.member.nhandler</i></blockquote>
 
 </p>
 
@@ -57,7 +57,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
   for the #channel or set by the specified nick. For example, the following 
   command will show all active and uncommented bans for #freenode.
 
-  <blockquote><i>/MSG eir btpending #freenode</i></blockquote>
+  <blockquote><i>/msg eir btpending #freenode</i></blockquote>
 
 </p>
 <h2>btexpired <em>[#channel]</em></h2>
@@ -67,7 +67,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
  expired. For example, the following command will show all active and expired 
  bans in #freenode.
 
- <blockquote><i>/MSG eir btexpired #freenode</i></blockquote>
+ <blockquote><i>/msg eir btexpired #freenode</i></blockquote>
 
 </p>
 
@@ -78,7 +78,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
  the following command will set a ban with an index of 2634 to expire in 1 week
  with a reason of 'Trolling'.
 
- <blockquote><i>/MSG eir btset 2634 ~7d Trolling</i></blockquote>
+ <blockquote><i>/msg eir btset 2634 ~7d Trolling</i></blockquote>
 
 </p>
 

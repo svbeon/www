@@ -73,6 +73,7 @@ dot net! Thank you.</p>
   <li><a href="#memoserv">How do I contact an offline user?</a></li>
   <li><a href="#channelts">What does it mean when I see <span class="verbatim-i">*** Notice -- TS for #channel changed from 1300123123 to 1255123123</span>?</a></li>
   <li><a href="#csinhabit">Why won't ChanServ leave my channel?</a></li>
+  <li><a href="#cloudproxy">Why can't I access <span class="freenode">freenode</span> from Google App Engine, Opera Turbo, and similar services?</a></li>
 </ul>
 
 
@@ -873,6 +874,20 @@ dot net! Thank you.</p>
       momentarily join the channel on a second connection. This will cause
       ChanServ to part. If the channel empties and is recreated, the inhabit
       behavior will be triggered again.</p></dd>
+
+  <dt id="cloudproxy">Why can't I access <span class="freenode">freenode</span> from Google App Engine, Opera Turbo, and similar services?</dt>
+    <!-- This question is used as a target for blocked connections to webchat
+    so don't remove it without updating that, too. -->
+    <dd><p>Google App Engine, Opera Turbo, and similar services are basically
+    open proxies; they allow anyone to connect from any of a large number of
+    IP addresses. Open proxies are blocked because they are often used as
+    gateways to the network for disruptive behavior that is difficult to stop.
+    There is nothing to uniquely identify a proxied user. For VPNs and similar
+    anonymizing services we can (and do) mitigate this by requiring
+    <a href="sasl/">SASL</a>. This allows a user to voluntarily provide a
+    unique identifier that can be used to mitigate abuse if necessary. Webchat
+    does not support SASL, so we have to block services like App Engine and
+    Turbo.</p></dd>
 
 </dl>
 

@@ -3,9 +3,10 @@
 <!--#include file="include/header-mainlogos.shtml" -->
 
 <p>
-  People volunteer for many different reasons, but some things we all have
-  in common is that we find it rewarding, challenging and varied. It also 
-  provides an opportunity to learn new skills and to develop existing ones.
+  <span class="freenode">freenode</span> and PDPC are staffed entirely 
+  by unpaid volunteers. We volunteer for many different reasons, but we all 
+  find it rewarding, challenging and varied. It also provides an opportunity
+  to learn new skills and to develop existing ones.
 </p>
 
 <p>
@@ -39,35 +40,28 @@
   </ul>
 
 <p>
-  If you are considering volunteering, you will already be familiar with the 
-  organisation and the <span class="freenode">freenode</span> network -- most likely, you will come from a 
-  background as a user or contributor to one of the many projects for which 
-  <span class="freenode">freenode</span> provides services. We're really happy that you are considering 
-  helping out by giving back to <span class="freenode">freenode</span> and all the projects that use us!
-  We hope that you will still be interested after reading the rest of the 
-  information on this page!
+  <span class="freenode">freenode</span> adds new network staff on an 
+  as-needed basis, and is not currently recruiting new staffers. 
+  Therefore, unsolicited applications are generally not read or replied 
+  to. When we're looking for new staffers and have a public recruitment 
+  drive, it's announced on <a href="http://blog.freenode.net/">freenode's 
+  staffblog</a>. A new staffer will usually have a background as a user or 
+  contributor to one of the many projects for which <span 
+  class="freenode">freenode</span> provides services, have a familiarity 
+  with <span class="freenode">freenode</a>, and have a reputation for 
+  helpful behavior in #freenode or elsewhere.
 </p>
 
 <p>
-  Volunteering opportunities come in many different guises, from long-term regular 
-  committments to one-off individual or group projects. Please see below for details 
-  of current opportunities or contact us at <b>volunteering at freenode dot net</b> 
-  to discuss options or your own suggestions with a member of staff.
-</p>
-
-<p>
-  All volunteer roles with <span class="freenode">freenode</span> and the PDPC 
-  will enable you to develop specific expertise. For example, you might improve 
-  your skills as a systems administrator by volunteering for our infrastructure  
-  team, learn a new language, improve your planning skills, get a better QA focus 
-  and tackle interesting problems as a member of our development team(s), as a PR 
-  volunteer you will learn how to deal with media, blogging and creating exciting 
-  ways to help promote our services and the projects that use us! As a fundraiser 
-  you can work on your grant writing skills, you will have the freedom and encouragement 
-  to work on your own ideas in developing creative programs and campaigns. You 
-  will develop your skills in a number of valuable areas, like communication and 
-  dealing with both projects and end-users, problem solving as well as increasing 
-  your self-confidence through practical hands-on experience.
+  All volunteer roles with <span class="freenode">freenode</span> and 
+  the PDPC will enable you to develop specific expertise. For example, you 
+  might improve your skills as a systems administrator by volunteering for 
+  our infrastructure team, improve your communication skills by working 
+  with groups, or get a better QA focus and tackle interesting problems as 
+  a member of our development team(s). You will develop your skills in a 
+  number of valuable areas, like communication and dealing with both 
+  projects and end-users, problem solving, and increasing your 
+  self-confidence through practical hands-on experience.
 </p>
 
 <p>
@@ -97,10 +91,10 @@
   currently have brewing! However, existing volunteers are encouraged to apply 
   for any other PDPC project for which they have the interest and time -- and we 
   will consider their applications fairly and with the same care and interest as 
-  that of any other interested potential volunteers.</p>
+  that of any other interested potential volunteers.
+</p>
 
-<p>Some of the various roles for which you can volunteer is listed below, and more 
-  information about a role can be found by following the relevant link:</p>
+<p>Some examples of current volunteer activities are listed below:</p>
 
   <ul>
   <li> Group Co-ordinators</li>
@@ -116,7 +110,6 @@
   <li> Peer Education Co-ordinators/Mentors</li>
   <li> Development and Code Contribution</li>
   <li> Board of Trustees</li>
-  <li> Other Roles</li>
 </ul>
 
 <h2>Am I ready to volunteer?</h2>
@@ -203,10 +196,10 @@
 <p> 
    We all know how easy it is to say <i>"I spend so much time on the network, I'll be a 
    great staffer! I'm always around."</i> while forgetting that there may be a bit more 
-   to it than that! Over the years we've seen many promising new volunteer join us, 
-   unfortunately, we've also seen many of these leave again as quickly when realising 
+   to it than that! Over the years we've seen many promising new volunteers join us; 
+   unfortunately, we've also seen many of them leave again as quickly when realising 
    they simply don't have the time/ability to commit. With 50,000 daily users, and a fair 
-   few projects on the go -- we don't want to put you off volunteering by asking all these 
+   few projects on the go, we don't want to put you off volunteering by asking all these 
    "gloom and doom" style questions, we simply want to make sure that you don't volunteer 
    on a whim and vanish just as fast! 
 </p>
@@ -214,8 +207,8 @@
 <p>
    You probably already know that the <span class="freenode">freenode</span> volunteer 
    staff make up quite a small team, as a result, we're a fairly close-knit group and 
-   when looking to expand the team we look for people who not only has the skills and 
-   experience we look for but also someone who would compliment our existing team and 
+   when looking to expand the team we look for people who not only have the skills and 
+   experience we look for but also people who complement our existing team and 
    fit in with the current crowd. 
 </p>
 
@@ -231,9 +224,9 @@
    our 'potential staff' leads through day to day dealings with existing projects and 
    users of the network, in addition we often look to those users who have stood out 
    while helping other users in #<span class="freenode">freenode</span> and elsewhere -- we count ourselves very 
-   lucky that so many of you choose to help out without assuming repayment in return!
-   <br /><br />
+   lucky that so many of you choose to help out without assuming repayment in return!</p>
 
+<p>
    When we recruit for a specific role, we will post a description of the role on the 
    <span class="freenode">freenode</span> 
    <a href="http://blog.freenode.net">blog</a> 
@@ -255,30 +248,24 @@
    </a></li>
    <li><a href="#7">Do you provide any training?
    </a></li>
-   <li><a href="#8">Do you always need volunteers?
+   <li><a href="#8">What support will I get?
    </a></li>
-   <li><a href="#9">What support will I get?
+   <li><a href="#9">How much time do I need to give?
    </a></li>
-   <li><a href="#10">How much time do I need to give?
+   <li><a href="#10">When/What times can I volunteer?
    </a></li>
-   <li><a href="#11">When/What times can I volunteer?
+   <li><a href="#11">When can I start?
    </a></li>
-   <li><a href="#12">When can I start?
-   </a></li>
-   <li><a href="#13">Are there any age restrictions?
+   <li><a href="#12">Are there any age restrictions?
    </a></li>
 </ol>
 
 <p><a id="1"></a><b>1. Do I contact you to tell you I'm interested in volunteering?</b></p>
 
 <p>
-   You can contact staff in #<span class="freenode">freenode</span>, the best 
-   way to indicate your interest however is to email <i>volunteering at freenode dot net</i>. 
-   Please keep in mind, due to the large quantity of emails we receive, we are 
-   unable to reply to all of them. However, all emails are read. If you do not 
-   receive a reply, please do not be discouraged. We suggest keeping an eye on 
-   our <a href="http://blog.freenode.net/">blog</a> for posts calling for volunteers. 
-   These are generally good opportunities to try applying.
+   Outside of recruitment drives, we usually don't read unsolicited volunteering applications,
+   due to the large quantity that we receive. Potential volunteers are generally asked to apply
+   based on a history of helpful and positive behavior instead.
 </p>
 
 <p><a id="2"></a><b>2. What will happen after I've indicated interest in volunteering?</b></p>
@@ -342,17 +329,7 @@
    specific role.
 </p>
 
-<p><a id="8"></a><b>8. Do you always need volunteers?</b></p>
-
-<p>
-   With the PDPC expanding, and our flagship service, <span class="freenode">freenode</span>, 
-   facing rapid growth in user numbers we need to continue expanding our 
-   volunteer base in order to meet demands and provide the same level of support 
-   to the community. Keep in mind that the positions needing additional 
-   volunteers tend to change over time.
-</p>
-
-<p><a id="9"></a><b>9. What support will I get?</b></p>
+<p><a id="8"></a><b>8. What support will I get?</b></p>
 
 <p>
    All volunteers are fully supported and supervised throughout their involvement. There will 
@@ -362,14 +339,14 @@
    with us to be both rewarding and challenging.
 </p>
 
-<p><a id="10"></a><b>10.How much time do I need to give?</b></p>
+<p><a id="9"></a><b>9. How much time do I need to give?</b></p>
 
 <p>
    There is no minimum time requirement to volunteer with the PDPC. You should discuss with head of staff the 
    time you have available, your interests and skills, and how they fit with the organisations needs.
 </p>
 
-<p><a id="11"></a><b>11. When/What times can I volunteer?</b></p>
+<p><a id="10"></a><b>10. When/What times can I volunteer?</b></p>
 
 <p>
    The times for volunteering may differ between projects. For instance, FOSSCON volunteers may be required 
@@ -377,7 +354,7 @@
    <span class="freenode">freenode</span> is in operation 24/7 and as such we look for volunteers who can cover any time of the day.
 </p>
 
-<p><a id="12"></a><b>12. When can I start?</b></p>
+<p><a id="11"></a><b>11. When can I start?</b></p>
 
 <p>
    The PDPC and a representative from the project for which you are volunteering will talk through options with 
@@ -386,7 +363,7 @@
    being trained for the role.
 </p>
 
-<p><a id="13"></a><b>13. Are there any age restrictions?</b></p>
+<p><a id="12"></a><b>12. Are there any age restrictions?</b></p>
 
 <p>
    Volunteers need to be 16 or over. There is no upper age limit for volunteers. However, if you are under 18, 

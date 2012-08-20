@@ -485,10 +485,10 @@ dot net! Thank you.</p>
   <dt id="channelexpirations">When do IRC channels expire?</dt>
     <dd><p>We consider <a href="policy.shtml#channelnaming">non-primary</a> IRC
     channels (those which start with "##") to be expired after they have not
-    been used for 10 weeks plus one additional week per full year registered.
-    Staff will determine this by verifying that the founder has not been present
-    in the channel for that duration of time. We might also idle in the channel
-    to confirm that it really is not being used.</p>
+    been used for 60 days. Staff will determine this by verifying that the
+    founder has not been present in the channel for that duration of time. We
+    might also idle in the channel to confirm that it really is not being used.
+    </p>
     <p>For active channels where the founder might have simply disappeared,
     staff may decide to have the regular users of the channel vote who the new
     channel founder should be.</p> <p>Primary channels, namely those which start

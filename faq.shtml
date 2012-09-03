@@ -48,7 +48,7 @@ dot net! Thank you.</p>
   <li><a href="#howtoconnect">How do I connect to <span class="freenode">freenode</span>?  How do I use the network?</a></li>
   <li><a href="#channellist">How can I get a list of <span class="freenode">freenode</span> public channels?</a></li>
   <li><a href="#ipv6access">How do I access <span class="freenode">freenode</span> via IPv6?</a></li>
-  <li><a href="#defocuschannel"> What is the purpose of channel #defocus?</a></li>
+<!--  <li><a href="#defocuschannel"> What is the purpose of channel #defocus?</a></li> -->
   <li><a href="#pdpc_cloak">Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?</a></li>
   <li><a href="#channelexpirations">When do IRC channels expire?</a></li>
   <li><a href="#channelpolicy">Who sets channel policy on <span class="freenode">freenode</span>?</a></li>
@@ -58,7 +58,7 @@ dot net! Thank you.</p>
   <li><a href="#firewall">My firewall logs show that someone from your network is trying to crack my box. What's going on?</a></li>
   <li><a href="#drones">I joined this channel and now I can't access <span class="freenode">freenode</span> anymore. What's going on?</a></li>
   <li><a href="#ctcpversion">Why did someone CTCP VERSION me?</a></li>
-<!--  <li><a href="#freenodeconnect">Why does user frigg send CTCP VERSION when I connect to the network?</a></li>-->
+  <li><a href="#freenodeconnect">Why does user frigg send CTCP VERSION when I connect to the network?</a></li>
   <li><a href="#freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</a></li>
   <li><a href="#spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block them?</a></li>
   <li><a href="#blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</a></li>
@@ -467,14 +467,14 @@ dot net! Thank you.</p>
     <dd>Our main rotation contains both IPv4 and IPv6 addresses. Simply point
     your IRC client to <span class="verbatim-i">chat.freenode.net</span>.</dd>
 
-  <dt id="defocuschannel">What is the purpose of channel #defocus?</dt>
+<!--  <dt id="defocuschannel">What is the purpose of channel #defocus?</dt>
     <dd>It's a social channel. It's the home channel of the <span
     class="freenode">freenode</span> project, a place for friendly, relaxed
     conversation with staff and users. It's not a forum for IRC politics or a
     place to flame the staff, on a personal or professional basis. It's not
     really a support channel, though we probably won't get too upset if you ask
     a question or two. Feel free to <a href="#helpfromstaff">ask for help</a>
-    from network staff if you're having problems.</dd>
+    from network staff if you're having problems.</dd> -->
 
   <dt id="pdpc_cloak">Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?</dt>
     <dd>They're users who have <a href="pdpc_donations.shtml">donated</a> to
@@ -607,7 +607,7 @@ dot net! Thank you.</p>
     problems, and don't be too worried unless they're doing more than just CTCP
     VERSION, or doing it over and over.</dd>
 
-<!--  <dt id="freenodeconnect">Why does user <span class="freenode">frigg</span> send CTCP VERSION when I connect to the network?</dt>
+  <dt id="freenodeconnect">Why does user <span class="freenode">frigg</span> send CTCP VERSION when I connect to the network?</dt>
     <dd><p>CTCP VERSION is a <a href="#ctcpversion">public IRC client
     interface</a> which you can turn on or off or even spoof. We've started to
     request version information using that interface when users connect to <span
@@ -623,7 +623,7 @@ dot net! Thank you.</p>
     provided by group contacts</a>, though we may also publish that version
     information in statistical form, aggregated with that of other users. We'll
     be careful to avoid using it in ways which unnecessarily disrupt your use of
-    the network.</p></dd>-->
+    the network.</p></dd>
 
   <dt id="freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</dt>
     <dd>Messages labeled <span class="verbatim-i">freenode-info</span> contain

@@ -20,8 +20,19 @@
 <p>
   In 2002, Open Projects Net became <span class="freenode">freenode</span>,
   a service of Peer-Directed Projects Center, a
-  tax-exempt corporation. Today <span class="freenode">freenode</span> peaks
-  at around 65,000 users and contains just under 40,000 channels.
+  tax-exempt corporation.
+</p>
+
+<p>
+  Over the years, <span class="freenode">freenode</span> has used a few
+  different IRC daemons. In 1999, we began using dancer, which was based on
+  IRCD-Hybrid. We switched to hyperion (based on dancer) in 2005. Since 2010,
+  freenode has used <a href="seven.shtml">ircd-seven</a>, based on charybdis.
+</p>
+
+<p>
+  Today <span class="freenode">freenode</span> peaks
+  at around 75,000 users and contains just under 40,000 channels.
 </p>
 
 <p style="text-align: center;">

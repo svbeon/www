@@ -8,11 +8,12 @@
 <ol>
 	<li><p>Copy the script, <a href="cap_sasl.pl">cap_sasl.pl</a>, into your &tilde;/.irssi/scripts/autorun directory or from wherever irssi loads startup scripts.</p></li>
 	<li><p>Load the script using <span class="verbatim-i">/script load autorun/cap_sasl.pl</span>.</p></li>
-	<li><p>The script needs to be configured with <span class="verbatim-i">/sasl set <span class="subst">network</span> <span class="subst">nick</span> <span class="subst">password</span>.</p>
+	<li><p>The script needs to be configured with <span class="verbatim-i">/sasl set <span class="subst">network</span> <span class="subst">nick</span> <span class="subst">password</span> <span class="subst">mechanism</span></span>.</p>
 		<ul>
 		<li><span class="verbatim-i subst">network</span> is the (case-sensitive) name of the network specified with <span class="verbatim-i">/network add</span>.</li>
 		<li><span class="verbatim-i subst">nick</span> is your <i>primary</i> registered nickname. A grouped nickname will not work.</li>
 		<li><span class="verbatim-i subst">password</span> is your NickServ password.</li>
+		<li><span class="verbatim-i subst">mechanism</span> is either <span class="verbatim-i">PLAIN</span> or <span class="verbatim-i">DH-BLOWFISH</span>. <span class="verbatim-i">PLAIN</span> sends your password unprotected, as plain text (which is fine when connecting over SSL, as the entire exchange is encrypted already). <span class="verbatim-i">DH_BLOWFISH</span> separately encrypts your services password before sending it to the server.</li>
 		</ul>
 	</li>
 	<li><p>Save the settings with <span class="verbatim-i">/sasl save</span>.</p></li>

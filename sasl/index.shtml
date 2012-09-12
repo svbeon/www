@@ -19,6 +19,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="http://konversation.kde.org">Konversation</a> (versions &ge;1.5)</li>
 	<li><a href="http://www.kvirc.net">KVIrc</a> (versions &ge;4)</li>
 	<li><a href="http://www.quassel-irc.org">Quassel</a> (versions &ge;0.6.1)</li>
+	<li><a href="http://codeux.com/textual/">Textual</a> (versions &ge;2.1)</li>
 	<li><a href="http://www.weechat.org/">Weechat</a></li>
 	<li><a href="http://znc.in/">ZNC</a> (versions &ge;0.208)</li>
 </ul>
@@ -50,6 +51,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="http://userbase.kde.org/Konversation/Configuring_SASL_authentication">Konversation</a></li>
 	<li><a href="sasl-kvirc.shtml">KVIrc</a></li>
 	<li><a href="sasl-mirc.shtml">mirc</a></li>
+	<li><a href="sasl-textual.shtml">Textual</a></li>
 	<li><a href="http://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication">Weechat</a></li>
 	<li><a href="sasl-xchat.shtml">XChat</a></li>
 	<li><a href="http://wiki.znc.in/Sasl">ZNC</a></li>

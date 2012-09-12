@@ -1,0 +1,31 @@
+<!--#include virtual="../include/include-config.shtml" -->
+<!--#set var="page_title" value="Configuring SASL for Textual" -->
+<!--#set var="content_title" value="Configuring SASL for Textual" -->
+<!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
+
+<p>Textual is a lightweight IRC client for Mac OS X. Textual supports SASL out of the box without any additional scripts or plugins.</p>
+
+<p>To set up SASL you need to know your NickServ account name, which you can find with <span class="verbatim-i">/msg NickServ INFO</span>.</p>
+
+<p>To set up a new server with SASL:</p>
+<ol>
+	<li>Go to the Server menu and select "Add Server"</li>
+	<li>Set up <span class="freenode">freenode</span> as you would normally, with the hostname <span class="verbatim-i">chat.freenode.net</span></li>
+	<li>Go to the "Identity" tab</li>
+	<li>In the "NickServ Auth" field, enter "<span class="subst">AccountName</span>:<span class="subst">Password</span>"</li>
+	<li>Save and connect</li>
+</ol>
+
+<p>For an existing server:</p>
+<ol>
+	<li>Go to the Server menu and select "Server Properties"</li>
+	<li>Go to the "Identity" tab</li>
+	<li>In the "NickServ Auth" field, enter "<span class="subst">AccountName</span>:<span class="subst">Password</span>"</li>
+	<li>Save and reconnect</li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->

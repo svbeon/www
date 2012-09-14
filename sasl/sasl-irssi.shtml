@@ -7,6 +7,7 @@
 
 <ol>
 	<li><p>Copy the script, <a href="cap_sasl.pl">cap_sasl.pl</a>, into your &tilde;/.irssi/scripts/autorun directory or from wherever irssi loads startup scripts.</p></li>
+	<li><p>Make sure you have the Perl modules that the script requires: Crypt::OpenSSL::Bignum, Crypt::DH, Crypt::Blowfish, Math::BigInt, MIME::Base64. If you're using Linux, these are generally in distribution repositories.</p></li>
 	<li><p>Load the script using <span class="verbatim-i">/script load autorun/cap_sasl.pl</span>.</p></li>
 	<li><p>The script needs to be configured with <span class="verbatim-i">/sasl set <span class="subst">network</span> <span class="subst">nick</span> <span class="subst">password</span> <span class="subst">mechanism</span></span>.</p>
 		<ul>

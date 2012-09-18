@@ -36,6 +36,7 @@ such our advice is to connect using <i>chat.freenode.net</i>. </p>
 <table class="serverlist">
 <tr class="sl_header"><td>Asia/Pacific Rim</td><td>chat.au.freenode.net</td><td>IPv6</td></tr>
 <tr><td>Brisbane, AU</td><td>roddenberry.freenode.net</td><td>Yes</td></tr>
+<tr><td>Perth, AU</td><td>bradbury.freenode.net</td><td>No</td></tr>
 <tr class="sl_header"><td>Europe</td><td>&nbsp;</td><td>IPv6</td></tr>
 <tr><td>Budapest, HU</td><td>adams.freenode.net</td><td>Yes</td></tr>
 <tr><td>Paris, FR</td><td>barjavel.freenode.net</td><td>No</td></tr>

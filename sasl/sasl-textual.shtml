@@ -12,7 +12,7 @@
 	<li>Go to the Server menu and select "Add Server"</li>
 	<li>Set up <span class="freenode">freenode</span> as you would normally, with the hostname <span class="verbatim-i">chat.freenode.net</span></li>
 	<li>Go to the "Identity" tab</li>
-	<li>In the "NickServ Auth" field, enter <span class="subst">AccountName</span>:<span class="subst">Password</span></li>
+	<li>Put your NickServ account name in the "Nickname" field and your NickServ password in the "Password" field</li>
 	<li>Save and connect</li>
 </ol>
 
@@ -20,7 +20,7 @@
 <ol>
 	<li>Go to the Server menu and select "Server Properties"</li>
 	<li>Go to the "Identity" tab</li>
-	<li>In the "NickServ Auth" field, enter <span class="subst">AccountName</span>:<span class="subst">Password</span></li>
+	<li>Put your NickServ account name in the "Nickname" field and your NickServ password in the "Password" field</li>
 	<li>Save and reconnect</li>
 </ol>
 

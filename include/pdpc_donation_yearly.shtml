@@ -1,7 +1,7 @@
     <select name="a3">
       <option value="10.00"> Base/Student (&pound;10/year) </option>
-      <option value="15.00" selected="selected"> Active (&pound;15/year) </option>
-      <option value="30.00"> Sustaining/Professional (&pound;30/year) </option>
+      <option value="15.00"> Active (&pound;15/year) </option>
+      <option value="30.00" selected="selected"> Sustaining/Professional (&pound;30/year) </option>
       <option value="60.00"> Bronze (&pound;60/year) </option>
       <option value="120.00"> Silver (&pound;120/year) </option>
       <option value="250.00"> Gold (&pound;250/year) </option>

@@ -2,8 +2,8 @@
       <option value="5.00"> Nibble (&pound;5, uncloaked) </option>
       <option value="10.00"> Byte (&pound;10, also uncloaked) </option>
       <option value="10.00"> Base/Student (&pound;10) </option>
-      <option value="15.00" selected="selected"> Active (&pound;15.00) </option>
-      <option value="30.00"> Sustaining/Professional (&pound;30.00) </option>
+      <option value="15.00"> Active (&pound;15.00) </option>
+      <option value="30.00" selected="selected"> Sustaining/Professional (&pound;30.00) </option>
       <option value="60.00"> Bronze (&pound;60) </option>
       <option value="120.00"> Silver (&pound;120) </option>
       <option value="250.00"> Gold (&pound;250) </option>

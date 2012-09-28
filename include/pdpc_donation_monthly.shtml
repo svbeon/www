@@ -1,6 +1,6 @@
     <select name="a3">
-      <option value="5.00" selected="selected"> Monthly Byte (&pound;5/month) </option>
-      <option value="10.00"> Bronze (&pound;10/month) </option>
+      <option value="5.00"> Monthly Byte (&pound;5/month) </option>
+      <option value="10.00" selected="selected"> Bronze (&pound;10/month) </option>
       <option value="15.00"> Silver (&pound;15/month) </option>
       <option value="20.00"> Gold (&pound;20/month) </option>
     </select>

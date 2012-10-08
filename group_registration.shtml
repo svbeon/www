@@ -2,8 +2,13 @@
 <!--#set var="content_title" value="Group Registration" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>If you are considering registering as a group on <span class="freenode">freenode</span>, or you have already filed a GRF and are waiting for this to be processed, please be aware that we are currently experiencing a time-delay in processing forms. 
-This is an unfortunate side-effect of the combination of the following:</p>
+<p><strong><span class="freenode">freenode</span> group registration is <a 
+href="https://blog.freenode.net/2012/06/group-registration-closure/">currently 
+suspended</strong>, as the group registration process became significantly 
+backlogged to the point that it was not viable to continue taking new 
+registrations. This is an unfortunate side-effect of the combination of 
+the following:</p>
+
 <ul>
 <li> The network has more than doubled in size in the past couple of years, while the number of committed volunteer staff stay much the same as before.</li>
 <li> The PDPC (<span class="freenode">freenode</span>'s parent organisation) no longer has any paid employees and is entirely volunteer-run, a big change from 2006 when there was a dedicated full-time paid employee.</li>
@@ -11,10 +16,6 @@ This is an unfortunate side-effect of the combination of the following:</p>
 is being worked on when time and availability of volunteers allow (<span class="freenode">freenode</span> is desperately seeking coders, for this and other projects).</li>
 <li> Due to sensitive nature of the information contained within the Group Contact registration forms currently, only a limited number of people are able to process these, for legal reasons -- to protect both you and us.</li>
 </ul>
-
-<p> For the reasons outlined above, the current system is rather inadequate and we hope we will get a replacement in place soon which will enable you to have your group registered much faster than what is currently possible. Due 
-to the current backlog, priority is given to groups requiring approval in order to re-gain access/control of their group namespace. We would also ask that "about groups" (ie. double hash/## namespace) do not submit group 
-registration forms. </p>
 
 <p>
 We apologise for the inconvenience and delay and ask that you have patience with us while we attempt to adjust to the exceptional growth and popularity the network has experienced as of late and the transition to being entirely 
@@ -276,6 +277,30 @@ volunteer-run.
     the network.</p>
   </li>
 </ol>
+
+<h2><span class="freenode">freenode</span> Group Advisory Board</h2>
+
+<p>In order for <span class="freenode">freenode</span> and the PDPC to 
+provide the best possible service to the communities we serve, it is 
+important for us to get feedback from the projects with which we have 
+relationships.</p>
+
+<p>We invite all current (and future) Group Contacts to join GAB, the 
+<span class="freenode">freenode</span> Group Advisory Board. While we 
+hope to see many Group Contacts involved with GAB in an advisory 
+capacity, GAB membership is of course optional.</p>
+
+<p><span class="freenode">freenode</span> will seek the opinions of GAB 
+members on any issue relating to services given to groups/projects, 
+any addition to, or change of, group specific policy and other relevant 
+issues.</p>
+
+<p>If you are a current Group Contact and wish to get involved with GAB, 
+please contact staff on IRC or email groups at freenode dot net for 
+instructions on how to subscribe to the <b>freenode-groups</b> mailing 
+list and for an invite to the #freenode-gab channel. </p>
+
+<p>Thanks in advance for any help you can provide!</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
         </small>" -->

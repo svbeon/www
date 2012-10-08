@@ -942,13 +942,13 @@ dot net! Thank you.</p>
     <a href="irc_servers.shtml#tor">Tor hidden service</a>.</p></dd>
 
   <dt id="projectcloak">How do we set up cloaking to identify participants in our FOSS project?</dt>
-    <dd><p>First <a href="group_registration.shtml">register your group</a> to
-    provide <span class="freenode">freenode</span> staff with an official
-    liaison to your project. We'll contact you to work out an appropriate
-    cloaking suffix to identify your participants. Your group contact will be
-    responsible for contacting us, as needed, to designate the IRC nicknames of
-    participants who are eligible to have your project cloaks, as well as the
-    specifics of the cloaks.</p>
+    <dd><p>Groups with an approved <a href="group_registration.shtml">group
+    registration on file can request cloaks for their participants. During the
+    group registration process, we'll work out an appropriate cloaking prefix
+    to identify your group. Your group contact will be responsible for
+    contacting us, as needed, to designate the IRC nicknames of participants
+    who are eligible to have your project cloaks, as well as the specifics of
+    the cloaks.</p>
     <p>Until <a href="gms.shtml">GMS</a> complements services, this process will
     remain a mostly-manual one, so please don't hesitate to ping a staffer if
     you don't receive a response within a couple of weeks or so.</p></dd>
@@ -1077,8 +1077,10 @@ dot net! Thank you.</p>
     will be finished. We'll keep you posted.</dd>
 
   <dt id="gcwhenform">I haven't received a response on my group contact form yet. What's up?</dt>
-    <dd>We're several months behind in our processing of the forms. We're
-    catching up as quickly as we can.</dd>
+    <dd><a href="https://blog.freenode.net/2012/06/group-registration-closure/">As of June 2012</a>,
+    group registration has been suspended. Existing GRF forms will not be processed, for reasons
+    discussed in that blog entry. If you filed a GRF-f, please <a href="#gettinghelp">check in with
+    us</a> if you haven't heard anything, as almost all GRF-fs have now been replied to.</dd>
 
   <dt id="grouprequests">How do our group members request hostname cloaks?</dt>
     <dd>You should provide your members with the name of someone associated with

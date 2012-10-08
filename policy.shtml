@@ -104,7 +104,7 @@
   channels. Primary channel names are reserved based on a formal or
   informal claim, external to IRC, to a specific project, group or trademark
   name.  Topical or reference channel names are reserved on a first-come,
-  first-serve basis by groups wishing to discuss a project, group or topic.
+  first-served basis by groups wishing to discuss a project, group or topic.
 </p>
 
 <p>
@@ -221,7 +221,7 @@
 
 <p>
   Topical or reference channel names, formatted with two leading hash marks
-  (<b>##</b>), are allocated on a first-come, first-serve basis to
+  (<b>##</b>), are allocated on a first-come, first-served basis to
   unofficial groups wishing to discuss a project, group or general topic
   area.  For example, the channel <b>##linux</b> has been reserved for an
   unofficial group which uses it to provide GNU/Linux support to visiting

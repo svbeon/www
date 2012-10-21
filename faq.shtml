@@ -943,7 +943,7 @@ dot net! Thank you.</p>
 
   <dt id="projectcloak">How do we set up cloaking to identify participants in our FOSS project?</dt>
     <dd><p>Groups with an approved <a href="group_registration.shtml">group
-    registration on file can request cloaks for their participants. During the
+    registration</a> on file can request cloaks for their participants. During the
     group registration process, we'll work out an appropriate cloaking prefix
     to identify your group. Your group contact will be responsible for
     contacting us, as needed, to designate the IRC nicknames of participants

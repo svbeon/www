@@ -629,15 +629,9 @@ dot net! Thank you.</p>
     <dd>Messages labeled <span class="verbatim-i">freenode-info</span> contain
     important, non-time-critical information for <span
     class="freenode">freenode</span> users. They're designed to appear with
-    varying, random frequency and are sent using numeric 477. You're most likely
-    to see them on your channel window around the time when you join a channel,
-    or occasionally while rejoining from a netsplit. If you find them extremely
-    annoying, we provide a set of <a
-    href="unrecommended/freenode-info/scripts/">scripts</a> to allow you to turn
-    them off, but <em>we strongly urge that you leave them turned on</em>.
-    Otherwise, you may miss an essential notification, and your reliable, timely
-    access to the <span class="freenode">freenode</span> network may be
-    impaired.</dd>
+    varying, random frequency. You're most likely to see them on your channel
+    window around the time when you join a channel, or occasionally while
+    rejoining from a netsplit.</dd>
 
   <dt id="spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block them?</dt>
     <dd><p>Sometimes <span class="freenode">freenode</span> has to deal with

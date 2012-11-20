@@ -54,7 +54,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="sasl-textual.shtml">Textual</a></li>
 	<li><a href="http://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication">Weechat</a></li>
 	<li><a href="sasl-xchat.shtml">XChat</a></li>
-	<li><a href="http://wiki.znc.in/Sasl">ZNC</a></li>
+	<li><a href="sasl-znc.shtml">ZNC</a></li>
 </ul>
 
 <p>If you know of any additions or corrections to the lists above, or would like to contribute a script or (better) documentation, contact us at the email below.</p>

@@ -184,7 +184,8 @@ modes, some additional information about them is available by sending '/help umo
   <tr>
     <td style="vertical-align: top">+Z (connected via SSL)</td>
     <td style="vertical-align: top">
-      You will have this user mode if you connect to freenode using SSL.
+      You will have this user mode if you connect to <span
+      class="freenode">freenode</span> using SSL.
     </td>
   </tr>
 
@@ -207,7 +208,7 @@ of ircd-seven 1.0 channel modes, some additional information about them is avail
       the channel or knocking on it (see below). If the banned user is already in the channel,
       they will be prevented from speaking and from changing nicks in there, unless +v.
 
-      On freenode, bans can take one of two main forms. The most common form 
+      On <span class="freenode">freenode</span>, bans can take one of two main forms. The most common form
       is <b><i>+b nick!user@host</i></b>. The wildcards * and ? are allowed, matching zero-or-more 
       and exactly-one characters, respectively. The masks will be trimmed to fit 
       the maximum allowable length for the relevant element. 
@@ -364,8 +365,9 @@ of ircd-seven 1.0 channel modes, some additional information about them is avail
   <tr>
     <td style="vertical-align: top">+L (large ban/exempt/invex lists)</td>
     <td style="vertical-align: top">
-      This mode, which can only be set by freenode staff, allows a channel to have longer
-      than normal ban, exempt, and invex lists.
+      This mode, which can only be set by <span class="freenode">freenode</span>
+      staff, allows a channel to have longer than normal ban, exempt, and invex
+      lists.
     </td>
   </tr>
   <tr>

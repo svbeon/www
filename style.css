@@ -130,23 +130,6 @@ div.navcontrib p
 	margin: 0.1em;
 	padding: 0.1em;
 }
-a.donatebutton
-{
-	background-color: #eeeeee;
-	border-bottom: 1px solid #333333;
-	border-left: 1px solid #cccccc;
-	border-right: 1px solid #333333;
-	border-top: 1px solid #cccccc;
-	color: #333333;
-	line-height: 2em;
-	margin: 2px;
-	padding: 0.25em;
-	text-decoration: none;
-}
-a.donatebutton:hover
-{
-	background-color: #fff;
-}
 form.whitebox
 {
 	background-color: #ffffff;

@@ -15,7 +15,6 @@ dot net! Thank you.</p>
   <li><a href="#contents-gettinghelp">Getting Help</a></li>
   <li><a href="#contents-groups">Groups and Group Contacts</a></li>
   <li><a href="#contents-organisation"><span class="freenode">freenode</span> Project Organisation</a></li>
-  <li><a href="#contents-pdpc">Contributions</a></li>
 </ul>
 
 <h3 id="contents-general"><a href="#general">General Questions</a></h3>
@@ -112,14 +111,6 @@ dot net! Thank you.</p>
   <li><a href="#howtolink">How do I link my server?</a></li>
   <li><a href="#complaintdept">Who do I complain to?</a></li>
   <li><a href="#complaintvolume">Do you get a lot of complaints?</a></li>
-</ul>
-
-<h3 id="contents-pdpc"><a href="#pdpc">Contributions</a></h3>
-<ul>
-  <li><a href="#whymoney">Why do you need money?</a></li>
-  <li><a href="#moneydecisions">Who decides how the money you collect will be spent?</a></li>
-  <li><a href="#donationcost">What does it cost when I donate?</a></li>
-  <li><a href="#whycloak"> Why should I wear a cloak to acknowledge my donation?</a></li>
 </ul>
 
 <h2 id="general">General Questions</h2>
@@ -1133,37 +1124,6 @@ dot net! Thank you.</p>
     are running well, people tend to forget how much work it takes to keep <span
     class="freenode">freenode</span> running. If you like the service, tell a
     staffer. It'll make our day. :)</dd>
-
-</dl>
-
-<h2 id="pdpc">Contributions</h2>
-<dl>
-
-  <dt id="whymoney">Why do you need money?</dt>
-    <dd>Peer-Directed Projects Center, the parent organisation of <span
-    class="freenode">freenode</span>, is a not for profit organisation
-    incorporated in England and Wales. We talk about some of our other projects
-    <a href="pdpc.shtml">here</a>. Without your <a
-    href="pdpc_donations.shtml">support</a>, we'll find it difficult to maintain
-    and expand the growing <a href="index.shtml ">freenode</a> network or take
-    on the other community service projects in planning.</dd>
-
-  <dt id="moneydecisions">Who decides how the money you collect will be spent?</dt>
-    <dd>The Board of Directors of Peer-Directed Projects Center must approve all
-    expenditures of funds for <span class="freenode">freenode</span> and other
-    PDPC projects.</dd>
-
-  <dt id="donationcost">What does it cost when I donate?</dt>
-    <dd>If you donate via PayPal, we receive your donation less PayPal fees. At
-    last check, we were charged at the standard rate, 2.9% plus a 20 pence
-    fee.</dd>
-
-  <dt id="whycloak">Why should I wear a <a href="#cloaks">cloak</a> to acknowledge my donation?</dt>
-    <dd>When you wear the cloak, your donation becomes more visible, which helps
-    to raise awareness of the idea of donating to Peer-Directed Projects Center,
-    the not-for-profit entity which runs <span class="freenode">freenode</span>.
-    So, in a sense, your donation goes twice as far. We strongly recommend that
-    you <a href="#nicksetup">do the necessary setup</a> and wear the cloak!</dd>
 
 </dl>
 

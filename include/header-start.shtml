@@ -19,7 +19,7 @@
 				src="<!--#echo var="VIRTROOT"-->logo2.png"
 				width="340" height="68"
 				alt="[freenode]"
-				title="freenode, a service of Peer-Directed Projects Center" />
+				title="freenode" />
 		</a>
 		<a href="http://osuosl.org/">
 			<img class="logo"
@@ -35,7 +35,7 @@
 				src="<!--#echo var="VIRTROOT"-->images/ack_privateinternetaccess-freenode.png"
 				width="404" height="65"
 				alt="VPN Service"
-				title="Private Internet Access, Diamond Sponsor of PDPC" />
+				title="Private Internet Access" />
 		</a>
 	</div>
 	<form action="http://www.google.com/cse" id="cse-search-box">

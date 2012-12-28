@@ -6,21 +6,19 @@
 associated with their groups or projects.  They can reserve <a
 href="policy.shtml#primarychannels">primary channels</a> on the network.  The
 following such groups and projects maintain official relationships with <span
-class="freenode">freenode</span> and <a href="pdpc.shtml">PDPC</a>. Each is
-listed along with the top level domain(s) under which its affiliated users may
-be <b>cloaked.</b> Cloaks are special "virtual hostnames" which appear on a
-user's <span class="freenode">freenode</span> session to indicate that user's
-affiliation with a group.</p>
+class="freenode">freenode</span>.  Each is listed along with the namespace(s)
+under which its affiliated users may be <b>cloaked.</b> Cloaks are special
+"virtual hostnames" which appear on a user's <span
+class="freenode">freenode</span> session to indicate that user's affiliation
+with a group.</p>
 
-<p>Peer-Directed Projects Center attempts to verify information submitted on
+<p><span class="freenode">freenode</span> attempts to verify information submitted on
 group contact forms and tries to minimize name conflicts, giving priority to
 trademark owners and peer-directed project groups. Due to the informal nature of
 community interactions, uncertainties may exist regarding the ownership of some
 names.</p>
 
-<p>For information on the privacy of group contact information, please see our
-interim <a href="group_privacy.shtml">group privacy policy</a>. See <a
-href="group_registration.shtml">Group Registration</a> for information on
+See <a href="group_registration.shtml">Group Registration</a> for information on
 establishing an official relationship with <span class="freenode">freenode</span> by
 submitting contact information for your group or organization.</p>
 
@@ -399,7 +397,7 @@ submitting contact information for your group or organization.</p>
     <td style="vertical-align: top">
       The
       <a rel="nofollow" href="http://freenode.net/"><span class="freenode">freenode</span></a>
-      interactive network, a service of Peer-Directed Projects Center.
+      interactive network.
     </td>
   </tr>
   <tr>
@@ -756,14 +754,6 @@ submitting contact information for your group or organization.</p>
     <td style="vertical-align: top">
       <a rel="nofollow" href="http://p3m.org/">pound-perl.pm (aka "p3m")</a>,
       a coordination project for perl-related interactive chat groups, especially those on Internet Relay Chat.
-    </td>
-  </tr>
-  <tr>
-    <td style="vertical-align: top"><a href="https://webchat.freenode.net/?channels=%23pdpc">pdpc</a></td>
-    <td style="vertical-align: top">
-      <a rel="nofollow" href="http://freenode.net/pdpc.shtml">Peer-Directed Projects
-      Center</a>, the (not-for-profit)
-      entity which runs <span class="freenode">freenode</span>.
     </td>
   </tr>
  <tr>

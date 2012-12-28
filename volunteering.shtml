@@ -1,237 +1,100 @@
 <!--#set var="page_title" value="freenode: volunteering" -->
-<!--#set var="content_title" value="Volunteering for freenode and the PDPC" -->
+<!--#set var="content_title" value="Volunteering for freenode" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>
-  <span class="freenode">freenode</span> and PDPC are staffed entirely 
-  by unpaid volunteers. We volunteer for many different reasons, but we all 
-  find it rewarding, challenging and varied. It also provides an opportunity
-  to learn new skills and to develop existing ones.
-</p>
+<p><span class="freenode">freenode</span> is staffed entirely by unpaid volunteers. We volunteer for many different reasons, but we all find it rewarding, challenging and varied. It also provides an opportunity to learn new skills and to develop existing ones.</p>
 
-<p>
-  We asked our current volunteers why they devote so much of their time, skills and efforts 
-  to the organisation and in particular to the <span class="freenode">freenode</span> project 
-  and some of the reasons they gave are:
-</p>
+<p>We asked our current volunteers why they devote so much of their time, skills and efforts to the organisation and in particular to the <span class="freenode">freenode</span> project and some of the reasons they gave are:</p>
   
-  <ul>
-  <li><b>"Because supporting freenode means supporting hundreds of Open Source projects at once."</b></li>
-  <li><b>"I volunteer because I think freenode (as a network) is a brilliant idea for encouraging 
-  collaboration and providing support to end users of OSS, and while I can't help out with a 
-  number of projects in some ways due to lack of time/skills/whatever, if I can help the network 
-  I am indirectly helping provide them all with infrastructure, so it's how I "do my bit" I guess.
-  Plus, I like the insanity of the people [other staff] here."</b></li>
-  <li><b>"I find volunteering for freenode to be an excellent way of helping more FOSS projects than 
-  just my "home project", it's fun, puts me in touch with a wide variety of people who I wouldn't 
-  normally have met. It's educational and it's a fantastic place to be for a FOSS geek like me."</b></li>
-  <li><b>"I volunteer for freenode as it is my way to give back to a community of fantastic developers, 
-  users and groups, in the best way I can. I am not a developer, I cannot code, I am rubbish at programming,
-  but I am good at mediation, pointing people in the right direction and offering advice. I believe in 
-  what freenode stands for, the goals and direction and I wish to support that in any way I can."</b></li>
-  <li><b>"It's something interesting to do, like most open source development, except that unlike most 
-  open source development you also get to feel you've done something useful. Given the choice between 
-  writing a crappy ruby program to talk to bugzilla that noone will ever use, or creating an ircd that will 
-  make life slightly better for everyone on freenode, I know which is the better accomplishment."</b></li>
-  <li><b>"freenode has always been very supportive and encouraging. Volunteering allows me to (by extension) 
-  support hundreds of FOSS projects, meet intelligent &amp; knowledgeable folks and hopefully give a little back 
-  to this very resourceful community. It's fun, interesting and just an incy wincy bit educational, which 
-  can't be a bad thing... right?"</b></li>
-  </ul>
+<ul>
+  <li>Because supporting freenode means supporting hundreds of Open Source projects at once.</li>
+  <li>I volunteer because I think freenode (as a network) is a brilliant idea for encouraging collaboration and providing support to end users of OSS, and while I can't help out with a number of projects in some ways due to lack of time/skills/whatever, if I can help the network I am indirectly helping provide them all with infrastructure, so it's how I &quot;do my bit&quot; I guess. Plus, I like the insanity of the people [other staff] here.</li>
+  <li>I find volunteering for freenode to be an excellent way of helping more FOSS projects than just my &quot;home project&quot;, it's fun, puts me in touch with a wide variety of people who I wouldn't normally have met. It's educational and it's a fantastic place to be for a FOSS geek like me.</li>
+  <li>I volunteer for freenode as it is my way to give back to a community of fantastic developers, users and groups, in the best way I can. I am not a developer, I cannot code, I am rubbish at programming, but I am good at mediation, pointing people in the right direction and offering advice. I believe in what freenode stands for, the goals and direction and I wish to support that in any way I can.</li>
+  <li>It's something interesting to do, like most open source development, except that unlike most open source development you also get to feel you've done something useful. Given the choice between writing a crappy ruby program to talk to bugzilla that noone will ever use, or creating an ircd that will make life slightly better for everyone on freenode, I know which is the better accomplishment.</li>
+  <li>freenode has always been very supportive and encouraging. Volunteering allows me to (by extension) support hundreds of FOSS projects, meet intelligent &amp; knowledgeable folks and hopefully give a little back to this very resourceful community. It's fun, interesting and just an incy wincy bit educational, which can't be a bad thing... right?</li>
+</ul>
 
-<p>
-  <span class="freenode">freenode</span> adds new network staff on an 
-  as-needed basis, and is not currently recruiting new staffers. 
-  Therefore, unsolicited applications are generally not read or replied 
-  to. When we're looking for new staffers and have a public recruitment 
-  drive, it's announced on <a href="http://blog.freenode.net/">freenode's 
-  staffblog</a>. A new staffer will usually have a background as a user or 
-  contributor to one of the many projects for which <span 
-  class="freenode">freenode</span> provides services, have a familiarity 
-  with <span class="freenode">freenode</span>, and have a reputation for 
-  helpful behavior in #freenode or elsewhere.
-</p>
+<p><span class="freenode">freenode</span> adds new network staff on an as-needed basis, and is not currently recruiting new staffers.  Therefore, unsolicited applications are generally not read or replied to. When we're looking for new staffers and have a public recruitment drive, it's announced on <a href="http://blog.freenode.net/">freenode's staffblog</a>. A new staffer will usually have a background as a user or contributor to one of the many projects for which <span class="freenode">freenode</span> provides services, have a familiarity with <span class="freenode">freenode</span>, and have a reputation for helpful behavior in #freenode or elsewhere.</p>
 
-<p>
-  All volunteer roles with <span class="freenode">freenode</span> and 
-  the PDPC will enable you to develop specific expertise. For example, you 
-  might improve your skills as a systems administrator by volunteering for 
-  our infrastructure team, improve your communication skills by working 
-  with groups, or get a better QA focus and tackle interesting problems as 
-  a member of our development team(s). You will develop your skills in a 
-  number of valuable areas, like communication and dealing with both 
-  projects and end-users, problem solving, and increasing your 
-  self-confidence through practical hands-on experience.
-</p>
+<p>All volunteer roles with <span class="freenode">freenode</span> will enable you to develop specific expertise. For example, you might improve your skills as a systems administrator by volunteering for our infrastructure team, improve your communication skills by working with groups, or get a better QA focus and tackle interesting problems as a member of our development team(s). You will develop your skills in a number of valuable areas, like communication and dealing with both projects and end-users, problem solving, and increasing your self-confidence through practical hands-on experience.</p>
 
-<p>
-  As a volunteer you will have the opportunity and support to keep learning, 
-  while putting your existing skills and experience to good use while helping 
-  our target communities. 
-</p>
+<p>As a volunteer you will have the opportunity and support to keep learning, while putting your existing skills and experience to good use while helping our target communities.</p>
 
-<p>
-  You will meet a wide range of people, have the chance to make new friends and 
-  forge relationships for the future. We're really proud of, and happy with, 
-  the incredible team spirit among PDPC volunteers. We have a good, supportive
-  environment making sure that you get the most out of your time as a volunteer
-  for us. And of course, it's a chance to make a difference to the community!
-</p>
+<p>You will meet a wide range of people, have the chance to make new friends and forge relationships for the future. We're really proud of, and happy with, the incredible team spirit among volunteers. We have a good, supportive environment making sure that you get the most out of your time as a volunteer for us. And of course, it's a chance to make a difference to the community!</p>
 
 <h2>What ways are there to volunteer?</h2>
 
-<p>
-  There are several roles in which one can volunteer for <span class="freenode">
-  freenode</span> and the PDPC. While volunteers for all our projects fall under 
-  the PDPC umbrella, some roles may be project specific. We look for different 
-  people, different personalities and different skillsets depending on project. 
-  While our <span class="freenode">freenode</span> network staff are all fabulous 
-  in their roles on the network, they may not always be the obvious choice for 
-  staffing FOSSCON, or working on one of the many other exciting project that we 
-  currently have brewing! However, existing volunteers are encouraged to apply 
-  for any other PDPC project for which they have the interest and time -- and we 
-  will consider their applications fairly and with the same care and interest as 
-  that of any other interested potential volunteers.
-</p>
+<p>There are several roles in which one can volunteer for <span class="freenode"> freenode</span>.  We look for different people, different personalities and different skillsets depending on project.  While our <span class="freenode">freenode</span> network staff are all fabulous in their roles on the network, they may not always be the obvious choice for staffing FOSSCON, or working on one of the many other exciting project that we currently have brewing!  However, existing volunteers are encouraged to apply for any other project for which they have the interest and time -- and we will consider their applications fairly and with the same care and interest as that of any other interested potential volunteers.</p>
 
 <p>Some examples of current volunteer activities are listed below:</p>
-
-  <ul>
-  <li> Group Co-ordinators</li>
-  <li> Community Co-ordinators</li>
-  <li> Sponsor Liaisons</li>
-  <li> User Support Advisors</li>
-  <li> Support Co-ordinators</li>
-  <li> Network Staff (Routing)</li>
-  <li> Infrastructure Administrators</li>
-  <li> PR and Open Source Marketing</li>
-  <li> Fundraising and Campaigners</li>
-  <li> Volunteer Recruitment</li>
-  <li> Peer Education Co-ordinators/Mentors</li>
-  <li> Development and Code Contribution</li>
-  <li> Board of Trustees</li>
+<ul>
+  <li>Group Co-ordinators</li>
+  <li>Community Co-ordinators</li>
+  <li>Sponsor Liaisons</li>
+  <li>User Support Advisors</li>
+  <li>Support Co-ordinators</li>
+  <li>Network Staff (Routing)</li>
+  <li>Infrastructure Administrators</li>
+  <li>PR and Open Source Marketing</li>
+  <li>Fundraising and Campaigners</li>
+  <li>Volunteer Recruitment</li>
+  <li>Peer Education Co-ordinators/Mentors</li>
+  <li>Development and Code Contribution</li>
 </ul>
 
 <h2>Am I ready to volunteer?</h2>
 
-<p>
-  Volunteering online is different from working on site with an 
-  organisation for many obvious reasons: there's usually more 
-  flexibility in the use of the time you have and a greater degree 
-  of independence.
-</p>
+<p>Volunteering online is different from working on site with an organisation for many obvious reasons: there's usually more flexibility in the use of the time you have and a greater degree of independence.</p>
 
-<p>
-   Having a say in setting your own schedule is one of the chief joys 
-   of online volunteering. However, there's nothing virtual about the 
-   commitment you are making, nor the deadlines you may be assigned to 
-   complete your work. The organisation will be counting on you to finish 
-   any projects you volunteer for.
-</p>
+<p>Having a say in setting your own schedule is one of the chief joys of online volunteering. However, there's nothing virtual about the commitment you are making, nor the deadlines you may be assigned to complete your work. The organisation will be counting on you to finish any projects you volunteer for.</p>
 
-<p>
-   It's very easy to say yes to volunteering over the internet, and as such 
-   easy to sign up to do so before really considering the expectations of the 
-   organisation or the schedules you will be working to. Before volunteering 
-   for the PDPC please consider the following to determine if you are ready:
-</p>
+<p>It's very easy to say yes to volunteering over the internet, and as such it's easy to sign up to do so before really considering the expectations of the organisation or the schedules you will be working to.  Before volunteering, please consider the following to determine if you are ready:</p>
 
 <ul>
    <li>
-   <b>Do you have regular, ongoing access to the internet?</b> If you only 
-   have access at college/university and the semester is about to end, or if you 
-   are about to switch ISP or move home, now is probably not a good time to 
-   volunteer.
+   <b>Do you have regular, ongoing access to the internet?</b>
+   If you only have access at college/university and the semester is about to end, or if you are about to switch ISP or move home, now is probably not a good time to volunteer.
    </li><li>
-   <b>Do you know how to communicate well via the written word?</b> Most, if not all,
-   of your communication during your volunteering for the organisation will be via 
-   IRC and email. Good writing skills and excellent attention to detail is important 
-   to the project. Even if you want to volunteer for a technical role you have to 
-   be able to communicate what you are doing to your contacts at the organisation.
+   <b>Do you know how to communicate well via the written word?</b>
+   Most, if not all, of your communication during your volunteering for the organisation will be via IRC and email. Good writing skills and excellent attention to detail is important to the project. Even if you want to volunteer for a technical role you have to be able to communicate what you are doing to your contacts at the organisation.
    </li><li>
-   <b>Do you stick to deadlines? Do you see a project through to its finish?</b> The 
-   organisation is counting on you to do the project/assignment/task for which you 
-   have volunteered, there's nothing virtual about your commitment.
+   <b>Do you stick to deadlines? Do you see a project through to its finish?</b>
+   The organisation is counting on you to do the project/assignment/task for which you have volunteered, there's nothing virtual about your commitment.
    </li><li>
-   <b>Are you comfortable working on your own, without direct supervision?</b> That doesn't 
-   mean you shouldn't ask for guidance. However, there will be times where you will 
-   need to work on your own and from your own initiative.
+   <b>Are you comfortable working on your own, without direct supervision?</b>
+   That doesn't mean you shouldn't ask for guidance. However, there will be times where you will need to work on your own and from your own initiative.
    </li><li>
-   <b>Are you self-motivated?</b> When volunteering online, from home, a lot of the 
-   inspiration for working on the project has to come from yourself.
+   <b>Are you self-motivated?</b>
+   When volunteering online, from home, a lot of the inspiration for working on the project has to come from yourself.
    </li><li>
-   <b>Do you pace yourself well? Do you avoid over committing for projects?</b> Most 
-   volunteers who do not complete the project/task they've volunteered for say that they
-   thought they could do the work when they signed but, as the deadlines approached, 
-   realised that other things must take priority: school activities, home duties, work 
-   projects, etc. The organisation is then left with unmet needs and often half-finished 
-   projects. Please think about your work style and other commitments before volunteering 
-   for the PDPC.
+   <b>Do you pace yourself well? Do you avoid over committing for projects?</b>
+   Most volunteers who do not complete the project/task they've volunteered for say that they thought they could do the work when they signed but, as the deadlines approached, realised that other things must take priority: school activities, home duties, work projects, etc. The organisation is then left with unmet needs and often half-finished projects. Please think about your work style and other commitments before volunteering.
    </li><li>
-   <b>Will your work area be void of distractions while you are volunteering?</b> Your 
-   role will require a certain level of concentration and intensity. Please make sure 
-   your environment is going to allow you to develop the proper energies to your work.
+   <b>Will your work area be void of distractions while you are volunteering?</b>
+   Your role will require a certain level of concentration and intensity. Please make sure your environment is going to allow you to develop the proper energies to your work.
    </li><li>
-   <b>Do you have a set time of day when you will work in your volunteer role?</b> Don't 
-   just assume you will find the time. Please try to schedule a time, however 
-   approximate, to work on the project you've committed to do.
+   <b>Do you have a set time of day when you will work in your volunteer role?</b>
+   Don't just assume you will find the time. Please try to schedule a time, however approximate, to work on the project you've committed to do.
    </li><li>
-   <b>Is this the right time for you to take on a volunteering role?</b> If you are feeling 
-   overwhelmed by other responsibilities, now is probably not a good time to volunteer, 
-   on or off-line. While the PDPC try to be understanding about your job and family 
-   commitments -- we also count on you to fill the role and finish the assignments for which 
-   you commit.
+   <b>Is this the right time for you to take on a volunteering role?</b>
+   If you are feeling overwhelmed by other responsibilities, now is probably not a good time to volunteer, on or off-line. We try to be understanding about your job and family commitments, we also count on you to fill the role and finish the assignments for which you commit.
    </li><li>
    <b>What benefits do you expect from volunteering? What results should the organisation 
    expect because of your volunteering?</b>
    </li>
 </ul>
-<p>
-   Answering these questions for yourself should help you better identify the volunteer 
-   position that's right for you. If you answered no to any of the questions, or had 
-   difficulty answering some of the questions, perhaps this is not the best time for you 
-   to enter into a relationship with us as a volunteer.
-</p>
+<p>Answering these questions for yourself should help you better identify the volunteer position that's right for you. If you answered no to any of the questions, or had difficulty answering some of the questions, perhaps this is not the best time for you to enter into a relationship with us as a volunteer.</p>
 
-<p> 
-   We all know how easy it is to say <i>"I spend so much time on the network, I'll be a 
-   great staffer! I'm always around."</i> while forgetting that there may be a bit more 
-   to it than that! Over the years we've seen many promising new volunteers join us; 
-   unfortunately, we've also seen many of them leave again as quickly when realising 
-   they simply don't have the time/ability to commit. With 50,000 daily users, and a fair 
-   few projects on the go, we don't want to put you off volunteering by asking all these 
-   "gloom and doom" style questions, we simply want to make sure that you don't volunteer 
-   on a whim and vanish just as fast! 
-</p>
+<p>We all know how easy it is to say <i>"I spend so much time on the network, I'll be a great staffer! I'm always around."</i> while forgetting that there may be a bit more to it than that! Over the years we've seen many promising new volunteers join us; unfortunately, we've also seen many of them leave again as quickly when realising they simply don't have the time/ability to commit. With 50,000 daily users, and a fair few projects on the go, we don't want to put you off volunteering by asking all these "gloom and doom" style questions, we simply want to make sure that you don't volunteer on a whim and vanish just as fast!</p>
 
-<p>
-   You probably already know that the <span class="freenode">freenode</span> volunteer 
-   staff make up quite a small team, as a result, we're a fairly close-knit group and 
-   when looking to expand the team we look for people who not only have the skills and 
-   experience we look for but also people who complement our existing team and 
-   fit in with the current crowd. 
-</p>
+<p>You probably already know that the <span class="freenode">freenode</span> volunteer staff make up quite a small team, as a result, we're a fairly close-knit group and when looking to expand the team we look for people who not only have the skills and experience we look for but also people who complement our existing team and fit in with the current crowd.</p>
 
 <h2>How do I volunteer?</h2>
 
-<p>
-   Occasionally, we will actively recruit for a role -- more often than not, we try 
-   keep an eye out for people we believe would be suitable and invite you to volunteer. 
-   Our current volunteers all have a background as <span class="freenode">freenode</span> users, most came to us from 
-   their roles with projects who use <span class="freenode">freenode</span> -- and in our midst we have people who, 
-   past or present, have involvement with projects such as Debian, Gentoo, Ubuntu, 
-   Apache, VMWare, Wikimedia, NASA, Exherbo, Charybdis and so forth. We pick up most of 
-   our 'potential staff' leads through day to day dealings with existing projects and 
-   users of the network, in addition we often look to those users who have stood out 
-   while helping other users in #<span class="freenode">freenode</span> and elsewhere -- we count ourselves very 
-   lucky that so many of you choose to help out without assuming repayment in return!</p>
+<p>Occasionally, we will actively recruit for a role -- more often than not, we try keep an eye out for people we believe would be suitable and invite you to volunteer.  Our current volunteers all have a background as <span class="freenode">freenode</span> users, most came to us from their roles with projects who use <span class="freenode">freenode</span> -- and in our midst we have people who, past or present, have involvement with projects such as Debian, Gentoo, Ubuntu, Apache, VMWare, Wikimedia, NASA, Exherbo, Charybdis and so forth. We pick up most of our 'potential staff' leads through day to day dealings with existing projects and users of the network, in addition we often look to those users who have stood out while helping other users in #<span class="freenode">freenode</span> and elsewhere -- we count ourselves very lucky that so many of you choose to help out without assuming repayment in return!</p>
 
-<p>
-   When we recruit for a specific role, we will post a description of the role on the 
-   <span class="freenode">freenode</span> 
-   <a href="http://blog.freenode.net">blog</a> 
-   along with any details regarding applying, as well as deadlines if applicable. 
-</p>
+<p>When we recruit for a specific role, we will post a description of the role on the <span class="freenode">freenode</span> <a href="http://blog.freenode.net">blog</a> along with any details regarding applying, as well as deadlines if applicable.</p>
 
 <ol>
    <li><a href="#1">Do I contact you to tell you 
@@ -243,7 +106,7 @@
    <li><a href="#4">I've got specific skills and 
    experience, can you use them?</a></li>
    <li><a href="#5">Are there certain skills I will 
-   need to be a PDPC volunteer?</a></li>
+   need to be a volunteer?</a></li>
    <li><a href="#6">What will I get out of volunteering?
    </a></li>
    <li><a href="#7">Do you provide any training?
@@ -261,123 +124,51 @@
 </ol>
 
 <p><a id="1"></a><b>1. Do I contact you to tell you I'm interested in volunteering?</b></p>
-
-<p>
-   Outside of recruitment drives, we usually don't read unsolicited volunteering applications,
-   due to the large quantity that we receive. Potential volunteers are generally asked to apply
-   based on a history of helpful and positive behavior instead.
-</p>
+<p>Outside of recruitment drives, we usually don't read unsolicited volunteering applications, due to the large quantity that we receive. Potential volunteers are generally asked to apply based on a history of helpful and positive behavior instead.</p>
 
 <p><a id="2"></a><b>2. What will happen after I've indicated interest in volunteering?</b></p>
-
-<p>
-   The recruitment procedures for different roles vary slightly, but the next 
-   step is to keep an eye out for an email from someone associated with the 
-   project. They will be in touch with you to give you more information about 
-   the work we do, the different roles available and to invite you to have an 
-   informal chat with one, or more, members of staff. You will also be asked 
-   to fill in an application form.
-</p>
+<p>The recruitment procedures for different roles vary slightly, but the next step is to keep an eye out for an email from someone associated with the project. They will be in touch with you to give you more information about the work we do, the different roles available and to invite you to have an informal chat with one, or more, members of staff. You will also be asked to fill in an application form.</p>
 
 <p><a id="3"></a><b>3. Will I have to complete an application form / have an interview?</b></p>
-
-<p>
-   The application form and interview is a two-way process. It enables the organisation to find out 
-   more about you, and to ensure that you are suitable for the role, but also for you to ensure that 
-   the volunteering opportunity meets your needs and interests.
-</p>
+<p>The application form and interview is a two-way process. It enables the organisation to find out more about you, and to ensure that you are suitable for the role, but also for you to ensure that the volunteering opportunity meets your needs and interests.</p>
 
 <p><a id="4"></a><b>4. I've got specific skills and experience, can you use them?</b></p>
+<p>We pride ourselves on being staffed by volunteers from a wide range of backgrounds, and the diversity and experience brought in by our volunteers is invaluable to the organisation. We would, where possible, do our best to make use of any skill or expertise with which you would like to share with the organisation in your role with us.</p>
 
-<p>
-   We pride ourselves on being staffed by volunteers from a wide range of backgrounds, and the 
-   diversity and experience brought in by our volunteers is invaluable to the organisation. 
-   We would, where possible, do our best to make use of any skill or expertise with which you would 
-   like to share with the organisation in your role with us.
-</p>
-
-<p><a id="5"></a><b>5. Are there certain skills I will need to be a PDPC volunteer?</b></p>
-
-<p>
-   This depends on which role you are interested in. Some roles may require some form of prior 
-   experience. As a general rule, you will need to be open-minded, non-judgemental, be able to 
-   listen, learn and work in a team.
-</p>
+<p><a id="5"></a><b>5. Are there certain skills I will need to be a volunteer?</b></p>
+<p>This depends on which role you are interested in. Some roles may require some form of prior experience. As a general rule, you will need to be open-minded, non-judgemental, be able to listen, learn and work in a team.</p>
 
 <p><a id="6"></a><b>6. What will I get out of volunteering?</b></p>
-
-<p>
-   All our volunteers find their involvement with us rewarding, satisfying and challenging and 
-   they all get something different from their volunteering:
-   <ul>
-   <li> Making a difference</li>
-   <li> Changing things for the better</li>
-   <li> Giving back to the FOSS communities</li>
-   <li> Develop new and existing skills</li>
-   <li> Being involved with the community</li>
-   <li> Gaining experience</li>
-   <li> Making new friends</li>
-   </ul>
-</p>
+<p>All our volunteers find their involvement with us rewarding, satisfying and challenging and they all get something different from their volunteering:</p>
+<ul>
+   <li>Making a difference</li>
+   <li>Changing things for the better</li>
+   <li>Giving back to the FOSS communities</li>
+   <li>Develop new and existing skills</li>
+   <li>Being involved with the community</li>
+   <li>Gaining experience</li>
+   <li>Making new friends</li>
+</ul>
 
 <p><a id="7"></a><b>7. Do you provide any training?</b></p>
-
-<p>
-   Volunteers in some roles will receive training relevant to their position. This may be 
-   attending a course local to you, a home-study pack or a programme based on observation 
-   while working closely with a mentor or a tailor-made solution developed for your 
-   specific role.
-</p>
+<p>Volunteers in some roles will receive training relevant to their position. This may be attending a course local to you, a home-study pack or a programme based on observation while working closely with a mentor or a tailor-made solution developed for your specific role.</p>
 
 <p><a id="8"></a><b>8. What support will I get?</b></p>
-
-<p>
-   All volunteers are fully supported and supervised throughout their involvement. There will 
-   always be a assigned member of the PDPC staff for you to turn to for support and advice if 
-   you need it. New volunteers will be assigned two mentors who will work closely with them 
-   throughout their time with us, and they will work with you to ensure that you find volunteering 
-   with us to be both rewarding and challenging.
-</p>
+<p>All volunteers are fully supported and supervised throughout their involvement. There will always be more senior volunteer(s) or mentor(s) for you to turn to for support and advice if you need it. New volunteers will be assigned two mentors who will work closely with them throughout their time with us, and they will work with you to ensure that you find volunteering with us to be both rewarding and challenging.</p>
 
 <p><a id="9"></a><b>9. How much time do I need to give?</b></p>
-
-<p>
-   There is no minimum time requirement to volunteer with the PDPC. You should discuss with head of staff the 
-   time you have available, your interests and skills, and how they fit with the organisations needs.
-</p>
+<p>There is no minimum time requirement to volunteer. You should discuss with head of staff the time you have available, your interests and skills, and how they fit with the organisation's needs.</p>
 
 <p><a id="10"></a><b>10. When/What times can I volunteer?</b></p>
-
-<p>
-   The times for volunteering may differ between projects. For instance, FOSSCON volunteers may be required 
-   to attend online/telephone meetings in addition to the work they do during the actual conference, while 
-   <span class="freenode">freenode</span> is in operation 24/7 and as such we look for volunteers who can cover any time of the day.
-</p>
+<p>The times for volunteering may differ between projects. For instance, FOSSCON volunteers may be required to attend online/telephone meetings in addition to the work they do during the actual conference, while <span class="freenode">freenode</span> is in operation 24/7 and as such we look for volunteers who can cover any time of the day.</p>
 
 <p><a id="11"></a><b>11. When can I start?</b></p>
-
-<p>
-   The PDPC and a representative from the project for which you are volunteering will talk through options with 
-   you. For <span class="freenode">freenode</span> we generally want you to start as soon as possible, whereas for other roles there may be a slight 
-   delay to ensure that you receive the highest quality of resources, time, support and personal attention when 
-   being trained for the role.
-</p>
+<p>A representative from the project for which you are volunteering will talk through options with you. For <span class="freenode">freenode</span> we generally want you to start as soon as possible, whereas for other roles there may be a slight delay to ensure that you receive the highest quality of resources, time, support and personal attention when being trained for the role.</p>
 
 <p><a id="12"></a><b>12. Are there any age restrictions?</b></p>
-
-<p>
-   Volunteers need to be 16 or over. There is no upper age limit for volunteers. However, if you are under 18, 
-   please let at least one of your parents or legal guardians know you are going to volunteer with the organisation. 
-   We strongly suggest that you give your parents the URL of the project so they can familiarise themselves with 
-   the project. On request we will be happy to speak with one or both of your parents regarding your role as a 
-   volunteer with us. In the event that there are any questions, your parents are invited to call or email 
-   Christel Dahlskjaer with any questions or comments about our organisation.
-</p>
-
-
+<p>Volunteers need to be 16 or over. There is no upper age limit for volunteers. However, if you are under 18, please let at least one of your parents or legal guardians know you are going to volunteer with the organisation.  We strongly suggest that you give your parents the URL of the project so they can familiarise themselves with the project. On request we will be happy to speak with one or both of your parents regarding your role as a volunteer with us. In the event that there are any questions, your parents are invited to call or email Christel Dahlskjaer with any questions or comments about our organisation.</p>
 
 
 <!--#set var="SPONSOR_LINKS" value="<small>
-	</small>"-->
-
+    </small>"-->
 <!--#include file="include/trailer.shtml" -->

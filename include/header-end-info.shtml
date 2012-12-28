@@ -48,7 +48,6 @@
 			<li><a href="<!--#echo var="VIRTROOT"-->hyperion.shtml">Hyperion IRCD</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->volunteering.shtml">Volunteering</a></li>
 		</ul></li>
-		<li><a href="<!--#echo var="VIRTROOT"-->podcast.shtml">Podcast</a></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->acknowledgements.shtml">Acknowledgements</a></li>
 	</ul>
 	<p class="centered">

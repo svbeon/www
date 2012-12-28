@@ -2,8 +2,8 @@
 <!--#set var="content_title" value="Hosting a Server" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p><span class="freenode">freenode</span> urgently needs solid, well-connected
-hidden hub and public leaf servers. We look for multi-homed connections with
+<p><span class="freenode">freenode</span> needs solid, well-connected hidden
+hub and public leaf servers. We look for multi-homed connections with
 significant bandwidth available &mdash; client servers should expect to sustain
 around 2-4Mbps of traffic, with much higher peaks. Total usage for client
 servers is usually around 320 gigabytes per month, while hidden hubs are

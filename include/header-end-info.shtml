@@ -16,6 +16,7 @@
 		<ul>
 			<li><a href="<!--#echo var="VIRTROOT"-->faq.shtml">FAQ</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->irc_servers.shtml">IRC Servers</a></li>
+			<li><a href="https://webchat.freenode.net">Webchat</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->group_registration.shtml">Group Registration</a>
 			<ul>
 				<li><a href="<!--#echo var="VIRTROOT"-->primary_groups.shtml">Primary Groups</a></li>

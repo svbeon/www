@@ -27,6 +27,11 @@
 			<li><a href="<!--#echo var="VIRTROOT"-->policy.shtml">Policies</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->history.shtml">History and Growth</a></li>
 		</ul></li>
+		<li><a href="<!--#echo var="VIRTROOT"-->philosophy.shtml">Philosophy</a>
+		<ul>
+			<li><a href="<!--#echo var="VIRTROOT"-->catalysts.shtml">Catalysts</a></li>
+			<li><a href="<!--#echo var="VIRTROOT"-->channel_guidelines.shtml">Channel Guidelines</a></li>
+		</ul></li>
 		<li>How-To Information
 		<ul>
 			<li><a href="<!--#echo var="VIRTROOT"-->certfp">CertFP</a></li>
@@ -38,11 +43,6 @@
 			<li><a href="<!--#echo var="VIRTROOT"-->seven.shtml">ircd-seven</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->services.shtml">Services</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->utilities.shtml">Utility Bots/Pseudo Servers</a></li>
-		</ul></li>
-		<li><a href="<!--#echo var="VIRTROOT"-->philosophy.shtml">Philosophy</a>
-		<ul>
-			<li><a href="<!--#echo var="VIRTROOT"-->catalysts.shtml">Catalysts</a></li>
-			<li><a href="<!--#echo var="VIRTROOT"-->channel_guidelines.shtml">Channel Guidelines</a></li>
 		</ul></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->how_to_help.shtml">How to Help</a>
 		<ul>

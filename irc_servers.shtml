@@ -118,8 +118,8 @@ will appear in WHOIS (a 276 numeric).</p>
 <h2 id="tor">Accessing freenode Via Tor</h2>
 
 <p> The current Tor hidden service address for <span
-class="freenode">freenode</span> is <a
-href="irc://p4fsi4ockecnea7l.onion/">p4fsi4ockecnea7l.onion</a>. This service
+class="freenode">freenode</span> is
+<a href="irc://p4fsi4ockecnea7l.onion">p4fsi4ockecnea7l.onion</a>. This service
 can be used by any user with a registered NickServ account. No further setup
 steps are necessary beyond that, besides configuring your client. Information on
 how to register a nick can be found on <a href="faq.shtml#nicksetup">our FAQ

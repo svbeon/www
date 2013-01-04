@@ -30,10 +30,10 @@ ircd-seven test network.
 
 <p>
 There is a public test network for ircd-seven running on 
-
 <a href="irc://testnet.freenode.net:9002">testnet.freenode.net</a> 
-
-port 9002, or 9003 for SSL connections. This is independent of the main 
+port 9002, or 9003 for
+<a href="ircs://testnet.freenode.net:9003">SSL connections</a>.
+This is independent of the main
 <span class="freenode">freenode</span> network, so your normal channels 
 may not exist -- if you want to test the new server software, come and 
 join us in #freenode there.

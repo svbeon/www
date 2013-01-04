@@ -686,11 +686,14 @@
 <p>
   Anonymous access to internet services is frequently abused. To provide
   reliable access while reducing the impact of any abuse on the rest of our
-  users, we label user sessions conducted through various gateways,
-  including Tor, with cloak hostnames beginning with <i>gateway</i> and
-  ending in a token <i>x-N...</i> (where <i>N...</i> is a set of random
-  hexadecimal digits which are different each time the user reconnects, and
-  thus useless in denying any specific user access for very long).
+  users, we label user sessions conducted through various gateways
+  with cloak hostnames beginning with <i>gateway</i>. Tor gateway connections
+  are cloaked according to the account name of the user (which was provided
+  during SASL authentication when they connected). If the account name
+  contains characters that cannot be represented in a cloak, then a token,
+  <i>x-N...</i>, is appended. The <i>N...</i> is a set of digits which should
+  be consistent for a given account name, but may otherwise be treated as
+  random.
 </p>
 
 <p>

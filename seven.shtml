@@ -2,30 +2,17 @@
 <!--#set var="content_title" value="ircd-seven" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>
-<span class="freenode">freenode</span>'s next generation ircd project, 
-ircd-seven, is a branch of the 
+<p><span class="freenode">freenode</span>'s next generation ircd project, ircd-seven, is a branch of the <a href="http://www.atheme.org/project/charybdis">charybdis</a> ircd, with changes specific to freenode's needs. It was designed to replace the previous ircd, hyperion, which was based on dancer-ircd, a fork of hybrid 6.</p>
 
-<a href="http://www.atheme.org/project/charybdis">charybdis</a>
+<p>The network was migrated to ircd-seven at the end of January, 2010.</p>
 
-ircd, with changes specific to freenode's needs. It has been designed to replace
-the legacy
+<p>The source code, as well as a wiki and bug tracker are available in <a href="http://dev.freenode.net/ircd-seven">Redmine</a>. If you're interested in learning more about ircd-seven, consult the Redmine pages and join us in #freenode-seven.</p>
 
-<a href="hyperion.shtml">hyperion</a>.
+<p>Because <span class="freenode">freenode</span>'s goals are different from a general-purpose chat network, it should be expected that the ircd design reflect this. We will attempt to maintain backward compatibility (including with RFC 1459), but some features may not work, or may work differently where we feel it serves our goals. We are committed to providing a robust service to peer-directed projects. We are not committed to maintaining an unmodified IRC environment, so the differences between freenode and other ircds may grow larger. We will continue to develop and improve the reliability of the service, with your support and understanding.</p>
 
-The network was migrated to ircd-seven at the end of January, 2010.
+<h2>The ircd-seven testnet</h2>
 
-</p>
-
-<p>
-The source code, as well as a wiki and bug tracker are available in 
-
-<a href="http://dev.freenode.net/ircd-seven">Redmine</a>. 
-
-If you're interested in learning more about ircd-seven,
-consult the Redmine and join us in #freenode-seven.
-</p>
-
+<p>There is a public test network for ircd-seven running on <a href="irc://testnet.freenode.net:9002">testnet.freenode.net</a> port 9002, or 9003 for <a href="ircs://testnet.freenode.net:9003">SSL connections</a>. The test network is independent of the main <span class="freenode">freenode</span> network, so your normal channels may not exist. If you want to test updates to ircd-seven, or get an early preview of new features, join us in #freenode there.</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
 	</small>"-->

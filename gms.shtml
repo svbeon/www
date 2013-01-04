@@ -2,24 +2,12 @@
 <!--#set var="content_title" value="Group Management System" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>
-<b>Group Management System</b> (GMS) is the future way of managing your 
+<p><b>Group Management System</b> (GMS) is the future way of managing your 
 project/group on <span class="freenode">freenode</span>.</p>
 
-<p>GMS will replace the current, ineffective and time consuming, 
-
-<a href="group_registration.shtml">Group Registration</a> 
-
-process. In addition GMS will also function as a web-based dashboard tying 
-in with 
-
-<a href="services.shtml">Atheme Services</a> 
-
-allowing Group Contacts to easier manage their <span class="freenode">freenode</span> 
-namespace.</p>
+<p>GMS will replace the current, ineffective and time consuming, <a href="group_registration.shtml">Group Registration</a> process. In addition GMS will also function as a web-based dashboard tying in with <a href="services.shtml">Atheme Services</a> allowing Group Contacts to easier manage their <span class="freenode">freenode</span> namespace.</p>
 
 <p>Some of the features which will be added to the GMS dashboard:</p>
-
 <ul>
 	<li> Channel/ACL Management </li>
 	<li> Namespace Cloaking</li>
@@ -27,20 +15,11 @@ namespace.</p>
 	<li> Ability to add RSS feeds and similar to project's GMS dashboard -- <i> Pull blogs, commit stats, bugtracker etc.</i></li>
 
 </ul>
-<p>This list is far from exhaustive, and we would be delighted to hear your ideas 
-and suggestions.</p> 
+<p>This list is far from exhaustive, and we would be delighted to hear your ideas and suggestions.</p> 
 
 <h2>Getting Involved</h2>
 
-<p>
-The source code, as well as a wiki and bug tracker are available in 
-
-<a href="http://dev.freenode.net/GMS">trac</a>. 
-
-If you are interested in helping with, or just following, the 
-GMS development, join us in #freenode-gms or drop an email to 
-code at freenode dot net
-</p>
+<p>The source code, as well as a wiki and bug tracker are available in <a href="http://dev.freenode.net/GMS">Redmine</a>.  If you are interested in helping with, or just following, the GMS development, join us in #freenode-gms or drop an email to code at freenode dot net.</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
 	</small>"-->

@@ -1,48 +1,10 @@
-<!--#set var="page_title" value="freenode: ircd-seven" -->
-<!--#set var="content_title" value="ircd-seven" -->
+<!--#set var="page_title" value="freenode development" -->
+<!--#set var="content_title" value="Development" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>
-<span class="freenode">freenode</span>'s current generation ircd project, 
-ircd-seven, is a branch of the 
+<p><span class="freenode">freenode</span>'s development efforts focus on improving the utility and robustness of the service, and serving peer-directed projects. Development activities are mostly coordinated on <a href="http://dev.freenode.net">dev.freenode.net</a> using Redmine. There you'll find links to <a href="seven.shtml">ircd-seven</a>, the IRC daemon that powers <span class="freenode">freenode</span>; <span class="freenode">freenode</span>'s custom <a href="services.shtml">changes to Atheme</a>; the <a href="gms.shtml">Group Management System</a>; <a href="utilities.shtml">eir</a>, a utility-bot and flexibile IRC bot framework; and historical projects.</p>
 
-<a href="http://hg.atheme.org/charybdis">charybdis</a>
-
-ircd which has replaced the legacy 
-
-<a href="hyperion.shtml">hyperion</a>
-
-code base which was used previously. ircd-seven is currently being
-developed upon and is continually being improved.
-</p>
-
-<p>
-The source code, as well as a wiki and bug tracker are available in 
-
-<a href="http://dev.freenode.net/ircd-seven">Redmine</a>. 
-
-If you're interested in helping with, or just following, the 
-development of ircd-seven, join us in #freenode-seven or on the 
-ircd-seven test network.
-</p>
-
-<h2>The ircd-seven testnet</h2>
-
-<p>
-There is a public test network for ircd-seven running on 
-<a href="irc://testnet.freenode.net:9002">testnet.freenode.net</a> 
-port 9002, or 9003 for
-<a href="ircs://testnet.freenode.net:9003">SSL connections</a>.
-This is independent of the main
-<span class="freenode">freenode</span> network, so your normal channels 
-may not exist -- if you want to test the new server software, come and 
-join us in #freenode there.
-
-</p>
-
-<p>
-  Thanks in advance for any help you can provide!
-</p>
+<p>If you're interested in helping with, or just following, the development of any of these projects, join us in #freenode-dev or on the channel specific to the project of interest. Thanks in advance for any help you can provide!</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
 	</small>"-->

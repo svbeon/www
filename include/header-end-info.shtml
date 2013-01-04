@@ -28,7 +28,6 @@
 		</ul></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->development.shtml">Development</a>
 		<ul>
-			<li><a href="<!--#echo var="VIRTROOT"-->hyperion.shtml">Hyperion</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->gms.shtml">Group Management System</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->seven.shtml">ircd-seven</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->services.shtml">Services</a></li>
@@ -36,7 +35,6 @@
 		</ul></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->philosophy.shtml">Philosophy</a>
 		<ul>
-			<li><a href="<!--#echo var="VIRTROOT"-->freenode_and_irc.shtml">freenode and IRC</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->catalysts.shtml">Catalysts</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->channel_guidelines.shtml">Channel Guidelines</a></li>
 		</ul></li>
@@ -45,7 +43,6 @@
 			<li><a href="<!--#echo var="VIRTROOT"-->pdpc_donations.shtml">Donations to PDPC</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->hosting_ircd.shtml">Hosting a Server</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->operations.shtml">Operations</a></li>
-			<li><a href="<!--#echo var="VIRTROOT"-->hyperion.shtml">Hyperion IRCD</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->volunteering.shtml">Volunteering</a></li>
 		</ul></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->acknowledgements.shtml">Acknowledgements</a></li>

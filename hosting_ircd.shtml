@@ -2,36 +2,13 @@
 <!--#set var="content_title" value="Hosting a Server" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p><span class="freenode">freenode</span> needs solid, well-connected hidden
-hub and public leaf servers. We look for multi-homed connections with
-significant bandwidth available &mdash; client servers should expect to sustain
-around 2-4Mbps of traffic, with much higher peaks. Total usage for client
-servers is usually around 320 gigabytes per month, while hidden hubs are
-generally much lower overall. Therefore, we are unable to consider offers of
-hosting from home cable/DSL connections.</p>
+<p><span class="freenode">freenode</span> needs solid, well-connected hidden hub and public leaf servers. We look for multi-homed connections with significant bandwidth available &mdash; client servers should expect to sustain around 2-4Mbps of traffic, with much higher peaks. Total usage for client servers is usually around 320 gigabytes per month, while hidden hubs are generally much lower overall. Therefore, we are unable to consider offers of hosting from home cable/DSL connections.</p>
 
-<p>We appreciate your interest in helping the network grow and your willingness
-to contribute to that process. <span class="freenode">freenode</span> is not a
-conventional IRC network. Servers are hosted, not linked. They are maintained
-remotely from central sites using ssh and scp. New configuration files are
-generated via an automated script at a central location, and new servers are
-either staged as binary files or recompiled on the server account, depending on
-architecture and other factors.</p>
+<p>We appreciate your interest in helping the network grow and your willingness to contribute to that process. <span class="freenode">freenode</span> is not a conventional IRC network. Servers are hosted, not linked. They are maintained remotely from central sites. New configuration files are generated via an automated script at a central location, and new servers are either staged as binary files or recompiled on the server account, depending on architecture and other factors.</p>
 
-<p>While we will happily acknowledge your contribution publicly, we don't, as a
-general rule, provide O-lines or operator privileges to our server hosts.
-However, facilities hosts may apply separately for <span
-class="freenode">freenode</span> <a href="volunteering.shtml">staff duty</a> and
-their applications will receive the same consideration as those of other users.
-When a staff application is accepted, no minimum level of privilege is
-guaranteed or offered. Information on network operations can be found <a
-href="operations.shtml">here</a>. Hosting candidates are reminded that the
-utility of any given server depends on ping latencies and other factors which
-may be beyond our control. Servers may need to be delinked or rehubbed at any
-time and we cannot always provide notice before a server is delinked.</p>
+<p>While we will happily acknowledge your contribution publicly, we don't, as a general rule, provide O-lines or operator privileges to our server hosts.  However, facilities hosts may apply separately for <span class="freenode">freenode</span> <a href="volunteering.shtml">staff duty</a> and their applications will receive the same consideration as those of other users.  When a staff application is accepted, no minimum level of privilege is guaranteed or offered. Information on network operations can be found <a href="operations.shtml">here</a>. Hosting candidates are reminded that the utility of any given server depends on ping latencies and other factors which may be beyond our control. Servers may need to be delinked or rehubbed at any time and we cannot always provide notice before a server is delinked.</p>
 
-<p>Regardless, hosting a <span class="freenode">freenode</span> server helps the
-network and the community and we are grateful that you're considering it.</p>
+<p>Regardless, hosting a <span class="freenode">freenode</span> server helps the network and the community and we are grateful that you're considering it.</p>
 
 <h2>System Specifications</h2>
 
@@ -58,128 +35,34 @@ network and the community and we are grateful that you're considering it.</p>
 
 <h2>System Software</h2>
 
-The system will need to have the following software installed.<br /><br />
-
-<table style="background-color: #e6e6e6; border: 1px solid black">
-<tr>
-<th style="width: 50%; background-color: #cdcdcd">Required</th>
-<th style="width: 50%; background-color: #cdcdcd">Desired</th>
-</tr>
-<tr>
-<td>vixie-cron, with crontab access</td>
-<td></td>
-</tr>
-<tr>
-<td>Running ntpd</td>
-<td></td>
-</tr>
-<tr>
-<td>Recent openssh server</td>
-<td></td>
-</tr>
-<tr>
-<td>rsync</td>
-<td></td>
-</tr>
-<tr>
-<td>GNU bash (>3.0)</td>
-<td>zsh</td>
-</tr>
-<tr>
-<td>GNU screen</td>
-<td></td>
-</tr>
-<tr>
-<td>Perl 5.6 or newer</td>
-<td></td>
-</tr>
-<tr>
-<td>Complete toolchain including flex and bison</td>
-<td></td>
-</tr>
-<tr>
-<td>libssl-dev libraries</td>
-<td></td>
-</tr><tr>
-<td>vi or equivalent editor</td>
-<td>vim 7.x is preferred</td>
-</tr><tr>
-<td>wget</td>
-<td></td>
-</tr>
-</table>
-
-<h2>System Configuration</h2>
-
-<p>Where possible we look for dedicated machines with root access, however, we
-will consider different set-ups too. We will require:</p>
-
-<ul>
-<li><b>User Account Access</b> -- While we greatly prefer dedicated machines
-with root access, we will consider other setups. In either case, we will require
-ssh access to a user account, usually named 'freenode' or 'dancer', on the
-machine. We require authentication via SSH keys, and ask that password logins be
-disabled.</li>
-<li><b>Core file limit</b> -- Our ircd code base continues to evolve, and we may
-require this debugging tool at times. freenode servers will produce very large
-core files, so the limit should be accordingly high -- at least 1GB or so.</li>
-<li><b>File descriptor limits</b> -- Our servers must be able to open at least
-15,000 concurrent connections, so per-user and system-wide file descriptor
-limits must be high enough to accomodate this. Suggested values are at least
-24,000 for the freenode user account, and 25,000 system-wide.</li>
-</ul>
+<p>We manage and update software using a centralized configuration management, for which we will need root access.  We may create user(s) for the ircd, change core file limits, file descriptor limits, and other modifications as necessary to sustain IRC connections from thousands of users.  We also need servers for non-ircd roles.</p>
 
 <h2>Other Requirements</h2>
 
-<p>While the servers are configured and maintained by the <span
-class="freenode">freenode</span> infrastructure team and we don't require active
-involvement from facilities sponsors for the day to day running of the network,
-we ask that:</p>
+<p>While the servers are configured and maintained by the <span class="freenode">freenode</span> infrastructure team and we don't require active involvement from facilities sponsors for the day to day running of the network, we ask that:</p>
 <ul>
-<li>Sponsors ensure that we have up-to-date contact information, on and offline</li>
-<li>Sponsors stay subscribed to the freenode-sponsors mailing list (low traffic, announcements only)</li>
-<li>Sponsors endeavour to, where possible, give us ample advance warning about network, hardware or software upgrades and maintenance which may affect the network.</li>
-<li>Sponsors communicate reasons for unexpected downtime/maintenance ASAP.</li>
+  <li>Sponsors ensure that we have up-to-date contact information, on and offline</li>
+  <li>Sponsors stay subscribed to the freenode-sponsors mailing list (low traffic, announcements only)</li>
+  <li>Sponsors endeavour to, where possible, give us ample advance warning about network, hardware or software upgrades and maintenance which may affect the network.</li>
+  <li>Sponsors communicate reasons for unexpected downtime/maintenance ASAP.</li>
 </ul>
 
 <h2>Applying to Host a Server</h2>
 
-<p>Before applying to host a server, you may find it helpful to speak with
-network staff. Feel free to message <span class="freenode">freenode</span>'s
-sponsor liaison, kloeri, or christel, with your questions. Regardless, the
-formal application process begins when you submit an email containing the
-following information to email address hosting at freenode net: </p>
-
+<p>Before applying to host a server, you may find it helpful to speak with network staff. Feel free to message <span class="freenode">freenode</span>'s sponsor liaison, kloeri, or christel, with your questions. Regardless, the formal application process begins when you submit an email containing the following information to email address hosting at freenode net:</p> 
 <ul>
-<li><b>Geographical location of the server</b> -- City, principality and
-country. Include any "local colour" (nearby landmarks and sites) that seem
-pertinent.</li>
-<li><b>Hosting Entity</b> -- Who should we credit for the server? Provide names
-of organisations (or individuals), URL and logo (for our acknowledgements page)
-as appropriate.</li>
-<li><b>Contact Information</b> -- Please include names and email addresses of
-contacts, as well as telephone numbers, snail mail addresses and contact hours
-(including time zones).</li>
-<li><b>Hardware, Software, Bandwith and Hosting</b> -- Please describe the
-system you're offering for hosting. Please <u>go into as much detail as
-possible</u>, providing us with details of routing and noc availability.</li>
-<li><b>IP address</b> -- this will allow us to perform latency and route
-checking.</li>
-<li><b>You and freenode</b> -- please explain what makes you/your company want
-to provide hosting for freenode, and what, if anything, you wish to get back
-from sponsorship.</li>
-<li><b>Server Name Preference</b> -- The server naming motif is "science fiction
-and fantasy authors". Vanity names may be provided, but canonical server names
-and standardised geographical names will be used exclusively by <span
-class="freenode">freenode</span>. If you have preferred authors, let us know and
-we will try to honour your preference.</li>
+  <li><b>Geographical location of the server</b> &mdash; City, principality and country. Include any "local colour" (nearby landmarks and sites) that seem pertinent.</li>
+  <li><b>Hosting Entity</b> &mdash; Who should we credit for the server? Provide names of organisations (or individuals), URL and logo (56px height, for our acknowledgements page) as appropriate.</li>
+  <li><b>Contact Information</b> &mdash; Please include names and email addresses of contacts, as well as telephone numbers, snail mail addresses and contact hours (including time zones).</li>
+  <li><b>Hardware, Software, Bandwith and Hosting</b> &mdash; Please describe the system you're offering for hosting. Please go into as much detail as possible, providing us with details of routing and NOC availability.</li>
+  <li><b>IP address</b> &mdash; this will allow us to perform latency and route checking.</li>
+  <li><b>You and freenode</b> &mdash; please explain what makes you/your company want to provide hosting for <span class="freenode">freenode</span>, and what, if anything, you wish to get back from sponsorship.</li>
+  <li><b>Server Name Preference</b> &mdash; The server naming motif is "science fiction and fantasy authors". Vanity names may be provided, but canonical server names and standardised geographical names will be used exclusively by <span class="freenode">freenode</span>. If you have preferred authors, let us know and we will try to honour your preference.</li>
 </ul>
 
-<p><span class="freenode">freenode</span>'s sponsor liaisons try to respond to
-all server application requests within two weeks. Please allow this time before
-chasing your application. <br /> All applications will be given the same
-considerations and we regret that we may not always be able to accept a server
-offer for whatever reason. </p>
+<p><span class="freenode">freenode</span>'s sponsor liaisons try to respond to all server application requests within two weeks. Please allow this time before chasing your application.</p>
+
+<p>All applications will be given the same considerations and we regret that we may not always be able to accept a server offer for whatever reason.</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
 

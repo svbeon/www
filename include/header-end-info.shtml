@@ -50,11 +50,6 @@
 		</ul></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->acknowledgements.shtml">Acknowledgements</a></li>
 	</ul>
-	<p class="centered">
-		<a rel="license" href="http://creativecommons.org/licenses/by-nd/2.0/">
-			<img alt="Creative Commons License" style="border: 0" src="http://creativecommons.org/images/public/somerights20.gif" />
-		</a>
-	</p>
 	</div>
 
 	<div class="content">

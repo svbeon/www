@@ -46,6 +46,7 @@ a:active, a:active .freenode {
 }
 .menubar
 {
+	font-weight: bold;
 	float: left;
 	padding: 0.7em;
 }

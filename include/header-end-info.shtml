@@ -27,6 +27,11 @@
 			<li><a href="<!--#echo var="VIRTROOT"-->policy.shtml">Policies</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->history.shtml">History and Growth</a></li>
 		</ul></li>
+		<li>How-To Information
+		<ul>
+			<li><a href="<!--#echo var="VIRTROOT"-->certfp">CertFP</a></li>
+			<li><a href="<!--#echo var="VIRTROOT"-->sasl">SASL</a></li>
+		</ul></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->development.shtml">Development</a>
 		<ul>
 			<li><a href="<!--#echo var="VIRTROOT"-->gms.shtml">Group Management System</a></li>

@@ -1,11 +1,9 @@
 		<!--#config timefmt="%Y"-->
 		<p style="text-align: right">
 		Copyright &copy; 2002 &ndash; <!--#echo var="LAST_MODIFIED"-->
-		by Peer-Directed Projects Center<br />
-		Network date and time:
+		by Peer-Directed Projects Center
+		<a rel="license" href="http://creativecommons.org/licenses/by-nd/2.0/"><img alt="Creative Commons License" style="border: 0; float: right; margin-left: 1em;" src="<!--#echo var="VIRTROOT"-->images/cc-somerights20.gif" width=88 height=31 /></a><br />
 		<!--#config timefmt="%d-%b-%Y %T %Z"-->
-		<!--#echo encoding="none" var="DATE_GMT" -->
-		<br />
 		Comments to email address: support at freenode dot net</p>
 		<p style="text-align: right">
 		<!--#echo encoding="none" var="SPONSOR_LINKS" --></p>

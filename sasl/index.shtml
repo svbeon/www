@@ -11,6 +11,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 
 <p>Client support for SASL relies on the <a href="https://tools.ietf.org/html/draft-mitchell-irc-capabilities-01">CAP IRC client extension</a>; the technical details of how it works are <a href="https://github.com/atheme/charybdis/blob/master/doc/sasl.txt">explained here</a>. A number of clients already have built-in support for SASL:</p>
 <ul>
+	<li><a href="http://www.adium.im">Adium</a> (versions &ge;1.6)</li>
 	<li><a href="http://www.andchat.net">AndChat</a> (versions &ge;1.3.4)</li>
 	<li><a href="http://www.androirc.com">AndroIRC</a> (versions &ge;2.0)</li>
 	<li><a href="https://github.com/BitchX/BitchX1.2">BitchX</a> (versions &ge;1.2)</li>
@@ -18,6 +19,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="http://www.hexchat.org/">HexChat</a></li>
 	<li><a href="http://konversation.kde.org">Konversation</a> (versions &ge;1.5)</li>
 	<li><a href="http://www.kvirc.net">KVIrc</a> (versions &ge;4)</li>
+	<li><a href="http://www.pidgin.im/">Pidgin</a> (versions &ge;2.10.7)</li>
 	<li><a href="http://www.quassel-irc.org">Quassel</a> (versions &ge;0.6.1)</li>
 	<li><a href="http://codeux.com/textual/">Textual</a> (versions &ge;2.1)</li>
 	<li><a href="http://www.weechat.org/">Weechat</a></li>

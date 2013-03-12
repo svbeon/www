@@ -6,9 +6,9 @@
 
 <ol>
 
-	<li><p>Copy the <a href="makecert.shtml">cert and key that  you made</a> into the &tilde;/.config/quassel-irc.org/certs directory. Quassel will not use the PEM file. Make sure the filesystem permissions restrict read access for the files to just you.</p>
-		<p><span class="verbatim-b">mv mynick.cert &tilde;/.config/quassel-irc.org/certs</span>
-		<span class="verbatim-b">mv mynick.key &tilde;/.config/quassel-irc.org/certs</span></p></li>
+	<li><p>Copy the <a href="makecert.shtml">cert and key that  you made</a> into the ~/.config/quassel-irc.org/certs directory. Quassel will not use the PEM file. Make sure the filesystem permissions restrict read access for the files to just you.</p>
+		<p><span class="verbatim-b">mv mynick.cert ~/.config/quassel-irc.org/certs</span>
+		<span class="verbatim-b">mv mynick.key ~/.config/quassel-irc.org/certs</span></p></li>
 
 	<li><p>Click Settings and Configure Quassel. In the IRC section of settings, click Identities. Then click the Advanced tab.</p>
 		<p><img src="certfp-quassel.png" alt="Quassel: Identities Advanced" height=601 width=727 /></p></li>

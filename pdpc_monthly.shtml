@@ -1,65 +1,10 @@
 <!--#set var="page_title" value="PDPC: Monthly Donation" -->
 <!--#set var="content_title" value="PDPC: Monthly Donation" -->
 <!--#include file="include/header-mainlogos.shtml" -->
+<p>
+freenode is no longer accepting donations via the pdpc.  
 
-<div class="contrib">
-<!--#include file="include/pdpc_donation_header.shtml" -->
-<!--#include file="include/pdpc_donation_pdpc_only.shtml" -->
-<!--#include file="include/pdpc_donation_common.shtml" -->
-<!--#include file="include/pdpc_donation_monthly.shtml" -->
-<!--#include file="include/pdpc_donation_trailer.shtml" -->
-
-
-  <p>
-    This form can be used in order to set up a monthly, automatic donation to
-    Peer-Directed Projects Center (PDPC) via a PayPal subscription. Donations to PDPC are unconditional and
-    irrevocable and will be used to fund PDPC programs and general operating
-    expenses.
-  </p>
-
-  <p>
-    Donations via PayPal subscription are provided as a convenience to PDPC
-    donors.  You must belong to PayPal to use this option.  Your subscription
-    is made or cancelled through PayPal and the fact that you've set up such a
-    subscription is not considered by PDPC to be a pledge or other promise of
-    a future donation.
-  </p>
-
-  <p>
-    To begin the donation process, follow these steps:
-  </p>
-
-  <ol>
-    <li>
-      Select a support level from the drop-down box.
-    </li>
-    <li>
-      If you're a <span class="freenode">freenode</span> user, and you'd like to
-      wear the
-      
-      <a href="faq.shtml#whycloak">Cloak</a>,
-      
-      we appreciate it!  Just
-
-      <a href="faq.shtml#nicksetup">set up your IRC nick</a>
-  
-      and enter your main nickname in the space provided in the form.  Your
-      acknowledgement cloak will appear on your IRC sessions until you discontinue
-      your subscription.
-    </li>
-    <li>
-      If you spent much of your <span class="freenode">freenode</span> time on a
-      single channel, and you'd like to list your donations as coming from
-      that channel, just enter its name in the bottom box. We'll keep a
-      running tally of the number of users contributing from each channel.
-    </li>
-    <li>
-      Hit <b>Submit</b> to begin the process.
-    </li>
-  </ol>
-
-  <p>That's all it takes.  On behalf of the board of Peer-Directed Projects
-  Center, thank you for your contribution!</p>
-</div>
+Thanks for all your support over the years!
+</p>
 
 <!--#include file="include/trailer.shtml" -->

@@ -2,83 +2,10 @@
 <!--#set var="content_title" value="PDPC: Single Donation" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<div class="contrib">
-<!--#include file="include/pdpc_donation_header.shtml" -->
-<!--#include file="include/pdpc_donation_pdpc_only.shtml" -->
-<!--#include file="include/pdpc_donation_common.shtml" -->
-<!--#include file="include/pdpc_donation_onetime.shtml" -->
-<!--#include file="include/pdpc_donation_trailer.shtml" -->
+<p>
+freenode is no longer accepting donations via the pdpc.  
 
-
-  This form can be used in order to make a single, one-time donation to
-  Peer-Directed Projects Center, the not-for-profit
-  entity which runs <span class="freenode">freenode</span>. Donations are
-  unconditional and irrevocable and will be used to fund PDPC programs and
-  general operating expenses.
-
-  <br /><br />
-
-  Donations are accepted through PayPal, but you will not be required to
-  join PayPal in order to make a one-time donation.  To donate without
-  joining, simply use a debit or credit card which has never been associated
-  with a PayPal account, and click the button labeled <b>"If you have never
-  paid through PayPal, click here."</b>
-
-  <br /><br />
-
-  If you'd like to make an <b>ongoing</b> contribution via PayPal,
-  
-  <a href="pdpc_yearly.shtml">click here</a>
-  
-  instead.  An automatic, once-a-year charge/debit will be set
-  up which you can cancel at any time.  You must belong to PayPal to
-  use this option.
-  
-  <br /><br />
-  
-  To begin the donation process, follow these steps:
-  
-  <ol>
-    <li>
-      Select a support level from the drop-down box.
-
-     <br /><br />
-    </li>
-    <li>
-      If you're a <span class="freenode">freenode</span> user, and you'd like to
-      wear the
-      
-      <a href="faq.shtml#whycloak">Cloak</a>,
-      
-      we appreciate it!  Just
-
-      <a href="faq.shtml#nicksetup">set up your IRC nick</a>
-  
-      and enter your main nickname in the space provided in the form.  Your
-      acknowledgement cloak will appear on your IRC sessions for a year. 
-      But, even if you donate at the smaller <i>nibble</i> or <i>byte</i>
-      levels, we'd love it if you could let us know your nick. We'll be
-      happy to provide a cloak, on request, as your yearly total reaches one
-      of the higher levels.
-
-     <br /><br />
-    </li>
-    <li>
-      If you spent much of your <span class="freenode">freenode</span> time on a
-      single channel, and you'd like to list your donation as coming from
-      that channel, just enter its name in the bottom box.  We'll keep a
-      running tally of the number of users contributing from each
-      channel.
-
-     <br /><br />
-    </li>
-    <li>
-      Hit <b>Submit</b> to begin the process.
-    </li>
-  </ol>
-
-  <p>That's all it takes.  On behalf of the board of Peer-Directed Projects
-  Center, thank you for your contribution!</p>
-</div>
+Thanks for all your support over the years!
+</p>
 
 <!--#include file="include/trailer.shtml" -->

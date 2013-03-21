@@ -15,7 +15,6 @@ dot net! Thank you.</p>
   <li><a href="#contents-gettinghelp">Getting Help</a></li>
   <li><a href="#contents-groups">Groups and Group Contacts</a></li>
   <li><a href="#contents-organisation"><span class="freenode">freenode</span> Project Organisation</a></li>
-  <li><a href="#contents-pdpc">Contributions</a></li>
 </ul>
 
 <h3 id="contents-general"><a href="#general">General Questions</a></h3>
@@ -91,7 +90,6 @@ dot net! Thank you.</p>
   <li><a href="#groupactivity">What level of activity is expected from groups registered on <span class="freenode">freenode</span>?</a></li>
   <li><a href="#gcfunctions">What functions can group contacts perform?</a></li>
   <li><a href="#gcsetup">How do we set up group contacts?</a></li>
-  <li><a href="#gcverify">How do you verify group contacts?</a></li>
   <li><a href="#gcdifference">What is the difference between a primary and an alternate group contact?</a></li>
   <li><a href="#cloakformat">How are group cloaks formatted?</a></li>
   <li><a href="#cloakchoice">To whom may we offer a group cloak?</a></li>
@@ -112,14 +110,6 @@ dot net! Thank you.</p>
   <li><a href="#howtolink">How do I link my server?</a></li>
   <li><a href="#complaintdept">Who do I complain to?</a></li>
   <li><a href="#complaintvolume">Do you get a lot of complaints?</a></li>
-</ul>
-
-<h3 id="contents-pdpc"><a href="#pdpc">Contributions</a></h3>
-<ul>
-  <li><a href="#whymoney">Why do you need money?</a></li>
-  <li><a href="#moneydecisions">Who decides how the money you collect will be spent?</a></li>
-  <li><a href="#donationcost">What does it cost when I donate?</a></li>
-  <li><a href="#whycloak"> Why should I wear a cloak to acknowledge my donation?</a></li>
 </ul>
 
 <h2 id="general">General Questions</h2>
@@ -146,12 +136,12 @@ dot net! Thank you.</p>
     not the network you should be using.</dd>
 
   <dt id="whyfreenode">Why is it called <span class="freenode">freenode</span>?</dt>
-    <dd>Prior to the creation of <span class="freenode">freenode</span>'s
-    not-for-profit parent entity, Peer-Directed Projects Center, we called the
-    network Open Projects. We picked a new name, <span
-    class="freenode">freenode</span>, to mark its new status as a service of
-    PDPC. The new name brings to mind the best qualities of free software and
-    open source. It suggests the non-hierarchical nature of the network, in
+    <dd>Prior to the creation of the Peer-Directed Projects Center (PDPC)
+    not-for-profit entity, the network was known as Open Projects. The new
+    name, <span class="freenode">freenode</span>, was chosen to mark the
+    network's new status, having PDPC as its parent organization. PDPC is no
+    longer, but the new name still evokes the best qualities of free software
+    and open source. It suggests the non-hierarchical nature of the network, in
     which the individual channels are run by the groups which own them, and
     network staff works to maintain a relaxed and congenial environment.</dd>
 
@@ -477,10 +467,11 @@ dot net! Thank you.</p>
     from network staff if you're having problems.</dd> -->
 
   <dt id="pdpc_cloak">Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?</dt>
-    <dd>They're users who have <a href="pdpc_donations.shtml">donated</a> to
-    Peer-Directed Projects Center, the not-for-profit entity which runs
-    <span class="freenode">freenode</span>. The hostnames acknowledge their
-    donations.</dd>
+    <dd>Users who donated to the Peer-Directed Projects Center (PDPC) were
+    given a supporter or sponsor cloak as an acklowledgement and token of our
+    gratitude for their support of the network and the PDPC.  The PDPC was
+    subsequently shut down, and so these cloaks are no longer available,
+    although you may still seem them from time to time.</dd>
 
   <dt id="channelexpirations">When do IRC channels expire?</dt>
     <dd><p>We consider <a href="policy.shtml#channelnaming">non-primary</a> IRC
@@ -618,12 +609,10 @@ dot net! Thank you.</p>
     us as administrators for you to leave CTCP VERSION available and un-spoofed,
     but you should upgrade your client frequently to reduce your exposure to
     attacks.</p>
-    <p>For privacy purposes, staff will treat your client version information in
-    the same way it treats <a href="group_privacy.shtml">personal information
-    provided by group contacts</a>, though we may also publish that version
-    information in statistical form, aggregated with that of other users. We'll
-    be careful to avoid using it in ways which unnecessarily disrupt your use of
-    the network.</p></dd>
+    <p>For privacy purposes, staff may publish that version information in
+    statistical form, aggregated with that of other users.  We'll be careful
+    to avoid using it in ways which unnecessarily disrupt your use of the
+    network.</p></dd>
 
   <dt id="freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</dt>
     <dd>Messages labeled <span class="verbatim-i">freenode-info</span> contain
@@ -915,17 +904,18 @@ dot net! Thank you.</p>
 
   <dt id="cloaks">Can I get a hostname cloak?</dt>
     <dd><p>You can ask for an unaffiliated cloak in #freenode. This is our
-    standard cloak and normally shows @unaffiliated/youraccountname. You will
-    need a <a href="#nicksetup">registered nickserv account</a>. Some of our
-    registered groups offer their own cloaks for their projects. To obtain one
-    of these, you need to find the group contact for the group you are
-    interested in, and ask them to arrange the cloak for you. Lastly, if you <a
-    href="pdpc_donations.shtml">make a donation</a> to the <a
-    href="pdpc.shtml">Peer-Directed Projects Center</a>. our parent group, we
-    offer special donation cloaks in acknowledgement.</p>
+    standard cloak and normally shows
+    <span class="verbatim-i">unaffiliated/<span class="subst">youraccountname</span></span>.
+    You will need a <a href="#nicksetup">registered nickserv account</a>.
+    Remember to verify your email address. Some of our registered groups offer
+    their own cloaks for their projects. To obtain one of these, you need to
+    find the group contact for the group you are interested in, and ask them
+    to arrange the cloak for you.</p>
     <p>We generally offer only one cloak per person, and a cloak is applied to a
     <a href="#nicksetup">nickserv account</a>. If you want a cloak for your bot,
-    please create a separate account for it before asking.</p>
+    please create a separate account for it before asking. Unaffiliated bot
+    cloaks look like
+    <span class="verbatim-i">unaffiliated/<span class="subst">youraccountname</span>/bot/<span class="subst">botname</span></span>.</p>
 
     <p>As always, please observe good behaviour and adhere to network policies
     whilst wearing cloaks. We reserve the right to refuse to cloak accounts, and
@@ -976,10 +966,10 @@ dot net! Thank you.</p>
     <p>Group contacts are also invited to sit on the Group Advisory Board, or
     GAB as we refer to it, which has been introduced to allow the projects who
     use our services to have a voice in shaping the future of <span
-    class="freenode">freenode</span> and the PDPC and which direction we take in
-    future and how we can best help create environments that promote cross
-    project collaboration, sharing of resources and bringing people together, on
-    and offline.</p></dd>
+    class="freenode">freenode</span> and which direction we take in future and
+    how we can best help create environments that promote cross project
+    collaboration, sharing of resources and bringing people together, on and
+    offline.</p></dd>
 
   <dt id="gcsetup">How do we set up group contacts?</dt>
     <dd><p>Our <a href="group_registration.shtml">group registration</a> page
@@ -995,11 +985,6 @@ dot net! Thank you.</p>
     also have one or more active group contacts <a
     href="group_registration_form.php">fill out the group contact form</a>,
     selecting "I am: a contact person being alternate."</p></dd>
-
-  <dt id="gcverify">How do you verify group contacts?</dt>
-    <dd>A representative of <a href="pdpc.shtml">Peer-Directed Projects
-    Center</a>, the not-for-profit entity which runs the network, will contact
-    your group contact to verify the information provided on the form.</dd>
 
   <dt id="gcdifference">What is the difference between a <em>primary</em> and an <em>alternate</em> group contact?</dt>
     <dd><p>A <em>primary</em> contact has the authority to represent your group,
@@ -1031,8 +1016,6 @@ dot net! Thank you.</p>
       user's name, their forum name, their committer id or account id on your
       server, or their master IRC nick. Whatever you choose must be unique within
       the context of your project or group.</p>
-        <p>With your user's permission, we'll prefix a period-separated label to
-        this token to indicate if your user is a donor to PDPC.</p>
         <p>Dual cloaks, where a period-separated label to the token bearing the name
         of some other project is inserted into the cloak, are strongly discouraged
         and are only applied, as for all cloaks, at staff discretion and with the
@@ -1079,8 +1062,8 @@ dot net! Thank you.</p>
   <dt id="grouprequests">How do our group members request hostname cloaks?</dt>
     <dd>You should provide your members with the name of someone associated with
     your group who can process their requests. We may not be able to point them
-    directly to your group contact due to our <a
-    href="group_privacy.shtml">privacy policy</a>.</dd>
+    directly to your group contact information, as that is considered private
+    between the group and <span class="freenode">freenode</span>.</dd>
 
 </dl>
 
@@ -1133,37 +1116,6 @@ dot net! Thank you.</p>
     are running well, people tend to forget how much work it takes to keep <span
     class="freenode">freenode</span> running. If you like the service, tell a
     staffer. It'll make our day. :)</dd>
-
-</dl>
-
-<h2 id="pdpc">Contributions</h2>
-<dl>
-
-  <dt id="whymoney">Why do you need money?</dt>
-    <dd>Peer-Directed Projects Center, the parent organisation of <span
-    class="freenode">freenode</span>, is a not for profit organisation
-    incorporated in England and Wales. We talk about some of our other projects
-    <a href="pdpc.shtml">here</a>. Without your <a
-    href="pdpc_donations.shtml">support</a>, we'll find it difficult to maintain
-    and expand the growing <a href="index.shtml ">freenode</a> network or take
-    on the other community service projects in planning.</dd>
-
-  <dt id="moneydecisions">Who decides how the money you collect will be spent?</dt>
-    <dd>The Board of Directors of Peer-Directed Projects Center must approve all
-    expenditures of funds for <span class="freenode">freenode</span> and other
-    PDPC projects.</dd>
-
-  <dt id="donationcost">What does it cost when I donate?</dt>
-    <dd>If you donate via PayPal, we receive your donation less PayPal fees. At
-    last check, we were charged at the standard rate, 2.9% plus a 20 pence
-    fee.</dd>
-
-  <dt id="whycloak">Why should I wear a <a href="#cloaks">cloak</a> to acknowledge my donation?</dt>
-    <dd>When you wear the cloak, your donation becomes more visible, which helps
-    to raise awareness of the idea of donating to Peer-Directed Projects Center,
-    the not-for-profit entity which runs <span class="freenode">freenode</span>.
-    So, in a sense, your donation goes twice as far. We strongly recommend that
-    you <a href="#nicksetup">do the necessary setup</a> and wear the cloak!</dd>
 
 </dl>
 

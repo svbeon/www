@@ -1,17 +1,7 @@
 <div class="bodyframe">
 	<div class="menubar">
-		<div id="donate" class="navcontrib" style="margin: 0;">
-				<p>Help keep freenode running.
-				<br />
-				Donate to the <a href="<!--#echo var="VIRTROOT"-->pdpc_donations.shtml">PDPC</a>!</p>
-
-			<p><a href="<!--#echo var="VIRTROOT"-->pdpc_onetime.shtml" class="donatebutton">One time</a>
-			<a href="<!--#echo var="VIRTROOT"-->pdpc_monthly.shtml" class="donatebutton">Monthly</a> 
-			<a href="<!--#echo var="VIRTROOT"-->pdpc_yearly.shtml" class="donatebutton">Yearly</a></p>
-		</div>
 	<ul>
 		<li><a href="http://blog.freenode.net/">News</a></li>
-		<li><a href="<!--#echo var="VIRTROOT"-->pdpc.shtml">About PDPC</a></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->index.shtml">About the network</a>
 		<ul>
 			<li><a href="<!--#echo var="VIRTROOT"-->faq.shtml">FAQ</a></li>
@@ -21,7 +11,6 @@
 			<ul>
 				<li><a href="<!--#echo var="VIRTROOT"-->primary_groups.shtml">Primary Groups</a></li>
 				<li><a href="<!--#echo var="VIRTROOT"-->topical_groups.shtml">Topical/Reference</a></li>
-				<li><a href="<!--#echo var="VIRTROOT"-->group_privacy.shtml">Privacy Policy</a></li>
 			</ul></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->using_the_network.shtml">Using the Network</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->policy.shtml">Policies</a></li>
@@ -46,7 +35,6 @@
 		</ul></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->how_to_help.shtml">How to Help</a>
 		<ul>
-			<li><a href="<!--#echo var="VIRTROOT"-->pdpc_donations.shtml">Donations to PDPC</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->hosting_ircd.shtml">Hosting a Server</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->operations.shtml">Operations</a></li>
 			<li><a href="<!--#echo var="VIRTROOT"-->volunteering.shtml">Volunteering</a></li>

@@ -3,84 +3,16 @@
 <!--#include file="include/header-mainlogos.shtml" -->
 
 
-<p>
-  You've reached <span class="freenode">freenode</span>, a service of
+<p>You've reached <span class="freenode">freenode</span>, an IRC network providing discussion facilities for the Free and Open Source Software communities, not-for-profit organizations, and related communities. In 1998, the network had about 200 users and less than 20 channels. Fifteen years later, the network peaks at over 80,000 users.  <span class="freenode">freenode</span> provides facilities to a variety of <a href="primary_groups.shtml">groups and organizations</a>.  See our <a href="policy.shtml">network policies</a> and <a href="philosophy.shtml">philosophy</a> if you want to know more.</p>
 
-  <a href="pdpc.shtml">Peer-Directed Projects Center (PDPC)</a>.
+<p>If you're interested in looking around the network, please <a href="using_the_network.shtml">come see us</a>, or have a look at our <a href="http://blog.freenode.net">blog</a>.</p>
 
-  freenode provides discussion facilities for the Free and Open Source
-  Software communities, for not-for-profit organizations and for related
-  communities and organizations.  In 1998, the network had about 200 users
-  and less than 20 channels. Ten years down the line the network currently 
-  peaks at just over 70,000 users,
-  <span class="freenode">freenode</span>
+<p><span class="freenode">freenode</span> is run entirely by volunteers hailing from the wider FOSS communities which we serve. Our combined network staff and development base is made up of around 40 dedicated men and women. We can all be found in #freenode on the network. Staff are all voiced and happy to help, or just have a chat with you about what we do and why we do it!</p>
 
-  provides facilities to a variety of
+<h2>Other Community Services</h2>
+<p>Have you checked out <a href="http://fossevents.org">fossevents.org</a>?  It's designed to bring you a up to date list of events, barcamps, expos, lug meetings...  any event relevant to Free and Open Source Software, across the globe!  Have a look for events near you, or list one if you know of one before us or you're involved in organising one!</p>
 
-  <a href="primary_groups.shtml">groups and organizations</a>.
-</p>
-
-<p>
-
-   Our 2011/12 fundraiser is in progress. <a href="pdpc_onetime.shtml">Get involved</a>! Donations help to support the runnings costs of PDPC, the organisation which runs freenode.
-</p>
-
-<p>
-   Have you checked out 
-    
-   <a href="http://fossevents.org">fossevents.org</a> yet? It's designed to bring you a up to date list of 
-   
-   events, barcamps, expos, lug meetings.. any event relevant to Free and Open Source Software, across the 
-   globe! Have a look for events near you, or list one if you know of one before us or you're involved in 
-   organising one!
-</p>
-
-
-<p>
-  Peer-Directed Projects Center is a
-
-  not-for-profit organisation, limited by guarantee 
-
-  and incorporated in England and Wales.
-
-  Your
-
-  <a href="#donate">donations</a>
-
-  help keep us running.
-</p>
-
-<p>
-
-  If you're interested in looking around the network, please
-
-  <b><a href="irc_servers.shtml">find a server</a></b>
-
-  and
-
-  <b><a href="using_the_network.shtml">come see us</a>,</b>
-
-  or have a look at our
-
-  <b><a href="policy.shtml">network policies</a></b>
-
-  and project
-
-  <b><a href="http://blog.freenode.net">news</a></b>
-
-  and
-
-  <b><a href="philosophy.shtml">philosophy</a>.</b>
-</p>
-
-<p><span class="freenode">freenode</span> is run entirely by volunteers hailing from the wider FOSS communities which we serve. Our combined network staff and development base is made up of around 40 dedicated men and women. We can all be found in #freenode on the network, staff are all voiced and happy to help, or just have a chat with you about what we do and why we do it!</p>
-
-
-<p>
-  Welcome to <span class="freenode">freenode</span>!
-</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
 	</small>"-->
-
 <!--#include file="include/trailer.shtml" -->

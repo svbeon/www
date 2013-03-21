@@ -2,40 +2,10 @@
 <!--#set var="content_title" value="How to Help" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p><span class="freenode">freenode</span> exists
-to provide an interactive environment for coordination and support
-of peer-directed projects, including those of free software and 
-open source. Our network is currently implemented using Internet Relay
-Chat (IRC). Our aim is to help improve the communicative and collaborative
-skills of our participants and to
-maintain a friendly, efficient environment for project
-coordination and technical support.</p>
+<p><span class="freenode">freenode</span> exists to provide an interactive environment for coordination and support of peer-directed projects, including those of free software and open source. Our network is currently implemented using Internet Relay Chat (IRC). Our aim is to help improve the communicative and collaborative skills of our participants and to maintain a friendly, efficient environment for project coordination and technical support.</p>
 
+<p>You can help in several ways.  You might consider <a href="hosting_ircd.shtml">hosting a server</a>.  You could consider getting involved with <a href="operations.shtml">staff operations</a> as a volunteer.  Or you might work on our <a href="gms.shtml">our current development focus</a>.</p>
 
-
-
-<p>You can help in several ways.  You might consider
-
-<a href="pdpc.shtml">donating</a>
-
-to Peer-Directed Projects Center, the not-for-profit entity which runs the
-network.  Or you might want to
-
-<a href="hosting_ircd.shtml">host a server</a>.
-
-You could consider getting involved with
-
-<a href="operations.shtml">staff operations</a>
-
-as a volunteer.  Or you might work on our
-
-<a href="gms.shtml">our current development focus</a>.</p>
-
-
-
-
-<p>Regardless, we value having you here,
-as a contributor or as a participant.  Thank you for using
-<span class="freenode">freenode</span>!</p>
+<p>Regardless, we value having you here, as a contributor or as a participant.  Thank you for using <span class="freenode">freenode</span>!</p>
 
 <!--#include file="include/trailer.shtml" -->

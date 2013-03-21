@@ -36,31 +36,17 @@
 <h2 id="purpose">Purpose</h2>
 
 <p>
-  The 
-
-  <span class="freenode">freenode</span>
-
-  network is a service of
-
-  <a href="pdpc.shtml">Peer-Directed Projects Center Ltd</a>,
-
-  the not-for-profit entity which runs it.  From the PDPC charter:
+  The <span class="freenode">freenode</span> network exists to help
+  peer-directed project communities flourish. Peer-directed projects
+  combine open, informal participation with broad licensing and wide
+  dissemination of output.
 </p>
-
-<blockquote>
-  <i>
-    The purpose for which the corporation is organized is to help
-    peer-directed project communities flourish. Peer-directed projects
-    combine open, informal participation with broad licensing and wide
-    dissemination of output.
-  </i>
-</blockquote>
 
 <p>
   <span class="freenode">freenode</span> provides facilities to
   peer-directed project communities, including those of free and open source
   software (FOSS). IRC is a self-referential medium, existing mainly to
-  serve IRC users&mdash;but this network was created to serve groups which
+  serve IRC users &mdash; but this network was created to serve groups which
   exist <em>outside of</em> IRC. It's designed to encourage community
   members to improve their skills in the areas of cooperative effort,
   interpersonal communication and project coordination, and to create a
@@ -151,12 +137,9 @@
   Primary channel names, formatted with a single leading hash mark
   (<b>#</b>), are reserved for participating groups and organizations based
   on their legal or informal claim to the associated name or name prefix.
-  For example,
-  
-  <a href="pdpc.shtml">Peer-Directed Projects Center</a>,
-  
-  the organization which runs the network, has reserved the name
-  <span class="freenode">freenode</span> and has been granted control over channel
+  For example, <span class="freenode">freenode</span> has reserved and holds
+  control of the <span class="freenode">freenode</span> namespace.  That means
+  <span class="freenode">freenode</span> has been granted control over channel
   #freenode, as well as any channel beginning with #freenode-.
 </p>
 
@@ -189,16 +172,13 @@
 <p>
   <a id="socialengineering"></a>
 
-  <a href="pdpc.shtml">Peer-Directed Projects Center</a>
-
-  has limited resources to research trademark. Though uncertainties can
-  exist as to the validity of a claim on a name, we'll try to resolve such
-  claims to the best of our abilities. The use of
-
+  <span class="freenode">freenode</span> has limited resources to research
+  trademarks.  Though uncertainties can exist as to the validity of a claim on
+  a name, we'll try to resolve such claims to the best of our abilities.  The
+  use of
   <a href="http://www.catb.org/~esr/jargon/html/S/social-engineering.html">social-engineering</a>-style
-
-  tactics (such as legal filings) to acquire a project name already in use
-  may negatively affect your reputation in the communities we serve.
+  tactics (such as legal filings) to acquire a project name already in use may
+  negatively affect your reputation in the communities we serve.
 </p>
 
 <p>
@@ -307,12 +287,11 @@
       Non-Software-Related Peer-Directed Project.
     </b>
 
-    Per the PDPC charter, channels which serve projects combining open,
-    informal participation and broadly-licensed, widely-disseminated
-    creative output are considered to be on-topic. If you believe your
-    non-software project may meet the criteria for a non-software
-    peer-directed project, please consult a staffer or email support at
-    freenode dot net.
+    Channels which serve projects combining open, informal participation and
+    broadly-licensed, widely-disseminated creative output are considered to be
+    on-topic.  If you believe your non-software project may meet the criteria
+    for a non-software peer-directed project, please consult a staffer or
+    email support at freenode dot net.
     
     <br /><br />
   </li>
@@ -442,8 +421,8 @@
   barred from the network.
 
   <br /><br />
-  In accordance with UK law freenode and the PDPC have no tolerance for 
-  any activity which could be construed as:</p>
+  In accordance with UK law freenode has no tolerance for any activity which
+  could be construed as:</p>
   
   <ul>
   <li>incitement to racial hatred</li>
@@ -456,7 +435,7 @@
   a zero-tolerance policy for libel and defamation. 
   <br /><br />
 
-  While we believe in the concept of freedom of thought and freedom of expression, 
+  While we believe in the concept of freedom of thought and freedom of expression,
   freenode does not operate on the basis of absolute freedom of speech and we 
   impose limitations eg. on "hate speech".
   
@@ -560,9 +539,8 @@
 
   <a href="#announcements">announcements</a>
 
-  policy.  As such, these announcements, including those pertaining to
-  Peer-Directed Projects Center itself, are considered to be appropriate and
-  on-topic.
+  policy.  As such, these announcements are considered to be appropriate
+  and on-topic.
 </p>
 
 <p>
@@ -586,12 +564,12 @@
   When you're wearing a group or project cloak, any antisocial behavior on
   your part reflects on the group which provided you your cloak.  Most
   groups will withdraw a cloak rather than have its owner reflect badly on
-  them.  PDPC is no exception. If we receive complaints about your behavior
-  and you're wearing a cloak, we may remove your cloak. This includes
-  "pdpc/supporter" cloaks. If we remove your cloak, we may replace it with
-  an "unaffiliated" cloak; but antisocial behavior may result in the loss of
-  those cloaks as well.  We'll try to contact you in order to let you know
-  when and why your cloak was removed.
+  them.  If we receive complaints about your behavior and you're wearing a
+  cloak, we may remove your cloak.  This includes "pdpc/supporter" cloaks.  If
+  we remove your cloak, we may replace it with an "unaffiliated" cloak; but
+  antisocial behavior may result in the loss of those cloaks as well.  We'll
+  try to contact you in order to let you know when and why your cloak was
+  removed.
 
 </p>
 
@@ -697,18 +675,11 @@
 </p>
 
 <p>
-  Channel owners are free to deny access to their channels by various
-  gateway users.  But
-  
-  <span class="freenode">freenode</span>
-  
-  and
-  
-  <a href="pdpc.shtml">PDPC</a>
-  
-  urge you not limit access to gateways too broadly or completely. Please
-  don't ban <i>*@gateway/*</i> . Please use a "quiet" command instead of a
-  "ban" if at all possible. For example, please don't ban Tor users, as in
+  Channel owners are free to deny access to their channels by various gateway
+  users.  But please don't limit access to gateways too broadly or completely,
+  and in particular don't ban <i>*@gateway/*</i>.  A "quiet" command instead
+  of a "ban" can be just as effective, so please use a quiet if at all
+  possible.  For example, please don't ban Tor users, as in
   the following command:
 </p>
 
@@ -760,18 +731,11 @@
 
 
 <p>
-  <span class="freenode">freenode</span>
-  
-  is a service of
-  
-  <a href="pdpc.shtml">Peer-Directed Projects Center</a>,
-  
-  a company registered by guarantee in England and Wales.
-  As a legal entity, PDPC cannot condone or support behavior which is
-  clearly unlawful.  While PDPC does not have the resources to closely
-  monitor the thousands of channels on the network, its staff and volunteers
-  are required by policy to pass on credible information, provided by you as
-  a network participant, about unlawful activities. This is true whether you
+  <span class="freenode">freenode</span> cannot condone or support behavior
+  which is clearly unlawful.  While we do not have the resources to closely
+  monitor the thousands of channels on the network, staff and volunteers are
+  required by policy to pass on credible information, provided by you as a
+  network participant, about unlawful activities.  This is true whether you
   are talking about your own activities or those of someone else.  Please be
   aware that we have this responsibility.
 </p>

@@ -502,12 +502,9 @@ dot net! Thank you.</p>
   <dt id="channelfreezing">Why do you freeze channels when groups leave the network?</dt>
     <dd>Frequently when groups leave the network, they put up a pointer to the
     location of their new channel, on another network. This helps ensure that
-    active users who were unaware of the move can find the new channel. But
-    leaving the message up permanently encourages people to use <span
-    class="freenode">freenode</span> channel topics as billboards for channels
-    on other networks, or as forums for IRC politics. If you've moved, we'll
-    leave your pointer up for a week. After that, please use your project or
-    group website to point to the new channel.</dd>
+    active users who were unaware of the move can find the new channel. These
+    channels are subject to normal channel expiry policies.
+    </dd>
 
   <dt id="networkinfo">How do I find out what's going on with the network?</dt>
     <dd><p>We put information on the network in a variety of places. Your best

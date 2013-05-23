@@ -31,39 +31,40 @@ rotations.</p>
 <p> All <span class="freenode">freenode</span> servers listen on ports 6665,
 6666, 6667, 6697 (SSL only), 7000 (SSL only), 7070 (SSL only), 8000, 8001 and
 8002. Please be aware that the below list is at no time authoritative, and as
-such our advice is to connect using <i>chat.freenode.net</i>. </p>
+such our advice is to connect using <i>chat.freenode.net</i>. If you are
+using one of the servers below and it's not working, please check that it's
+in <i>chat.freenode.net</i> and select another server from that list if it's
+not.</p>
 
 <table class="serverlist">
-<tr class="sl_header"><td>Asia/Pacific Rim</td><td>chat.au.freenode.net</td><td>IPv6</td></tr>
-<tr><td>Perth, AU</td><td>bradbury.freenode.net</td><td>No</td></tr>
-<tr><td>Singapore, SG</td><td>brooks.freenode.net</td><td>No</td></tr>
-<tr><td>Brisbane, AU</td><td>roddenberry.freenode.net</td><td>Yes</td></tr>
-<tr class="sl_header"><td>Europe</td><td>&nbsp;</td><td>IPv6</td></tr>
-<tr><td>Budapest, HU</td><td>adams.freenode.net</td><td>Yes</td></tr>
-<tr><td>Paris, FR</td><td>barjavel.freenode.net</td><td>No</td></tr>
-<tr><td>Milan, IT</td><td>calvino.freenode.net</td><td>Yes</td></tr>
-<tr><td>Vilnius, LT</td><td>cameron.freenode.net</td><td>Yes</td></tr>
-<tr><td>Oslo, NO</td><td>gibson.freenode.net</td><td>Yes</td></tr>
-<tr><td>Sofia, BG</td><td>hitchcock.freenode.net</td><td>No</td></tr>
-<tr><td>Pitesti, RO</td><td>hobana.freenode.net</td><td>Yes</td></tr>
-<tr><td>London, UK</td><td>holmes.freenode.net</td><td>Yes</td></tr>
-<tr><td>Frankfurt, DE</td><td>kornbluth.freenode.net</td><td>No</td></tr>
-<tr><td>Ume&aring;, SE</td><td>leguin.freenode.net</td><td>Yes</td></tr>
-<tr><td>Stockholm, SE</td><td>lindbohm.freenode.net</td><td>Yes</td></tr>
-<tr><td>Rennes, FR</td><td>pratchett.freenode.net</td><td>No</td></tr>
-<tr><td>Helsinki, FI</td><td>rajaniemi.freenode.net</td><td>Yes</td></tr>
-<tr><td>Vilnius, LT</td><td>sendak.freenode.net</td><td>No</td></tr>
-<tr><td>Manchester, UK</td><td>wolfe.freenode.net</td><td>No</td></tr>
-<tr class="sl_header"><td>United States</td><td>&nbsp;</td><td>IPv6</td></tr>
-<tr><td>Austin, TX</td><td>asimov.freenode.net</td><td>No</td></tr>
-<tr><td>Washington, DC</td><td>card.freenode.net</td><td>No</td></tr>
-<tr><td>Pittsburgh, PA</td><td>hubbard.freenode.net</td><td>No</td></tr>
-<tr><td>Austin, TX</td><td>moorcock.freenode.net</td><td>No</td></tr>
-<tr><td>Chicago, IL</td><td>morgan.freenode.net</td><td>Yes</td></tr>
-<tr><td>Corvallis, OR</td><td>niven.freenode.net</td><td>No</td></tr>
-<tr><td>Newark, NJ</td><td>verne.freenode.net</td><td>Yes</td></tr>
-<tr><td>Irvine, CA</td><td>wright.freenode.net</td><td>No</td></tr>
-<tr><td>Corvallis, OR</td><td>zelazny.freenode.net</td><td>No</td></tr>
+<tr class="sl_header"><td>Asia/Pacific Rim</td><td>chat.au.freenode.net</td><td>IPv4/IPv6</td></tr>
+<tr><td>Perth, AU</td><td>bradbury.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Singapore, SG</td><td>brooks.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Brisbane, AU</td><td>roddenberry.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr class="sl_header"><td>Europe</td><td>&nbsp;</td><td>IPv4/IPv6</td></tr>
+<tr><td>Budapest, HU</td><td>adams.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>Paris, FR</td><td>barjavel.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Milan, IT</td><td>calvino.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>Vilnius, LT</td><td>cameron.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>Oslo, NO</td><td>gibson.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>Sofia, BG</td><td>hitchcock.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Pitesti, RO</td><td>hobana.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>London, UK</td><td>holmes.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>Frankfurt, DE</td><td>kornbluth.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Ume&aring;, SE</td><td>leguin.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>Stockholm, SE</td><td>lindbohm.freenode.net</td><td>IPv6</td></tr>
+<tr><td>Rennes, FR</td><td>pratchett.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Helsinki, FI</td><td>rajaniemi.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>Vilnius, LT</td><td>sendak.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Manchester, UK</td><td>wolfe.freenode.net</td><td>IPv4</td></tr>
+<tr class="sl_header"><td>United States</td><td>&nbsp;</td><td>IPv4/IPv6</td></tr>
+<tr><td>Dallas, TX</td><td>asimov.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Washington, DC</td><td>card.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Pittsburgh, PA</td><td>hubbard.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Austin, TX</td><td>moorcock.freenode.net</td><td>IPv4</td></tr>
+<tr><td>Chicago, IL</td><td>morgan.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>Newark, NJ</td><td>verne.freenode.net</td><td>IPv4, IPv6</td></tr>
+<tr><td>Irvine, CA</td><td>wright.freenode.net</td><td>IPv4</td></tr>
 </table>
 
 <h2 id="ssl">Accessing freenode Via SSL</h2>

@@ -214,7 +214,7 @@
           class="subst">youremail@example.com</span></span>
 
 
-          <p>Replace <span class="subst">password</span> with a secure,
+          <p>Replace <span class="verbatim-i subst">password</span> with a secure,
           unguessable password that you keep secret.</p></li>
 
         <li><p>The email address that you select will not be given out by staff, and
@@ -278,17 +278,17 @@
     </dd>
 
   <dt id="identify">What's the easiest way to identify to NickServ when I connect to <span class="freenode">freenode</span>?</dt>
-    <dd><p>Just plug your NickServ password into your client as a server
-    password, to make this work when connecting from a different nick than the
-    one you've got registered use 'nick:password'. You'll be identified to
-    NickServ automatically when you connect. In some cases, it's more convenient
-    to configure your client to send this command to achieve the same
-    effect:</p>
-
+    <dd><p>If your client supports <a href=sasl/">SASL</a>, that is best.
+    Otherwise, just plug your NickServ password into your client as a server
+    password. To make this work when connecting from a different nick than the
+    one you've got registered, use
+    <span class="verbatim-i"><span class="subst">nick</span>:<span class="subst">password</span></span>.
+    You'll be identified to NickServ automatically when you connect.</p>
+    <p>In some cases, it's more convenient to configure your client to send
+    this command to achieve the same effect:</p>
 
       <span class="verbatim-b">/msg NickServ IDENTIFY <span
       class="subst">account</span> <span class="subst">password</span></span>
-
 
       <p>We recommend you read and follow the steps of the <a
       href="#nicksetup">canonical nickname setup</a> to make sure your client

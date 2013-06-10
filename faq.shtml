@@ -159,8 +159,14 @@
     friendly and useful place.</dd>
 
   <dt id="fst">What is fST or <span class="freenode">freenode</span> Standard Time?</dt>
-    <dd>It's our official time zone. Well, sort of. We're not entirely serious.
-    :) <span class="freenode">freenode</span> Standard Time is UTC.</dd>
+    <dd><p>People on <span class="freenode">freenode</span> connect from time
+    zones all around the world. To skip discussions of morning versus afternoon
+    in any given time zone, <span class="freenode">freenode</span> adopted the
+    convention that when a user first joins or becomes active, it's considered
+    morning, and when the user leaves or goes away, it is evening. This is also
+    known as Universal Greeting Time (UGT).</p>
+    <p>It's still necesssary to coordinate on timestamps or specific meeting
+    times, and in this context, fST is a jovial reference to UTC.</p></dd>
 
 </dl>
 

@@ -2,10 +2,7 @@
 <!--#set var="content_title" value="Frequently-Asked Questions" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>This page has been set up to answer a few of the most common questions we
-get. If you can't find the answer to your question here, feel free to ask us in
-#freenode, where all staff are voiced, or drop us a line to support at freenode
-dot net! Thank you.</p>
+<p>This page has been set up to answer common questions. It's not intended to provide a tutorial about IRC in general, but to address the peculiarities of <span class="freenode">freenode</span>. If you can't find the answer to your question here, feel free to ask us in #freenode, where staff are voiced, or drop us a line to support at freenode dot net! Thank you.</p>
 
 <h2 id="contents"><a href="#contents">Contents</a></h2>
 <ul>

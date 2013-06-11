@@ -5,7 +5,7 @@ use vars qw($VERSION %IRSSI);
 
 use MIME::Base64;
 
-$VERSION = "1.3";
+$VERSION = "1.4";
 
 %IRSSI = (
     authors     => 'Michael Tharp and Jilles Tjoelker',
@@ -175,6 +175,7 @@ sub cmd_sasl_save {
 	#my ($data, $server, $item) = @_;
 	my $file = Irssi::get_irssi_dir()."/sasl.auth";
 	open FILE, "> $file" or return;
+	chmod(0600, $file);
 	foreach my $net (keys %sasl_auth) {
 		printf FILE ("%s\t%s\t%s\t%s\n", $net, $sasl_auth{$net}{user}, $sasl_auth{$net}{password}, $sasl_auth{$net}{mech});
 	}

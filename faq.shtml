@@ -2,10 +2,7 @@
 <!--#set var="content_title" value="Frequently-Asked Questions" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>This page has been set up to answer a few of the most common questions we
-get. If you can't find the answer to your question here, feel free to ask us in
-#freenode, where all staff are voiced, or drop us a line to support at freenode
-dot net! Thank you.</p>
+<p>This page has been set up to answer common questions. It's not intended to provide a tutorial about IRC in general, but to address the peculiarities of <span class="freenode">freenode</span>. If you can't find the answer to your question here, feel free to ask us in #freenode, where staff are voiced, or drop us a line to support at freenode dot net! Thank you.</p>
 
 <h2 id="contents"><a href="#contents">Contents</a></h2>
 <ul>
@@ -162,8 +159,14 @@ dot net! Thank you.</p>
     friendly and useful place.</dd>
 
   <dt id="fst">What is fST or <span class="freenode">freenode</span> Standard Time?</dt>
-    <dd>It's our official time zone. Well, sort of. We're not entirely serious.
-    :) <span class="freenode">freenode</span> Standard Time is UTC.</dd>
+    <dd><p>People on <span class="freenode">freenode</span> connect from time
+    zones all around the world. To skip discussions of morning versus afternoon
+    in any given time zone, <span class="freenode">freenode</span> adopted the
+    convention that when a user first joins or becomes active, it's considered
+    morning, and when the user leaves or goes away, it is evening. This is also
+    known as Universal Greeting Time (UGT).</p>
+    <p>It's still necesssary to coordinate on timestamps or specific meeting
+    times, and in this context, fST is a jovial reference to UTC.</p></dd>
 
 </dl>
 
@@ -211,7 +214,7 @@ dot net! Thank you.</p>
           class="subst">youremail@example.com</span></span>
 
 
-          <p>Replace <span class="subst">password</span> with a secure,
+          <p>Replace <span class="verbatim-i subst">password</span> with a secure,
           unguessable password that you keep secret.</p></li>
 
         <li><p>The email address that you select will not be given out by staff, and
@@ -275,17 +278,17 @@ dot net! Thank you.</p>
     </dd>
 
   <dt id="identify">What's the easiest way to identify to NickServ when I connect to <span class="freenode">freenode</span>?</dt>
-    <dd><p>Just plug your NickServ password into your client as a server
-    password, to make this work when connecting from a different nick than the
-    one you've got registered use 'nick:password'. You'll be identified to
-    NickServ automatically when you connect. In some cases, it's more convenient
-    to configure your client to send this command to achieve the same
-    effect:</p>
-
+    <dd><p>If your client supports <a href=sasl/">SASL</a>, that is best.
+    Otherwise, just plug your NickServ password into your client as a server
+    password. To make this work when connecting from a different nick than the
+    one you've got registered, use
+    <span class="verbatim-i"><span class="subst">nick</span>:<span class="subst">password</span></span>.
+    You'll be identified to NickServ automatically when you connect.</p>
+    <p>In some cases, it's more convenient to configure your client to send
+    this command to achieve the same effect:</p>
 
       <span class="verbatim-b">/msg NickServ IDENTIFY <span
       class="subst">account</span> <span class="subst">password</span></span>
-
 
       <p>We recommend you read and follow the steps of the <a
       href="#nicksetup">canonical nickname setup</a> to make sure your client

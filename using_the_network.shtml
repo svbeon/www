@@ -194,7 +194,7 @@ channel temperature low and reduce conflicts.</p>
       </table>
 
       <h4>Channel forwards in bans</h4>
-      <p>The suffix <span class="verbatim-i">$<span class="subst">#channel</span></span> can be appended to any of the above bans masks to cause a user to be forwarded to <span class="verbatim-i subst">#channel</span>. The ban setter will only be able to set this ban if they are an op in <span class="verbatim-i subst">#channel</span>, or if <span class="verbatim-i subst">#channel</span> has channel mode +F set. In this case, in all situations where the user would previously have been told they could not join, they will instead join the channel named in the ban mask and be sent a 470 numeric describing the forward.</p>
+      <p>The suffix <span class="verbatim-i">$<span class="subst">#channel</span></span> can be appended to any of the above ban masks to cause a user to be forwarded to <span class="verbatim-i subst">#channel</span>. The ban setter will only be able to set this ban if they are an op in <span class="verbatim-i subst">#channel</span>, or if <span class="verbatim-i subst">#channel</span> has channel mode +F set. In this case, in all situations where the user would previously have been told they could not join, they will instead join the channel named in the ban mask and be sent a 470 numeric describing the forward.</p>
   </td>
   </tr>
   <tr>
@@ -223,7 +223,7 @@ channel temperature low and reduce conflicts.</p>
   <tr>
     <td><span class="verbatim-i">f</span><br />(forward on uninvited)</td>
     <td>
-      <p>This mode takes one parameter, a channel name. Users who cannot join the channel (because of +i, +j, +r, etc.) are instead send to the channel given in +f. For example,
+      <p>This mode takes one parameter, a channel name. Users who cannot join the channel (because of +i, +j, +r, etc.) are instead sent to the channel given in +f. For example,
 	  <span class="verbatim-b">/mode <span class="subst">#channel1</span> +if <span class="subst">#channel2</span></span>
 	  would cause any users trying to join the channel and who are not in the invite-only exemption list (+I) to be sent to <span class="verbatim-i subst">#channel2</span> instead. Clients receive a 470 numeric message which lists the original and the target channels.</p>
       <p>An operator can only set mode +f #channel2 if they are an op in #channel2

@@ -187,17 +187,28 @@ tr.sl_inactive td
 {
 	text-decoration: line-through;
 }
-table.modetable
+table.modelist
 {
-	border: ridge 2px;
+	border: 2px ridge;
 	border-collapse: collapse;
 	border-spacing: 0;
+	margin-bottom: 2.2em;
+	padding: 0.5em;
 }
-table.modetable td
+table.modelist tr td
 {
-	border: ridge 2px;
-	padding: 5px;
+	padding: 0.5em;
+	padding-top: 1em;
 	vertical-align: top;
+}
+table.modelist tr:first-of-type > td
+{
+	padding: 0.5em;
+}
+table.modelist td > p:first-of-type
+{
+	/* expand this to all td > p:first-of-type? */
+	margin-top: 0em;
 }
 .verbatim-i {
 	/* display inline */

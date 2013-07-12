@@ -278,7 +278,7 @@
     </dd>
 
   <dt id="identify">What's the easiest way to identify to NickServ when I connect to <span class="freenode">freenode</span>?</dt>
-    <dd><p>If your client supports <a href=sasl/">SASL</a>, that is best.
+    <dd><p>If your client supports <a href="sasl/">SASL</a>, that is best.
     Otherwise, just plug your NickServ password into your client as a server
     password. To make this work when connecting from a different nick than the
     one you've got registered, use

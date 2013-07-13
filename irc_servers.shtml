@@ -93,16 +93,10 @@ will appear in WHOIS (a 276 numeric).</p>
 
 <h2 id="tor">Accessing freenode Via Tor</h2>
 
-<p> The current Tor hidden service address for <span class="freenode">freenode</span> is <a href="irc://p4fsi4ockecnea7l.onion">p4fsi4ockecnea7l.onion</a>. The service listens on ports 6667, 6697 (SSL), 7000 (SSL), and 7070 (SSL). To connect, a NickServ account is needed, and the IRC client must be configured to support SASL. Information on how to register a nick can be found on <a href="faq.shtml#nicksetup">our FAQ page</a>. If support is not built-in, SASL may require the use of additional scripts in your client. A collection of scripts and instructions for use can be found <a href="sasl/">here</a>. Tor's wiki also has a page on <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IrcSilc">configuring IRC clients to use Tor</a>.</p>
+<p> The primary Tor hidden service address for <span class="freenode">freenode</span> is <a href="irc://p4fsi4ockecnea7l.onion">p4fsi4ockecnea7l.onion</a>. The service listens on ports 6667, 6697 (SSL), 7000 (SSL), and 7070 (SSL). To connect, a NickServ account is needed, and the IRC client must be configured to support SASL. Information on how to register a nick can be found on <a href="faq.shtml#nicksetup">our FAQ page</a>. If support is not built-in, SASL may require the use of additional scripts in your client. A collection of scripts and instructions for use can be found <a href="sasl/">here</a>. Tor's wiki also has a page on <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IrcSilc">configuring IRC clients to use Tor</a>.</p>
 
-<p> Latencies are improving all the time and can be quite reasonable. You can
-always find a pointer to our Tor hidden service in <i>freenode.net</i> DNS, in
-an unresolved CNAME record, <i>irc.tor.freenode.net</i>, which can be retrieved,
-for example, via the *nix shell command: </p>
-
-
+<p> Latencies are improving all the time and can be quite reasonable. You can always find a pointer to our Tor hidden service in DNS, as an unresolved CNAME record, <span class="verbatim-i">irc.tor.freenode.net</span>, which can be retrieved, for example, via the *nix shell command: </p>
 <p><span class="verbatim-b">dig +short irc.tor.freenode.net cname</span></p>
-
 
 <p> If your IRC client can handle socks5 with remote dns, you can just connect
 to the .onion address directly. Otherwise, use Tor's "mapaddress" feature to
@@ -111,10 +105,7 @@ unnecessary. Just use the 'mapaddress' approach and torify irssi to start it
 up.) Add a line to your <a
 href="https://www.torproject.org/docs/faq#torrc">torrc</a>, as in this example:
 </p>
-
-
 <p><span class="verbatim-b">mapaddress 10.40.40.40 p4fsi4ockecnea7l.onion</span></p>
-
 
 <p> Be sure to HUP (reload) Tor if you change your torrc. After you've made the
 change, just connect your torified IRC client to the IP you specified in your
@@ -122,17 +113,15 @@ change, just connect your torified IRC client to the IP you specified in your
 service. Tor will do the conversion for you internally and you'll connect to
 <span class="freenode">freenode</span>. In addition to providing location
 privacy, the Tor hidden service gives you end-to-end encryption, providing
-benefits similar to those of <i>ircs / irc-ssl.</i> </p>
+benefits similar to those of ircs / irc-ssl.</p>
 
-<p> That's all it takes. We appreciate your accessing <span
-class="freenode">freenode</span> via the Tor hidden service. If you'd like to
-help us maintain quality access, please consider providing "middleman" bandwidth
-to the Tor network. Just <a
-href="https://www.torproject.org/docs/tor-doc-relay.html.en">set your host up as
-a Tor relay</a> and specify how much bandwidth you want to provide. You don't
-have to be an exit node&mdash;you can set your exit policy to "reject *:*" and
-still help us make up for the bandwith we use for <span
-class="freenode">freenode</span>'s hidden service. </p>
+<p> If you are unable to connect to <a href="irc://p4fsi4ockecnea7l.onion">p4fsi4ockecnea7l.onion</a>, then try using a secondary address:</p>
+<ul><li><a href="irc://lgttsalmpw3qo4no.onion">lgttsalmpw3qo4no.onion</a></li>
+<li><a href="irc://5jebommkgbfl6agc.onion">5jebommkgbfl6agc.onion</a></li>
+<li><a href="irc://lbkwyb2csfcgoxwa.onion">lbkwyb2csfcgoxwa.onion</a></li></ul>
+<p>There may be a bug in the Tor hidden service limiting the number of concurrent connections. If the primary address does not work for you but a secondary does, then please let us know (in #freenode) as it may help us in troubleshooting the issue.</p>
+
+<p> That's all it takes. We appreciate your accessing <span class="freenode">freenode</span> via the Tor hidden service. If you'd like to help us maintain quality access, please consider providing "middleman" bandwidth to the Tor network. Just <a href="https://www.torproject.org/docs/tor-doc-relay.html.en">set up your host as a Tor relay</a> and specify how much bandwidth you want to provide. You don't have to be an exit node &mdash; you can set your exit policy to <span class="verbatim-i">reject *:*</span> and still help us make up for the bandwith we use for <span class="freenode">freenode</span>'s hidden service.</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
 	</small>"-->

@@ -118,18 +118,7 @@ will appear in WHOIS (a 276 numeric).</p>
 
 <h2 id="tor">Accessing freenode Via Tor</h2>
 
-<p> The current Tor hidden service address for <span
-class="freenode">freenode</span> is
-<a href="irc://p4fsi4ockecnea7l.onion">p4fsi4ockecnea7l.onion</a>. This service
-can be used by any user with a registered NickServ account. No further setup
-steps are necessary beyond that, besides configuring your client. Information on
-how to register a nick can be found on <a href="faq.shtml#nicksetup">our FAQ
-page</a>. The Tor hidden service uses SASL for authentication, which may require
-the use of additional scripts in your client to provide support. A collection of
-scripts and instructions for use can be found <a href="sasl/">here</a>. Tor's
-wiki also has a page on <a
-href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IrcSilc">configuring
-IRC clients to use Tor</a>.</p>
+<p> The current Tor hidden service address for <span class="freenode">freenode</span> is <a href="irc://p4fsi4ockecnea7l.onion">p4fsi4ockecnea7l.onion</a>. The service listens on ports 6667, 6697 (SSL), 7000 (SSL), and 7070 (SSL). To connect, a NickServ account is needed, and the IRC client must be configured to support SASL. Information on how to register a nick can be found on <a href="faq.shtml#nicksetup">our FAQ page</a>. If support is not built-in, SASL may require the use of additional scripts in your client. A collection of scripts and instructions for use can be found <a href="sasl/">here</a>. Tor's wiki also has a page on <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IrcSilc">configuring IRC clients to use Tor</a>.</p>
 
 <p> Latencies are improving all the time and can be quite reasonable. You can
 always find a pointer to our Tor hidden service in <i>freenode.net</i> DNS, in

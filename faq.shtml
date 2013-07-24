@@ -572,12 +572,7 @@
 
 
   <dt id="firewall">My firewall logs show that someone from your network is trying to crack my box. What's going on?</dt>
-    <dd>You're probably seeing our open proxy detector. After numerous problems
-    with clonebots, we began checking for open proxies and similar software on
-    the hosts of clients connecting to our network. We use <a
-    href="http://www.blitzed.org/bopm/">BOPM</a> for this. It's popular with a
-    number of IRC networks, and it's very reliable. For more information, please
-    see our <a href="policy.shtml#proxies">policy page</a>.</dd>
+    <dd>You're probably seeing our open proxy detector. After numerous problems with clonebots, we began checking for open proxies and similar software on the hosts of clients connecting to our network. We use <a href="http://sourceforge.net/projects/bopm">BOPM</a> for this. It's popular with a number of IRC networks, and it's very reliable. For more information, please see our <a href="policy.shtml#proxies">policy page</a>.</dd>
 
   <dt id="drones">I joined this channel and now I can't access <span class="freenode">freenode</span> anymore. What's going on?</dt>
     <dd>Apologies for the inconvenience. Due to problems with drones and

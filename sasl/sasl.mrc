@@ -106,14 +106,14 @@ on *:DISCONNECT:{
   if ($network isin $SASL($network).nlist) { sd $network STATUS Disconnected }
 }
 
-raw CAP:*LS*:{
+raw CAP:& LS *:{
   if ($network isin $SASL($network).nlist) {
     .raw CAP REQ :multi-prefix sasl
     var %t = $mSASL($cid, $network).timer
     %t 1 $SASL($network).timeout noop $mSASL($cid, $network).timeout
   }
 }
-raw CAP:*ACK*:{
+raw CAP:& ACK *:{
   if ($network isin $SASL($network).nlist) {
     .raw AUTHENTICATE $SASL($network).authtype
     sd $network STATUS Authenticating

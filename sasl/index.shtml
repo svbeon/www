@@ -16,7 +16,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="http://www.androirc.com">AndroIRC</a> (versions &ge;2.0)</li>
 	<li><a href="https://github.com/BitchX/BitchX1.2">BitchX</a> (versions &ge;1.2)</li>
 	<!-- jayne: seems to be dead? <li><a href="http://confluence.atheme.org/display/CON/Home">Conspire</a></li> -->
-	<li><a href="http://www.hexchat.org/">HexChat</a></li>
+	<li><a href="http://hexchat.github.io/">HexChat</a></li>
 	<li><a href="http://konversation.kde.org">Konversation</a> (versions &ge;1.5)</li>
 	<li><a href="http://www.kvirc.net">KVIrc</a> (versions &ge;4)</li>
 	<li><a href="http://www.pidgin.im/">Pidgin</a> (versions &ge;2.10.7)</li>
@@ -48,6 +48,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="http://wiki.androirc.com/nickserv_sasl">AndroIRC</a></li>
 	<li><a href="sasl-bitchx.shtml">BitchX 1.2</a></li>
 	<li><a href="sasl-chatzilla.shtml">Chatzilla</a></li>
+	<li><a href="sasl-hexchat.shtml">HexChat</a></li>
 	<li><a href="sasl-irssi.shtml">irssi</a></li>
 	<li><a href="http://userbase.kde.org/Konversation/Configuring_SASL_authentication">Konversation</a></li>
 	<li><a href="sasl-kvirc.shtml">KVIrc</a></li>

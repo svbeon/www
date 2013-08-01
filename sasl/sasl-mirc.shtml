@@ -1,24 +1,40 @@
 <!--#include virtual="../include/include-config.shtml" -->
 <!--#set var="page_title" value="Configuring SASL for mIRC" -->
 <!--#set var="content_title" value="Configuring SASL for mIRC" -->
+<!--#set var="EXTRA_HEAD" value='<style type="text/css">
+	ol img { margin-top: 10px; }
+	</style>'
+-->
 <!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
 
 <p>The most recent solution for enabling SASL in mIRC appears to be with sasl.mrc, the first of the options documented below. Some older solutions have also been reported, with varying degrees of success. They are still listed here in case the first option does not work.</p>
 
 <h2 id="saslmrc">Configuring SASL for mIRC: sasl.mrc</h2>
-<p>The mirc script is written by Kyle Travaglini and was originally taken from a <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">SwiftIRC forum post</a>. The SwiftIRC version has been replaced by a version that does not require the DLL.</p>
+<p>The mirc script is written by Kyle Travaglini and was originally taken from a <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">SwiftIRC forum post</a>. The SwiftIRC version has been replaced by a version that does not require the DLL. The instructions have been updated by KindOne.</p>
 
+<!-- This website has died
 <p>The steps for using sasl.mrc are <a href="http://www.zph.co.cc/mirc#TOC-Simple-Authentication-and-Security-Layer-SASL-">documented here</a>. A brief summary is also included below.</p>
+-->
 
 <ol>
-	<li><p>Download <a href="sasl.mrc">sasl.mrc</a> and save it in the mIRC application data folder, probably C:\Users\<i>USERNAME</i>\AppData\Roaming\mIRC.</p></li>
-	<li><p>Load sasl.mrc using the <span class="verbatim-i">/load</span> command.</p></li>
-	<li><p>Press F2 to open the SASL configuration.</p></li>
-	<li><p>Select the entry for freenode and fill in your <i>primary</i> registered nickname, NickServ password, and other fields as required. A grouped nick will not work.</p></li>
-	<li><p>Click OK, then Save.</p></li>
-	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
-		<span class="verbatim-b">SASL authentication successful</span></li>
+	<li><p>Start mIRC and where you would type text to send to a channel, type<span class="verbatim-b">/run</span> and hit Enter. A folder will open. Take note of this location.</p></li>
+	<li><p>Download <a href="sasl.mrc">sasl.mrc</a> and save it in the folder from above.</p></li>
+	<li><p>In mIRC, click <u>T</u>ools then Sc<u>r</u>ipts Editor.</p></li>
+	<li><p>Click on the Remotes tab, then on <u>F</u>ile and <u>L</u>oad. Find and load sasl.mrc.</p>
+		<p>Alternatively, you could use the <span class="verbatim-i">/load</span> command.</p></li>
+	<li><p>You will see a warning like the one below. You will need to click <u>Y</u>es to finish loading the SASL script.
+		<img src="sasl-mirc-1.png" alt="mIRC: script load warning" height=183 width=324 /></p></li>
+	<li><p>Go back to the main mIRC window, and click Commands, then mSASL v1.0 Beta [sans DLL].
+		<img src="sasl-mirc-2.png" alt="mIRC: Commands menu" height=50 width=335 /></p></li>
+	<li><p>Either select the entry for freenode or click Add. (See below.)</p></li>
+	<li><p>Fill in Network (if applicable). This must exactly match the network in the server list.</p></li>
+	<li><p>In Username, enter your <i>primary</i> registered nickname. A grouped nick will not work. Enter your NickServ password in the NS Password field. Domain should be <span class="verbatim-i">0</span>, and AuthType should be <span class="verbatim-i">PLAIN</span>.
+		<img src="sasl-mirc-3.png" alt="mIRC: SASL Manager + Network Configuration" height=331 width=644 /></p></li>
+	<li><p>Click OK twice to close the dialog boxes.</p></li>
 </ol>
+<p>If everything has been configured correctly, the next time you connect you should see the message: <span class="verbatim-b">SASL authentication successful</span></p>
+<p>If NickServ is unavailable when you connect, then the script will fail and you will loop repeatedly trying to connect until NickServ is back.</p>
+<p>Remember to update your settings if you change your NickServ account name or password.</p>
 
 <h2 id="saslmrclite">Configuring SASL for mIRC: sasl-lite.mrc</h2>
 <p>The &quot;lite&quot; script was taken from a <a href="http://forums.mIRC.com/ubbthreads.php?ubb=showflat&amp;Number=228222">mIRC forum post</a>, which took it from a now-expired pastebin. It lacks the configuration dialog that sasl.mrc has.</p>

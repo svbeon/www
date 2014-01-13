@@ -33,6 +33,7 @@
       <a href="http://www.exoware.net/"><img src="images/ack_exoware.png" width="276" height="56" alt="FTTC" title="VPS" /></a>
       <a href="http://www.gandi.net/"><img src="images/ack_gandi.png" width="200" height="56" alt="Gandi" title="Gandi" /></a>
       <a href="http://www.uk2.net/vps-cloud-hosting/"><img src="images/ack_uk2.png" width="272" height="56" alt="VPS Cloud Hosting" title="VPS Cloud Hosting" /></a>
+      <a href="https://www.cloudflare.com/"><img src="images/cloudflare.png" width="326" height="56" alt="CloudFlare" title="CloudFlare"></a>
      </div>
 
 <!--#set var="SPONSOR_LINKS" value="<small>

@@ -18,23 +18,26 @@
 
 <ol>
 	<li><p>Start mIRC and where you would type text to send to a channel, type<span class="verbatim-b">/run</span> and hit Enter. A folder will open. Take note of this location.</p></li>
-	<li><p>Download <a href="sasl.mrc">sasl.mrc</a> and save it in the folder from above.</p></li>
+	<li><p>Download <a href="sasl.mrc">sasl.mrc</a> and save it in the folder from above. You may need to right click and select <span class="verbatim-i">Save Link As...</span>.</p></li>
 	<li><p>In mIRC, click <u>T</u>ools then Sc<u>r</u>ipts Editor.</p></li>
-	<li><p>Click on the Remotes tab, then on <u>F</u>ile and <u>L</u>oad. Find and load sasl.mrc.</p>
+	<li><p>Click on the Remotes tab, then on <u>F</u>ile and <u>L</u>oad. Find and load sasl.mrc.<br />
+		<img src="sasl-mirc-1.png" alt="mIRC: scripts editor remotes" height=73 width=334 /></p>
 		<p>Alternatively, you could use the <span class="verbatim-i">/load</span> command.</p></li>
-	<li><p>You will see a warning like the one below. You will need to click <u>Y</u>es to finish loading the SASL script.
-		<img src="sasl-mirc-1.png" alt="mIRC: script load warning" height=183 width=324 /></p></li>
-	<li><p>Go back to the main mIRC window, and click Commands, then mSASL v1.0 Beta [sans DLL].
-		<img src="sasl-mirc-2.png" alt="mIRC: Commands menu" height=50 width=335 /></p></li>
+	<li><p>You will see a warning like the one below. You will need to click <u>Y</u>es to finish loading the SASL script.<br />
+		<img src="sasl-mirc-2.png" alt="mIRC: script load warning" height=183 width=324 /></p></li>
+	<li><p>Go back to the main mIRC window, and click Commands, then mSASL v1.0 Beta [sans DLL].<br />
+		<img src="sasl-mirc-3.png" alt="mIRC: Commands menu" height=50 width=335 /></p></li>
 	<li><p>Either select the entry for freenode or click Add. (See below.)</p></li>
 	<li><p>Fill in Network (if applicable). This must exactly match the network in the server list.</p></li>
-	<li><p>In Username, enter your <i>primary</i> registered nickname. A grouped nick will not work. Enter your NickServ password in the NS Password field. Domain should be <span class="verbatim-i">0</span>, and AuthType should be <span class="verbatim-i">PLAIN</span>.
-		<img src="sasl-mirc-3.png" alt="mIRC: SASL Manager + Network Configuration" height=331 width=644 /></p></li>
+	<li><p>In Username, enter your <i>primary</i> registered nickname. A grouped nick will not work. Enter your NickServ password in the NS Password field. Domain should be <span class="verbatim-i">0</span>, and AuthType should be <span class="verbatim-i">PLAIN</span>.<br />
+		<img src="sasl-mirc-4.png" alt="mIRC: SASL Manager + Network Configuration" height=331 width=644 /></p></li>
 	<li><p>Click OK twice to close the dialog boxes.</p></li>
 </ol>
 <p>If everything has been configured correctly, the next time you connect you should see the message: <span class="verbatim-b">SASL authentication successful</span></p>
-<p>If NickServ is unavailable when you connect, then the script will fail and you will loop repeatedly trying to connect until NickServ is back.</p>
+<p>The server address when you connect must match the server address in the server list. You can check this by typing alt+e, finding the <span class="freenode">freenode</span> folder, expanding and clicking a server, then clicking Edit. If you don't use the server listed here, the script won't work.</p>
+<p>If NickServ is unavailable when you connect, then the script will fail and loop repeatedly trying to connect repeatedly until NickServ is back.</p>
 <p>Remember to update your settings if you change your NickServ account name or password.</p>
+<p>Your nick and password are stored in a plain text file, <span class="verbatim-i">sasl.hsh</span>, in the same folder as the script.</p>
 
 <h2 id="saslmrclite">Configuring SASL for mIRC: sasl-lite.mrc</h2>
 <p>The &quot;lite&quot; script was taken from a <a href="http://forums.mIRC.com/ubbthreads.php?ubb=showflat&amp;Number=228222">mIRC forum post</a>, which took it from a now-expired pastebin. It lacks the configuration dialog that sasl.mrc has.</p>

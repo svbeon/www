@@ -31,6 +31,7 @@
   <li><a href="#proxies">Open Proxies, IIS and Appeals</a></li>
   <li><a href="#tor">Tor and Freenode</a></li>
   <li><a href="#unlawful">Unlawful Activity</a></li>
+  <li><a href="#disclaimer">Using the network</a></li>
 </ul>
 
 <h2 id="purpose">Purpose</h2>
@@ -730,8 +731,31 @@
   <br /><br />
 </p>  
 
+<h2 id="disclaimer">Using the network</h2>
+<p>
+  Please be aware that <span class="freenode">freenode</span> is a
+  communication platform and we are not involved in the day-to-day
+  operations of the projects that use <span class="freenode">freenode</span>.
+  Whilst we embrace the technology and the opportunities made available
+  through projects that use <span class="freenode">freenode</span>, we are
+  unable to endorse, monitor or guarantee the activities of those projects
+  or between users.
+</p>
+<p>
+  Transactions or trades you may be considering entering into with other
+  users on the network will be between you and the relevant user(s), subject
+  to any terms or conditions imposed by your chosen payment platform;
+  <span class="freenode">freenode</span> accepts no responsibility or
+  liability for any such trade or transaction. We urge you to conduct your
+  own risk assessment before carrying out any financial transactions or
+  entering into any agreements with other users.
+</p>
+<p>
+  In other words: Your use of the <span class="freenode">freenode</span>
+  network is at your own risk.
+</p>
+
 <!--#set var="SPONSOR_LINKS" value="<small>
 	</small>"-->
-
 
 <!--#include file="include/trailer.shtml" -->

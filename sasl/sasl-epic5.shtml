@@ -1,0 +1,24 @@
+<!--#include virtual="../include/include-config.shtml" -->
+<!--#set var="page_title" value="Configuring SASL for EPIC5" -->
+<!--#set var="content_title" value="Configuring SASL for EPIC5" -->
+<!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
+
+<p>EPIC5 has the sasl_auth script built-in. Mikhail contributed this explanation of how to use it.</p>
+
+<ol>
+	<li><p>Open your EPIC5 configuration file, ~/.epicrc or ~/.ircrc, in your preferred editor.</p></li>
+	<li><p>Add the following lines:</p>
+		<span class="verbatim-b">load sasl_auth</span>
+		<span class="verbatim-b">sasl_auth *.freenode.net plain <span class="subst">username</span> <span class="subst">password</span></span>
+		<p>Replace <span class="subst">username</span> with your primary nick. The <span class="subst">password</span> may be replaced with your password or omitted, in which case EPIC5 will prompt for the password when it connects.</p>
+		<p>You may change <span class="verbatim-i">*.freenode.net</span> to something more specific if desired, but the * means SASL authentication will be attempted for any freenode.net server.</p>
+		<p>Only <span class="verbatim-i">plain</span> is supported as the authentication mechanism. You may want to use <a href="../irc_servers.shtml#ssl">SSL</a> to protect your password.</p></li>
+	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
+		<span class="verbatim-b">SASL authentication successful</span></li>
+</ol>
+
+<p>If you know of any additions or corrections, or would like to contribute improvements, contact us at the email below.</p>
+
+<!--#set var="SPONSOR_LINKS" value="<small>
+	</small>"-->
+<!--#include virtual="${VIRTROOT}include/trailer.shtml" -->

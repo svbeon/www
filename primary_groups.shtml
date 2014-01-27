@@ -371,6 +371,13 @@ submitting contact information for your group or organization.</p>
     </td>
   </tr>
   <tr>
+    <td style="vertical-align: top"><a href="https://webchat.freenode.net/?channels=%23freebsd">freebsd</a></td>
+    <td style="vertical-align: top">
+      <a rel="nofollow" href="http://www.freebsd.org">FreeBSD</a>,
+      the operating system
+    </td>
+  </tr>
+  <tr>
     <td style="vertical-align: top"><a href="https://webchat.freenode.net/?channels=%23freecnc">freecnc</a></td>
     <td style="vertical-align: top">
       <a rel="nofollow" href="http://freecnc-sf.holarse.net/">FreeCNC</a>,

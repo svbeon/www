@@ -41,6 +41,17 @@
 		</ul></li>
 		<li><a href="<!--#echo var="VIRTROOT"-->acknowledgements.shtml">Acknowledgements</a></li>
 	</ul>
+	<a href="https://plus.google.com/104326727082310562426" rel="publisher" alt="Google+"><img
+		src="<!--#echo var="VIRTROOT"-->images/googleplus16.png" width="16" height="16"
+		alt="Google+" /></a>
+	&nbsp;
+	<a href="https://twitter.com/freenodestaff" alt="Twitter"><img
+		src="<!--#echo var="VIRTROOT"-->images/twitter16.png" width="20" height="16"
+		alt="Twitter" /></a>
+	&nbsp;
+	<a href="https://blog.freenode.net/" alt="Blog"><img
+		src="<!--#echo var="VIRTROOT"-->images/wordpress16.png" width="16" height="16"
+		alt="Blog" /></a>
 	</div>
 
 	<div class="content">

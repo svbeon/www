@@ -58,7 +58,7 @@ a:active, a:active .freenode {
 .menubar, .content
 {
 	background-color: white;
-	border: #000 solid 2px;
+	border: #000000 solid 2px;
 	margin: 1.5em 0.5em;
 }
 .menubar ul
@@ -71,6 +71,10 @@ a:active, a:active .freenode {
 {
 	margin-left: 0.5em;
 	padding-left: 0.5em;
+}
+.menubar a img
+{
+	border: none;
 }
 .logo
 {

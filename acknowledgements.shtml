@@ -35,6 +35,7 @@
       <a href="https://www.privateinternetaccess.com/"><img src="images/ack_privateinternetaccess-freenodex56.png" width="348" height="56" alt="VPN Service" title="VPN Service" /></a>
       <a href="https://www.skynet.lt"><img src="images/ack_skynet.png" width="336" height="56" alt="Sky.net" title="Sky.net" /></a>
       <a href="https://www.cloudflare.com/"><img src="images/cloudflare.png" width="326" height="56" alt="CloudFlare" title="CloudFlare"></a>
+      <a href="http://www.hyperfilter.com"><img src="images/hyperfilter.png" width="264" height="56" alt="HyperFilter" title="HyperFilter"></a>
      </div>
 
 <!--#set var="SPONSOR_LINKS" value="<small>

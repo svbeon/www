@@ -4,7 +4,7 @@
 
 <p>Since May 2008, <span class="freenode">freenode</span> has used the <a href="http://www.atheme.net">Atheme</a> services package, with some <a href="http://dev.freenode.net/atheme+fn">custom</a> modules. Atheme replaced Theia services.</p>
 
-<p>Atheme includes Chanserv, Nickserv, Memoserv and Alis (Advanced LIst Service). For more information about any of these, you can <span class="verbatim-i">/msg <span class="subst">service</span> help</span> while on <span class="freenode">freenode</span>.</p>
+<p>Atheme includes Chanserv, Nickserv, Memoserv and Alis (Advanced LIst Service). For more information about any of these, you can <span class="verbatim-i">/msg <span class="subst">service</span> help</span> while on <span class="freenode">freenode</span>. For example, <span class="verbatim-i">/msg NickServ help</span>.</p>
 
 <p>Because <span class="freenode">freenode</span>'s goals are different from a general-purpose chat network, it should be expected that the services design reflect this. We will attempt to maintain backward compatibility, but some features may not work, or may work differently where we feel it serves our goals. We are committed to providing a robust service to peer-directed projects. We are not committed to maintaining an unmodified IRC environment, so the differences between freenode and other networks or services may grow larger. We will continue to develop and improve the reliability of the service, with your support and understanding.</p>
 

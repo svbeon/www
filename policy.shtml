@@ -618,19 +618,95 @@
 </p>
 
 <h2 id="tor">Tor and Freenode</h2>
+
+
 <p>
-  The <a href="http://www.eff.org/">Electronic Frontier Foundation</a>'s
+  The
+  
+  <a href="http://www.eff.org/">Electronic Frontier Foundation</a>'s
+  
   <a href="http://www.torproject.org/">Tor</a>
+  
   project is a special case in
+  
   <span class="freenode">freenode</span>'s
-  treatment of proxy servers. Tor provides anonymous access to internet
+  
+  treatment of proxy servers.  Tor provides anonymous access to internet
   services, including IRC, and protects its users' privacy from various
-  forms of traffic analysis. The <span class="freenode">freenode</span>
-  network welcomes Tor users, and you can find more about Tor on
-  <span class="freenode">freenode</span> on the
-  <a href="irc_servers.shtml#tor">irc servers</a> page.
+  forms of traffic analysis. Currently under 100 users connect to the
+  network via Tor, but that number continues to grow. The
+  
+  <span class="freenode">freenode</span>
+  
+  network welcomes Tor users.
+  
 </p>
 
+<p>
+  Anonymous access to internet services is frequently abused. To provide
+  reliable access while reducing the impact of any abuse on the rest of our
+  users, we label user sessions conducted through various gateways
+  with cloak hostnames beginning with <i>gateway</i>. Tor gateway connections
+  are cloaked according to the account name of the user (which was provided
+  during SASL authentication when they connected). If the account name
+  contains characters that cannot be represented in a cloak, then a token,
+  <i>x-N...</i>, is appended. The <i>N...</i> is a set of digits which should
+  be consistent for a given account name, but may otherwise be treated as
+  random.
+</p>
+
+<p>
+  Channel owners are free to deny access to their channels by various gateway
+  users.  But please don't limit access to gateways too broadly or completely,
+  and in particular don't ban <i>*@gateway/*</i>.  A "quiet" command instead
+  of a "ban" can be just as effective, so please use a quiet if at all
+  possible.  For example, please don't ban Tor users, as in
+  the following command:
+</p>
+
+<blockquote>
+  <b>
+    /mode #foo +b *@gateway/tor-sasl/*
+  </b>
+</blockquote>
+
+<p>
+  Instead, please consider using a "quiet" command:
+</p>
+
+<blockquote>
+  <b>
+    /mode #foo +q *@gateway/tor-sasl/*
+  </b>
+</blockquote>
+
+<p>
+  and make such denials-of-access temporary, not permanent, whenever
+  possible.  Network staff can turn off new gateway connects on a temporary
+  basis and kill out abusive users. We're happy to do so; simply contact a
+  staffer whenever your channel experiences abuse.
+</p>
+
+<p>
+  Please remember that some users have very little choice about using
+  gateways, and be considerate in your control of access.
+</p>
+
+<p> 
+  The staff of
+  
+  <span class="freenode">freenode</span>
+
+  works to weed out various forms of abuse (such as user harassment,
+  denial-of-service attacks and channel flooding) on a daily basis. 
+  Achieving this goal involves the use of a number of automated and
+  semi-automated tools.  We're often in a hurry to resolve a problem. 
+  Because of this, and because Tor creates special needs, access to the
+  network by Tor users will occasionally be blocked. We apologize in advance
+  for any problems of this sort and we ask for your patience and
+  understanding. We support Tor and will do everything we can to resolve any
+  access issues in a timely fashion.
+</p>  
 
 <h2 id="unlawful">Unlawful Activity</h2>
 

@@ -15,7 +15,7 @@
 		<span class="verbatim-b">/plugin-pref cz_sasl sasl.proceed_on_fail true</span>
 		Or set it to <span class="verbatim-i">false</span> to stop connecting if SASL authentication fails.</p></li>
 	<li><p>If you are setting up SASL for Tor or using a server name other than the default setting of chat.freenode.net, you will need to configure the alternative server name:
-		<span class="verbatim-b">/plugin-pref cz_sasl sasl.servername p4fsi4ockecnea7l.onion</span></p></li>
+		<span class="verbatim-b">/plugin-pref cz_sasl sasl.servername frxleqtzgvwkv7oz.onion</span></p></li>
 	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
 		<span class="verbatim-b">SASL authentication successful</span></li>
 </ol>

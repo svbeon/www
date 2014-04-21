@@ -11,7 +11,7 @@ access is available via our <a href="#tor">hidden service.</a></p>
 
 <p>The main rotation, chat.freenode.net, has AAAA records for servers with IPv6 capability, so simply telling your client to connect to chat.freenode.net by IPv6 should work. We do not provide regional rotations, except Asia/Pacific Rim, because we aren't very good at keeping them up-to-date as the main rotation changes.</p>
 
-<p>All <span class="freenode">freenode</span> servers listen on ports 6665, 6666, 6667, 6697 (SSL only), 7000 (SSL only), 7070 (SSL only), 8000, 8001 and 8002.</p>
+<p id="ports">All <span class="freenode">freenode</span> servers listen on ports 6665, 6666, 6667, 6697 (SSL only), 7000 (SSL only), 7070 (SSL only), 8000, 8001 and 8002.</p>
 
 <table class="serverlist">
 <tr class="sl_header"><td>Asia/Pacific Rim</td><td>chat.au.freenode.net</td><td>IPv4/IPv6</td></tr>
@@ -95,35 +95,30 @@ will appear in WHOIS (a 276 numeric).</p>
 
 <h2 id="tor">Accessing freenode Via Tor</h2>
 
-<p> The primary Tor hidden service address for <span class="freenode">freenode</span> is <a href="irc://frxleqtzgvwkv7oz.onion">frxleqtzgvwkv7oz.onion</a>. The service listens on ports 6667, 6697 (SSL), 7000 (SSL), and 7070 (SSL). To connect, a NickServ account is needed, and the IRC client must be configured to support SASL. Information on how to register a nick can be found on <a href="faq.shtml#nicksetup">our FAQ page</a>. If support is not built-in, SASL may require the use of additional scripts in your client. A collection of scripts and instructions for use can be found <a href="sasl/">here</a>. Tor's wiki also has a page on <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IrcSilc">configuring IRC clients to use Tor</a>.</p>
+<p><a href="http://www.torproject.org/">Tor</a> provides anonymous access to internet services, including IRC, and protects users' privacy from various forms of traffic analysis. The <span class="freenode">freenode</span> network welcomes Tor users.</p>
 
-<p> Latencies are improving all the time and can be quite reasonable. You can always find a pointer to our Tor hidden service in DNS, as an unresolved CNAME record, <span class="verbatim-i">irc.tor.freenode.net</span>, which can be retrieved, for example, via the *nix shell command: </p>
-<p><span class="verbatim-b">dig +short irc.tor.freenode.net cname</span></p>
+<p>The primary Tor hidden service address for <span class="freenode">freenode</span> is <a href="irc://frxleqtzgvwkv7oz.onion">frxleqtzgvwkv7oz.onion</a>. The service listens on ports 6667, 6697 (SSL), 7000 (SSL), and 7070 (SSL). To connect, a NickServ account is needed, and the IRC client must be configured to support SASL. Information on how to register a nick can be found on <a href="faq.shtml#nicksetup">our FAQ page</a>, and <a href="/sasl">our SASL pages</a> describe clients that support SASL and how to configure many of them. Tor's wiki also has a page on <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IrcSilc">configuring IRC clients to use Tor</a>.</p>
 
-<p> If your IRC client can handle socks5 with remote dns, you can just connect
-to the .onion address directly. Otherwise, use Tor's "mapaddress" feature to
-fake it. (We do not recommend that you use <i>Privoxy</i> with irssi. It's
-unnecessary. Just use the 'mapaddress' approach and torify irssi to start it
-up.) Add a line to your <a
-href="https://www.torproject.org/docs/faq#torrc">torrc</a>, as in this example:
+<p>If your IRC client can handle SOCKS5 with remote DNS, just connect to the .onion address directly, and this is preferred. Otherwise, Tor's "mapaddress" feature can work around the missing remote DNS support. Add a line to your <a href="https://www.torproject.org/docs/faq#torrc">torrc</a>, as in this example:
 </p>
 <p><span class="verbatim-b">mapaddress 10.40.40.40 frxleqtzgvwkv7oz.onion</span></p>
+<p>(Note for irssi users: we do not recommend Privoxy; it's unnecessary. Just use mapaddress and torrify irssi.)</p>
 
-<p> Be sure to HUP (reload) Tor if you change your torrc. After you've made the
-change, just connect your torified IRC client to the IP you specified in your
-<i>mapaddress</i> statement for the <span class="freenode">freenode</span>
-service. Tor will do the conversion for you internally and you'll connect to
-<span class="freenode">freenode</span>. In addition to providing location
-privacy, the Tor hidden service gives you end-to-end encryption, providing
-benefits similar to those of ircs / irc-ssl.</p>
+<p>User connections through Tor are assigned a gateway cloak of <span class="verbatim-i">gateway/tor-sasl/</span> followed by the account name of the user (provided during SASL authentication). If the account name contains characters that cannot be represented in a cloak, then the token <span class="verbatim-i">/x-<span class="subst">NNNNNNNN</span></span> is also appended. The <span class="verbatim-i subst">NNNNNNNN</span> is a set of digits which should be consistent for a given account name, but may otherwise be treated as random.</p>
 
-<p> If you are unable to connect to <a href="irc://frxleqtzgvwkv7oz.onion">frxleqtzgvwkv7oz.onion</a>, then try using a secondary address:</p>
+<p>Channel owners are free to deny access to their channels by various gateway users, but please don't limit access to gateways too broadly or completely. In particular, don't ban all gateways or all of Tor by doing something like <span class="verbatim-i">/mode <span class="subst">#channel</span> +b *!*@gateway/*</span>. A quiet instead of a ban can be just as effective, so please use a quiet if at all possible: <span class="verbatim-i">/mode <span class="subst">#channel</span> +q *!*@gateway/tor-sasl/*</span>. If you do something like this, make it temporary, not permanent. Network staff can turn off new gateway connects on a temporary basis and remove abusive users. We're happy to do so; simply contact a staffer whenever your channel experiences abuse. Remember that some users have very little choice about using gateways, and be considerate in your control of access.</p>
+
+<p>Connections to <span class="freenode">freenode</span> directly from Tor exit nodes are not allowed, as it is impossible to distinguish traffic originating on that computer from Tor exit traffic. In addition to providing better protection and location privacy, the hidden service gives end-to-end encryption, providing benefits similar to using SSL (ircs/irc-ssl). If you do want to be a Tor exit node and still use <span class="freenode">freenode</span>, you will have to configure your exit policy to block all of the <a href="#ports">IRC ports</a> we use, in addition to ports 80 and 443 as these are used for webchat. Alternatively, you can allow any ports in your exit policy, and always connect to <span class="freenode">freenode</span> using the hidden service.</p>
+<p>We encourage you to consider providing "middleman" bandwidth to the Tor network by <a href="https://www.torproject.org/docs/tor-doc-relay.html.en">setting up your host as a Tor relay</a>. Specify how much bandwidth you want to provide and set your exit policy to <span class="verbatim-i">reject *:*</span>. It will help us make up for the bandwith we use for <span class="freenode">freenode</span>'s hidden service.<p>
+
+<p>Be sure to HUP (reload) Tor if you change your torrc. This applies to both exit policy changes and mapaddress changes. Exit policy changes may take a day or two before the update is reflected and you are able to connect to <span class="freenode">freenode</span> again. Mapaddress changes should be immediate.</p>
+
+<p>If you have trouble connecting to the hidden service, make sure <a href="/sasl">SASL</a> is working correctly, perhaps by connecting normally (not through Tor) and seeing that you're identified. If SASL works, try shutting down and restarting the Tor daemon. There may be a bug in the Tor hidden service limiting the number of long-lived concurrent connections. If you are still unable to connect after restarting the Tor daemon, then try using a secondary address:</p>
 <ul><li><a href="irc://p567hbjdstqvg7xw.onion">p567hbjdstqvg7xw.onion</a></li>
 <li><a href="irc://2hktdmgt6bg2hjuc.onion">2hktdmgt6bg2hjuc.onion</a></li>
 <li><a href="irc://l4wvhvf666nifnpg.onion">l4wvhvf666nifnpg.onion</a></li></ul>
-<p>There may be a bug in the Tor hidden service limiting the number of concurrent connections. If the primary address does not work for you but a secondary does, then please let us know (in #freenode) as it may help us in troubleshooting the issue.</p>
 
-<p> That's all it takes. We appreciate your accessing <span class="freenode">freenode</span> via the Tor hidden service. If you'd like to help us maintain quality access, please consider providing "middleman" bandwidth to the Tor network. Just <a href="https://www.torproject.org/docs/tor-doc-relay.html.en">set up your host as a Tor relay</a> and specify how much bandwidth you want to provide. You don't have to be an exit node &mdash; you can set your exit policy to <span class="verbatim-i">reject *:*</span> and still help us make up for the bandwith we use for <span class="freenode">freenode</span>'s hidden service.</p>
+<p>Tor users represent much less than 1% of our total userbase. We appreciate your accessing <span class="freenode">freenode</span> via the Tor hidden service; however, we have a limited amount of staffer time to troubleshoot and resolve issues. If we have to restart the hidden service, that means disconnecting all the currently-connected Tor users, so we prefer to avoid that if possible.</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
 	</small>"-->

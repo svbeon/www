@@ -145,7 +145,7 @@
   <dt id="sourceavailable">Is the source code used for your servers publicly available?</dt>
     <dd>Yes. We currently use ircd-seven, which can be found in its <a
     href="http://git.freenode.net/ircd-seven">GIT source repository</a>, and
-    Atheme, our IRC services daemon, in <a href="http://www.atheme.net/">Atheme
+    Atheme, our IRC services daemon, in <a href="http://atheme.net/">Atheme
     IRC services</a> and <a href="http://svn.freenode.net/atheme+fn/"><span
     class="freenode">freenode</span> modules</a>. Both are offered under terms
     of the ISC License.</dd>

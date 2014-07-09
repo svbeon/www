@@ -36,6 +36,7 @@
       <a href="https://www.skynet.lt"><img src="images/ack_skynet.png" width="336" height="56" alt="Sky.net" title="Sky.net" /></a>
       <a href="https://www.cloudflare.com/"><img src="images/cloudflare.png" width="326" height="56" alt="CloudFlare" title="CloudFlare"></a>
       <a href="http://www.hyperfilter.com"><img src="images/hyperfilter.png" width="264" height="56" alt="HyperFilter" title="HyperFilter"></a>
+      <a href="https://www.cubecraftgames.net"><img src="images/cubecraft.png" width="188" height="56" alt="Cubecraft Games" title="Cubecraft Games"></a>
      </div>
 
 <!--#set var="SPONSOR_LINKS" value="<small>

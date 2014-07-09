@@ -19,6 +19,8 @@
 
 <p>To see other options available, you can run just <span class="verbatim-i">/sasl</span>.</p>
 
+<p>If you have trouble running cap_sasl_xchat.pl because your distribution or operating system does not have the required Perl modules, you can download <a href="https://metacpan.org/module/Crypt::DH">Crypt::DH</a> from CPAN, or try <a href="http://lwsitu.com/xchat/cap_sasl_xchat_gmp.pl">this version</a>, which uses a different module and may work better on some systems.</p>
+
 <h2 id="python">Configuring SASL for XChat: Python script</h2>
 <p>This script is by Roberto Leandrini.</p>
 

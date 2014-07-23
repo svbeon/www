@@ -145,7 +145,7 @@
   <dt id="sourceavailable">Is the source code used for your servers publicly available?</dt>
     <dd>Yes. We currently use ircd-seven, which can be found in its <a
     href="http://git.freenode.net/ircd-seven">GIT source repository</a>, and
-    Atheme, our IRC services daemon, in <a href="http://www.atheme.net/">Atheme
+    Atheme, our IRC services daemon, in <a href="http://atheme.net/">Atheme
     IRC services</a> and <a href="http://svn.freenode.net/atheme+fn/"><span
     class="freenode">freenode</span> modules</a>. Both are offered under terms
     of the ISC License.</dd>
@@ -302,17 +302,25 @@
     question</a> can help with that.)</dd>
 
   <dt id="spoofing">How can I tell when someone might be spoofing a user's identity?</dt>
-    <dd>If your client supports CAP identify-msg, you can configure it to let
+    <dd><p>If your client supports CAP identify-msg, you can configure it to let
     you know when someone speaking on channel or via /msg is not identified to
     services. A script to take advantage of CAP identify-msg is currently
     available for <a
-    href="http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl">irssi</a>.
+    href="http://scripts.irssi.org/scripts/format_identify.pl">irssi</a>.
     It was originally written for the CAPAB command in dancer (hyperion), but
     has been modified to support the more versatile CAP command in charybdis
     (ircd-seven). If you want other people using this feature to know that
     you're you, have your client <a href="#identify">identify to NickServ</a>
     when you connect to the network. You should also follow the <a
-    href="#nicksetup">canonical setup steps</a> for your IRC nickname.
+    href="#nicksetup">canonical setup steps</a> for your IRC nickname.</p>
+	<p>Now, newer capabilities exist to enable clients and scripts to
+	manage identity tracking:
+	<a href="https://github.com/atheme/charybdis/blob/master/doc/account-notify.txt">account notify</a>,
+	<a href="https://github.com/atheme/charybdis/blob/master/doc/extended-join.txt">extended-join</a>,
+	and format parameters to
+	<a href="https://github.com/atheme/charybdis/blob/master/help/opers/who">WHO</a>.
+	If you are willing to share a script that demonstrates these features for
+	a popular client (or clients), let us know.</p>
 
   <dt id="userexpirations">When do IRC nicknames expire?</dt>
     <dd><p>We consider IRC nicks expired after they have not been used for 10

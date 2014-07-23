@@ -173,9 +173,9 @@ dialog SASL.main {
 
 dialog SASL.edit {
   title "Network Configuration"
-  size -1 -1 150 120
+  size -1 -1 200 120
   option dbu
-  box "Network Settings" 1, 5 3 140 97
+  box "Network Settings" 1, 5 3 190 97
   text "Network:" 2, 10 13 36 10, right
   edit "" 3, 48 12 92 10
   text "Username:" 4, 10 25 36 10, right

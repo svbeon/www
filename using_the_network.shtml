@@ -165,7 +165,7 @@ channel temperature low and reduce conflicts.</p>
       <p>Bans set on IP addresses will apply even if the affected user joins with a resolved or cloaked hostname. CIDR is supported in bans, like <span class="verbatim-i">*!*@10.0.0.0/8</span>. This is most useful with IPv6.</p>
 
       <h4> Extbans </h4>
-      <p>The second form (called extban) is <span class="verbatim-i">+b $<span class="subst">type</span></span> or <span class="verbatim-i">+b $<span class="subst">type</span>:<span class="subst">data</span></span>. The <span class="verbatim-i subst">type</span> is a single character (case insensitive) indicating the type of match. It is optionally preceded by a tilde (~) to negate the comparison. The <span class="verbatim-i subst">data</span> depends on extban type. Potential types are a, r, x, and z.
+      <p>The second form (called extban) is <span class="verbatim-i">+b $<span class="subst">type</span></span> or <span class="verbatim-i">+b $<span class="subst">type</span>:<span class="subst">data</span></span>. The <span class="verbatim-i subst">type</span> is a single character (case insensitive) indicating the type of match. It is optionally preceded by a tilde (~) to negate the comparison. The <span class="verbatim-i subst">data</span> depends on extban type. Potential types are below:
       <table class="modelist">
         <tr> 
         <td><span class="verbatim-i">$a</span><br />(account name)</td>

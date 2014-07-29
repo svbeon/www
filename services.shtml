@@ -2,7 +2,7 @@
 <!--#set var="content_title" value="services" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p>Since May 2008, <span class="freenode">freenode</span> has used the <a href="http://atheme.net">Atheme</a> services package, with some <a href="http://dev.freenode.net/atheme+fn">custom</a> modules. Atheme replaced Theia services.</p>
+<p>Since May 2008, <span class="freenode">freenode</span> has used the <a href="http://atheme.net/atheme.html">Atheme</a> services package, with some <a href="http://dev.freenode.net/atheme+fn">custom</a> modules. Atheme replaced Theia services.</p>
 
 <p>Atheme includes Chanserv, Nickserv, Memoserv and Alis (Advanced LIst Service). For more information about any of these, you can <span class="verbatim-i">/msg <span class="subst">service</span> help</span> while on <span class="freenode">freenode</span>. For example, <span class="verbatim-i">/msg NickServ help</span>.</p>
 

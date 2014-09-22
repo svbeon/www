@@ -44,7 +44,6 @@
   <li><a href="#howtoconnect">How do I connect to <span class="freenode">freenode</span>?  How do I use the network?</a></li>
   <li><a href="#channellist">How can I get a list of <span class="freenode">freenode</span> public channels?</a></li>
   <li><a href="#ipv6access">How do I access <span class="freenode">freenode</span> via IPv6?</a></li>
-<!--  <li><a href="#defocuschannel"> What is the purpose of channel #defocus?</a></li> -->
   <li><a href="#pdpc_cloak">Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?</a></li>
   <li><a href="#channelexpirations">When do IRC channels expire?</a></li>
   <li><a href="#channelpolicy">Who sets channel policy on <span class="freenode">freenode</span>?</a></li>
@@ -468,15 +467,6 @@
   <dt id="ipv6access">How do I access <span class="freenode">freenode</span> via IPv6?</dt>
     <dd>Our main rotation contains both IPv4 and IPv6 addresses. Simply point
     your IRC client to <span class="verbatim-i">chat.freenode.net</span>.</dd>
-
-<!--  <dt id="defocuschannel">What is the purpose of channel #defocus?</dt>
-    <dd>It's a social channel. It's the home channel of the <span
-    class="freenode">freenode</span> project, a place for friendly, relaxed
-    conversation with staff and users. It's not a forum for IRC politics or a
-    place to flame the staff, on a personal or professional basis. It's not
-    really a support channel, though we probably won't get too upset if you ask
-    a question or two. Feel free to <a href="#helpfromstaff">ask for help</a>
-    from network staff if you're having problems.</dd> -->
 
   <dt id="pdpc_cloak">Who are these people with "pdpc/supporter/" and "pdpc/sponsor/" on the beginnings of their hostnames?</dt>
     <dd>Users who donated to the Peer-Directed Projects Center (PDPC) were

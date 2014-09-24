@@ -2,7 +2,7 @@
 <!--#set var="content_title" value="ircd-seven" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p><span class="freenode">freenode</span>'s next generation ircd project, ircd-seven, is a branch of the <a href="http://www.atheme.org/project/charybdis">charybdis</a> ircd, with changes specific to freenode's needs. It was designed to replace the previous ircd, hyperion, which was based on dancer-ircd, a fork of hybrid 6.</p>
+<p><span class="freenode">freenode</span>'s next generation ircd project, ircd-seven, is a branch of the <a href="http://atheme.org/projects/charybdis.html">charybdis</a> ircd, with changes specific to freenode's needs. It was designed to replace the previous ircd, hyperion, which was based on dancer-ircd, a fork of hybrid 6.</p>
 
 <p>The network was migrated to ircd-seven at the end of January, 2010.</p>
 

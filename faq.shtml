@@ -323,20 +323,9 @@
 	a popular client (or clients), let us know.</p>
 
   <dt id="userexpirations">When do IRC nicknames expire?</dt>
-    <dd><p>We consider IRC nicks expired after they have not been used for 10
-    weeks plus (at staffer discretion) one additional week per full year of
-    registration, up to a maximum of five additional weeks. Nicks which
-    are at least two weeks old and which were last used less than two hours
-    after their creation are also considered to be expired. These time limits do
-    not apply to held nicks, which are allocated and dropped as
-    needed. If the nick you want is someone's NickServ account name, it is
-    considered expired only when the account itself is expired.</p>
-    <p>Nicknames that are not confirmed by a valid email address will be
-    automatically dropped after 24 hours.</p>
-    <p>We occasionally prune the Services databases for deadwood, removing
-    nicknames and channels that have not been in use for some time. Please
-    ensure you IDENTIFY to avoid disappointment as your identifying is the only
-    way we have of telling if your nickname is still in use.</p></dd>
+    <dd><p>At staffer discretion, we consider IRC nicks expired after they have not been used for 10 weeks plus one additional week per full year of registration, normally up to a maximum of five additional weeks. Nicks which are at least two weeks old and which were last used less than two hours after their creation are also considered to be expired. These time limits do not apply to held nicks, which are allocated and dropped as needed. If the nick you want is someone's NickServ account name, it is considered expired only when the account itself is expired.</p>
+    <p>Nicknames that are not confirmed by a valid email address will be automatically dropped after 24 hours.</p>
+    <p>We occasionally prune the Services databases, removing nicknames and channels that have not been in use for some time. Please ensure you IDENTIFY to avoid disappointment as identifying is the only way we have of telling if your nickname is still in use.</p></dd>
 
   <dt id="inuse">How do you know the last time an IRC nickname was used?</dt>
 
@@ -775,14 +764,17 @@
 
       <p>Make sure that you are using SET PASSWORD instead of SETPASS. If you have
       forgotten your old password and are unable to identify, see <a
-      href="#sendpass">below</a> for information on how to have staff send you a
+      href="#sendpass">below</a> for information on how to send a
       password reset email.</p></dd>
 
   <dt id="sendpass">What do I do if I forget my password?</dt>
-    <dd>If you forget your password, but still have access to the email account
-    that is associated with the IRC account, staff can send a password reset
-    email. Simply ask in #freenode or PM a staff member to have the email
-    sent.</dd>
+    <dd><p>If you forget your password, but still have access to the email account that is associated with your nick, you can have a password reset email sent. First, please look at</p>
+    <span class="verbatim-b">/msg NickServ INFO <span class="subst">nickname</span></span>
+    <p>to verify that you have the right account. If the registration time, last address, and other information looks right, then use</p>
+    <span class="verbatim-b">/msg NickServ SENDPASS <span class="subst">nickname</span></span>
+    <p>An email with a single-use reset token will be sent. Depending on mail server configurations, it may arrive immediately, or only after some delay. If you don't see it, remember to check your junk/spam folders.</p>
+
+    <p>If you do not remember what nick you registered, simply ask a staff member or in #freenode for assistance. Staffers can send a password reset based on your email address (without knowing the nick), or help you find what nick you registered.</p></dd>
 
   <dt id="monitor">Is there a way to get notified when a user comes online?</dt>
     <dd>The server supports a special command called 'MONITOR', which is a

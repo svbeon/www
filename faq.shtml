@@ -768,7 +768,11 @@
       password reset email.</p></dd>
 
   <dt id="sendpass">What do I do if I forget my password?</dt>
-    <dd><p>If you forget your password, but still have access to the email account that is associated with your nick, you can have a password reset email sent. First, please look at <span class="verbatim-i">/msg NickServ INFO <span class="subst">nickname</span></span> to verify that you have the right account. If the registration time, last address, and other information looks right, then use <span class="verbatim-i">/msg NickServ SENDPASS <span class="subst">nickname</span></span>. An email with a single-use reset token will be sent. Depending on mail server configurations, it may arrive immediately, or only after some delay. If you don't see it, remember to check your junk/spam folders.</p>
+    <dd><p>If you forget your password, but still have access to the email account that is associated with your nick, you can have a password reset email sent. First, please look at</p>
+    <span class="verbatim-b">/msg NickServ INFO <span class="subst">nickname</span></span>
+    <p>to verify that you have the right account. If the registration time, last address, and other information looks right, then use</p>
+    <span class="verbatim-b">/msg NickServ SENDPASS <span class="subst">nickname</span></span>
+    <p>An email with a single-use reset token will be sent. Depending on mail server configurations, it may arrive immediately, or only after some delay. If you don't see it, remember to check your junk/spam folders.</p>
 
     <p>If you do not remember what nick you registered, simply ask a staff member or in #freenode for assistance. Staffers can send a password reset based on your email address (without knowing the nick), or help you find what nick you registered.</p></dd>
 

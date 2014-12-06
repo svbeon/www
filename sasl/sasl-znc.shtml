@@ -3,25 +3,13 @@
 <!--#set var="content_title" value="Configuring SASL for ZNC" -->
 <!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
 
-<p>SASL authentication changed in ZNC versions after 1.0. Instructions for pre-1.0 and post-1.0 are below.</p>
-
-<h2 id="after1">For ZNC &ge;1.0</h2>
 <p>ZNC &ge;1.0 includes an official SASL module. Details can be found on the <a href="http://wiki.znc.in/Sasl">ZNC wiki</a>.</p>
 <ol>
 	<li><p>Load the <a href="http://wiki.znc.in/Sasl">SASL module</a> as you would any other module, following the <a href="http://wiki.znc.in/Modules#Managing_Modules">instructions here</a>.</p></li>
 	<li><p>Configure the supported mechanisms:
-		<span class="verbatim-b">/msg *sasl Mechanism DH-BLOWFISH PLAIN</span></p></li>
+		<span class="verbatim-b">/msg *sasl Mechanism PLAIN</span></p></li>
 	<li><p>Configure your authentication credentials. <span class="verbatim-i subst">AccountName</span> must be the primary nick, not a grouped nick. Replace <span class="verbatim-i subst">Password</span> with your Nickserv password.
 		<span class="verbatim-b">/msg *sasl Set <span class="subst">AccountName</span> <span class="subst">Password</span></span></p></li>
-</ol>
-<p>The next time ZNC reconnects, it should identify automatically.</p>
-
-<h2 id="before1">For ZNC &lt;1.0</h2>
-<p>ZNC &lt;1.0 did not include an official SASL module. Mike Quin wrote a module, available on the <a href="http://wiki.znc.in/Cap_sasl">ZNC wiki</a>.</p>
-<ol>
-	<li><p>The module will need to be compiled, following the normal <a href="http://wiki.znc.in/Compiling_modules">instructions for compiling modules</a>.</p></li>
-	<li><p>Load the <a href="http://wiki.znc.in/Cap_sasl">CAP-SASL module</a> as you would any other module, following the <a href="http://wiki.znc.in/Modules#Managing_Modules">instructions here</a>. The <span class="verbatim-i subst">AccountName</span> is the first parameter. It must be the primary nick, not a grouped nick. <span class="verbatim-i subst">Password</span> is the second parameter, and should be replaced with your Nickserv password.
-		<span class="verbatim-b">/msg *status LoadMod cap_sasl <span class="subst">AccountName</span> <span class="subst">Password</span></span></p></li>
 </ol>
 <p>The next time ZNC reconnects, it should identify automatically.</p>
 

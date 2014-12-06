@@ -127,8 +127,7 @@ def sasl_cb(word, word_eol, userdata):
                 conf.set(network, 'nick', nick)
                 conf.set(network, 'password', passwd)
                 # This parameter is currently unused, but reserved for a future version.
-                # Currently, PLAIN is the only supported mechanism, but there are
-                # more or less serious plans to implement DH-BLOWFISH.
+                # Currently, PLAIN is the only supported mechanism.
                 conf.set(network, 'mechanism', 'PLAIN')
                 # Save settings
                 conffile = open(conffileName, 'w')

@@ -19,7 +19,7 @@ project/group on <span class="freenode">freenode</span>.</p>
 
 <h2>Getting Involved</h2>
 
-<p>The source code, as well as a wiki and bug tracker are available in <a href="http://dev.freenode.net/GMS">Redmine</a>.  If you are interested in helping with, or just following, the GMS development, join us in #freenode-gms or drop an email to code at freenode dot net.</p>
+<p>The source code and issues tracker are available at <a href="https://github.com/freenode/gms">GMS on GitHub</a>.  If you are interested in helping with, or just following, the GMS development, join us in #freenode-gms or drop an email to code at freenode dot net.</p>
 
 <!--#set var="SPONSOR_LINKS" value="<small>
 	</small>"-->

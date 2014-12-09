@@ -1031,7 +1031,7 @@
     "dashboard" allowing group contacts to easier manage their groups namespace
     (channels, cloaks, access lists etc) via IRC (Services) and a web-frontend.
     If you would like to help out with GMS, head over to <a
-    href="http://dev.freenode.net/GMS">dev.freenode.net/GMS</a> and see if you
+    href="https://github.com/freenode/gms">GMS on GitHub</a> and see if you
     have any skills we could use!</dd>
 
   <dt id="gcwhen">When will group contact processing be automated?</dt>

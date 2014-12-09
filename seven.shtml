@@ -6,7 +6,7 @@
 
 <p>The network was migrated to ircd-seven at the end of January, 2010.</p>
 
-<p>The source code, as well as a wiki and bug tracker are available in <a href="http://dev.freenode.net/ircd-seven">Redmine</a>. If you're interested in learning more about ircd-seven, consult the Redmine pages and join us in #freenode-seven.</p>
+<p>The source code is available on <a href="https://github.com/freenode/ircd-seven">GitHub</a>. If you're interested in learning more about ircd-seven, join us in #freenode-seven.</p>
 
 <p>Because <span class="freenode">freenode</span>'s goals are different from a general-purpose chat network, it should be expected that the ircd design reflect this. We will attempt to maintain backward compatibility (including with RFC 1459), but some features may not work, or may work differently where we feel it serves our goals. We are committed to providing a robust service to peer-directed projects. We are not committed to maintaining an unmodified IRC environment, so the differences between freenode and other ircds may grow larger. We will continue to develop and improve the reliability of the service, with your support and understanding.</p>
 

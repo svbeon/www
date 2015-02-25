@@ -25,7 +25,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="http://www.pidgin.im/">Pidgin</a> (versions &ge;2.10.7)</li>
 	<li><a href="http://www.quassel-irc.org">Quassel</a> (versions &ge;0.6.1)</li>
 	<li><a href="http://codeux.com/textual/">Textual</a> (versions &ge;2.1)</li>
-	<li><a href="http://www.weechat.org/">Weechat</a></li>
+	<li><a href="https://www.weechat.org/">Weechat</a></li>
 	<li><a href="http://znc.in/">ZNC</a> (versions &ge;1.0)</li>
 </ul>
 <p>This list may not be completely up-to-date, so check your client's latest documentation.</p>
@@ -58,7 +58,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 	<li><a href="sasl-kvirc.shtml">KVIrc</a></li>
 	<li><a href="sasl-mirc.shtml">mirc</a></li>
 	<li><a href="sasl-textual.shtml">Textual</a></li>
-	<li><a href="http://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication">Weechat</a></li>
+	<li><a href="https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication">Weechat</a></li>
 	<li><a href="sasl-xchat.shtml">XChat</a></li>
 	<li><a href="sasl-znc.shtml">ZNC</a></li>
 </ul>

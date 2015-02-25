@@ -3,10 +3,10 @@
 <!--#set var="content_title" value="Configuring SASL for irssi" -->
 <!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
 
-<p>This script, by Michael Tharp and Jilles Tjoelker, comes from <a href="http://www.stack.nl/~jilles/irc/">http://www.stack.nl/~jilles/irc/</a>. Authentication information is stored in ~/.irssi/sasl.auth.</p>
+<p>This script, originally by Michael Tharp and Jilles Tjoelker has been further developed by Mantas Mikulėnas (grawity) and lives on <a href="http://www.scripts.irss.org">scripts.irssi.org</a>. Authentication information may be stored in ~/.irssi/sasl.auth.</p>
 
 <ol>
-	<li><p>Copy the script, <a href="cap_sasl.pl">cap_sasl.pl</a>, into your ~/.irssi/scripts/autorun directory or from wherever irssi loads startup scripts.</p></li>
+	<li><p>Copy the script, <a href="http://scripts.irssi.org/scripts/cap_sasl.pl">cap_sasl.pl</a>, into your ~/.irssi/scripts/autorun directory or from wherever irssi loads startup scripts.</p></li>
 	<li><p>The script requires at least the Perl module <a href="https://metacpan.org/module/MIME::Base64">MIME::Base64</a>. If you're using Linux, Perl modules are generally in distribution repositories, or you can get them directly from CPAN. If you cannot install them for the whole system, you may be able to use <a href="https://metacpan.org/module/local::lib">local::lib</a>.</p></li>
 	<li><p>Load the script using <span class="verbatim-i">/script load autorun/cap_sasl.pl</span>.</p></li>
 	<li><p>The script needs to be configured with <span class="verbatim-i">/sasl set <span class="subst">network</span> <span class="subst">nick</span> <span class="subst">password</span> <span class="subst">mechanism</span></span>.</p>
@@ -14,11 +14,11 @@
 		<li><span class="verbatim-i subst">network</span> is the (case-sensitive) name of the network specified with <span class="verbatim-i">/network add</span>.</li>
 		<li><span class="verbatim-i subst">nick</span> is your <i>primary</i> registered nickname. A grouped nickname will not work.</li>
 		<li><span class="verbatim-i subst">password</span> is your NickServ password.</li>
-		<li><span class="verbatim-i subst">mechanism</span> is <span class="verbatim-i">PLAIN</span>.
+		<li><span class="verbatim-i subst">mechanism</span> is one of the options below:
 			<p><span class="verbatim-i">PLAIN</span> sends your password unprotected, as plain text (which is fine when connecting over SSL, as the entire exchange is encrypted already).</p>
-			<p><span class="verbatim-i">ECDSA-NIST256P-CHALLENGE</span> is a certificate-based challenge authentication supported by newer versions of services. It requires additional code and components not supported by this script, but you can find an alternative version with Atheme's <a href="https://github.com/atheme/ecdsatool">ecdsatool</a>.</p>
-			<p><span class="verbatim-i">DH-BLOWFISH</span> is a deprecated mechanism that separately encrypted your services password before sending it to the server. <span class="verbatim-i">DH-BLOWFISH</span> is no longer supported. The following is retained temporarily for reference:</p>
-			<p>To use <span class="verbatim-i">DH-BLOWFISH</span>, the Perl modules <a href="https://metacpan.org/module/Crypt::OpenSSL::Bignum">Crypt::OpenSSL::Bignum</a>, <a href="https://metacpan.org/module/Crypt::DH">Crypt::DH</a>, <a href="https://metacpan.org/module/Crypt::Blowfish">Crypt::Blowfish</a>, and <a href="https://metacpan.org/module/Math::BigInt">Math::BigInt</a> are required. If Crypt::DH is not available, <a href="https://metacpan.org/module/Crypt::DH::GMP">Crypt::DH::GMP</a> and <a href="https://metacpan.org/module/Crypt::DH::GMP::Compat">Crypt::DH::GMP::Compat</a> may be substituted instead. The script will still work using <span class="verbatim-i">PLAIN</span> without these modules.</p></li>
+			<p><span class="verbatim-i">EXTERNAL</span> relies on the SSL layer for authentication. It requires support from the ircd, which <span class="freenode">freenode</span> lacks right now, so it won't work on this network. For more information about using sasl-external, see <a href="../certfp/">CertFP</a>.</p>
+			<p><span class="verbatim-i">ECDSA-NIST256P-CHALLENGE</span> is a certificate-based challenge authentication supported by newer versions of services. It requires the <a href="https://metacpan.org/pod/Crypt::PK::ECC">Crypt::PK::ECC</a> module, and some prior setup to generate a keypair and set the <span class="verbatim-i">pubkey</span> property in NickServ.</p>
+			<p><span class="verbatim-i">DH-BLOWFISH</span> is a deprecated mechanism that separately encrypted your services password before sending it to the server. <span class="verbatim-i">DH-BLOWFISH</span> is no longer supported.</p></li>
 		</ul>
 	</li>
 	<li><p>Save the settings with <span class="verbatim-i">/sasl save</span>.</p></li>

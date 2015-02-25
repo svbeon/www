@@ -11,7 +11,7 @@
 <ol>
 	<li><p>Copy the script, <a href="http://lwsitu.com/xchat/cap_sasl_xchat.pl">cap_sasl_xchat.pl</a>, into your ~/.xchat directory, C:\Users\<i>USERNAME</i>\AppData\Roaming\X-Chat directory, or from wherever XChat loads startup scripts.</p></li>
 	<li><p>Load the script using the <span class="verbatim-i">/load</span> command, or select load script from the Scripts and Plugins menu.</p></li>
-	<li><p>The script needs to be configured with <span class="verbatim-i">/sasl set</span>. The network name (e.g. freenode &mdash; case matters), your <i>primary</i> registered nickname, NickServ password, and authentication mechanism will need to be provided. The authentication mechanism will be one of those returned by <span class="verbatim-i">/sasl mechanisms</span>.</p></li>
+	<li><p>The script needs to be configured with <span class="verbatim-i">/sasl set</span>. The network name (e.g. freenode &mdash; case matters), your <i>primary</i> registered nickname, NickServ password, and authentication mechanism will need to be provided. The authentication mechanism will be one of those returned by <span class="verbatim-i">/sasl mechanisms</span>, but note that <span class="verbatim-i">DH-BLOWFISH</span> is not supported anymore.</p></li>
 	<li><p>If you don't mind your password being saved to your hard drive or if you don't want to type the <span class="verbatim-i">/sasl set</span> command every time before you connect, you will need to do <span class="verbatim-i">/sasl save</span>.</p></li>
 	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
 		<span class="verbatim-b">SASL authentication successful</span></li>

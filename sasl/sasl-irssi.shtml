@@ -12,7 +12,7 @@
 	<li><p>The script needs to be configured with <span class="verbatim-i">/sasl set <span class="subst">network</span> <span class="subst">nick</span> <span class="subst">password</span> <span class="subst">mechanism</span></span>.</p>
 		<ul>
 		<li><span class="verbatim-i subst">network</span> is the (case-sensitive) name of the network specified with <span class="verbatim-i">/network add</span>.</li>
-		<li><span class="verbatim-i subst">nick</span> is your <i>primary</i> registered nickname. A grouped nickname will not work.</li>
+		<li><span class="verbatim-i subst">nick</span> is your registered nickname.</li>
 		<li><span class="verbatim-i subst">password</span> is your NickServ password.</li>
 		<li><span class="verbatim-i subst">mechanism</span> is one of the options below:
 			<p><span class="verbatim-i">PLAIN</span> sends your password unprotected, as plain text (which is fine when connecting over SSL, as the entire exchange is encrypted already).</p>

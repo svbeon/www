@@ -15,7 +15,7 @@
 	<li><p>Open the Network Li<u>s</u>t (Ctrl + S).</p></li>
 	<li><p>The <span class="freenode">freenode</span> network (perhaps written as <span class="verbatim-i">FreeNode</span>) may already exist; find it in the list, and click on <u>E</u>dit.<br />
 		<img src="sasl-hexchat-1.png" alt="HexChat: Network List" height=468 width=352 /></p></li>
-	<li><p>In the <u>U</u>sername field, enter your <i>primary</i> nick. A grouped nick will not work.</p></li>
+	<li><p>In the <u>U</u>sername field, enter your primary nick.</p></li>
 	<li><p>In the SASL password field, enter your NickServ password.<br />
 		<img src="sasl-hexchat-2.png" alt="HexChat: Edit Server" height=544 width=412 /></p></li>
 </ol>

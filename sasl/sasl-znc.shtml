@@ -8,7 +8,7 @@
 	<li><p>Load the <a href="http://wiki.znc.in/Sasl">SASL module</a> as you would any other module, following the <a href="http://wiki.znc.in/Modules#Managing_Modules">instructions here</a>.</p></li>
 	<li><p>Configure the supported mechanisms:
 		<span class="verbatim-b">/msg *sasl Mechanism PLAIN</span></p></li>
-	<li><p>Configure your authentication credentials. <span class="verbatim-i subst">AccountName</span> must be the primary nick, not a grouped nick. Replace <span class="verbatim-i subst">Password</span> with your Nickserv password.
+	<li><p>Configure your authentication credentials. <span class="verbatim-i subst">AccountName</span> should be the primary nick. Replace <span class="verbatim-i subst">Password</span> with your Nickserv password.
 		<span class="verbatim-b">/msg *sasl Set <span class="subst">AccountName</span> <span class="subst">Password</span></span></p></li>
 </ol>
 <p>The next time ZNC reconnects, it should identify automatically.</p>

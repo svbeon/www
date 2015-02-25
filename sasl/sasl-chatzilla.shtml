@@ -7,7 +7,7 @@
 
 <ol>
 	<li><p>Install <a href="cz_sasl.js">cz_sasl.js</a> as you would any other script, following the <a href="http://chatzilla.hacksrus.com/faq/#install-script">instructions here</a>.</p></li>
-	<li><p>Enter the commands below. Replace <span class="verbatim-i subst">YOUR_USERNAME</span> with your <i>primary</i> registered nickname and <span class="verbatim-i subst">YOUR_PASSWORD</span> with your NickServ password.</p>
+	<li><p>Enter the commands below. Replace <span class="verbatim-i subst">YOUR_USERNAME</span> with your registered nickname and <span class="verbatim-i subst">YOUR_PASSWORD</span> with your NickServ password.</p>
 		<span class="verbatim-b">/plugin-pref cz_sasl</span>
 		<span class="verbatim-b">/plugin-pref cz_sasl sasl.username <span class="subst">YOUR_USERNAME</span></span>
 		<span class="verbatim-b">/plugin-pref cz_sasl sasl.password <span class="subst">YOUR_PASSWORD</span></span></li>

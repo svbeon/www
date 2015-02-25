@@ -29,7 +29,7 @@
 		<img src="sasl-mirc-3.png" alt="mIRC: Commands menu" height=50 width=335 /></p></li>
 	<li><p>Either select the entry for freenode or click Add. (See below.)</p></li>
 	<li><p>Fill in Network (if applicable). This must exactly match the network in the server list.</p></li>
-	<li><p>In Username, enter your <i>primary</i> registered nickname. A grouped nick will not work. Enter your NickServ password in the NS Password field. Domain should be <span class="verbatim-i">0</span>, and AuthType should be <span class="verbatim-i">PLAIN</span>.<br />
+	<li><p>In Username, enter your registered nickname. Enter your NickServ password in the NS Password field. Domain should be <span class="verbatim-i">0</span>, and AuthType should be <span class="verbatim-i">PLAIN</span>.<br />
 		<img src="sasl-mirc-4.png" alt="mIRC: SASL Manager + Network Configuration" height=331 width=644 /></p></li>
 	<li><p>Click OK twice to close the dialog boxes.</p></li>
 </ol>
@@ -46,7 +46,7 @@
 	<li><p>Download <a href="sasl-lite.mrc">sasl-lite.mrc</a> and save it in the mIRC application data folder, probably C:\Users\<i>USERNAME</i>\AppData\Roaming\mIRC.</p></li>
 	<li><p>Open the file in your editor and replace
 		<span class="verbatim-b">var %user = ENTER YOUR USERNAME HERE</span>
-		with your <i>primary</i> registered nickname. Then replace
+		with your registered nickname. Then replace
 		<span class="verbatim-b">var %password = ENTER YOUR PASSWORD HERE</span>
 		with your NickServ password.</p></li>
 	<li><p>Load sasl-lite.mrc using the <span class="verbatim-i">/load</span> command.</p></li>
@@ -61,7 +61,7 @@
 	<li><p>Download <a href="sasl-old.mrc">sasl-old.mrc</a> and save it as sasl.mrc in the mIRC application data folder, probably C:\Users\<i>USERNAME</i>\AppData\Roaming\mIRC.</p></li>
 	<li><p>Download <a href="SASL.dll">SASL.dll</a> and save it in the same place. The <a href="sasl-mirc.cpp">source code for the DLL</a> is available as well. It was compiled with Visual Studio 2008 on Windows 7.</p></li>
 	<li><p>Load the script, and press F2 to open the configuration.</p></li>
-	<li><p>Fill in the required fields. Make sure to enter your <i>primary</i> nickname.</p></li>
+	<li><p>Fill in the required fields. Make sure to enter your nickname.</p></li>
 	<li><p>Click OK. You may need to click Save.</p></li>
 	<li><p>If everything has been configured correctly, the next time you connect you should see the message:</p>
 		<span class="verbatim-b">SASL authentication successful</span></li>

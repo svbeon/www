@@ -22,7 +22,7 @@
 		<img src="sasl-kvirc-5.png" alt="KVIrc: Open advanced settings" height=156 width=628 /></p></li>
 	<li><p>In the <u>C</u>onnection tab in the Server Details window, enter 6697 (or any of the <a href="../irc_servers.shtml">listed SSL ports</a>) for the port, then enable the &quot;Use <u>S</u>SL protocol&quot; checkbox.<br />
 		<img src="sasl-kvirc-6.png" alt="KVIrc: Connection Details" height=367 width=684 /></p></li>
-	<li><p>Still in the Server Details window, select the <u>A</u>dvanced tab. Enable the <u>Q</u>uery extended capabilities checkbox and the Authenticate <u>v</u>ia SASL checkbox. In the Sasl Nickname field you need to enter your <i>primary</i> nick. A grouped nick will not work. In the Sasl Password field, enter your NickServ password.<br />
+	<li><p>Still in the Server Details window, select the <u>A</u>dvanced tab. Enable the <u>Q</u>uery extended capabilities checkbox and the Authenticate <u>v</u>ia SASL checkbox. In the Sasl Nickname field, enter your nick. In the Sasl Password field, enter your NickServ password.<br />
 		<img src="sasl-kvirc-7.png" alt="KVIrc: Advanced Details" height=563 width=684 /></p></li>
 	<li><p>Click OK until you have returned to the Servers window. Click Connect <u>N</u>ow...<br />
 		<img src="sasl-kvirc-8.png" alt="KVIrc: Connect Now" height=429 width=638 /></p></li>

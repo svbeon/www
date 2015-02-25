@@ -45,7 +45,7 @@ When there are repeated problems with abuse or anti-social behavior from an IP r
 <p>And possibly others we have not listed here.</p>
 
 <h2 id="config">SASL Client Configuration</h2>
-<p>We have instructions on how to configure SASL for some clients, below. If asked to choose an authentication mechanism, be aware that <span class="freenode">freenode</span> does not support <span class="verbatim-i">DH-BLOWFISH</span> or <span class="verbatim-i">EXTERNAL</span>. In all cases, when asked for a SASL nick or username, one must provide the <i>primary</i> nick for the account. A grouped nick will not work.</p>
+<p>We have instructions on how to configure SASL for some clients, below. If asked to choose an authentication mechanism, be aware that <span class="freenode">freenode</span> does not support <span class="verbatim-i">DH-BLOWFISH</span> or <span class="verbatim-i">EXTERNAL</span>.</p>
 <ul>
 	<li><a href="http://www.andchat.net/page/misc_doc">AndChat</a></li>
 	<li><a href="http://wiki.androirc.com/nickserv_sasl">AndroIRC</a></li>

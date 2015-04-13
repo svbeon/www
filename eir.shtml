@@ -83,7 +83,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 
 <p>When you set a ban, the bot will PM you requesting a comment on the ban. Simply
  reply to the comment, whatever you send will be recorded. If you have set more
- than one ban you will be promted for each in turn.</p>
+ than one ban you will be prompted for each in turn.</p>
 
 <p>If you wish to extend the default ban time (channel dependent, typically 24 hours),
  type this when you enter your comment: ~time comment - e.g. "~14d Trolling".</p>

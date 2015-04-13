@@ -2,7 +2,7 @@
 <!--#set var="content_title" value="Development" -->
 <!--#include file="include/header-mainlogos.shtml" -->
 
-<p><span class="freenode">freenode</span>'s development efforts focus on improving the utility and robustness of the service, and serving peer-directed projects. Development activities are mostly coordinated on <a href="https://github.com/freenode">GitHub</a>. There you'll find links to <a href="seven.shtml">ircd-seven</a>, the IRC daemon that powers <span class="freenode">freenode</span>; <span class="freenode">freenode</span>'s custom <a href="services.shtml">changes to Atheme</a>; the <a href="gms.shtml">Group Management System</a>; <a href="utilities.shtml">eir</a>, a utility-bot and flexibile IRC bot framework; and historical projects.</p>
+<p><span class="freenode">freenode</span>'s development efforts focus on improving the utility and robustness of the service, and serving peer-directed projects. Development activities are mostly coordinated on <a href="https://github.com/freenode">GitHub</a>. There you'll find links to <a href="seven.shtml">ircd-seven</a>, the IRC daemon that powers <span class="freenode">freenode</span>; <span class="freenode">freenode</span>'s custom <a href="services.shtml">changes to Atheme</a>; the <a href="gms.shtml">Group Management System</a>; <a href="utilities.shtml">eir</a>, a utility-bot and flexible IRC bot framework; and historical projects.</p>
 
 <p>If you're interested in helping with, or just following, the development of any of these projects, join us in #freenode-dev or on the channel specific to the project of interest. Thanks in advance for any help you can provide!</p>
 

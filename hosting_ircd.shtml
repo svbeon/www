@@ -20,7 +20,7 @@
 <th style="width: 50%; background-color: #cdcdcd">Desired</th>
 </tr>
 <tr>
-<td>Pentium4 or better dedicated server</td>
+<td>Pentium 4 or better dedicated server</td>
 <td>64-bit multi-core</td>
 </tr>
 <tr>
@@ -54,7 +54,7 @@
   <li><b>Geographical location of the server</b> &mdash; City, principality and country. Include any "local colour" (nearby landmarks and sites) that seem pertinent.</li>
   <li><b>Hosting Entity</b> &mdash; Who should we credit for the server? Provide names of organisations (or individuals), URL and logo (56px height, for our acknowledgements page) as appropriate.</li>
   <li><b>Contact Information</b> &mdash; Please include names and email addresses of contacts, as well as telephone numbers, snail mail addresses and contact hours (including time zones).</li>
-  <li><b>Hardware, Software, Bandwith and Hosting</b> &mdash; Please describe the system you're offering for hosting. Please go into as much detail as possible, providing us with details of routing and NOC availability.</li>
+  <li><b>Hardware, Software, Bandwidth and Hosting</b> &mdash; Please describe the system you're offering for hosting. Please go into as much detail as possible, providing us with details of routing and NOC availability.</li>
   <li><b>IP address</b> &mdash; this will allow us to perform latency and route checking.</li>
   <li><b>You and freenode</b> &mdash; please explain what makes you/your company want to provide hosting for <span class="freenode">freenode</span>, and what, if anything, you wish to get back from sponsorship.</li>
   <li><b>Server Name Preference</b> &mdash; The server naming motif is "science fiction and fantasy authors". Vanity names may be provided, but canonical server names and standardised geographical names will be used exclusively by <span class="freenode">freenode</span>. If you have preferred authors, let us know and we will try to honour your preference.</li>

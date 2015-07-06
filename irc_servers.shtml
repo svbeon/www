@@ -94,6 +94,8 @@ will appear in WHOIS (a 276 numeric).</p>
 
 <h2 id="tor">Accessing freenode Via Tor</h2>
 
+<p> *** PLEASE NOTE THAT THE tor HIDDEN SERVICE IS CURRENTLY UNAVAILABLE AND THERE IS NO SET DATE FOR ITS RETURN *** </p>
+
 <p><a href="http://www.torproject.org/">Tor</a> provides anonymous access to internet services, including IRC, and protects users' privacy from various forms of traffic analysis. The <span class="freenode">freenode</span> network welcomes Tor users.</p>
 
 <p>The primary Tor hidden service address for <span class="freenode">freenode</span> is <a href="irc://frxleqtzgvwkv7oz.onion">frxleqtzgvwkv7oz.onion</a>. The service listens on ports 6667, 6697 (SSL), 7000 (SSL), and 7070 (SSL). To connect, a NickServ account is needed, and the IRC client must be configured to support SASL. Information on how to register a nick can be found on <a href="faq.shtml#nicksetup">our FAQ page</a>, and <a href="/sasl">our SASL pages</a> describe clients that support SASL and how to configure many of them. Tor's wiki also has a page on <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IrcSilc">configuring IRC clients to use Tor</a>.</p>

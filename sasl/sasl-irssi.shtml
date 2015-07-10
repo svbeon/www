@@ -3,7 +3,7 @@
 <!--#set var="content_title" value="Configuring SASL for irssi" -->
 <!--#include virtual="${VIRTROOT}include/header-mainlogos.shtml" -->
 
-<p>This script, originally by Michael Tharp and Jilles Tjoelker has been further developed by Mantas Mikulėnas (grawity) and lives on <a href="http://www.scripts.irss.org">scripts.irssi.org</a>. Authentication information may be stored in ~/.irssi/sasl.auth.</p>
+<p>This script, originally by Michael Tharp and Jilles Tjoelker has been further developed by Mantas Mikulėnas (grawity) and lives on <a href="http://scripts.irssi.org">scripts.irssi.org</a>. Authentication information may be stored in ~/.irssi/sasl.auth.</p>
 
 <ol>
 	<li><p>Copy the script, <a href="http://scripts.irssi.org/scripts/cap_sasl.pl">cap_sasl.pl</a>, into your ~/.irssi/scripts/autorun directory or from wherever irssi loads startup scripts.</p></li>

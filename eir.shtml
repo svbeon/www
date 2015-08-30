@@ -108,7 +108,7 @@ Note that if commands are sent to the bot in a channel the reply will be sent to
 
 <ul>
 <li># Report the ban has expired to the report channel.</li>
-<li>@ Remove the ban eir is opped in the channel, otherwise report the expiry to the report channel.</li>
+<li>@ Remove the ban if eir is opped in the channel, otherwise report the expiry to the report channel.</li>
 <li>% Remove the ban if eir is opped, if not try and obtain ops from chanserv. If neither of these is possible the ban will not be removed and the expiry will not be reported.
 
 <p>Example:</p></li>

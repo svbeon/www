@@ -789,7 +789,7 @@
     message to a user via MemoServ with:</p>
 
 
-      <span class="verbatim-b">/msg MemoServ SEND nhandler Please contact me when you get this message.</span>
+      <span class="verbatim-b">/msg MemoServ SEND nhandler I read the FAQ and learned about MemoServ. Thanks!</span>
 
 
       <p>In this example, nhandler will be notified when he comes online about the

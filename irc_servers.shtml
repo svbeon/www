@@ -4,8 +4,9 @@
 
 <p>Our main server rotation is <span class="verbatim-i">chat.freenode.net</span>. Pointers to <span class="freenode">freenode</span> currently include irc.ghostscript.com, irc.gnu.org, irc.handhelds.org, and irc.kde.org. Please see our <a href="acknowledgements.shtml">acknowledgements</a> page for the generous groups and organizations who have helped us to provide this service. The network needs servers on the Pacific Rim and in the Americas. If you think you might be able to help our community in this way, please take a look at the <a href="hosting_ircd.shtml">server hosting page</a> and email us at <b>hosting at freenode dot net</b>. Thanks!</p>
 
-<p>If you're running <a href="http://www.torproject.org/">Tor</a>,
-access is available via our <a href="#tor">hidden service.</a></p>
+<!-- Hidden, since Tor hidden service is disabled -->
+<!-- <p>If you're running <a href="http://www.torproject.org/">Tor</a>,
+access is available via our <a href="#tor">hidden service.</a></p>-->
 
 <p> The following table lists <span class="freenode">freenode</span> client servers. Please be aware that the below list is at no time authoritative, and as such our advice is to connect using <span class="verbatim-i">chat.freenode.net</span>. If you are using one of the servers below and it's not working, please check that it's in <span class="verbatim-i">chat.freenode.net</span> and select another server from that list if it's not.</p>
 

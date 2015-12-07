@@ -30,7 +30,7 @@
 				title="Private Internet Access" />
 		</a>
 	</div>
-	<form action="http://www.google.com/cse" id="cse-search-box">
+	<form action="https://www.google.com/cse" id="cse-search-box">
 		<p style="margin: 1px; padding: 1px; text-align: right;">
 			<input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
 			<input type="hidden" name="ie" value="ISO-8859-1" />

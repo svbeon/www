@@ -146,7 +146,7 @@
     href="https://github.com/freenode/ircd-seven">GIT source repository</a>, and
     Atheme, our IRC services daemon, in
 	<a href="http://atheme.net/atheme.html">Atheme IRC services</a> and
-	<a href="http://svn.freenode.net/atheme+fn/"><span
+	<a href="https://github.com/freenode/atheme/"><span
     class="freenode">freenode</span> modules</a>. Both are offered under terms
     of the ISC License.</dd>
 

@@ -174,7 +174,7 @@ channel temperature low and reduce conflicts.</p>
 		This extban (using +q to quiet, see below), prevents all users not identified to services from changing nicks or speaking in the channel. Note the "~", which negates the match.</td>
         </tr>
         <tr> 
-        <td><span class="verbatim-i">$j</span><br />(can join other channel)</td>
+        <td><span class="verbatim-i">$j</span><br />(cannot join other channel)</td>
         <td> This entry takes an exact channel name (no wildcards or globbing) as its data and matches any user who can not join that channel. For example:
 		<span class="verbatim-b">/mode <span class="subst">#channel</span> +b $j:#Foo</span>
         will ban from <span class="subst">#channel</span> any user who cannot join #Foo. Due to caching by the server, a change to the ban list of #Foo may not immediately alter a user's ability to speak in #channel.</td>

@@ -12,7 +12,7 @@ access is available via our <a href="#tor">hidden service.</a></p>-->
 
 <p>The main rotation, chat.freenode.net, has AAAA records for servers with IPv6 capability, so simply telling your client to connect to chat.freenode.net by IPv6 should work. We do not provide regional rotations, except Asia/Pacific Rim, because we aren't very good at keeping them up-to-date as the main rotation changes.</p>
 
-<p id="ports">All <span class="freenode">freenode</span> servers listen on ports 6665, 6666, 6667, 6697 (SSL only), 7000 (SSL only), 7070 (SSL only), 8000, 8001 and 8002.</p>
+<p id="ports">All <span class="freenode">freenode</span> servers listen on ports 6665, 6666, 6667, 8000, 8001, and 8002, with SSL on 6697, 7000, and 7070.</p>
 
 <table class="serverlist">
 <tr class="sl_header"><td>Asia/Pacific Rim</td><td>chat.au.freenode.net</td><td>IPv4/IPv6</td></tr>

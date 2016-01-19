@@ -598,7 +598,7 @@
     network.</p></dd>
   
   <dt id="whois-ip">Why do I see "is connecting from XXX.XXX.XXX.XXX" when I WHOIS myself? Can other users see it?</dt>
-    <dd><p>When you WHOIS yourself, you may see a message named
+    <dd><p>When you WHOIS yourself, you may see a message like
     "is connecting from your.ip.address.here". This is only for
     reference, and other users won't see this message when they
     WHOIS you. But keep in mind that without a <a href="#cloaks">

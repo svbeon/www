@@ -601,8 +601,7 @@
     <dd><p>When you WHOIS yourself, you may see a message like
     "is connecting from <your IP address>". This is only for
     reference, and other users won't see this message when they
-    WHOIS you. But keep in mind that without a <a href="#cloaks">
-    cloak</a>, your IP is still exposed to users WHOIS'ing you.
+    WHOIS you.
     </p></dd>
 
   <dt id="freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</dt>

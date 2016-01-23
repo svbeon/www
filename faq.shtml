@@ -54,6 +54,7 @@
   <li><a href="#drones">I joined this channel and now I can't access <span class="freenode">freenode</span> anymore. What's going on?</a></li>
   <li><a href="#ctcpversion">Why did someone CTCP VERSION me?</a></li>
   <li><a href="#freenodeconnect">Why does user frigg send CTCP VERSION when I connect to the network?</a></li>
+  <li><a href="#whois-ip">Why do I see "is connecting from <my IP address>" when I WHOIS myself? Can other users see it?</a></li>
   <li><a href="#freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</a></li>
   <li><a href="#spambots">I'm getting a lot of spam/porn/blank messages. What can I do to block them?</a></li>
   <li><a href="#blockingmessages">When I send private messages to my friend, it says that she's blocking messages from unidentified users. How do I fix it?</a></li>
@@ -595,6 +596,13 @@
     statistical form, aggregated with that of other users.  We'll be careful
     to avoid using it in ways which unnecessarily disrupt your use of the
     network.</p></dd>
+  
+  <dt id="whois-ip">Why do I see "is connecting from <my IP address>" when I WHOIS myself? Can other users see it?</dt>
+    <dd><p>When you WHOIS yourself, you may see a message like
+    "is connecting from <your IP address>". This is only for
+    reference, and other users won't see this message when they
+    WHOIS you.
+    </p></dd>
 
   <dt id="freenode-info">Why do I get these <span class="verbatim-i">[freenode-info]</span> messages sometimes when I join a channel, or during a netsplit?</dt>
     <dd>Messages labeled <span class="verbatim-i">freenode-info</span> contain

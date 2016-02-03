@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
 	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><!--#echo encoding="none" var="page_title" --></title>
 	<link rel="stylesheet" href="<!--#echo var="VIRTROOT"-->style.css" type="text/css" />
 	<!--#if expr="${EXTRA_HEAD}"-->
@@ -15,7 +16,6 @@
 	<div class="header" style="height: 68px">
 		<a href="<!--#echo var="VIRTROOT"-->">
 			<img class="logo"
-				style="position: absolute; top: 0px; left: 0px;"
 				src="<!--#echo var="VIRTROOT"-->logo2.png"
 				width="340" height="68"
 				alt="[freenode]"
@@ -23,7 +23,6 @@
 		</a>
 		<a href="https://www.privateinternetaccess.com/" title="VPN Service">
 			<img class="logo"
-				style="position: absolute; top: 1px; right: 1px;"
 				src="<!--#echo var="VIRTROOT"-->images/ack_privateinternetaccess-freenode.png"
 				width="404" height="65"
 				alt="VPN Service"

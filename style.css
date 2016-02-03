@@ -1,5 +1,9 @@
-body
-{
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
 	background-color: #b4b4c0;
 	color: #000000;
 	font-family: Helvetica, Arial, sans-serif;
@@ -7,6 +11,69 @@ body
 	margin: 0;
 	width: 100%;
 }
+
+/**
+ * GRID
+ */
+.bodyframe {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+	overflow: auto;
+	padding-top: 0.7em;
+	width: 100%;
+	display: block;
+}
+div.bodyframe {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+[class*="col-"] {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-weight: bold;
+	background-color: white;
+	border: #000000 solid 2px;
+	margin: 1.5em 0.5em;
+}
+[class*="col-md-12"] {
+	width: 100%;
+}
+[class*="col-md-6"] {
+	width: 50%;
+}
+.bodyframe,
+.clearfix {
+	*zoom: 1;
+}
+.bodyframe:before,
+.clearfix:before,
+.bodyframe:after,
+.clearfix:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.bodyframe:after,
+.clearfix:after {
+	clear: both;
+}
+.pull-left,
+[class*="col-"].pull-left {
+	float: left;
+}
+.pull-right,
+[class*="col-"].pull-right {
+	float: right;
+}
+
+/**
+ * Base
+ */
 a:link, a:link .freenode  {
 	color: #000098;
 	font-weight: bold;
@@ -38,12 +105,6 @@ a:active, a:active .freenode {
 	background-color: #999ba8;
 	border-bottom: 1px solid #000000;
 }
-.bodyframe
-{
-	overflow: hidden;
-	padding-top: 0.7em;
-	width: 100%;
-}
 .menubar
 {
 	font-weight: bold;
@@ -54,12 +115,6 @@ a:active, a:active .freenode {
 {
 	overflow: hidden;
 	padding: 0.5em 2em;
-}
-.menubar, .content
-{
-	background-color: white;
-	border: #000000 solid 2px;
-	margin: 1.5em 0.5em;
 }
 .menubar ul
 {
